@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NYC Comedy by Neighborhood</title>
+  <meta name="description" content="Find stand up comedy shows in Greenwich Village, East Village, Chelsea, Midtown, and more.">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0a0a0a; color: #fff; line-height: 1.6; }
+    .container { max-width: 900px; margin: 0 auto; padding: 20px; }
+    header { text-align: center; padding: 40px 0; border-bottom: 1px solid #222; margin-bottom: 30px; }
+    h1 { font-size: 2.5rem; margin-bottom: 10px; }
+    .nav { display: flex; justify-content: center; gap: 20px; margin-bottom: 30px; flex-wrap: wrap; }
+    .nav a { color: #888; text-decoration: none; padding: 8px 16px; border-radius: 20px; transition: all 0.2s; }
+    .nav a:hover, .nav a.active { background: #222; color: #fff; }
+    .neighborhood-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-bottom: 40px; }
+    .hood-card { background: #161616; border-radius: 16px; padding: 24px; border: 1px solid #222; text-decoration: none; color: inherit; transition: all 0.2s; }
+    .hood-card:hover { border-color: #e63946; transform: translateY(-2px); }
+    .hood-name { font-size: 1.4rem; font-weight: 600; margin-bottom: 8px; }
+    .hood-count { color: #e63946; font-size: 0.9rem; margin-bottom: 10px; }
+    .hood-desc { color: #888; font-size: 0.9rem; }
+    .shows-section { margin-top: 40px; }
+    .shows-grid { display: flex; flex-direction: column; gap: 15px; }
+    .show-card { background: #161616; border-radius: 12px; padding: 20px; border: 1px solid #222; }
+    .show-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; }
+    .show-title { font-size: 1.2rem; font-weight: 600; }
+    .show-venue { color: #e63946; }
+    .show-details { display: flex; gap: 20px; color: #888; font-size: 0.9rem; margin-bottom: 10px; }
+    .ticket-btn { display: inline-block; background: #e63946; color: #fff; padding: 8px 20px; border-radius: 6px; text-decoration: none; font-weight: 500; margin-top: 10px; font-size: 0.9rem; }
+    .back-link { display: inline-block; color: #888; margin-bottom: 20px; text-decoration: none; }
+    .back-link:hover { color: #fff; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🏘️ NYC Comedy by Neighborhood</h1>
+      <p style="color:#888;">Find the best shows near you</p>
+    </header>
+    
+    <nav class="nav">
+      <a href="index.html">All Shows</a>
+      <a href="best.html">Best This Week</a>
+      <a href="comedians.html">Comedians</a>
+      <a href="neighborhoods.html" class="active">By Neighborhood</a>
+    </nav>
+
+    <div id="hoodSelect">
+      <div class="neighborhood-grid">
+        <a href="?hood=greenwich-village" class="hood-card">
+          <div class="hood-name">🌙 Greenwich Village</div>
+          <div class="hood-count">2 shows</div>
+          <div class="hood-desc">The heart of NYC comedy. Comedy Cellar and friends.</div>
+        </a>
+        <a href="?hood=midtown" class="hood-card">
+          <div class="hood-name">🏙️ Midtown</div>
+          <div class="hood-count">1 show</div>
+          <div class="hood-desc">Broadway Comedy Club and more.</div>
+        </a>
+        <a href="?hood=chelsea" class="hood-card">
+          <div class="hood-name">🎭 Chelsea</div>
+          <div class="hood-count">1 show</div>
+          <div class="hood-desc">Gotham Comedy Club - classic NYC experience.</div>
+        </a>
+        <a href="?hood=gramercy" class="hood-card">
+          <div class="hood-name">📍 Gramercy</div>
+          <div class="hood-count">1 show</div>
+          <div class="hood-desc">The Stand NYC - great showcases.</div>
+        </a>
+        <a href="?hood=east-village" class="hood-card">
+          <div class="hood-name">🎸 East Village</div>
+          <div class="hood-count">1 show</div>
+          <div class="hood-desc">New York Comedy Club and indie spots.</div>
+        </a>
+        <a href="?hood=upper-west-side" class="hood-card">
+          <div class="hood-name">🗽 Upper West Side</div>
+          <div class="hood-count">1 show</div>
+          <div class="hood-desc">Stand Up NY - open mics and more.</div>
+        </a>
+      </div>
+    </div>
+
+    <div id="showsSection" style="display:none;">
+      <a href="neighborhoods.html" class="back-link">← Back to neighborhoods</a>
+      <h2 id="hoodTitle" style="margin-bottom:20px;"></h2>
+      <div class="shows-grid" id="showsGrid"></div>
+    </div>
+
+    <div class="footer">
+      <p>🎤 nycstandupcomedy.com</p>
+    </div>
+  </div>
+
+  <script>
+    const allShows = [
+      { venue: 'Comedy Cellar', title: 'Mark Normand', comedians: 'Mark Normand', show_date: '2026-02-27', show_time: '8:00 PM', price: '$25', ticket_link: 'https://comedycellar.com/', neighborhood: 'Greenwich Village' },
+      { venue: 'Comedy Cellar', title: 'Carolines Comedy Night', comedians: 'Various', show_date: '2026-02-27', show_time: '10:00 PM', price: '$30', ticket_link: 'https://comedycellar.com/', neighborhood: 'Greenwich Village' },
+      { venue: 'The Stand NYC', title: 'Triangle: A Comedy Showcase', comedians: 'Nate Jones, Katie Hannan, Alex Ptacek', show_date: '2026-02-27', show_time: '7:30 PM', price: '$20', ticket_link: 'https://thestandnyc.com/', neighborhood: 'Gramercy' },
+      { venue: 'New York Comedy Club', title: 'Puppet Regret', comedians: 'James', show_date: '2026-02-28', show_time: '8:00 PM', price: '$18', ticket_link: 'https://newyorkcomedyclub.com/', neighborhood: 'East Village' },
+      { venue: 'Gotham Comedy Club', title: 'All Stars', comedians: 'Various Headliners', show_date: '2026-02-28', show_time: '8:00 PM', price: '$35', ticket_link: 'https://gothamcomedyclub.com/', neighborhood: 'Chelsea' },
+      { venue: 'Stand Up NY', title: 'Open Mic Night', comedians: 'Sign Up to Perform', show_date: '2026-03-01', show_time: '9:00 PM', price: 'Free', ticket_link: 'https://standupny.com/', neighborhood: 'Upper West Side' },
+      { venue: 'Broadway Comedy Club', title: 'Broadway Showcase', comedians: 'Various', show_date: '2026-02-27', show_time: '9:30 PM', price: '$25', ticket_link: 'https://broadwaycomedyclub.com/', neighborhood: 'Midtown' }
+    ];
+
+    const hoodNames = {
+      'greenwich-village': '🌙 Greenwich Village',
+      'midtown': '🏙️ Midtown',
+      'chelsea': '🎭 Chelsea',
+      'gramercy': '📍 Gramercy',
+      'east-village': '🎸 East Village',
+      'upper-west-side': '🗽 Upper West Side'
+    };
+
+    const params = new URLSearchParams(window.location.search);
+    const hood = params.get('hood');
+
+    if (hood && hoodNames[hood]) {
+      document.getElementById('hoodSelect').style.display = 'none';
+      document.getElementById('showsSection').style.display = 'block';
+      document.getElementById('hoodTitle').textContent = hoodNames[hood] + ' Shows Tonight';
+      
+      const filtered = allShows.filter(s => s.neighborhood.toLowerCase().replace(' ', '-') === hood);
+      
+      document.getElementById('showsGrid').innerHTML = filtered.map(s => `
+        <div class="show-card">
+          <div class="show-header">
+            <div>
+              <div class="show-title">${s.title}</div>
+              <div class="show-venue">${s.venue}</div>
+            </div>
+            <span style="color:#4ade80;font-weight:600;">${s.price}</span>
+          </div>
+          <div class="show-details">
+            <span>📅 ${s.show_date}</span>
+            <span>🕐 ${s.show_time}</span>
+          </div>
+          <div style="color:#888;font-size:0.9rem;margin-bottom:10px;">🎭 ${s.comedians}</div>
+          <a href="${s.ticket_link}" target="_blank" class="ticket-btn">Get Tickets →</a>
+        </div>
+      `).join('');
+    }
+  </script>
+</body>
+</html>
