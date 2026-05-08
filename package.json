@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "rm -rf dist && mkdir -p dist && cp -R web/. dist/ && cp robots.txt sitemap.xml dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
