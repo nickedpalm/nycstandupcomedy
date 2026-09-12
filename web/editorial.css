@@ -86,3 +86,14 @@ body{background-color:#6a402e}
 .mic-row .pick-description{margin-top:12px}.checked-on{margin-left:auto;font:12px/1.4 'Courier New',monospace;color:#5b5847}
 @media(max-width:700px){.mic-facts{grid-template-columns:1fr;gap:2px}.mic-facts dt{margin-top:8px}}
 .club-board{font:14px/1.5 Georgia,serif;margin:12px 0 0;color:#3d4a3a}.club-row .pick-description{margin-top:8px}
+
+/* Newsletter signup: a strip under the intro on the home page, and the yellow sidebar box everywhere. */
+.signup-strip{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,420px);gap:20px 28px;align-items:center;margin:0 0 22px;padding:22px 26px;background:#e6cb8d;border:1px solid #baa078;box-shadow:3px 4px 8px #26130ca0;transform:rotate(.3deg)}
+.signup-strip .side-label{color:#3d4a3a;margin:0 0 6px}.signup-lead{font:700 20px/1.25 Georgia,serif;margin:0;color:#2a1b13}
+.signup{margin:0}.signup-label{display:block;font:12px/1.4 'Courier New',monospace;text-transform:uppercase;letter-spacing:.04em;margin:0 0 6px}
+.signup-row{display:flex;gap:8px;flex-wrap:wrap}.signup-row input{flex:1 1 180px;min-width:0;font:16px Georgia,serif;padding:11px 12px;border:1px solid #8c7a5a;background:#fbf6ea;color:#2a1b13;min-height:44px}
+.signup-row button{font:700 14px Arial,sans-serif;padding:11px 16px;min-height:44px;background:#2e4034;color:#f6e4c3;border:0;cursor:pointer;box-shadow:2px 3px 0 #1b2620}.signup-row button:hover{background:#3a5243}.signup-row button:disabled{opacity:.6;cursor:wait}
+.signup .trap{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+.signup-fine{font:12px/1.5 Arial,sans-serif;margin:8px 0 0;opacity:.85}.signup-status{font:14px/1.4 Georgia,serif;margin:8px 0 0;min-height:1.4em}.signup-status.ok{color:#2e4034;font-weight:700}
+.signup-box .signup-row input{background:#fbf6ea}.signup-box .signup-fine{color:#3d4a3a}
+@media(max-width:700px){.signup-strip{grid-template-columns:1fr;padding:18px;transform:none}.signup-row input{flex-basis:100%}.signup-row button{width:100%}}
