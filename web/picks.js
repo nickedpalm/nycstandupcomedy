@@ -1,0 +1,45 @@
+const container = document.querySelector('#listings');
+const dateFormatter = new Intl.DateTimeFormat('en-CA', {timeZone:'America/New_York',year:'numeric',month:'2-digit',day:'2-digit'});
+const today = dateFormatter.format(new Date());
+let picks = [], filter = 'all';
+let saved;
+try { const value=JSON.parse(localStorage.getItem('comedy-saved')||'[]'); saved=new Set(Array.isArray(value)?value:[]); } catch {saved=new Set();}
+const element=(tag,text,className)=>{const node=document.createElement(tag);if(text!==undefined)node.textContent=text;if(className)node.className=className;return node;};
+function safeURL(value){try{const u=new URL(value);return ['https:','http:'].includes(u.protocol)?u.href:null;}catch{return null;}}
+function dateLabel(day){return new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',weekday:'long',month:'long',day:'numeric'}).format(new Date(day+'T12:00:00-04:00'));}
+function isWeekend(day){const d=new Date(day+'T12:00:00Z');const current=new Date(today+'T12:00:00Z');const weekday=current.getUTCDay();const start=new Date(current);start.setUTCDate(start.getUTCDate()+(weekday===0?-2:weekday===6?-1:5-weekday));const end=new Date(start);end.setUTCDate(end.getUTCDate()+2);return d>=start&&d<=end;}
+function poster(pick,withCredit=true){
+ if(!pick.poster || !/^\/assets\/posters\/[a-z0-9.-]+$/.test(pick.poster.src))return null;
+ const figure=element('figure',undefined,'show-flyer');
+ const link=element('a');link.href=pick.poster.src;link.target='_blank';link.rel='noopener';link.setAttribute('aria-label','Open full poster for '+pick.title);
+ const img=element('img');img.src=pick.poster.src;img.alt=pick.poster.alt||('Promotional artwork for '+pick.title);img.width=pick.poster.width;img.height=pick.poster.height;img.loading='lazy';img.decoding='async';img.addEventListener('error',()=>figure.remove(),{once:true});link.append(img);figure.append(link);
+ if(withCredit){const source=safeURL(pick.poster.source_url);if(source){const credit=element('figcaption');const a=element('a',pick.poster.credit||'Poster source');a.href=source;a.target='_blank';a.rel='noopener noreferrer';credit.append(a);figure.append(credit);}}
+ return figure;
+}
+function ticketLink(pick){const url=safeURL(pick.ticket_url);if(!url)return null;const a=element('a',pick.link_label||'Tickets & details ↗');a.href=url;a.target='_blank';a.rel='noopener noreferrer';a.setAttribute('aria-label',(pick.link_label?'Event listing for ':'Tickets and details for ')+pick.title);return a;}
+function render(){
+ const focusedSave=document.activeElement?.dataset.saveId;
+ container.replaceChildren();
+ const now=Date.now(),area=document.querySelector('#neighborhood')?.value;
+ const upcoming=picks.filter(p=>Date.parse(p.ends_at)>now).sort((a,b)=>a.starts_at.localeCompare(b.starts_at));
+ const visible=upcoming.filter(p=>(!area||p.neighborhood===area)&&(filter==='all'||filter==='tonight'&&p.date===today||filter==='weekend'&&isWeekend(p.date)||filter==='cheap'&&Number.isFinite(p.price_amount)&&p.price_amount<=15||filter==='saved'&&saved.has(p.id)));
+ const count=document.querySelector('#result-count');if(count)count.textContent=visible.length+' upcoming '+(visible.length===1?'show':'shows')+(area?' · '+area:' · '+new Set(visible.map(p=>p.neighborhood)).size+' '+(new Set(visible.map(p=>p.neighborhood)).size===1?'neighborhood':'neighborhoods'));
+ const status=document.querySelector('#board-status');if(status){const dates=[...new Set(upcoming.map(p=>p.verified_at).filter(Boolean))].sort();status.textContent=(dates.length?'Sources checked '+dates[0]+(dates.length>1?'–'+dates.at(-1):'')+'. ':'')+'New York local times. Check ticket pages for updates.';}
+ const rooms=document.querySelector('#room-list');if(rooms){rooms.replaceChildren();const grouped=new Map();for(const p of upcoming){const row=grouped.get(p.venue)||{count:0,area:p.neighborhood};row.count++;grouped.set(p.venue,row);}for(const [name,data]of [...grouped].sort((a,b)=>a[0].localeCompare(b[0]))){const li=element('li');const a=element('a',name);a.href='/neighborhoods.html?area='+encodeURIComponent(data.area);li.append(a,element('span',data.count+' '+(data.count===1?'show':'shows')+' · '+data.area,'room-detail'));rooms.append(li);}}
+ const board=document.querySelector('#featured-board');if(board){board.replaceChildren();const featured=visible.filter(p=>p.featured&&p.poster).slice(0,3);board.hidden=!featured.length;if(featured.length){board.append(element('h2','Pinned to the board','board-heading'));const shelf=element('div',undefined,'flyer-shelf');for(const p of featured){const card=element('article',undefined,'pinned-pick');const image=poster(p);if(image)card.append(image);card.append(element('p',dateLabel(p.date).replace(', September',' · Sep')+' · '+p.time_label,'pin-date'),element('h3',p.title),element('p',p.venue,'pin-venue'));const ticket=ticketLink(p);if(ticket)card.append(ticket);shelf.append(card);}board.append(shelf);}}
+ if(!visible.length){const box=element('div',undefined,'empty');box.append(element('h3',filter==='saved'?'Your saved picks will show up here.':filter==='tonight'?'Nothing else on our list tonight.':'No upcoming picks in this selection.'),element('p',filter==='saved'?'Use “Save” on a pick to keep it on this device.':'Try all picks, or check back for the next edition.'));container.append(box);return;}
+ let day,section;
+ for(const pick of visible){
+  if(day!==pick.date){day=pick.date;section=element('section',undefined,'day');section.append(element('h3',dateLabel(day)));container.append(section);}
+  const article=element('article',undefined,'pick listing-row');article.id='show-'+pick.id;
+  const landscape=pick.poster&&Number(pick.poster.width)>Number(pick.poster.height);const art=landscape?null:poster(pick,false);if(art){art.classList.add('listing-thumb');article.append(art);}
+  const body=element('div',undefined,'listing-body');body.append(element('p',pick.time_label,'pick-time'),element('h4',pick.title,'pick-title'),element('p',pick.description,'pick-description'));
+  const details=element('p',undefined,'pick-detail');details.append(document.createTextNode(pick.venue+' · '+pick.neighborhood+' · '),element('span',pick.price_label,'price-tag'));body.append(details);
+  const actions=element('div',undefined,'pick-actions'),ticket=ticketLink(pick);if(ticket)actions.append(ticket);
+  if(pick.poster){const source=safeURL(pick.poster.source_url);if(source){const credit=element('a','Flyer source');credit.href=source;credit.target='_blank';credit.rel='noopener noreferrer';credit.className='flyer-credit';actions.append(credit);}}
+  const save=element('button',saved.has(pick.id)?'Saved ✓':'Save','save');save.type='button';save.dataset.saveId=pick.id;save.setAttribute('aria-label',(saved.has(pick.id)?'Unsave ':'Save ')+pick.title);save.setAttribute('aria-pressed',String(saved.has(pick.id)));save.addEventListener('click',()=>{saved.has(pick.id)?saved.delete(pick.id):saved.add(pick.id);try{localStorage.setItem('comedy-saved',JSON.stringify([...saved]));}catch{}render();});actions.append(save);body.append(actions);article.append(body);section.append(article);
+ }
+ if(focusedSave){[...container.querySelectorAll('[data-save-id]')].find(b=>b.dataset.saveId===focusedSave)?.focus();}
+}
+document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{filter=button.dataset.filter;document.querySelectorAll('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));render();}));
+fetch('/data/picks.json').then(r=>{if(!r.ok)throw Error('Could not load picks');return r.json();}).then(data=>{if(!Array.isArray(data))throw Error('Invalid picks');picks=data;const select=document.querySelector('#neighborhood');if(select){[...new Set(data.map(p=>p.neighborhood))].sort().forEach(name=>{const option=element('option',name);option.value=name;select.append(option);});const area=new URLSearchParams(location.search).get('area');if([...select.options].some(o=>o.value===area))select.value=area;select.addEventListener('change',render);}render();}).catch(()=>{container.replaceChildren(element('p','The picks couldn’t load. Please refresh, or try again shortly.','empty'));});

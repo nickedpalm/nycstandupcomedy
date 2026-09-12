@@ -1,0 +1,37 @@
+# Skint-inspired editorial draft — September 11, 2026
+
+Custodian: Codex / Nick. Isolated branch codex/skint-editorial-draft, based on production source 77097aa. Uncommitted changes are intentional review work: five HTML routes, editorial.css, picks.js, data/picks.json, and these notes. No pre-existing edits were present; nothing pushed or deployed.
+
+The homepage presents a dated, original comedy shortlist. Fourteen September 12–17 events now fill the calendar, with source links in picks.json. Unknown prices are not guessed; only the $10 Funny Pages price is eligible for the $15 filter. Funny Pages has no verified ending time, so its end_time_confirmed=false record uses an undisplayed end-of-day expiry cutoff. The nine new Union Hall/Bell House records also use an undisplayed end-of-day expiry cutoff with end_time_confirmed=false; other original event end times come from ticket-page evidence.
+
+All routes use the editorial theme. Best/neighborhood views share the current shortlist, replacing February sample listings. The old comedian database and dead links give way to current event sources. Newsletter signup is explicitly unavailable until a real opt-in service is connected; the previous mock-success form was removed. No subscribers are collected and no sponsorship/affiliate system is live.
+
+Validation: npm run build passed; node --check web/picks.js passed; data IDs, HTTPS source links, timestamp order, price types, built route/assets, and sitemap XML checked. Local homepage returned HTTP 200. Browser interaction/visual QA has not been performed. Local preview: http://127.0.0.1:8766/ while its development server remains active.
+
+Mazzie has a copy under /opt/data/profiles/comedy/workspace/drafts/skint-20260911/site and the editorial/business guide in the workspace. Her normal production-based checkout remains separate. Compare edits before integrating. The business model is proposed sponsorship-funded curation plus a repeat-reader email audience, not a claim of current revenue or advertiser commitments.
+
+
+## Comedy Cellar reference revision — September 11, 2026
+Design reference inspected: https://web.archive.org/web/20171128152633/http://www.comedycellar.com/
+Adapted brick backdrop, wood-toned header, warm amber palette, printed poster hierarchy and ticket treatment. Original site branding and generated brick texture; no Comedy Cellar logo or performer photos reused. All five routes updated. Previous draft web files preserved at /private/tmp/comedy-before-cellar/web. Local review only; no production deploy.
+Funny Pages Eventbrite ID has conflicting title evidence. Replaced direct ticket URL with corroborating StayHappening event listing; direct ticket identity remains unverified.
+
+## Cafe intranet refinement
+Nick asked for a coffee-shop intranet feel. Shifted the existing draft toward a neighborhood bulletin board: muted green, warm paper, mixed flyers, practical monospace labels, quieter serif titles, and mailing-list navigation. Existing routes, filters, and saved picks remain. No fictional cafe services or community activity added. Local review only.
+
+## Real poster pass
+Added three official promotional assets with source captions, full-size links, lazy loading and preserved proportions. See POSTER-SOURCES.json and POSTER-INTAKE.md. No Instagram embed or newsletter subscription is configured. Funny Pages source_url now points to the corroborating secondary listing; the disputed old URL is retained explicitly as disputed_source_url.
+
+## Fuller calendar design pass
+Expanded to 14 shows across Lower East Side, Williamsburg, Park Slope and Gowanus. Home has three featured flyers above compact dated rows; seven listings have official promotional artwork. Neighborhood filtering, result counts and a room index use the same data. Union Hall and Bell House newsletter leads were checked against public venue calendars and linked ticket pages. LAUGH is held out because its ticket location says TBD. Unknown prices stay unknown. Images retain original proportions; undated art is identified in POSTER-SOURCES.json.
+
+The build, JavaScript syntax, whitespace, unique IDs, date ordering, source links, artwork files and page hooks passed checks. Browser visual and interaction QA remains outstanding. This is a manually curated local review dataset, not a subscription or automated ingestion service.
+
+## Spacing and QA fix pass — September 11, 2026 (applied on the VPS copy)
+Claude ran headless-browser QA (see ../QA-NOTES.md) and, at Nick's request, applied to this copy: a spacing block at the end of editorial.css (looser day groups, separated listing rows, roomier shelf and sidebar, 40px tap targets on nav and row actions); a pluralization fix for the result counter; and skipping the listing thumbnail for landscape artwork (poster width > height), which was unreadable at 80px. Pinned flyers and "Flyer source" links are unchanged. Verified: no overflow at 1280/390, no console errors, counter reads "1 neighborhood", no sub-24px targets. The Mac draft was byte-identical before this pass; the same two files are staged on the Mac at ~/comedy-spacing-20260911/web/ for copying into the draft. Nick's IA direction from this review: a featured tier for one-off concept shows and special events, then recurring weekly/monthly bar shows, then open mics, then clubs. Not built; data has no tier field yet.
+
+## Tiers, recurring rooms and open mics — September 11, 2026
+Added `tier` to all picks (featured/special). New data files: recurring.json (4 weekly bar stand-up shows) and open-mics.json (9 entries, 6 rooms), each checked against the venue or organizer page named in the record; see ../RECURRING-INTAKE.md for conflicts and hold-outs. New route /open-mics.html groups mics by night with where/cost/sign-up/set/formats/age and a "checked" date; nav link added on all pages and sitemap updated. Home sidebar gains a WEEKLY & MONTHLY ROOMS rail from recurring.json (board.js). Verified at 1280/390: no overflow, no console errors, no sub-24px targets. All changed files are staged on the Mac at ~/comedy-spacing-20260911/ (mirrors web/ layout plus sitemap.xml).
+
+## Clubs tier — September 11, 2026
+Added clubs.json (7 Manhattan clubs, tier `club`) with address, rooms, ticket range where published, minimum, age, getting-in rules, an original one-line room description, calendar link and policy source with a checked date. New route /clubs.html (clubs.js) lists them and cross-links any current picks at that venue. CLUBS added to the nav on all pages and to the sitemap; home rail links to both Open mics and Clubs. Two entries (The Stand, West Side) carry a verification note because their sites blocked the fetcher. Verified at 1280/390: no overflow, nav wraps to two rows on mobile, no console errors, no small targets. Staged on the Mac at ~/comedy-spacing-20260911/.
