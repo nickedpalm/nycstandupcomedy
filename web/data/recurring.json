@@ -51,10 +51,10 @@
   "price_amount": null,
   "format": "Stand-up",
   "description": "BCC's weekly stand-up night: a rotating lineup of favorites plus a wild-card spot for a past BCC stand-up alum. 21+, 35 seats then standing room.",
-  "source_url": "https://www.brooklyncc.com/show-schedule/facultylounge-9-13",
+  "source_url": "https://www.brooklyncc.com/show-schedule/facultylounge-9-20",
   "source_label": "BCC show page",
-  "verified_at": "2026-09-11",
-  "verification_note": "BCC's own show page says weekly on Sundays 8:30pm. BCC's overview page lists it under Thursdays; the show page was treated as authoritative. Recheck."
+  "verified_at": "2026-09-12",
+  "verification_note": "BCC's own show page says weekly on Sundays 8:30pm. Rechecked Sep 12 against the faculty-lounge-9-20 page (Eris Deep Space, doors 8:15pm, show 8:30pm, Sunday, 'stand up' show). BCC's overview page still lists it under Thursdays; the show page is authoritative."
  },
  {
   "id": "bomb-shelter-gaf-west",

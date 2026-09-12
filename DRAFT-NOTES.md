@@ -35,3 +35,15 @@ Added `tier` to all picks (featured/special). New data files: recurring.json (4 
 
 ## Clubs tier — September 11, 2026
 Added clubs.json (7 Manhattan clubs, tier `club`) with address, rooms, ticket range where published, minimum, age, getting-in rules, an original one-line room description, calendar link and policy source with a checked date. New route /clubs.html (clubs.js) lists them and cross-links any current picks at that venue. CLUBS added to the nav on all pages and to the sitemap; home rail links to both Open mics and Clubs. Two entries (The Stand, West Side) carry a verification note because their sites blocked the fetcher. Verified at 1280/390: no overflow, nav wraps to two rows on mobile, no console errors, no small targets. Staged on the Mac at ~/comedy-spacing-20260911/.
+
+## Daily edition refresh — September 12, 2026
+Kept the 14 Sep 12–17 picks from the previous pass and added 9 verified Sep 18–24 specials (tier `special`): A Drinking Game NYC: Practical Magic and Sam Taggart: Special Taping at the Bell House Sep 18 / 19; Sophie Buddle at Union Hall Sep 18; Fun in Moderation: Sketch Comedy at Caveat Sep 19; Josh Sharp crowd-work hour and Obey in Advance book launch Sep 20; Climate Town & Amy Westervelt at Bell House Sep 21; David Nihill's Taking Tangents Tour at Bell House Sep 23; and Vidura Bandara Rajapaksa: The Paradise Gothic Tour at Bell House Sep 24. Each new entry has a source_url actually opened today (Bell House calendar, Caveat events page, Union Hall calendar). Featured tier still capped at 3 (Vampire Movie, Quacks & Whacks, Rainbow Riot), since no new entries had official artwork downloaded.
+
+## Faculty Lounge recheck — September 12, 2026
+The recurring intake flagged a Thursday-vs-Sunday conflict for Faculty Lounge. Re-checked the Sep 20 event page directly: BCC shows Faculty Lounge on Sundays at 8:30pm in Eris Deep Space, doors 8:15pm, tagged "Stand-up", "brand new weekly stand up show". The show page is authoritative; recurring.json's verified_at and note updated to reflect today's check, source_url switched to the live Sep 20 slug.
+
+## Stale noscript text — September 12, 2026
+Replaced the dated Sep 12/13 sentence in index.html, best.html, and neighborhoods.html `<noscript>` tags with a generic, evergreen line that points readers at the Union Hall, Bell House, and Caveat calendars — so the no-JS fallback no longer names specific past dates.
+
+## Held-out notes — September 12, 2026
+Michelle Buteau at Bell House Sep 22 is shown as SOLD OUT on the venue calendar; not added to the board until it returns from the venue. Taylor Tomlinson: Tries Out New Ideas at Union Hall Sep 18 10pm shows as sold out via bandsintown and the *cancelled* slug appears next to a Sep 17 Union Hall record, so neither date was added. NYC Comedy Festival 2026 lead is in NEWSLETTER-SOURCES.md but not added as a pick yet (no dates cross-checked).
