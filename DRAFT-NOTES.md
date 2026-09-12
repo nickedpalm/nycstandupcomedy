@@ -47,3 +47,6 @@ Replaced the dated Sep 12/13 sentence in index.html, best.html, and neighborhood
 
 ## Held-out notes — September 12, 2026
 Michelle Buteau at Bell House Sep 22 is shown as SOLD OUT on the venue calendar; not added to the board until it returns from the venue. Taylor Tomlinson: Tries Out New Ideas at Union Hall Sep 18 10pm shows as sold out via bandsintown and the *cancelled* slug appears next to a Sep 17 Union Hall record, so neither date was added. NYC Comedy Festival 2026 lead is in NEWSLETTER-SOURCES.md but not added as a pick yet (no dates cross-checked).
+
+## Comedy Cellar pass — September 12, 2026
+Nick asked for the live site to look more like the 2017 Comedy Cellar homepage (https://web.archive.org/web/20171128152633/http://www.comedycellar.com/). Added a final override block in editorial.css: gold-and-red wordmark, orange marquee bill, dashed ticket-stub link, Oswald condensed headings, Permanent Marker hand-lettered arrow links and red buttons, CSS-generated crumpled-paper panels, red torn-edge section bars, flyers straight on the brick, a stenciled venue-name band over dark wood above the footer. Google Fonts (Oswald, Permanent Marker) linked in every page head. Still original branding: no Comedy Cellar logo, photos, or copy. Verified at 1280 and 390: no overflow, no console errors, fonts load.

@@ -97,3 +97,88 @@ body{background-color:#6a402e}
 .signup-fine{font:12px/1.5 Arial,sans-serif;margin:8px 0 0;opacity:.85}.signup-status{font:14px/1.4 Georgia,serif;margin:8px 0 0;min-height:1.4em}.signup-status.ok{color:#2e4034;font-weight:700}
 .signup-box .signup-row input{background:#fbf6ea}.signup-box .signup-fine{color:#3d4a3a}
 @media(max-width:700px){.signup-strip{grid-template-columns:1fr;padding:18px;transform:none}.signup-row input{flex-basis:100%}.signup-row button{width:100%}}
+
+/* Comedy Cellar pass (Sep 12, 2026): louder and warmer, like the 2017 club site. Gold-and-red wordmark, orange marquee,
+   crumpled-paper panels with red torn-edge section bars, flyers straight on the brick, hand-lettered arrow links,
+   and a stenciled venue band over dark wood. Original branding; every texture is generated here in CSS. */
+:root{--cc-red:#b7241c;--cc-red-dark:#7d150f;--cc-orange:#e8912a;--cc-gold:#f6c63c;--cc-cream:#f3e6c8;--cc-paper:#efe1bf;--cc-ink:#3a1d0e;--cc-wood:#2a1108;--accent:#b7241c;
+ --paper-grain:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='320' height='320'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .32 0 0 0 0 .2 0 0 0 0 .1 0 0 0 .16 0'/></filter><rect width='320' height='320' filter='url(%23n)'/></svg>")}
+body{background-color:#5b2a17;background-image:linear-gradient(90deg,#1a0c07d9,transparent 16%,transparent 84%,#1a0c07d9),url('/assets/club-brick.png');background-size:auto,720px auto;color:var(--cc-ink)}
+.masthead:before{background:repeating-linear-gradient(1deg,#12080414 0 2px,transparent 3px 9px),linear-gradient(#6f3519,#43200f 60%,#2b130a);border-bottom:5px solid #b46a2e;box-shadow:0 8px 18px #0f0502b0}
+.header-row{min-height:150px;gap:30px}
+.wordmark{color:var(--cc-gold);text-shadow:2px 2px 0 #9b2418,4px 4px 0 #2a0d06,7px 8px 12px #0006;transform:rotate(-2.5deg)}.wordmark span:first-child{letter-spacing:.06em}.wordmark em{color:#ff8f3c}
+.header-bill{background:linear-gradient(#f7bd4e,#e48a1e);border:4px solid #f9e0a3;outline:2px solid #5a2a12;color:#3a1d0e;box-shadow:0 5px 0 #23100880;transform:rotate(-.4deg);padding:12px 18px}
+.header-bill span{font:700 26px/1.1 Oswald,Impact,'Arial Narrow',sans-serif;letter-spacing:.06em;text-transform:uppercase}
+.header-bill strong{font:700 15px/1.5 Arial,sans-serif;font-style:normal;color:#5b2a12}
+.header-ticket{background:#efdfbf;background-image:var(--paper-grain);color:var(--cc-red);font:700 17px/1.2 'Permanent Marker',Impact,cursive;border:2px dashed #b48b6a;outline:4px solid #efdfbf;transform:rotate(4deg);box-shadow:4px 5px 0 #2a130b90;text-transform:uppercase;padding:13px 15px}
+.header-ticket span{color:var(--cc-red)}
+.edition-nav{border-top:2px solid #8f4c26;padding:12px 0 13px}
+.edition-nav a{color:#f8e4bd;font:500 17px/1.4 Oswald,'Arial Narrow',Arial,sans-serif;letter-spacing:.06em;text-transform:uppercase;padding-inline:26px;border-right:1px solid #a5683a;text-decoration:none}
+.edition-nav a[aria-current]{color:var(--cc-gold);text-decoration:none}.edition-nav a:hover{color:#fff1c8}
+/* crumpled paper panels */
+.intro-poster,.signup-strip,.pick.listing-row,.single-poster,.sidebox.yellow,.empty,.status{background-color:var(--cc-paper);background-image:var(--paper-grain),linear-gradient(160deg,#f8edd3,#e6d3a8);border:1px solid #c6b088;box-shadow:4px 6px 12px #12060280}
+.intro-poster{border-top:0;transform:rotate(-.5deg);padding:28px 34px 26px}.intro-poster:after{background:#c9b48ab5}
+.eyebrow,.side-label,.pick-time,.result-count,.signup-label,.mic-facts dt,.checked-on,.room-detail,.pin-date,.status{font-family:Arial,sans-serif}
+.eyebrow{color:var(--cc-red);font:700 13px/1.5 Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase}
+.issue-title,.intro-poster .issue-title,.single-poster .issue-title{font:700 clamp(2.3rem,4vw,3.4rem)/1.02 Oswald,Impact,'Arial Narrow',sans-serif;text-transform:uppercase;letter-spacing:.01em;color:#3a1d0e;max-width:18ch}
+.intro,.intro-poster .intro,.single-poster p{font:16px/1.55 Arial,sans-serif;color:#4a2c1c}
+.status{font:12px/1.5 Arial,sans-serif;color:#5b2a12;padding:8px 12px;box-shadow:none;transform:rotate(.2deg)}
+/* red torn-edge section bars */
+.day>h3,.sidebox h2,.board-heading{background:linear-gradient(#d3352a,#a51d15);color:#fff3dc;font:500 21px/1.2 Oswald,Impact,'Arial Narrow',sans-serif;text-transform:uppercase;letter-spacing:.09em;text-align:center;padding:9px 16px;border:0;margin:0 0 14px;text-shadow:1px 1px 0 #5a0d08;box-shadow:none;clip-path:polygon(0 8%,2% 0,30% 5%,55% 0,80% 6%,98% 0,100% 10%,100% 92%,97% 100%,70% 95%,45% 100%,20% 94%,3% 100%,0 90%)}
+.day>h3{margin-top:4px}.board-heading{margin-bottom:18px}
+.sidebox{background:var(--cc-wood);background-image:linear-gradient(#3d1c0d,#23100a);border:3px solid #7b4a29;color:#f0d9b2;padding:22px 20px 24px}
+.sidebox h2{margin:-4px -4px 16px;font-size:20px}
+.sidebox p{font:15px/1.6 Arial,sans-serif}.sidebox .smallprint{color:#d3b48a;font-size:12px}
+.sidebox #room-list a,.sidebox .rail-title{color:#ffd35c;font:700 16px/1.3 Oswald,'Arial Narrow',sans-serif;text-transform:uppercase;letter-spacing:.03em}
+.room-detail{color:#d9bd93;font:12px/1.5 Arial,sans-serif}
+.sidebox #room-list li,.sidebox #recurring-list li{border-bottom:1px dotted #8a5a33}
+.sidebox.yellow{color:var(--cc-ink);transform:rotate(1.2deg);padding:26px 22px}
+.sidebox.yellow h2{background:none;clip-path:none;color:#3a1d0e;font:700 30px/1.02 Oswald,Impact,'Arial Narrow',sans-serif;text-align:left;padding:0;margin:6px 0 10px;text-shadow:none;letter-spacing:.01em;text-transform:uppercase}
+.sidebox.yellow p{color:#4a2c1c}.sidebox.yellow .side-label{color:var(--cc-red)}
+/* arrow links and red buttons */
+.pick-actions a,.pinned-pick>a,.sidebox.yellow a,.sidebox p a,.single-poster p a,.club-board a{color:var(--cc-red);font:700 15px/1.3 'Permanent Marker',cursive;text-decoration:none;letter-spacing:.02em;text-transform:none}
+.pick-actions a:hover,.pinned-pick>a:hover{color:var(--cc-orange)}.flyer-credit,.pick-actions .flyer-credit{font:12px/1.4 Arial,sans-serif;color:#6b4d38;text-decoration:underline}
+.save{font:700 14px 'Permanent Marker',cursive;color:#6b4d38;text-decoration:none}.save[aria-pressed=true]{color:var(--cc-red)}
+.signup-row button,.filters button[aria-pressed=true]{background:linear-gradient(#d33a2b,#a51d15);color:#fff3dc;font:700 16px/1.2 'Permanent Marker',cursive;box-shadow:2px 3px 0 #4a0d08;border:0;letter-spacing:.02em}
+.signup-row button:hover{background:linear-gradient(#e24a3a,#b2251c)}
+.filters{background:var(--cc-wood);border:2px solid #7b4a29;padding:8px}
+.filters button{color:#f3dfb8;font:500 14px/1.3 Oswald,'Arial Narrow',sans-serif;text-transform:uppercase;letter-spacing:.06em;background:transparent;border-color:transparent}
+.filters button[aria-pressed=true]{font:500 14px/1.3 Oswald,'Arial Narrow',sans-serif;letter-spacing:.06em}.filters button:hover{background:#4a2414;color:#fff1c8}
+.area-picker label{background:#2a1108e6;color:#f1c98a;font:700 13px Arial,sans-serif;text-transform:uppercase;letter-spacing:.06em;border:1px solid #7b4a29}
+.result-count{color:#ffd8a0;font:700 13px/1.4 Arial,sans-serif;text-transform:uppercase;letter-spacing:.05em;text-shadow:1px 1px 0 #1a0906}
+/* listing rows */
+.pick.listing-row{border:0;border-left:7px solid var(--cc-red);padding:22px 26px}.pick.listing-row:nth-of-type(2n){background-color:#e9d9b1;border-left-color:var(--cc-orange)}
+.pick-time,.listing-row .pick-time{color:var(--cc-red);font:700 12px/1.4 Arial,sans-serif;letter-spacing:.06em;text-transform:uppercase}
+.pick-title,.listing-row .pick-title{font:700 25px/1.08 Oswald,Impact,'Arial Narrow',sans-serif;text-transform:uppercase;letter-spacing:.01em;color:#3a1d0e}
+.listing-row .pick-description,.pick-description{font:15px/1.55 Arial,sans-serif;color:#4a2c1c}
+.pick-detail,.listing-row .pick-detail{font:13px/1.6 Arial,sans-serif;color:#6b4d38}.price-tag{color:var(--cc-red)}
+.mic-facts{font:14px/1.5 Arial,sans-serif}.mic-facts dt{color:var(--cc-red);font-weight:700}
+.club-board{font:13px/1.5 Arial,sans-serif;color:#5b3a27}
+/* flyers straight on the brick, like the poster strip */
+.featured-board{margin:34px 0 38px;padding:26px 0 30px;border-top:2px solid #8f4c26;border-bottom:2px solid #8f4c26}
+.flyer-shelf{gap:28px}
+.pinned-pick,.pinned-pick:nth-child(2),.pinned-pick:nth-child(3){background:none;border:0;box-shadow:none;padding:0;transform:none}
+.pinned-pick .show-flyer{margin:0 0 12px}.pinned-pick .show-flyer>a{border:5px solid #f3e6c8;background:#151008;box-shadow:5px 7px 14px #0b0402c0}
+.pinned-pick .show-flyer img{height:270px;object-fit:cover;background:#151008}
+.pinned-pick .show-flyer figcaption{margin-top:6px}.pinned-pick .show-flyer figcaption a{color:#d9b98a;font:11px/1.4 Arial,sans-serif}
+.pin-date{color:var(--cc-gold);font:700 12px/1.4 Arial,sans-serif;text-transform:uppercase;letter-spacing:.06em;text-shadow:1px 1px 0 #1a0906}
+.pinned-pick h3{color:#fff1c8;font:700 21px/1.1 Oswald,Impact,'Arial Narrow',sans-serif;text-transform:uppercase;letter-spacing:.01em;text-shadow:2px 2px 0 #1a0906;margin:8px 0 4px}
+.pin-venue{color:#e9cfa5;font:13px/1.4 Arial,sans-serif;text-shadow:1px 1px 0 #1a0906}
+.pinned-pick>a{color:#ffb15c;text-shadow:1px 1px 0 #1a0906}.pinned-pick>a:hover{color:#ffd35c}
+/* signup */
+.signup-strip{transform:rotate(-.4deg);padding:22px 28px}
+.signup-lead{font:700 26px/1.05 Oswald,Impact,'Arial Narrow',sans-serif;text-transform:uppercase;color:#3a1d0e;letter-spacing:.01em}
+.signup-strip .side-label,.signup-box .side-label{color:var(--cc-red);letter-spacing:.14em}
+.signup-label{font:700 11px/1.4 Arial,sans-serif;letter-spacing:.12em;color:#6b4d38}
+.signup-row input{border:2px solid #b48b6a;background:#fff9ec;font:16px Arial,sans-serif;color:#3a1d0e}
+.signup-fine{color:#6b4d38;font:12px/1.5 Arial,sans-serif;opacity:1}.signup-status{font:14px/1.4 Arial,sans-serif}.signup-status.ok{color:var(--cc-red-dark)}
+/* stenciled venue band over dark wood, then the footer */
+.stencil{margin:36px -28px 0;padding:26px 28px 22px;background:linear-gradient(#3b1b0d,#1d0c06);border-top:6px solid #7b4a29;display:flex;flex-wrap:wrap;gap:10px 34px;justify-content:center;font:700 22px/1.2 'Permanent Marker',cursive;color:#e8c58f;text-transform:uppercase;letter-spacing:.04em;text-shadow:1px 1px 0 #000}
+.stencil span:nth-child(odd){transform:rotate(-2deg);display:inline-block}.stencil span:nth-child(even){transform:rotate(1.5deg);display:inline-block;color:#f1d7a8}
+.edition-footer{background:linear-gradient(#24100a,#160904);border-top:0;color:#dcbd90;margin:0 -28px 0;padding:22px 28px 30px;font:13px/1.6 Arial,sans-serif}
+.edition-footer strong{color:var(--cc-gold);font:700 15px/1.3 Oswald,'Arial Narrow',sans-serif;text-transform:uppercase;letter-spacing:.06em}
+.single-poster{border:0;border-top:0;margin-top:40px}
+.edition{padding-bottom:0}
+@media(max-width:900px){.pinned-pick .show-flyer img{height:200px}}
+@media(max-width:700px){.wordmark span:first-child{letter-spacing:.02em;white-space:nowrap}.wordmark{font-size:24px}.header-ticket{font-size:14px;padding:10px 10px;transform:rotate(3deg)}.header-bill span{font-size:20px}.edition-nav a{font-size:14px;padding-inline:14px}.issue-title,.intro-poster .issue-title{font-size:34px}.pinned-pick .show-flyer img{height:150px}.pinned-pick h3{font-size:16px}.signup-lead{font-size:22px}.stencil{margin-inline:-20px;font-size:17px;gap:6px 18px}.edition-footer{margin-inline:-20px}.day>h3,.sidebox h2,.board-heading{font-size:18px}}
+@media(max-width:400px){.pinned-pick{display:grid;grid-template-columns:100px 1fr;column-gap:12px}.pinned-pick .show-flyer img{height:130px}}
