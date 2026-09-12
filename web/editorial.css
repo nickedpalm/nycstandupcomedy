@@ -182,3 +182,40 @@ body{background-color:#5b2a17;background-image:linear-gradient(90deg,#1a0c07d9,t
 @media(max-width:900px){.pinned-pick .show-flyer img{height:200px}}
 @media(max-width:700px){.wordmark span:first-child{letter-spacing:.02em;white-space:nowrap}.wordmark{font-size:24px}.header-ticket{font-size:14px;padding:10px 10px;transform:rotate(3deg)}.header-bill span{font-size:20px}.edition-nav a{font-size:14px;padding-inline:14px}.issue-title,.intro-poster .issue-title{font-size:34px}.pinned-pick .show-flyer img{height:150px}.pinned-pick h3{font-size:16px}.signup-lead{font-size:22px}.stencil{margin-inline:-20px;font-size:17px;gap:6px 18px}.edition-footer{margin-inline:-20px}.day>h3,.sidebox h2,.board-heading{font-size:18px}}
 @media(max-width:400px){.pinned-pick{display:grid;grid-template-columns:100px 1fr;column-gap:12px}.pinned-pick .show-flyer img{height:130px}}
+
+/* Cellar pass 2: one big paper sheet for the board, paper sidebar boxes, bigger flyer strip under a spotlight. */
+#listings,#mic-listings,#club-listings{background-color:var(--cc-paper);background-image:var(--paper-grain),linear-gradient(170deg,#f8edd3,#e7d4aa 60%,#e0cc9f);border:1px solid #c6b088;box-shadow:5px 8px 16px #0d04028c;padding:18px 22px 26px;margin-top:14px;transform:rotate(-.25deg)}
+#listings>*,#mic-listings>*,#club-listings>*{transform:rotate(.25deg)}
+.day{margin-top:24px}.day:first-child{margin-top:0}
+.day>h3{margin:0 -6px 6px;font-size:22px;clip-path:polygon(0 8%,2% 0,30% 5%,55% 0,80% 6%,98% 0,100% 10%,100% 92%,97% 100%,70% 95%,45% 100%,20% 94%,3% 100%,0 90%)}
+.pick.listing-row,.pick.listing-row:nth-of-type(2n){background:none;border:0;border-bottom:2px dotted #b99f72;box-shadow:none;padding:16px 6px 18px;margin:0;border-left:0}
+.pick.listing-row:last-child{border-bottom:0}
+.listing-row .pick-title{font-size:24px}.listing-row .pick-description{font-size:15px;max-width:66ch}
+.listing-row .pick-actions{padding-top:10px}
+.listing-row .show-flyer.listing-thumb>a{border:3px solid #fff8e8;box-shadow:2px 3px 6px #3a1d0e60;transform:rotate(-2deg)}
+.empty{background:none;border:0;box-shadow:none;padding:10px 6px}
+.result-count{margin:14px 0 0}
+/* sidebar boxes go paper, with the red bar as a heading strip */
+.sidebox{background-color:var(--cc-paper);background-image:var(--paper-grain),linear-gradient(160deg,#f8edd3,#e6d3a8);border:1px solid #c6b088;color:var(--cc-ink);box-shadow:4px 6px 12px #12060280;padding:20px 20px 22px;transform:rotate(.4deg)}
+.sidebox:nth-of-type(3){transform:rotate(-.5deg)}.sidebox:nth-of-type(4){transform:rotate(.6deg)}
+.sidebox h2{margin:-6px -8px 14px;font-size:19px}
+.sidebox p{color:#4a2c1c}.sidebox .smallprint{color:#6b4d38}
+.sidebox #room-list a,.sidebox .rail-title{color:var(--cc-red)}.room-detail{color:#6b4d38}
+.sidebox #room-list li,.sidebox #recurring-list li{border-bottom:1px dotted #b99f72}
+.sidebox a{color:var(--cc-red)}
+.sidebox.yellow{transform:rotate(1.2deg);background-image:var(--paper-grain),linear-gradient(160deg,#f7dc9a,#e9c46a)}
+/* flyer strip: bigger frames, spotlight on the brick, slight tilt like posters taped up */
+.featured-board{margin:36px -28px 40px;padding:30px 28px 34px;border-top:3px solid #8f4c26;border-bottom:3px solid #8f4c26;background:radial-gradient(ellipse 70% 80% at 50% 0%,#f6c63c3a,transparent 60%),linear-gradient(#2a110880,#1a0a0599)}
+.board-heading{max-width:520px;margin:0 auto 22px}
+.flyer-shelf{gap:30px;align-items:start}
+.pinned-pick:nth-child(1) .show-flyer>a{transform:rotate(-1.5deg)}.pinned-pick:nth-child(2) .show-flyer>a{transform:rotate(1deg)}.pinned-pick:nth-child(3) .show-flyer>a{transform:rotate(-.6deg)}
+.pinned-pick .show-flyer>a{border-width:6px;box-shadow:6px 9px 18px #05020190}
+.pinned-pick .show-flyer img{height:320px}
+.pinned-pick h3{font-size:23px}
+/* the intro sheet and signup strip read as one stack of paper */
+.intro-poster{margin-bottom:18px}.signup-strip{margin-bottom:18px}
+/* header: subtle spotlight so the wordmark pops */
+.masthead:before{background:radial-gradient(ellipse 40% 90% at 18% 40%,#f6c63c26,transparent 60%),repeating-linear-gradient(1deg,#12080414 0 2px,transparent 3px 9px),linear-gradient(#6f3519,#43200f 60%,#2b130a)}
+@media(max-width:900px){.pinned-pick .show-flyer img{height:230px}.featured-board{margin-inline:-28px}}
+@media(max-width:700px){#listings,#mic-listings,#club-listings{padding:12px 12px 18px;transform:none}#listings>*,#mic-listings>*,#club-listings>*{transform:none}.featured-board{margin-inline:-20px;padding:22px 16px 24px}.pinned-pick .show-flyer img{height:160px}.pinned-pick h3{font-size:17px}.sidebox{transform:none}.day>h3{margin-inline:0;font-size:18px}.pick.listing-row{padding:14px 2px 16px}}
+@media(max-width:400px){.pinned-pick .show-flyer img{height:130px}.pinned-pick .show-flyer>a{transform:none}}
