@@ -53,7 +53,7 @@ async function waitReady(containerId) {
   throw new Error(`container ${containerId} not ready after 60s`);
 }
 async function publish(kind, items, caption, meta) {
-  if (dryRun) { console.log(`[dry-run] ${kind}\n  ${items.join('\n  ')}\n  caption: ${caption.replace(/\n/g, ' / ')}`); return null; }
+  if (dryRun) { console.log(`[dry-run] ${kind}\n  ${items.join('\n  ')}\n--- caption ---\n${caption}\n--- end ---`); return null; }
   let container;
   if (kind === 'carousel') {
     const children = [];
