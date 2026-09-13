@@ -12,6 +12,7 @@ web/data/            editorial data: picks, recurring, open-mics, clubs
 web/data/archive/    past picks, one file per month, written by `npm run rotate`
 scripts/rotate.js    moves expired picks (and their artwork) into the archive
 scripts/ig-card.js   renders Instagram cards (1080x1350 JPEG) into web/assets/ig/
+scripts/ig-post.js   publishes cards to Instagram; POSTED-IG.json is its log
 web/assets/fonts/    Oswald and Permanent Marker (OFL/Apache) for offline card rendering
 functions/api/       Cloudflare Pages Function for POST /api/subscribe (Listmonk)
 scripts/check.js     data and source checks run by `npm test` and CI
@@ -73,6 +74,8 @@ curl -s https://standupcomedynyc.com/editorial.css | md5sum; md5sum web/editoria
 ## Instagram cards
 
 `npm run ig-card -- --tonight` renders a Tonight cover and one card per pick into `web/assets/ig/`, so a push makes them public at standupcomedynyc.com/assets/ig/<id>.jpg, which the Instagram API needs. Cards are text-only in the site's style. Artwork is included only when its record in POSTER-SOURCES.json has `reuse: "granted"`. Paid listings are labeled on the card. Rendering needs a Chromium headless shell: set `IG_BROWSER` or let the script find one under `PLAYWRIGHT_BROWSERS_PATH` or `~/.cache/ms-playwright`. Rotation deletes cards for expired picks and past covers.
+
+Posting: `npm run ig-post -- --tonight` publishes the cover plus tonight's cards as one carousel (`--story` for a story, `--pick <id>` for a single show, `--dry-run` to preview). It needs `IG_ACCESS_TOKEN` and `IG_USER_ID` in the environment, from a Meta app using the Instagram API with Instagram Login, and the cards must already be pushed so their URLs are public. Every post is appended to POSTED-IG.json and the same pick is refused twice in a day. `--refresh-token` extends the 60-day token; set `IG_TOKEN_FILE` to save it.
 
 ## Newsletter
 
