@@ -1,9 +1,13 @@
-# NYC Stand Up Comedy — nycstandupcomedy.com
+# NYC Stand Up Comedy — standupcomedynyc.com
+
+Canonical repository: https://github.com/nickedpalm/standupcomedynyc
+
+Canonical VPS checkout (also mounted at this path in Mazzie): `/home/nick/standupcomedynyc`. Read `CLAUDE.md` before continuing.
 
 ## Quick Start
 
 ```bash
-cd /home/node/workspace/nycstandupcomedy
+cd /home/nick/standupcomedynyc
 
 # Scrape latest shows (from New York Comedy Club)
 node scrape-real.js
@@ -70,7 +74,7 @@ The stealth browser (pets-browser) is installed and ready for deployment to bypa
 ## Project Structure
 
 ```
-nycstandupcomedy/
+standupcomedynyc/
 ├── db/database.js       # SQLite
 ├── web/                 # Static pages
 ├── scrape-real.js       # Working scraper!
