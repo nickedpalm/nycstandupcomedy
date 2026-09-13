@@ -36,8 +36,8 @@
   "calendar_url": "https://thestandnyc.com/",
   "source_url": "https://thestandnyc.com/about/faq",
   "source_label": "FAQ",
-  "verified_at": "2026-09-11",
-  "verification_note": "The site blocked our fetcher (403); policy details came from search excerpts of the FAQ page. Recheck directly before publication."
+  "verified_at": "2026-09-13",
+  "verification_note": "Re-read directly from the live FAQ page (browser, 2026-09-13). Age policy and 90-minute show length confirmed; earlier 403 blocking the fetcher no longer affects direct browser access."
  },
  {
   "id": "new-york-comedy-club",
@@ -109,15 +109,15 @@
   "price_label": "Varies by show; see the show page",
   "price_low": null,
   "price_high": null,
-  "minimum": "No drink minimum",
-  "age": "Most shows 21+; ID required",
+  "minimum": "Two-item minimum including food and/or drink (per the club's About block)",
+  "age": "18+ unaccompanied; 16+ with a guardian",
   "reservations": "Tickets through the club site",
-  "character": "A neighborhood room uptown, beer and wine only, no minimum. Good for a low-commitment weeknight.",
+  "character": "A neighborhood room uptown, full dinner menu and craft cocktails. Hours: Tue–Fri 4pm–12am, Sat 1pm–12am, Sun 2pm–11pm, Mon closed.",
   "calendar_url": "https://westsidecomedyclub.com/calendar",
-  "source_url": "https://www.westsidecomedyclub.com/pages/faq",
-  "source_label": "FAQ",
-  "verified_at": "2026-09-11",
-  "verification_note": "The FAQ page returned no readable content to our fetcher; policies came from search excerpts of it. Recheck directly before publication."
+  "source_url": "https://www.westsidecomedyclub.com/",
+  "source_label": "Club homepage About block",
+  "verified_at": "2026-09-13",
+  "verification_note": "Read directly from the live club homepage (browser, 2026-09-13). Earlier intake said no minimum and 21+; the homepage now states a two-item minimum and 16/18 age rule."
  },
  {
   "id": "broadway-comedy-club",
