@@ -67,6 +67,11 @@ picks.forEach((row, i) => {
     if (typeof row.poster === 'object' && (!row.poster.credit || !row.poster.alt)) fail(`${label}: poster needs credit and alt`);
   }
 });
+picks.forEach((row, i) => {
+  if ('sponsored' in row && typeof row.sponsored !== 'boolean') fail(`picks[${i}] ${row.id}: sponsored must be true or false`);
+  if (row.sponsored && !https(row.ticket_url)) fail(`picks[${i}] ${row.id}: paid listings need an https ticket_url`);
+  if (row.sponsored && !row.poster) fail(`picks[${i}] ${row.id}: paid listings need artwork to sit on the shelf`);
+});
 const featured = picks.filter((r) => r.tier === 'featured').length;
 if (featured > 3) fail(`picks: ${featured} featured entries; the board shows at most 3`);
 
