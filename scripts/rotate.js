@@ -61,6 +61,16 @@ for (const [month, records] of byMonth) {
   write(file, merged);
   console.log(`${dryRun ? '[dry-run] ' : ''}archive/${month}.json: +${records.length} (${merged.length} total)`);
 }
+// Drop Instagram cards for picks that just expired; cover cards older than today go too.
+const igDir = path.join(web, 'assets', 'ig');
+if (fs.existsSync(igDir)) {
+  const gone = new Set(expired.map((p) => p.id + '.jpg'));
+  const todayStr = new Date(now).toISOString().slice(0, 10);
+  for (const f of fs.readdirSync(igDir)) {
+    const cover = f.match(/^(tonight|weekend)-(\d{4}-\d{2}-\d{2})\.jpg$/);
+    if (gone.has(f) || (cover && cover[2] < todayStr)) { if (!dryRun) fs.unlinkSync(path.join(igDir, f)); console.log(`${dryRun ? '[dry-run] ' : ''}removed card ${f}`); }
+  }
+}
 write(picksFile, kept);
 write(postersFile, posters);
 console.log(`${dryRun ? '[dry-run] ' : ''}rotate: ${expired.length} expired -> archive, ${kept.length} upcoming, ${moved.length} poster(s) moved`);
