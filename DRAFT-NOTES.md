@@ -53,3 +53,6 @@ Nick asked for the live site to look more like the 2017 Comedy Cellar homepage (
 
 ## Repository reorganization — September 13, 2026
 Committed Mazzie's morning data edits (five Sep 21–27 picks; The Stand and West Side policies reverified in a browser). Removed the legacy scraper, SQLite database, Node server, Vercel config, stale shows.json, the pets-browser gitlink and 12,450 tracked node_modules files; tagged the prior state pre-reorg-20260913. Added scripts/check.js (run by `npm test` and by GitHub Actions on every push and pull request), a real .gitignore, a README describing the editorial workflow, and a shorter CLAUDE.md. Two poster records (Vampire Movie, Emil Wakim) now refer to expired picks; the check warns so they can be retired. Cloudflare's Git integration remains the publication path; removing the gitlink unblocks it.
+
+## Revolving board — September 13, 2026
+Added scripts/rotate.js (`npm run rotate`) and a daily 09:15 UTC GitHub Actions job that archives expired picks into web/data/archive/YYYY-MM.json, moves their artwork to web/assets/posters/archive/ and commits. Restored the four Sep 12 picks that had been deleted (Modern Whitney, Funny Pages, Emil Wakim, Improvised Vampire Movie) so the archive starts complete; their two posters moved with them. The check now warns on a thin or stale board and on expired picks left in picks.json.

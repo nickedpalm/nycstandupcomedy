@@ -5,6 +5,7 @@
   "description": "standupcomedynyc.com: a curated, dated shortlist of NYC stand-up shows, recurring rooms, open mics and clubs.",
   "scripts": {
     "check": "node scripts/check.js",
+    "rotate": "node scripts/rotate.js",
     "build": "rm -rf dist && mkdir -p dist && cp -R web/. dist/ && cp robots.txt sitemap.xml dist/",
     "test": "npm run check && npm run build",
     "preview": "python3 -m http.server 8080 --bind 127.0.0.1 --directory dist"

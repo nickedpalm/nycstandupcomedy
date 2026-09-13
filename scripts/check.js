@@ -87,10 +87,33 @@ try {
     if (!p.src || !fs.existsSync(path.join(web, String(p.src).replace(/^\//, '')))) fail(`POSTER-SOURCES.json: missing file ${p.src}`);
     if (!https(p.source_url)) fail(`POSTER-SOURCES.json ${p.src}: source_url must be https`);
     if (!p.credit) fail(`POSTER-SOURCES.json ${p.src}: missing credit`);
-    if (p.event_id && !knownIds.has(p.event_id)) warn(`POSTER-SOURCES.json ${p.src}: event ${p.event_id} is no longer in picks.json; artwork can be retired`);
+    if (!p.archived && p.event_id && !knownIds.has(p.event_id)) warn(`POSTER-SOURCES.json ${p.src}: event ${p.event_id} is no longer in picks.json; artwork can be retired`);
   });
 } catch (err) {
   fail(`POSTER-SOURCES.json: ${err.message}`);
+}
+
+// Freshness: the board must never run dry or go stale.
+const today = new Date().toISOString().slice(0, 10);
+const upcoming = picks.filter((r) => Date.parse(r.ends_at) > Date.now());
+const horizon = new Date(Date.now() + 7 * 86400000).toISOString().slice(0, 10);
+if (upcoming.length < 8) warn(`freshness: only ${upcoming.length} upcoming picks; the board is running dry`);
+if (!upcoming.some((r) => r.date >= horizon)) warn(`freshness: nothing listed on or after ${horizon}; add next week's picks`);
+const stale = upcoming.filter((r) => r.verified_at < new Date(Date.now() - 14 * 86400000).toISOString().slice(0, 10));
+if (stale.length) warn(`freshness: ${stale.length} upcoming pick(s) last verified over 14 days ago: ${stale.map((r) => r.id).join(', ')}`);
+const expired = picks.length - upcoming.length;
+if (expired) warn(`freshness: ${expired} expired pick(s) still in picks.json; run npm run rotate`);
+if (picks.some((r) => r.verified_at > today)) fail('picks: verified_at is in the future');
+
+// Archive files must stay valid.
+const archiveDir = path.join(web, 'data', 'archive');
+if (fs.existsSync(archiveDir)) {
+  fs.readdirSync(archiveDir).filter((f) => f.endsWith('.json')).forEach((f) => {
+    const rows = readJson(path.join('archive', f));
+    if (!/^\d{4}-\d{2}\.json$/.test(f)) fail(`archive/${f}: name must be YYYY-MM.json`);
+    const seen = new Set();
+    rows.forEach((r) => { if (seen.has(r.id)) fail(`archive/${f}: duplicate id ${r.id}`); seen.add(r.id); if (r.date && !r.date.startsWith(f.slice(0, 7))) fail(`archive/${f}: ${r.id} dated ${r.date} is in the wrong month`); });
+  });
 }
 
 // Every page in the sitemap must exist in web/, and every HTML page must be in the sitemap.

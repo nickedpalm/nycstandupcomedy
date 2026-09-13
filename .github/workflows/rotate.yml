@@ -1,0 +1,25 @@
+name: Rotate expired picks
+on:
+  schedule:
+    - cron: '15 9 * * *'   # daily 09:15 UTC (05:15 New York), before Mazzie's 11:00 UTC edition
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  rotate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm run rotate
+      - run: npm test
+      - name: Commit and push if anything moved
+        run: |
+          if git diff --quiet; then echo "nothing to commit"; exit 0; fi
+          git config user.name "standupcomedynyc rotate"
+          git config user.email "rotate@standupcomedynyc.com"
+          git add -A
+          git commit -m "Rotate expired picks into the archive ($(date -u +%F))"
+          git push

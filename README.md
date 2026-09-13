@@ -9,6 +9,8 @@ The site is static HTML, CSS and browser JavaScript. There is no database, no sc
 ```
 web/                 the site as served (pages, editorial.css, scripts, assets)
 web/data/            editorial data: picks, recurring, open-mics, clubs
+web/data/archive/    past picks, one file per month, written by `npm run rotate`
+scripts/rotate.js    moves expired picks (and their artwork) into the archive
 functions/api/       Cloudflare Pages Function for POST /api/subscribe (Listmonk)
 scripts/check.js     data and source checks run by `npm test` and CI
 robots.txt, sitemap.xml
@@ -26,12 +28,22 @@ DRAFT-NOTES.md, QA-NOTES.md, RECURRING-INTAKE.md, POSTER-INTAKE.md
 | `web/data/open-mics.json` | Open mics grouped by night on /open-mics.html. | `open-mic` |
 | `web/data/clubs.json` | Manhattan clubs with policies on /clubs.html. | `club` |
 
-Every record carries a `source_url` that was actually opened and a `verified_at` date. Unknown prices stay unknown; never guess. Picks expire from the board automatically once `ends_at` passes, so past shows can be deleted at leisure. Artwork must be official promotional material with a credit and a record in POSTER-SOURCES.json.
+Every record carries a `source_url` that was actually opened and a `verified_at` date. Unknown prices stay unknown; never guess. Artwork must be official promotional material with a credit and a record in POSTER-SOURCES.json.
+
+## Revolving board
+
+The board is always current and never runs dry:
+
+- The page only renders picks whose `ends_at` is in the future, so a show leaves the board the moment it ends.
+- `npm run rotate` moves expired picks into `web/data/archive/YYYY-MM.json`, moves their posters to `web/assets/posters/archive/`, and marks the provenance records archived. Nothing is deleted. A GitHub Actions job runs it every morning at 09:15 UTC and commits the result, which deploys.
+- `npm run check` warns when fewer than eight picks are upcoming, when nothing is listed a week out, when an upcoming pick was last verified more than 14 days ago, or when expired picks are still in picks.json.
+- Mazzie's daily edition at 11:00 UTC adds verified picks for the coming week and pushes.
 
 ## Workflow
 
 ```bash
 npm test          # data checks, syntax checks, then a build into dist/
+npm run rotate    # archive expired picks (--dry-run to preview, --now=ISO to test)
 npm run preview   # serve dist/ on http://127.0.0.1:8080
 ```
 
