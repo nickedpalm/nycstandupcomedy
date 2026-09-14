@@ -14,6 +14,8 @@ scripts/rotate.js    moves expired picks (and their artwork) into the archive
 scripts/ig-card.js   renders Instagram cards (1080x1350 JPEG) into web/assets/ig/
 scripts/ig-post.js   publishes cards to Instagram; POSTED-IG.json is its log
 scripts/badslava.js  pulls Badslava's New York open-mic table into candidates/ for review
+scripts/eventbrite.js pulls upcoming events from the Eventbrite organizer pages of registered rooms into candidates/
+web/areas.js         the Neighborhoods directory: every room by borough and neighborhood
 candidates/          discovery output (crowd-sourced, unverified); never served, never copied into web/data without a venue check
 web/assets/fonts/    Oswald and Permanent Marker (OFL/Apache) for offline card rendering
 functions/api/       Cloudflare Pages Function for POST /api/subscribe (Listmonk)
@@ -35,9 +37,17 @@ DRAFT-NOTES.md, QA-NOTES.md, RECURRING-INTAKE.md, POSTER-INTAKE.md
 | `web/data/recurring.json` | Weekly and monthly bar shows in the home sidebar. | `recurring` |
 | `web/data/open-mics.json` | Open mics grouped by night on /open-mics.html. | `open-mic` |
 | `web/data/clubs.json` | Manhattan clubs with policies on /clubs.html. | `club` |
-| `web/data/venues.json` | The venue registry: every room's address, neighborhood and borough. The site resolves a show's neighborhood from this file by venue name, and the check fails on any venue that isn't registered or any record whose neighborhood disagrees. Add the venue here first, then the show. Optional `calendar_url` points at the page that lists upcoming shows. | |
+| `web/data/venues.json` | The venue registry: every room's address, neighborhood and borough. The site resolves a show's neighborhood from this file by venue name, and the check fails on any venue that isn't registered or any record whose neighborhood disagrees. Add the venue here first, then the show. Optional `calendar_url` points at the page that lists upcoming shows; optional `eventbrite_organizer` (an eventbrite.com/o/ URL) lets `npm run eventbrite` pull that room's listings as leads. | |
 
 Every record carries a `source_url` that was actually opened and a `verified_at` date. Unknown prices stay unknown; never guess. Artwork must be official promotional material with a credit and a record in POSTER-SOURCES.json.
+
+## Neighborhoods
+
+Neighborhoods are a layer, not a label. Every room in venues.json carries one, the home filter lists every neighborhood in the registry grouped by borough (with "rooms only" on those without a dated pick this week), and /neighborhoods.html is a directory of all of them: this week's picks, the weekly rooms, the open mics and every room in each. A neighborhood with no picks still shows its rooms and mics.
+
+## Leads
+
+Two candidate feeds live in candidates/ and never reach the site directly: Badslava's open-mic table and the Eventbrite organizer pages of registered rooms (matched to the venue by the organizer link on venues.json). The editor opens the page, registers the venue if needed, and only then adds a pick, room or mic.
 
 ## Revolving board
 
@@ -56,6 +66,7 @@ npm run rotate    # archive expired picks (--dry-run to preview, --now=ISO to te
 npm run preview   # serve dist/ on http://127.0.0.1:8080
 npm run ig-card -- --tonight     # cover + one card per pick tonight (also --weekend, --pick <id>)
 npm run badslava                 # refresh candidates/badslava-ny.json and print what's new
+npm run eventbrite               # refresh candidates/eventbrite.json from registered rooms' organizer pages
 ```
 
 1. Edit the JSON under `web/data/` or the pages under `web/`. Never edit `dist/`.

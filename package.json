@@ -9,6 +9,7 @@
     "ig-card": "node scripts/ig-card.js",
     "ig-post": "node scripts/ig-post.js",
     "badslava": "node scripts/badslava.js",
+    "eventbrite": "node scripts/eventbrite.js",
     "build": "rm -rf dist && mkdir -p dist && cp -R web/. dist/ && cp robots.txt sitemap.xml dist/ && node scripts/markdown.js --out=dist",
     "test": "npm run check && npm run build",
     "preview": "python3 -m http.server 8080 --bind 127.0.0.1 --directory dist"

@@ -6,7 +6,8 @@
   "borough": "Manhattan",
   "calendar_url": "https://www.caveat.nyc/events",
   "source_label": "Venue events page",
-  "access_note": "Loads plainly"
+  "access_note": "Loads plainly",
+  "eventbrite_organizer": "https://www.eventbrite.com/o/caveat-13580085802"
  },
  {
   "name": "Littlefield",
@@ -15,7 +16,8 @@
   "borough": "Brooklyn",
   "calendar_url": "https://littlefieldnyc.com/all-shows/",
   "source_label": "Venue shows page",
-  "access_note": "Loads plainly; littlefield.nyc domain is parked and not used"
+  "access_note": "Loads plainly; littlefield.nyc domain is parked and not used",
+  "eventbrite_organizer": "https://www.eventbrite.com/o/littlefield-18046024060"
  },
  {
   "name": "The Bell House",
@@ -33,7 +35,8 @@
   "borough": "Brooklyn",
   "calendar_url": "https://barhalyards.com/",
   "source_label": "Venue home (no dedicated calendar)",
-  "access_note": "Bar with no public show calendar; Bitches Brew Friday show verified via Eventbrite organizer page"
+  "access_note": "Bar with no public show calendar; Bitches Brew Friday show verified via Eventbrite organizer page",
+  "eventbrite_organizer": "https://www.eventbrite.com/o/bitches-brew-32323184465"
  },
  {
   "name": "Union Hall",
@@ -42,7 +45,8 @@
   "borough": "Brooklyn",
   "calendar_url": "https://unionhallny.com/calendar",
   "source_label": "Venue calendar page",
-  "access_note": "Loads plainly"
+  "access_note": "Loads plainly",
+  "eventbrite_organizer": "https://www.eventbrite.com/o/union-hall-17899496497"
  },
  {
   "name": "Young Ethel's",
@@ -52,7 +56,8 @@
   "calendar_url": "https://youngethels.com/",
   "source_label": "Venue home (events linked from homepage)",
   "access_note": "Loads plainly; venue confirms South Slope on its own footer",
-  "note": "5th Ave between 12th and 13th St; South Slope, not central Park Slope."
+  "note": "5th Ave between 12th and 13th St; South Slope, not central Park Slope.",
+  "eventbrite_organizer": "https://www.eventbrite.com/o/dan-wilbur-15029994612"
  },
  {
   "name": "Eris Deep Space (Brooklyn Comedy Collective)",
@@ -124,7 +129,8 @@
   "borough": "Manhattan",
   "calendar_url": "https://www.eventbrite.com/e/bomb-shelter-comedy-no-cover-tickets-147931259379",
   "source_label": "Eventbrite listing",
-  "access_note": "Venue has no public site; weekly shows run via Eventbrite"
+  "access_note": "Venue has no public site; weekly shows run via Eventbrite",
+  "eventbrite_organizer": "https://www.eventbrite.com/o/matt-a-10752062247"
  },
  {
   "name": "West Side Comedy Club",

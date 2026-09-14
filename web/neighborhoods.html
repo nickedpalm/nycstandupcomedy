@@ -19,15 +19,12 @@
 <div class="intro-poster">
 <p class="eyebrow">Stay local. Or take the train.</p>
 <h1 class="issue-title">Find a room near you.</h1>
-<p class="intro">Browse the current picks by neighborhood. This is a selection of verified events, not a complete calendar of every room in New York.</p>
+<p class="intro">Every room we track, in every borough: the clubs, the bars with a weekly show, and the mics. Pick a neighborhood for what’s on there this week.</p>
 </div>
-<p class="status" id="board-status">All times New York local. Prices and availability can change.</p>
-<label for="neighborhood">Neighborhood </label><select id="neighborhood" style="font:inherit;max-width:100%;padding:8px;border:1px solid #777"><option value="">All neighborhoods</option></select>
-<div class="filters" role="group" aria-label="Filter upcoming picks">
-<button data-filter="all" aria-pressed="true">All picks</button><button data-filter="tonight" aria-pressed="false">Tonight</button><button data-filter="weekend" aria-pressed="false">This weekend</button><button data-filter="cheap" aria-pressed="false">$15 & under</button><button data-filter="saved" aria-pressed="false">Saved</button>
-</div>
+<p class="status" id="board-status">Every room we track, by borough and neighborhood. Pick one to see this week’s shows, the weekly rooms and the open mics there.</p>
+<div class="area-picker"><label for="neighborhood">Neighborhood </label><select id="neighborhood"><option value="">All neighborhoods</option></select></div>
 <p id="result-count" class="result-count" role="status"></p>
-<div id="listings" aria-live="polite"><p>Loading this week’s picks…</p></div>
+<div id="areas" aria-live="polite"><p>Loading the neighborhood index…</p></div>
 <noscript><p>The current shortlist runs on the dated board. Enable JavaScript to see this week’s picks, or visit the <a href="https://unionhallny.com/calendar">Union Hall calendar</a>, <a href="https://www.thebellhouseny.com/">The Bell House</a>, or <a href="https://www.caveat.nyc/events">Caveat</a> for the next week of shows.</p></noscript>
 </main>
 <aside class="sidebar" aria-label="About the guide">
@@ -39,6 +36,6 @@
 <p class="stencil" aria-hidden="true"><span>Union Hall</span><span>BCC</span><span>Caveat</span><span>The Bell House</span><span>QED</span><span>SoHo Playhouse</span><span>Young Ethel’s</span><span>Halyard’s</span></p>
 <footer class="edition-footer"><p><strong>stand up comedy nyc.</strong><br>Your neighborhood window into NYC comedy.</p><p>Editorial picks are independent.<br>Any future paid placement will be labeled sponsored.</p></footer>
 </div>
-<script type="module" src="/picks.js"></script>
+<script type="module" src="/areas.js"></script>
 <script type="module" src="/signup.js"></script>
 </body></html>
