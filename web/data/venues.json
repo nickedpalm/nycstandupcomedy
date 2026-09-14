@@ -990,8 +990,11 @@
   "neighborhood": "Astoria",
   "borough": "Queens",
   "badslava_url": "https://badslava.com/details.php?id=28125",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "needs_review": false,
+  "source_label": "Instagram only (@shilltavern); own domain parked",
+  "access_note": "Astoria Irish bar (47-22 30th Ave). The shillelaghtavern.com domain is a parked Wix page; the venue does not maintain an active own website. Badslava's Wed 7:30pm weekly open mic is promoted only on Instagram — held out of open-mics.json until the venue has its own page or the mic is confirmed by the venue.",
+  "verified_at": "2026-09-14",
+  "note": "No own website. Held out — venue-controlled source for the open mic does not exist."
  },
  {
   "name": "Postcard Brewing",
@@ -999,8 +1002,11 @@
   "neighborhood": "Rockaway Beach",
   "borough": "Queens",
   "badslava_url": "https://badslava.com/details.php?id=60570",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "needs_review": false,
+  "source_label": "Instagram only; own domain parked on GoDaddy",
+  "access_note": "Rockaway Beach brewery (111-30 Beach Channel Dr, zip 11693). postcardbrewing.com is parked on GoDaddy (Domain For Sale); the venue does not maintain an active own website. Badslava lists a weather-dependent Wed 7:30pm weekly open mic — held out of open-mics.json since the venue itself does not list the mic.",
+  "verified_at": "2026-09-14",
+  "note": "No own website. Held out — venue-controlled source for the open mic does not exist."
  },
  {
   "name": "Starr Bar",
@@ -1008,8 +1014,13 @@
   "neighborhood": "Bushwick",
   "borough": "Brooklyn",
   "badslava_url": "https://badslava.com/details.php?id=7740",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "needs_review": false,
+  "website": "https://www.starrbar.com/",
+  "calendar_url": "https://www.starrbar.com/events",
+  "source_label": "Starr Bar events page (Squarespace)",
+  "access_note": "Bushwick bar (homepage self-describes as 'a Bushwick destination for unique drinks, delicious food, and seriously inspiring events'). The /events page lists Kismet Comedy (Tuesday 8:30pm stand-up showcase, $10 at the door, Sep 15 confirmed), Art vs Life Open Mic (biweekly Monday, doors 5pm, sign-ups 7pm — bands/singers/poets/dancers, not strictly stand-up), HRTuesday! (last Tuesday of every month, trans fundraiser with comedians and drag), and a weekly NYC Salsa Social & Karaoke. Hours: Mon-Thu 5pm-2am, Fri-Sat 5pm-4am, Sun 5pm-2am",
+  "verified_at": "2026-09-14",
+  "note": "Bushwick label confirmed by the venue's own homepage. Kismet Comedy is the cleanest weekly stand-up showcase on the venue's page."
  },
  {
   "name": "Essence Bar",
@@ -1017,8 +1028,11 @@
   "neighborhood": "Bedford-Stuyvesant",
   "borough": "Brooklyn",
   "badslava_url": "https://badslava.com/details.php?id=16414",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "needs_review": false,
+  "source_label": "WordPress install broken (wp-admin/setup-config.php exposed); venue site is down",
+  "access_note": "Bed-Stuy bar (1662 Atlantic Ave between Schenectady and Hopkins). The 'Venue Website' on Badslava (essencebar.com) now lands on the WordPress setup-config page — the WP install is broken/unconfigured, not a working site. Instagram (@essencebar) is the only public source. Badslava's Wed 8pm weekly 'Under New Mgmt Comedy Show' open mic is not on a venue-controlled page; held out of open-mics.json",
+  "verified_at": "2026-09-14",
+  "note": "No working venue website. Held out — venue-controlled source for the open mic does not exist."
  },
  {
   "name": "the Rock House bar and grill",
@@ -1026,8 +1040,12 @@
   "neighborhood": "Prince's Bay",
   "borough": "Staten Island",
   "badslava_url": "https://badslava.com/details.php?id=17682",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "needs_review": false,
+  "website": "https://therockhouserocks.com/",
+  "source_label": "Venue homepage (weekly schedule and Open Mic listed on the venue's own page)",
+  "access_note": "Staten Island 'only rock venue' (507 Seguine Ave, zip 10309). The venue's own 'how the week shapes up' block lists 'Weds............Open Mic night 8pm' every Wednesday; sign-up 7pm per Badslava; free. The footer confirms the address '507 Seguine Avenue, Staten Island, New York 10309'. Weekly Events block says live music 5 nights a week, plus karaoke Mondays, taco Tuesday, open mic Wednesdays, live music Th-Sun. No calendar_url since the weekly schedule is inline on the homepage.",
+  "verified_at": "2026-09-14",
+  "note": "Venue-published Wed open mic is on the venue's own homepage (open-mics.json). Address 507 Seguine Ave confirmed by venue footer."
  },
  {
   "name": "Hart Bar",
@@ -1035,8 +1053,13 @@
   "neighborhood": "Bushwick",
   "borough": "Brooklyn",
   "badslava_url": "https://badslava.com/details.php?id=39975",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "needs_review": false,
+  "website": "https://www.hartbarnyc.com/",
+  "calendar_url": "https://www.hartbarnyc.com/shows",
+  "source_label": "Hart Bar shows calendar (embedded Google Calendar)",
+  "access_note": "Bushwick bar at 538 Hart St #1 (corner of Hart St and Metropolitan). The SHOWS nav links to a Google Calendar embedded in the venue's own page; the calendar lists music, karaoke (Charlie-oke Mondays in the Garage, Savage Karaoke! Thursdays in the Garage), burlesque (The Hart of the Matter monthly Saturdays) and indie showcases. Badslava lists a bi-weekly Foolery open mic (1st & 3rd Wednesdays, Hart Garage) that does NOT appear in the venue's calendar on the relevant Wednesdays in September 2026 — mic appears dormant. Held out of open-mics.json until the venue's calendar lists it",
+  "verified_at": "2026-09-14",
+  "note": "Bushwick label kept. Venue calendar is music/karaoke/burlesque-focused; the Badslava-listed Foolery open mic is not currently on the venue's own calendar."
  },
  {
   "name": "Captain Kirk's Comedy Lounge",
@@ -1044,8 +1067,13 @@
   "neighborhood": "Bedford-Stuyvesant",
   "borough": "Brooklyn",
   "badslava_url": "https://badslava.com/details.php?id=58971",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "needs_review": false,
+  "website": "https://captainkirkscomedylounge.com/",
+  "calendar_url": "https://captainkirkscomedylounge.com/",
+  "source_label": "Captain Kirk's Comedy Lounge home (COMEDY SHOWS / EVENTS section)",
+  "access_note": "Brooklyn comedy club at 1000 Broadway (zip 11221, Broadway and Bushwick Ave; the venue's footer confirms '1000 Broadway, Brooklyn, New York 11221'). $20 per person food/beverage minimum, cash not accepted at the door. The COMEDY SHOWS / EVENTS section on the venue's own home lists Double The Trouble Thursdays (every Thursday from Aug 27, 6pm-12am, LADIES FREE), Fashion Week Every Week (Mondays starting Sep 14, 5pm-11pm) and ticketed showcase nights. Badslava's Wed 8pm Open Mic Night is run by an outside producer (@dslaughtercomedy, danniellewornall@gmail.com) — not on the venue's own page, so held out of open-mics.json",
+  "verified_at": "2026-09-14",
+  "note": "Bed-Stuyvesant label kept (zip 11221). Phone (516) area code is Long Island, but the venue confirms 1000 Broadway Brooklyn. Double Trouble Thursdays is the weekly recurring showcase."
  },
  {
   "name": "Commune Cafe + Wine Bar",
@@ -1053,8 +1081,12 @@
   "neighborhood": "Clinton Hill",
   "borough": "Brooklyn",
   "badslava_url": "https://badslava.com/details.php?id=38940",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "needs_review": false,
+  "website": "https://www.commune-nyc.com/",
+  "source_label": "Commune NYC homepage (nav has Event Calendar but calendar page 404s)",
+  "access_note": "Cafe and wine bar at 415 Classon Ave (between Classon and the Pratt area). The site's own title 'Commune NYC – Coffee Wine & Events – Bed Stuy, Brooklyn' self-labels the area Bed-Stuy, but 415 Classon sits in Clinton Hill per the address. The site loads but its main page renders only an empty article body. The /event-calendar page 404s — no working calendar_url to attach. Badslava lists a free Thu 6pm weekly 'ADHD Mic' (sign up via Slotted link) — held out of open-mics.json since the venue's own event calendar does not load.",
+  "verified_at": "2026-09-14",
+  "note": "Clinton Hill label kept (matches the address); the venue's own site title self-labels 'Bed Stuy' but 415 Classon is Clinton Hill. Site exists but event calendar subpage 404s."
  },
  {
   "name": "Terraza 7",
@@ -1062,8 +1094,13 @@
   "neighborhood": "Elmhurst",
   "borough": "Queens",
   "badslava_url": "https://badslava.com/details.php?id=32271",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "needs_review": false,
+  "website": "https://www.terraza7.com/",
+  "calendar_url": "https://www.terraza7.com/events",
+  "source_label": "Terraza 7 Concert Schedule (music-focused)",
+  "access_note": "Elmhurst live music hub (40-19 Gleane St, zip 11373; the venue's own page title self-labels '40-19 Gleane St, Elmhurst, Queens, NY 11373'). The Concert Schedule on the venue's home lists nearly-nightly Latin jazz, salsa, Brazilian jazz and Colombian folk sets — open daily 4pm-4am, performances almost every night from 8pm. Badslava's Thu 7pm weekly open mic is NOT on the venue's own page; held out of open-mics.json.",
+  "verified_at": "2026-09-14",
+  "note": "Elmhurst label kept. Live music venue — no own-page listing of a recurring stand-up mic."
  },
  {
   "name": "Partea Lab",
@@ -1071,8 +1108,12 @@
   "neighborhood": "Murray Hill",
   "borough": "Manhattan",
   "badslava_url": "https://badslava.com/details.php?id=60534",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "needs_review": false,
+  "website": "https://www.partealab.com/",
+  "source_label": "Partealab.com (announces last day of service Friday Sep 11, 2026)",
+  "access_note": "K-Town speakeasy/cyberpunk night market at 32 E 32nd St. The venue's own homepage announces 'Our last day of service will be Friday, September 11th. Book now!' — venue is closed as of Sep 12, 2026. Badslava's Humor Section Comedy Open Mic (bi-weekly Thu 7pm, English/Chinese friendly) ran there until closing but is no longer operating. Held out of open-mics.json — Humor Section co-presents the JEST ASIANS showcase with Asia Society and runs ongoing Mandarin shows at QED Astoria and Broadway Comedy Club per the Badslava notes, so the mic may move.",
+  "verified_at": "2026-09-14",
+  "note": "Venue closed Sep 11, 2026 per the venue's own homepage banner. Held out of open-mics.json — Humor Section is looking for a new room."
  },
  {
   "name": "Island Rib House",
@@ -1080,8 +1121,11 @@
   "neighborhood": "Crown Heights",
   "borough": "Brooklyn",
   "badslava_url": "https://badslava.com/details.php?id=18293",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "needs_review": false,
+  "source_label": "No working venue website (islandribhouse.com 404s)",
+  "access_note": "Crown Heights Caribbean restaurant at 611 Nostrand Ave. islandribhouse.com (the 'Venue Website' on Badslava) returns 404; no working own website. Badslava's Thu 7:30pm weekly open mic ('Thursdays', 7:30 signup, buy one item from the venue) is producer-side via book.kylekilledkyle@gmail.com — not on a venue-controlled page; held out of open-mics.json.",
+  "verified_at": "2026-09-14",
+  "note": "No own website. Held out — venue-controlled source for the open mic does not exist."
  },
  {
   "name": "Cool Beans! Coffee House",
@@ -1089,8 +1133,11 @@
   "neighborhood": "Woodside",
   "borough": "Queens",
   "badslava_url": "https://badslava.com/details.php?id=18240",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "needs_review": false,
+  "source_label": "Instagram only (@coolbeanscoffeespot); no own website",
+  "access_note": "Woodside coffee shop at 50-20 39th Ave. Both coolbeansnyc.com (returns 'Squarespace - Website Expired') and coolbeanscoffee.com (200 OK with 114 bytes of empty content) fail as a venue site. Badslava lists the free Thu 8pm weekly Pop Shop mic (sign-up via @popshopmic Instagram) — held out of open-mics.json since the venue itself does not list the mic.",
+  "verified_at": "2026-09-14",
+  "note": "No working venue website. Held out — venue-controlled source for the open mic does not exist."
  },
  {
   "name": "N&M's Pizza Bar",

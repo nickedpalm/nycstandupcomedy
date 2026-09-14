@@ -245,5 +245,43 @@
   "source_label": "Grove 34 show page (Sept 18 / Sept 25 listings)",
   "verified_at": "2026-09-14",
   "verification_note": "Grove 34's All Shows list runs Grove Comedy Sept 18 (Fri 7:30 PM) and Sept 25 (Fri 7:30 PM) with the same 'curated lineup of big names, original performances and up-and-coming all stars' description on each show page. Oct 16 lists a 'Grove Comedy Live!' special; the weekly Fri 7:30 PM Grove Comedy is the recurring slot."
+ },
+ {
+  "id": "kismet-comedy-starr-bar",
+  "tier": "recurring",
+  "title": "Kismet Comedy",
+  "cadence": "Every Tuesday",
+  "weekday": 2,
+  "time_label": "8:30pm",
+  "venue": "Starr Bar",
+  "address": "214 Starr St, Brooklyn",
+  "neighborhood": "Bushwick",
+  "price_label": "$10 at the door (cash or Venmo)",
+  "price_amount": 10,
+  "format": "Stand-up",
+  "description": "A weekly Tuesday night stand-up showcase at Starr Bar in Bushwick, featuring a changing lineup of NYC comics announced each week on the venue's own events page.",
+  "source_url": "https://www.starrbar.com/events",
+  "source_label": "Starr Bar events page (Kismet Comedy listing)",
+  "verified_at": "2026-09-14",
+  "verification_note": "Starr Bar's /events page lists Kismet Comedy on Tuesday, September 15th at 8:30pm with '🔮💫KISMET COMEDY🔮💫 ... $10 tickets at the door cash or Venmo 🎟️ You're destined to be there 💫'. The page title 'Starr Bar Events' confirms it's the venue's own calendar. Cadence set to 'Every Tuesday' as the cleanest recurring weekly stand-up slot on the venue's page; other recurring Starr Bar items (Art vs Life Open Mic biweekly Mondays, HRTuesday! last Tuesdays, weekly salsa social) are not stand-up showcases and are held out."
+ },
+ {
+  "id": "double-trouble-thursdays-captain-kirks",
+  "tier": "recurring",
+  "title": "Double Trouble Thursdays",
+  "cadence": "Every Thursday",
+  "weekday": 4,
+  "time_label": "6pm – midnight",
+  "venue": "Captain Kirk's Comedy Lounge",
+  "address": "1000 Broadway, Brooklyn",
+  "neighborhood": "Bedford-Stuyvesant",
+  "price_label": "See ticket page · LADIES FREE · $20 food/beverage minimum",
+  "price_amount": null,
+  "format": "Stand-up",
+  "description": "Captain Kirk's Comedy Lounge's weekly Thursday showcase at 1000 Broadway in Bed-Stuy. The club runs 6pm to midnight every Thursday with ladies free; the venue's own home page lists 'Double The Trouble Thursdays' starting August 27 and every Thursday after.",
+  "source_url": "https://captainkirkscomedylounge.com/",
+  "source_label": "Captain Kirk's Comedy Lounge home (COMEDY SHOWS / EVENTS)",
+  "verified_at": "2026-09-14",
+  "verification_note": "Venue's own home page COMEDY SHOWS / EVENTS section lists 'Double The Trouble Thursdays — Starting August 27 / Every Thursdays After' with hours 6:00PM – 12:00AM. Page also lists Fashion Week Every Week (Mondays starting Sep 14) as a separate recurring event."
  }
 ]

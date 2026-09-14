@@ -309,5 +309,25 @@
   "source_url": "https://www.anbealbochtcafe.com/events-programs",
   "source_label": "An Beal Bocht Events & Programs calendar",
   "verified_at": "2026-09-14"
+ },
+ {
+  "id": "open-mic-wednesday-rock-house",
+  "tier": "open-mic",
+  "title": "Open Mic Night at The Rock House",
+  "weekday": 3,
+  "cadence": "Every Wednesday",
+  "time_label": "8pm (sign-up 7pm)",
+  "venue": "the Rock House bar and grill",
+  "address": "507 Seguine Ave, Staten Island",
+  "neighborhood": "Prince's Bay",
+  "cost_label": "Free",
+  "signup": "Sign up at the venue (7pm)",
+  "set_length": "Not stated on the venue page",
+  "formats": "Stand-up and live performance",
+  "age": null,
+  "notes": "A free Wednesday open mic at Staten Island's only rock venue. The Rock House's own homepage 'how the week shapes up' block lists 'Weds............Open Mic night 8pm' as a recurring weekly event. Badslava confirms 7pm sign-up, 8pm start. The venue's own page is the source of record.",
+  "source_url": "https://therockhouserocks.com/",
+  "source_label": "The Rock House bar and grill homepage (weekly schedule)",
+  "verified_at": "2026-09-14"
  }
 ]
