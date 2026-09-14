@@ -17,7 +17,7 @@
  },
  {
   "event_id": "quacks-whacks-20260913",
-  "src": "/assets/posters/quacks-whacks.png",
+  "src": "/assets/posters/archive/quacks-whacks.png",
   "width": 1728,
   "height": 2304,
   "source_url": "https://www.quacksandwhackscomedy.com/",
@@ -28,11 +28,12 @@
   "retrieved_at": "2026-09-12",
   "bytes": 4267329,
   "sha256": "d8eac687e867d0953938745fe45cdb076e41759397c6ec68cc6c04e2b968a979",
-  "reuse_status": "Official promotional artwork; no separate reuse license identified. Local review draft only."
+  "reuse_status": "Official promotional artwork; no separate reuse license identified. Local review draft only.",
+  "archived": true
  },
  {
   "event_id": "rainbow-riot-20260913",
-  "src": "/assets/posters/rainbow-riot-20260913.webp",
+  "src": "/assets/posters/archive/rainbow-riot-20260913.webp",
   "width": 1080,
   "height": 1350,
   "source_url": "https://www.brooklyncc.com/show-schedule/rainbowriot-9-13",
@@ -43,7 +44,8 @@
   "retrieved_at": "2026-09-12",
   "bytes": 608138,
   "sha256": "e3fe637befd41310146fa16b3cebf929cbc30ef1a5cc60cba68aaa47be5e9ff2",
-  "reuse_status": "Official promotional artwork; no separate reuse license identified. Local review draft only."
+  "reuse_status": "Official promotional artwork; no separate reuse license identified. Local review draft only.",
+  "archived": true
  },
  {
   "event_id": "emil-wakim-2026-09-12-1930",
@@ -63,7 +65,7 @@
  },
  {
   "event_id": "steve-martin-presents-2026-09-13-1700",
-  "src": "/assets/posters/steve-martin-presents-2026-09-13-1700.jpg",
+  "src": "/assets/posters/archive/steve-martin-presents-2026-09-13-1700.jpg",
   "width": 2160,
   "height": 1080,
   "source_url": "https://www.eventbrite.com/e/steve-martin-presents-with-andrew-dismukes-and-michael-good-tickets-1998517859717",
@@ -74,7 +76,8 @@
   "retrieved_at": "2026-09-11",
   "bytes": 299662,
   "sha256": "6245f5e5dad877acb87aa426ac6685867314eaa72f19b87f2b172a69771b4f7e",
-  "reuse_status": "Official promotional artwork; no separate reuse license identified. Local review draft only."
+  "reuse_status": "Official promotional artwork; no separate reuse license identified. Local review draft only.",
+  "archived": true
  },
  {
   "event_id": "rachel-kaly-2026-09-14-2200",
