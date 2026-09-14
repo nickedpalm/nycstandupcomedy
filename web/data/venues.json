@@ -308,5 +308,752 @@
   "source_label": "Club home (upcoming events)",
   "access_note": "Improv.com template; loads plainly. Two rooms: Main Room and The Lab",
   "verified_at": "2026-09-14"
+ },
+ {
+  "name": "The Grisly Pear",
+  "address": "107 MacDougal St, Manhattan",
+  "neighborhood": "Greenwich Village",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=50545",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "The Grisly Pear - Midtown",
+  "address": "243 W 54th St, Manhattan",
+  "neighborhood": "Midtown West",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=61395",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Bond Street Guitars",
+  "address": "297 Bond St, Brooklyn",
+  "neighborhood": "Gowanus",
+  "borough": "Brooklyn",
+  "badslava_url": "https://badslava.com/details.php?id=57270",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Pete's Candy Store",
+  "address": "709 Lorimer St, Brooklyn",
+  "neighborhood": "Williamsburg",
+  "borough": "Brooklyn",
+  "badslava_url": "https://badslava.com/details.php?id=35892",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Flop House Comedy Club",
+  "address": "362 Grand St, Brooklyn",
+  "neighborhood": "Williamsburg",
+  "borough": "Brooklyn",
+  "badslava_url": "https://badslava.com/details.php?id=38706",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Phoenix Bar",
+  "address": "447 E 13th St, Manhattan",
+  "neighborhood": "East Village",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=47322",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Laughing Buddha Comedy",
+  "address": "410 8th Ave 2nd floor, Manhattan",
+  "neighborhood": "Chelsea",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=48478",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Producers Club Theaters",
+  "address": "358 W 44th St, Manhattan",
+  "neighborhood": "Hell's Kitchen",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=10634",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Rodney's Comedy Club",
+  "address": "1118 1st Ave, Manhattan",
+  "neighborhood": "Upper East Side",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=58259",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Brooklyn Art Haus",
+  "address": "24 Marcy Ave, Brooklyn",
+  "neighborhood": "Williamsburg",
+  "borough": "Brooklyn",
+  "badslava_url": "https://badslava.com/details.php?id=39971",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Baby Grand LES",
+  "address": "187 Orchard Street, Manhattan",
+  "neighborhood": "Lower East Side",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=54604",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "The Fear City Comedy Club",
+  "address": "17 Essex St, Manhattan",
+  "neighborhood": "Lower East Side",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=31844",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "The Hop Shoppe",
+  "address": "372 Van Duzer St, Staten Island",
+  "neighborhood": "Stapleton",
+  "borough": "Staten Island",
+  "badslava_url": "https://badslava.com/details.php?id=9359",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Secret Pour",
+  "address": "1114 Dekalb Ave, Brooklyn",
+  "neighborhood": "Bushwick",
+  "borough": "Brooklyn",
+  "badslava_url": "https://badslava.com/details.php?id=37321",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "O'Keefe's Bar And Grill",
+  "address": "62 Court St, Brooklyn",
+  "neighborhood": "Downtown Brooklyn",
+  "borough": "Brooklyn",
+  "badslava_url": "https://badslava.com/details.php?id=9257",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Liffy II Bar",
+  "address": "5009 Broadway, Manhattan",
+  "neighborhood": "Inwood",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=50650",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "The Local NY",
+  "address": "13-02 44th Ave, Queens",
+  "neighborhood": "Long Island City",
+  "borough": "Queens",
+  "badslava_url": "https://badslava.com/details.php?id=53946",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "The PIT",
+  "address": "154 W 29th St, Manhattan",
+  "neighborhood": "Chelsea",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=30400",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Sesh Comedy",
+  "address": "55 Chrystie St, Manhattan",
+  "neighborhood": "Lower East Side",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=42427",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Comedy In Harlem",
+  "address": "750A St Nicholas Ave, Manhattan",
+  "neighborhood": "Harlem",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=18168",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Pine Box Rock Shop",
+  "address": "12 Grattan St, Brooklyn",
+  "neighborhood": "Bushwick",
+  "borough": "Brooklyn",
+  "badslava_url": "https://badslava.com/details.php?id=1744",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Echo Bravo",
+  "address": "445 Troutman St, Brooklyn",
+  "neighborhood": "Bushwick",
+  "borough": "Brooklyn",
+  "badslava_url": "https://badslava.com/details.php?id=31181",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "BK Made Comedy",
+  "address": "1241 Halsey St, Brooklyn",
+  "neighborhood": "Bushwick",
+  "borough": "Brooklyn",
+  "badslava_url": "https://badslava.com/details.php?id=38443",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Freddy's Bar",
+  "address": "627 5th Ave, Brooklyn",
+  "neighborhood": "South Slope",
+  "borough": "Brooklyn",
+  "badslava_url": "https://badslava.com/details.php?id=10525",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Suite",
+  "address": "992 Amsterdam Ave, Manhattan",
+  "neighborhood": "Upper West Side",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=30431",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Good Judy",
+  "address": "563 5th Ave, Brooklyn",
+  "neighborhood": "South Slope",
+  "borough": "Brooklyn",
+  "badslava_url": "https://badslava.com/details.php?id=38265",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "SkyBox Sports Bar",
+  "address": "2241 1st Ave, Manhattan",
+  "neighborhood": "East Harlem",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=39973",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Zofia's Hideout",
+  "address": "301 E 84th St, Manhattan",
+  "neighborhood": "Upper East Side",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=46895",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "The Wild Goose",
+  "address": "5420 Roosevelt Ave, Queens",
+  "neighborhood": "Woodside",
+  "borough": "Queens",
+  "badslava_url": "https://badslava.com/details.php?id=28127",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "The Cobra Club",
+  "address": "6 Wyckoff Ave, Brooklyn",
+  "neighborhood": "Bushwick",
+  "borough": "Brooklyn",
+  "badslava_url": "https://badslava.com/details.php?id=15184",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Freda",
+  "address": "8-01 Seneca Ave #801, Queens",
+  "neighborhood": "Ridgewood",
+  "borough": "Queens",
+  "badslava_url": "https://badslava.com/details.php?id=28124",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Red Eye NY",
+  "address": "355 W. 41st Street, Manhattan",
+  "neighborhood": "Hell's Kitchen",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=38646",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Area 140 First Bar",
+  "address": "140 1st Ave, Manhattan",
+  "neighborhood": "East Village",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=39265",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Grove 34",
+  "address": "31-83 34th St, Queens",
+  "neighborhood": "Astoria",
+  "borough": "Queens",
+  "badslava_url": "https://badslava.com/details.php?id=10042",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "The Windjammer",
+  "address": "552 Grandview Ave, Queens",
+  "neighborhood": "Ridgewood",
+  "borough": "Queens",
+  "badslava_url": "https://badslava.com/details.php?id=10064",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Otto's Shrunken Head",
+  "address": "538 E 14th St, Manhattan",
+  "neighborhood": "East Village",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=33394",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "The Throwback",
+  "address": "710 Amsterdam Ave, Manhattan",
+  "neighborhood": "Upper West Side",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=61409",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "The Rose",
+  "address": "160 W 25th St, Manhattan",
+  "neighborhood": "Chelsea",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=10894",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Lust77 bar&grill",
+  "address": "2363 Adam Clayton Powell Jr Blvd, Manhattan",
+  "neighborhood": "Harlem",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=31020",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Silvana",
+  "address": "300 W 116 St, Manhattan",
+  "neighborhood": "Harlem",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=35958",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Room 52",
+  "address": "212 E 52nd St, Manhattan",
+  "neighborhood": "Midtown East",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=38390",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "iNine Bistro",
+  "address": "53 Bruckner Blvd, Bronx",
+  "neighborhood": "Mott Haven",
+  "borough": "Bronx",
+  "badslava_url": "https://badslava.com/details.php?id=10393",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "The Duplex",
+  "address": "61 Christopher St, Manhattan",
+  "neighborhood": "West Village",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=10137",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Block Hill Station",
+  "address": "718 5th Ave, Brooklyn",
+  "neighborhood": "Greenwood Heights",
+  "borough": "Brooklyn",
+  "badslava_url": "https://badslava.com/details.php?id=31959",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Comedy Village",
+  "address": "352 W 44th St, Manhattan",
+  "neighborhood": "Hell's Kitchen",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=60922",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "The Corner Store",
+  "address": "753 Nostrand Ave, Brooklyn",
+  "neighborhood": "Crown Heights",
+  "borough": "Brooklyn",
+  "badslava_url": "https://badslava.com/details.php?id=36711",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Somebody's Darling",
+  "address": "1664 1st Ave, Manhattan",
+  "neighborhood": "Upper East Side",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=13980",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Teddy's F&B Bar & Grill",
+  "address": "2171 2nd Ave, Manhattan",
+  "neighborhood": "East Harlem",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=13923",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Branded Saloon",
+  "address": "603 Vanderbilt Ave, Brooklyn",
+  "neighborhood": "Prospect Heights",
+  "borough": "Brooklyn",
+  "badslava_url": "https://badslava.com/details.php?id=20433",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "An Beal Bocht Cafe",
+  "address": "445 W 238th St, Bronx",
+  "neighborhood": "Riverdale",
+  "borough": "Bronx",
+  "badslava_url": "https://badslava.com/details.php?id=36838",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Under St Marks",
+  "address": "94 St Marks Place, Manhattan",
+  "neighborhood": "East Village",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=48992",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Hotel Edison",
+  "address": "228 W 47th St, Manhattan",
+  "neighborhood": "Times Square",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=33367",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "St. Marks Comedy Club",
+  "address": "12 St Marks Pl, Manhattan",
+  "neighborhood": "East Village",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=32067",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "El Barrista cafe",
+  "address": "2154 Third Ave, Manhattan",
+  "neighborhood": "East Harlem",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=59064",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Mae Mae Cafe And Plant Shop",
+  "address": "2417 Third Ave, Bronx",
+  "neighborhood": "Mott Haven",
+  "borough": "Bronx",
+  "badslava_url": "https://badslava.com/details.php?id=13882",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Judy Z's",
+  "address": "1 7th Ave S, Manhattan",
+  "neighborhood": "West Village",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=17133",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Five Flies Coffee",
+  "address": "554 W 158th St, Manhattan",
+  "neighborhood": "Washington Heights",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=19275",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Alligator Lounge",
+  "address": "600 Metropolitan Ave, Brooklyn",
+  "neighborhood": "Williamsburg",
+  "borough": "Brooklyn",
+  "badslava_url": "https://badslava.com/details.php?id=48022",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "One and One",
+  "address": "76 E 1st St, Manhattan",
+  "neighborhood": "East Village",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=50569",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Caravan Of Dreams",
+  "address": "405 East 6th St, Manhattan",
+  "neighborhood": "East Village",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=10523",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Brooklyn Beso",
+  "address": "370 Lewis Ave, Brooklyn",
+  "neighborhood": "Bedford-Stuyvesant",
+  "borough": "Brooklyn",
+  "badslava_url": "https://badslava.com/details.php?id=43402",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "The Shillelagh Tavern",
+  "address": "47-22 30th Ave., Queens",
+  "neighborhood": "Astoria",
+  "borough": "Queens",
+  "badslava_url": "https://badslava.com/details.php?id=28125",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Postcard Brewing",
+  "address": "111-30 Beach Channel Dr, Queens",
+  "neighborhood": "Rockaway Beach",
+  "borough": "Queens",
+  "badslava_url": "https://badslava.com/details.php?id=60570",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Starr Bar",
+  "address": "214 Starr St, Brooklyn",
+  "neighborhood": "Bushwick",
+  "borough": "Brooklyn",
+  "badslava_url": "https://badslava.com/details.php?id=7740",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Essence Bar",
+  "address": "1662 Atlantic Ave, Brooklyn",
+  "neighborhood": "Bedford-Stuyvesant",
+  "borough": "Brooklyn",
+  "badslava_url": "https://badslava.com/details.php?id=16414",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "the Rock House bar and grill",
+  "address": "507 Seguine Ave, Staten Island",
+  "neighborhood": "Prince's Bay",
+  "borough": "Staten Island",
+  "badslava_url": "https://badslava.com/details.php?id=17682",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Hart Bar",
+  "address": "538 Hart St #1, Brooklyn",
+  "neighborhood": "Bushwick",
+  "borough": "Brooklyn",
+  "badslava_url": "https://badslava.com/details.php?id=39975",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Captain Kirk's Comedy Lounge",
+  "address": "1000 Broadway, Brooklyn",
+  "neighborhood": "Bedford-Stuyvesant",
+  "borough": "Brooklyn",
+  "badslava_url": "https://badslava.com/details.php?id=58971",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Commune Cafe + Wine Bar",
+  "address": "415 Classon Ave, Brooklyn",
+  "neighborhood": "Clinton Hill",
+  "borough": "Brooklyn",
+  "badslava_url": "https://badslava.com/details.php?id=38940",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Terraza 7",
+  "address": "40-19 Gleane St, Queens",
+  "neighborhood": "Elmhurst",
+  "borough": "Queens",
+  "badslava_url": "https://badslava.com/details.php?id=32271",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Partea Lab",
+  "address": "32 E 32nd St, Manhattan",
+  "neighborhood": "Murray Hill",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=60534",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Island Rib House",
+  "address": "611 Nostrand Ave, Brooklyn",
+  "neighborhood": "Crown Heights",
+  "borough": "Brooklyn",
+  "badslava_url": "https://badslava.com/details.php?id=18293",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Cool Beans! Coffee House",
+  "address": "50-20 39th Ave, Queens",
+  "neighborhood": "Woodside",
+  "borough": "Queens",
+  "badslava_url": "https://badslava.com/details.php?id=18240",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "N&M's Pizza Bar",
+  "address": "2048 Amsterdam Ave, Manhattan",
+  "neighborhood": "Washington Heights",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=48674",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Mexican Mariachi Cantina",
+  "address": "10 Minthorne St, Staten Island",
+  "neighborhood": "Tompkinsville",
+  "borough": "Staten Island",
+  "badslava_url": "https://badslava.com/details.php?id=52479",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Acoustik Garden Lounge",
+  "address": "1515 Atlantic Ave, Brooklyn",
+  "neighborhood": "Crown Heights",
+  "borough": "Brooklyn",
+  "badslava_url": "https://badslava.com/details.php?id=16535",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Blind Barber",
+  "address": "339 E 10th St, Manhattan",
+  "neighborhood": "East Village",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=59662",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Bibblebash",
+  "address": "1139 Jefferson Ave #1, Brooklyn",
+  "neighborhood": "Bushwick",
+  "borough": "Brooklyn",
+  "badslava_url": "https://badslava.com/details.php?id=54654",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Dacia Gallery",
+  "address": "621 East 11st, Manhattan",
+  "neighborhood": "East Village",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=47994",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Qahwah House - Broadway",
+  "address": "2869 Broadway, Manhattan",
+  "neighborhood": "Morningside Heights",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=61389",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Ruhani Cafe",
+  "address": "519 Atlantic Ave, Brooklyn",
+  "neighborhood": "Boerum Hill",
+  "borough": "Brooklyn",
+  "badslava_url": "https://badslava.com/details.php?id=60894",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Black Cat LES",
+  "address": "172 Rivington St, Manhattan",
+  "neighborhood": "Lower East Side",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=10052",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+ },
+ {
+  "name": "Balance Arts Center",
+  "address": "151 W 30th St 3rd floor, Manhattan",
+  "neighborhood": "Chelsea",
+  "borough": "Manhattan",
+  "badslava_url": "https://badslava.com/details.php?id=58507",
+  "needs_review": true,
+  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
  }
 ]

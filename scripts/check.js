@@ -82,7 +82,9 @@ checkCommon('clubs', readJson('clubs.json'), ['id', 'name', 'neighborhood', 'add
 // Venue registry: every venue named in the data must match its registered neighborhood.
 const venues = readJson('venues.json');
 const byVenue = new Map(venues.map((v) => [v.name, v]));
-venues.forEach((v, i) => { for (const k of ['name', 'address', 'neighborhood', 'borough']) if (!v[k]) fail(`venues[${i}]: missing ${k}`); if (v.calendar_url !== undefined && !https(v.calendar_url)) fail(`venues[${i}] ${v.name}: calendar_url must be https`); });
+venues.forEach((v, i) => { for (const k of ['name', 'address', 'neighborhood', 'borough']) if (!v[k]) fail(`venues[${i}]: missing ${k}`); if (v.calendar_url !== undefined && !https(v.calendar_url)) fail(`venues[${i}] ${v.name}: calendar_url must be https`); if (v.website !== undefined && !https(v.website)) fail(`venues[${i}] ${v.name}: website must be https`); });
+const review = venues.filter((v) => v.needs_review).length;
+if (review) warn(`venues: ${review} registered from listings still need review (neighborhood, website, events page)`);
 const venueCheck = (file, rows) => rows.forEach((r) => {
   const name = r.venue || r.name; if (!name) return;
   const v = byVenue.get(name);
