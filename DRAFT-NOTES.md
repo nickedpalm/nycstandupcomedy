@@ -69,3 +69,6 @@ Nick preferred the previous board, so the Tonight-first layout (Tonight block, T
 
 ## Venue registry — September 14, 2026
 Nick: every venue carries a neighborhood as a layer of site logic. Added web/data/venues.json (23 rooms with address, neighborhood, borough). picks.js and board.js now take the neighborhood from the registry by venue name; the record's own field is only a fallback. check.js fails on unregistered venues or neighborhood/address disagreements. Corrected Young Ethel's (506 5th Ave, 12th–13th St) from Park Slope to South Slope; Halyard's was already Gowanus. Open-mic records for New York Comedy Club now name the room (Midtown / East Village) to match the registry.
+
+## Living flyer shelf — September 14, 2026
+Nick wanted the animated-poster feel of the 2017 Comedy Cellar site. The pinned shelf now holds three slots and cycles through every upcoming pick with artwork (featured first), crossfading one slot every 6 seconds; each flyer drifts slowly (Ken Burns) with staggered timing. Cycling pauses on hover, focus and hidden tabs; prefers-reduced-motion disables drift and transitions but keeps the swap. Image files are untouched; this is presentation only. Verified headless at 1280 and 390 against a five-poster copy: slot swap observed, no overflow, no console errors.

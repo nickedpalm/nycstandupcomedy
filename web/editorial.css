@@ -219,3 +219,16 @@ body{background-color:#5b2a17;background-image:linear-gradient(90deg,#1a0c07d9,t
 @media(max-width:900px){.pinned-pick .show-flyer img{height:230px}.featured-board{margin-inline:-28px}}
 @media(max-width:700px){#listings,#mic-listings,#club-listings{padding:12px 12px 18px;transform:none}#listings>*,#mic-listings>*,#club-listings>*{transform:none}.featured-board{margin-inline:-20px;padding:22px 16px 24px}.pinned-pick .show-flyer img{height:160px}.pinned-pick h3{font-size:17px}.sidebox{transform:none}.day>h3{margin-inline:0;font-size:18px}.pick.listing-row{padding:14px 2px 16px}}
 @media(max-width:400px){.pinned-pick .show-flyer img{height:130px}.pinned-pick .show-flyer>a{transform:none}}
+
+/* Living flyer shelf, September 14, 2026: slots cycle through every poster on the board; each flyer drifts slowly. */
+.pinned-pick .show-flyer{overflow:hidden}
+.pinned-pick .show-flyer img{transform-origin:50% 40%;animation:flyer-drift 16s ease-in-out infinite alternate}
+.pinned-pick:nth-child(2) .show-flyer img{animation-duration:19s;animation-delay:-6s;transform-origin:40% 60%}
+.pinned-pick:nth-child(3) .show-flyer img{animation-duration:22s;animation-delay:-11s;transform-origin:60% 30%}
+@keyframes flyer-drift{from{transform:scale(1) translate(0,0)}to{transform:scale(1.07) translate(-1.5%,1.5%)}}
+.pinned-pick{transition:opacity .45s ease,transform .45s ease}
+.pinned-pick.is-leaving{opacity:0;transform:translateY(6px) rotate(0deg)}
+.pinned-pick.is-entering{animation:pin-in .7s ease-out}
+@keyframes pin-in{from{opacity:0;transform:translateY(-10px) scale(.98)}to{opacity:1}}
+.pinned-pick:hover .show-flyer img{animation-play-state:paused}
+@media (prefers-reduced-motion:reduce){.pinned-pick .show-flyer img{animation:none}.pinned-pick{transition:none}.pinned-pick.is-entering{animation:none}}

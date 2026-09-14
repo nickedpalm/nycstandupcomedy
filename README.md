@@ -26,7 +26,7 @@ DRAFT-NOTES.md, QA-NOTES.md, RECURRING-INTAKE.md, POSTER-INTAKE.md
 
 | File | What it holds | Tier value |
 |---|---|---|
-| `web/data/picks.json` | Dated one-off shows on the home board. At most three are `featured` and need artwork. | `featured`, `special` |
+| `web/data/picks.json` | Dated one-off shows on the home board. The flyer shelf shows every upcoming pick that has artwork, `featured` ones first, three at a time, cycling through the rest every few seconds with a slow drift on each flyer. | `featured`, `special` |
 | `web/data/recurring.json` | Weekly and monthly bar shows in the home sidebar. | `recurring` |
 | `web/data/open-mics.json` | Open mics grouped by night on /open-mics.html. | `open-mic` |
 | `web/data/clubs.json` | Manhattan clubs with policies on /clubs.html. | `club` |
