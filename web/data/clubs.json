@@ -138,5 +138,25 @@
   "source_label": "About page",
   "verified_at": "2026-09-11",
   "verification_note": "Address and rooms from the site; no policy page found. Minimum seen only on individual show flyers."
+ },
+ {
+  "id": "comedy-in-harlem",
+  "tier": "club",
+  "name": "Comedy In Harlem",
+  "rooms": "One room with a full kitchen and bar, at St Nicholas Ave and 147th St, steps from the 145th St A/B/C/D",
+  "address": "750A St Nicholas Ave, Manhattan",
+  "neighborhood": "Harlem",
+  "price_label": "$5 Tuesday competition · $20 to $25 most ticketed shows",
+  "price_low": 5,
+  "price_high": 25,
+  "minimum": "$18 food and drink per person at ticketed shows",
+  "age": "21+",
+  "reservations": "Online through the club's site. Walk-up cover is higher than presale; tickets are non-refundable; parties are seated as purchased.",
+  "character": "Harlem's club, with something on most nights: a Tuesday cash competition, Monday karaoke-and-comedy, monthly Third Thursdays and Ladies Night, and touring headliners on weekends. A full dinner menu and a crowd that talks back.",
+  "calendar_url": "https://www.comedyinharlem.com/events",
+  "source_url": "https://www.comedyinharlem.com/events",
+  "source_label": "Events pages",
+  "verified_at": "2026-09-14",
+  "verification_note": "Age, minimum, refund and seating rules from the club's own event pages (Leonard Ouzts, Flash Feature, R&B Karaoke listings). Prices from the same pages: $5 Paid by the Bell, $20 Flash Feature and Third Thursdays, $25 headliners."
  }
 ]
