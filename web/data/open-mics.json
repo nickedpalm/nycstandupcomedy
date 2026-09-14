@@ -289,5 +289,25 @@
   "source_url": "https://redeyeny.com/event/crash-landing-comedy/",
   "source_label": "Red Eye NY Crash Landing Comedy event page",
   "verified_at": "2026-09-14"
+ },
+{
+  "id": "open-mic-eric-sullivan-an-beal-bocht",
+  "tier": "open-mic",
+  "title": "Open Mic w/ Eric Sullivan",
+  "weekday": 2,
+  "cadence": "Every Tuesday",
+  "time_label": "9pm – midnight",
+  "venue": "An Beal Bocht Cafe",
+  "address": "445 W 238th St, Bronx",
+  "neighborhood": "Riverdale",
+  "cost_label": "Free",
+  "signup": "Sign up at the venue",
+  "set_length": "Not stated on the venue calendar",
+  "formats": "Stand-up and other open-mic forms",
+  "age": null,
+  "notes": "Hosted by Eric Sullivan at An Beal Bocht Cafe in Riverdale; venue's own Events & Programs calendar shows the mic on every Tuesday from 9pm to midnight. Badslava lists the same mic ($0); the venue's calendar is the venue-controlled source.",
+  "source_url": "https://www.anbealbochtcafe.com/events-programs",
+  "source_label": "An Beal Bocht Events & Programs calendar",
+  "verified_at": "2026-09-14"
  }
 ]
