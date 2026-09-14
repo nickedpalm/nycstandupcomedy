@@ -78,3 +78,6 @@ Every poster currently on the board is a wide crop (Eventbrite and Union Hall se
 
 ## Sidebar rooms by night — September 14, 2026
 With 15 recurring rooms the WEEKLY & MONTHLY ROOMS rail is now grouped by night, starting with Tonight and Tomorrow, then the rest of the week in order; rooms sort by start time within a night, and "Every X" cadences are dropped from the detail line since the heading says the night. Monthly cadences still show. Verified headless: seven night headings, 15 rooms, no errors.
+
+## Agent-readable edition — September 14, 2026
+isitagentready.com scored the site Level 2 (Bot-Aware); the missing piece for Level 3 was Markdown content negotiation, and most other "failures" were the SPA fallback returning the home page for unknown paths. Added: a styled 404.html; scripts/markdown.js building a Markdown edition of every section plus llms.txt at build time; functions/_middleware.js serving it for Accept: text/markdown with Vary and Link headers; /.well-known/api-catalog listing the JSON data; _headers for content types and CORS on /data/. Verified in wrangler pages dev: negotiation, 404 status, catalog type, signup unaffected.

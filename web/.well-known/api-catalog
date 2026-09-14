@@ -1,0 +1,17 @@
+{
+ "linkset": [
+  {
+   "anchor": "https://standupcomedynyc.com/",
+   "service-desc": [
+    {"href": "https://standupcomedynyc.com/data/picks.json", "type": "application/json", "title": "Upcoming picks: dated NYC stand-up shows with start and end times, venue, neighborhood, price and the source page each was verified against"},
+    {"href": "https://standupcomedynyc.com/data/recurring.json", "type": "application/json", "title": "Weekly and monthly bar shows and showcases, one record per night"},
+    {"href": "https://standupcomedynyc.com/data/open-mics.json", "type": "application/json", "title": "Stand-up open mics by weekday with cost and sign-up rules"},
+    {"href": "https://standupcomedynyc.com/data/clubs.json", "type": "application/json", "title": "Manhattan comedy clubs with ticket range, minimum, age and reservation policy"},
+    {"href": "https://standupcomedynyc.com/data/venues.json", "type": "application/json", "title": "Venue registry: every room with address, neighborhood, borough and calendar page"}
+   ],
+   "service-doc": [
+    {"href": "https://standupcomedynyc.com/llms.txt", "type": "text/plain", "title": "Guide for agents and crawlers, with Markdown editions of every section"}
+   ]
+  }
+ ]
+}

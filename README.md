@@ -17,6 +17,9 @@ scripts/badslava.js  pulls Badslava's New York open-mic table into candidates/ f
 candidates/          discovery output (crowd-sourced, unverified); never served, never copied into web/data without a venue check
 web/assets/fonts/    Oswald and Permanent Marker (OFL/Apache) for offline card rendering
 functions/api/       Cloudflare Pages Function for POST /api/subscribe (Listmonk)
+functions/_middleware.js  serves the Markdown edition when a client asks for text/markdown
+scripts/markdown.js  builds the Markdown edition and llms.txt into dist/ (run by npm run build)
+web/404.html, web/_headers, web/.well-known/api-catalog
 scripts/check.js     data and source checks run by `npm test` and CI
 robots.txt, sitemap.xml
 POSTER-SOURCES.json  provenance for every piece of artwork in web/assets/posters
@@ -76,6 +79,10 @@ curl -s https://standupcomedynyc.com/editorial.css | md5sum; md5sum web/editoria
 `npm run ig-card -- --tonight` renders a Tonight cover and one card per pick into `web/assets/ig/`, so a push makes them public at standupcomedynyc.com/assets/ig/<id>.jpg, which the Instagram API needs. Cards are text-only in the site's style. Artwork is included only when its record in POSTER-SOURCES.json has `reuse: "granted"`. Paid listings are labeled on the card. Rendering needs a Chromium headless shell: set `IG_BROWSER` or let the script find one under `PLAYWRIGHT_BROWSERS_PATH` or `~/.cache/ms-playwright`. Rotation deletes cards for expired picks and past covers.
 
 Posting: `npm run ig-post -- --tonight` publishes the cover plus tonight's cards as one carousel (`--story` for a story, `--pick <id>` for a single show, `--dry-run` to preview). It needs `IG_ACCESS_TOKEN` and `IG_USER_ID` in the environment, from a Meta app using the Instagram API with Instagram Login, and the cards must already be pushed so their URLs are public. Every post is appended to POSTED-IG.json and the same pick is refused twice in a day. `--refresh-token` extends the 60-day token; set `IG_TOKEN_FILE` to save it.
+
+## Agents and crawlers
+
+The build writes a Markdown edition of every section (index.md, this-week.md, rooms.md, open-mics.md, clubs.md, neighborhoods.md) plus llms.txt into dist/ from the same JSON. A Pages middleware returns the Markdown version of a page when the request prefers `text/markdown`, with a Link header pointing at it either way. `/.well-known/api-catalog` (RFC 9727 linkset) lists the JSON data files, and `web/_headers` sets their content types and open CORS on /data/. A real 404 page means unknown paths no longer return the home page with a 200.
 
 ## Newsletter
 

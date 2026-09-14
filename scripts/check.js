@@ -140,14 +140,19 @@ if (fs.existsSync(archiveDir)) {
 const sitemap = fs.readFileSync(path.join(root, 'sitemap.xml'), 'utf8');
 const locs = [...sitemap.matchAll(/<loc>https:\/\/standupcomedynyc\.com\/([^<]*)<\/loc>/g)].map((m) => m[1] || 'index.html');
 locs.forEach((p) => { if (!fs.existsSync(path.join(web, p))) fail(`sitemap.xml: ${p} does not exist in web/`); });
-fs.readdirSync(web).filter((f) => f.endsWith('.html')).forEach((f) => {
+fs.readdirSync(web).filter((f) => f.endsWith('.html') && f !== '404.html').forEach((f) => {
   if (!locs.includes(f)) fail(`sitemap.xml: web/${f} is not listed`);
 });
+
+// API catalog must be valid JSON.
+try { JSON.parse(fs.readFileSync(path.join(web, '.well-known', 'api-catalog'), 'utf8')); } catch (err) { fail(`.well-known/api-catalog: ${err.message}`); }
 
 // JavaScript syntax for browser scripts and the Pages function.
 const jsFiles = [
   ...fs.readdirSync(web).filter((f) => f.endsWith('.js')).map((f) => path.join(web, f)),
   path.join(root, 'functions', 'api', 'subscribe.js'),
+  path.join(root, 'functions', '_middleware.js'),
+  path.join(root, 'scripts', 'markdown.js'),
 ];
 jsFiles.forEach((file) => {
   try { execFileSync(process.execPath, ['--check', file], { stdio: 'pipe' }); }
