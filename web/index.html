@@ -21,17 +21,15 @@
 <h1 class="issue-title">Make a night of it.</h1>
 <p class="intro">Stand-up, strange little shows, and a few reasons to take the train. Here’s what’s on the board.</p>
 </div>
-
-<p class="status" id="board-status">All times New York local. Prices and availability can change.</p>
-<section id="featured-board" class="featured-board" aria-label="Featured and paid listings" hidden></section>
-<section id="tonight" class="tonight" aria-labelledby="tonight-heading"><h2 id="tonight-heading" class="tonight-heading">Tonight</h2><div id="tonight-list" aria-live="polite"><p>Loading tonight’s picks…</p></div></section>
 <section class="signup-strip" aria-label="Newsletter signup"><div><p class="side-label">Get the picks by email</p><p class="signup-lead">Every week, the handful of shows worth the train. Free.</p></div><form class="signup" data-signup method="post" action="/api/subscribe"><label class="signup-label" for="signup-email-strip">Your email</label><div class="signup-row"><input id="signup-email-strip" name="email" type="email" inputmode="email" autocomplete="email" placeholder="you@example.com" required><button type="submit">Sign me up</button></div><input class="trap" name="website" type="text" tabindex="-1" autocomplete="off" aria-hidden="true"><p class="signup-fine">One short email a week. Unsubscribe with one click. No sharing your address.</p><p class="signup-status" data-signup-status role="status" aria-live="polite"></p></form></section>
+<p class="status" id="board-status">All times New York local. Prices and availability can change.</p>
+<section id="featured-board" class="featured-board" aria-label="Featured show flyers" hidden></section>
 <div class="area-picker"><label for="neighborhood">Around </label><select id="neighborhood"><option value="">All neighborhoods</option></select></div>
-<div class="filters" role="group" aria-label="Filter upcoming picks"><button data-filter="all" aria-pressed="true">All picks</button><button data-filter="cheap" aria-pressed="false">$15 &amp; under</button><button data-filter="saved" aria-pressed="false">Saved</button></div>
+<div class="filters" role="group" aria-label="Filter upcoming picks">
+<button data-filter="all" aria-pressed="true">All picks</button><button data-filter="tonight" aria-pressed="false">Tonight</button><button data-filter="weekend" aria-pressed="false">This weekend</button><button data-filter="cheap" aria-pressed="false">$15 & under</button><button data-filter="saved" aria-pressed="false">Saved</button>
+</div>
 <p id="result-count" class="result-count" role="status"></p>
-<section id="weekend" class="weekend" aria-labelledby="weekend-heading" hidden><h2 id="weekend-heading" class="section-heading">This weekend</h2><div id="weekend-list"></div></section>
-<section id="coming" class="coming" aria-labelledby="coming-heading"><h2 id="coming-heading" class="section-heading">Coming up</h2>
-<div id="listings" aria-live="polite"><p>Loading this week’s picks…</p></div></section>
+<div id="listings" aria-live="polite"><p>Loading this week’s picks…</p></div>
 <noscript><p>The current shortlist runs on the dated board. Enable JavaScript to see this week’s picks, or visit the <a href="https://unionhallny.com/calendar">Union Hall calendar</a>, <a href="https://www.thebellhouseny.com/">The Bell House</a>, or <a href="https://www.caveat.nyc/events">Caveat</a> for the next week of shows.</p></noscript>
 </main>
 <aside class="sidebar" aria-label="About the guide">

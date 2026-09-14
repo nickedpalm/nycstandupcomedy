@@ -26,16 +26,12 @@ DRAFT-NOTES.md, QA-NOTES.md, RECURRING-INTAKE.md, POSTER-INTAKE.md
 
 | File | What it holds | Tier value |
 |---|---|---|
-| `web/data/picks.json` | Dated one-off shows on the home board. At most three are `featured` and need artwork. `sponsored: true` marks a paid listing: it takes a flyer-shelf slot ahead of editorial picks and is labeled "Paid listing" everywhere it appears. | `featured`, `special` |
+| `web/data/picks.json` | Dated one-off shows on the home board. At most three are `featured` and need artwork. | `featured`, `special` |
 | `web/data/recurring.json` | Weekly and monthly bar shows in the home sidebar. | `recurring` |
 | `web/data/open-mics.json` | Open mics grouped by night on /open-mics.html. | `open-mic` |
 | `web/data/clubs.json` | Manhattan clubs with policies on /clubs.html. | `club` |
 
 Every record carries a `source_url` that was actually opened and a `verified_at` date. Unknown prices stay unknown; never guess. Artwork must be official promotional material with a credit and a record in POSTER-SOURCES.json.
-
-## Home page
-
-Top to bottom: the flyer shelf (paid listings first, then editor's picks, four at most), **Tonight** with every pick for today, the signup strip, **This weekend** (Friday to Sunday, hidden once the weekend is over), and **Coming up** grouped by day. When nothing is listed tonight, the Tonight block shows the recurring rooms and open mics that run on that weekday instead of going blank.
 
 ## Revolving board
 
