@@ -30,7 +30,7 @@ DRAFT-NOTES.md, QA-NOTES.md, RECURRING-INTAKE.md, POSTER-INTAKE.md
 | `web/data/recurring.json` | Weekly and monthly bar shows in the home sidebar. | `recurring` |
 | `web/data/open-mics.json` | Open mics grouped by night on /open-mics.html. | `open-mic` |
 | `web/data/clubs.json` | Manhattan clubs with policies on /clubs.html. | `club` |
-| `web/data/venues.json` | The venue registry: every room's address, neighborhood and borough. The site resolves a show's neighborhood from this file by venue name, and the check fails on any venue that isn't registered or any record whose neighborhood disagrees. Add the venue here first, then the show. | |
+| `web/data/venues.json` | The venue registry: every room's address, neighborhood and borough. The site resolves a show's neighborhood from this file by venue name, and the check fails on any venue that isn't registered or any record whose neighborhood disagrees. Add the venue here first, then the show. Optional `calendar_url` points at the page that lists upcoming shows. | |
 
 Every record carries a `source_url` that was actually opened and a `verified_at` date. Unknown prices stay unknown; never guess. Artwork must be official promotional material with a credit and a record in POSTER-SOURCES.json.
 
