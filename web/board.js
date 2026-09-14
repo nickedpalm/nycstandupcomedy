@@ -8,11 +8,15 @@ const load=path=>Promise.all([fetch(path).then(r=>{if(!r.ok)throw Error('Could n
 
 const rail=document.querySelector('#recurring-list');
 if(rail){load('/data/recurring.json').then(rows=>{rail.replaceChildren();
- rows.filter(r=>r.tier==='recurring').sort((a,b)=>a.weekday-b.weekday).forEach(r=>{const li=element('li');const a=sourceLink(r,r.title);if(a){a.className='rail-title';li.append(a);}else li.append(element('span',r.title,'rail-title'));
-  li.append(element('span',[r.cadence,r.time_label].filter(Boolean).join(' · '),'room-detail'),element('span',r.venue+' · '+r.neighborhood+' · '+r.price_label,'room-detail'));rail.append(li);});
- if(!rows.length)rail.append(element('li','No recurring rooms listed yet.'));
+ const today=new Date(new Intl.DateTimeFormat('en-CA',{timeZone:'America/New_York',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date())+'T12:00:00Z').getUTCDay();
+ const minutes=t=>{const m=/(\d{1,2})(?::(\d{2}))?\s*(am|pm)/i.exec(t||'');if(!m)return 1e9;let h=Number(m[1])%12;if(/pm/i.test(m[3]))h+=12;return h*60+Number(m[2]||0);};
+ const list=rows.filter(r=>r.tier==='recurring');
+ for(let i=0;i<7;i++){const day=(today+i)%7;const tonight=list.filter(r=>Number(r.weekday)===day).sort((a,b)=>minutes(a.time_label)-minutes(b.time_label));if(!tonight.length)continue;
+  rail.append(element('li',(i===0?'Tonight · ':i===1?'Tomorrow · ':'')+WEEKDAYS[day],'rail-night'));
+  for(const r of tonight){const li=element('li');const a=sourceLink(r,r.title);if(a){a.className='rail-title';li.append(a);}else li.append(element('span',r.title,'rail-title'));
+   const weekly=/^every\s/i.test(r.cadence||'');li.append(element('span',[weekly?null:r.cadence,r.time_label,r.venue+' · '+r.neighborhood,r.price_label].filter(Boolean).join(' · '),'room-detail'));rail.append(li);}}
+ if(!list.length)rail.append(element('li','No recurring rooms listed yet.'));
 }).catch(()=>{rail.replaceChildren(element('li','Recurring rooms could not be loaded.'));});}
-
 const mics=document.querySelector('#mic-listings');
 if(mics){load('/data/open-mics.json').then(rows=>{mics.replaceChildren();
  const list=rows.filter(r=>r.tier==='open-mic');const count=document.querySelector('#result-count');if(count)count.textContent=list.length+' open mics · '+new Set(list.map(r=>r.venue)).size+' rooms · checked '+(list.map(r=>r.verified_at).sort().pop()||'');

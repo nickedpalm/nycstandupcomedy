@@ -75,3 +75,6 @@ Nick wanted the animated-poster feel of the 2017 Comedy Cellar site. The pinned 
 
 ## Landscape thumbnails — September 14, 2026
 Every poster currently on the board is a wide crop (Eventbrite and Union Hall serve 2:1), and the listing rows had skipped landscape art since the Sep 11 spacing pass. Rows now show landscape art as a 150px-wide thumbnail (110px under 700px, 96px under 400px) instead of nothing. Verified headless: six thumbnails at 1280 and 390, no overflow, no errors.
+
+## Sidebar rooms by night — September 14, 2026
+With 15 recurring rooms the WEEKLY & MONTHLY ROOMS rail is now grouped by night, starting with Tonight and Tomorrow, then the rest of the week in order; rooms sort by start time within a night, and "Every X" cadences are dropped from the detail line since the heading says the night. Monthly cadences still show. Verified headless: seven night headings, 15 rooms, no errors.
