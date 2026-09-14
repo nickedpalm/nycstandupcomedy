@@ -232,3 +232,8 @@ body{background-color:#5b2a17;background-image:linear-gradient(90deg,#1a0c07d9,t
 @keyframes pin-in{from{opacity:0;transform:translateY(-10px) scale(.98)}to{opacity:1}}
 .pinned-pick:hover .show-flyer img{animation-play-state:paused}
 @media (prefers-reduced-motion:reduce){.pinned-pick .show-flyer img{animation:none}.pinned-pick{transition:none}.pinned-pick.is-entering{animation:none}}
+/* Landscape artwork in listing rows: wider thumbnail instead of none (September 14, 2026) */
+.listing-row .show-flyer.listing-thumb.landscape{width:150px;flex-basis:150px}
+.listing-thumb.landscape img{max-height:90px;width:100%;object-fit:contain;background:#f2ecd9}
+@media (max-width:700px){.listing-row .show-flyer.listing-thumb.landscape{width:110px;flex-basis:110px}.listing-thumb.landscape img{max-height:64px}}
+@media (max-width:400px){.listing-row .show-flyer.listing-thumb.landscape{width:96px;flex-basis:96px}}

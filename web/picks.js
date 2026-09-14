@@ -33,7 +33,7 @@ function render(){
  for(const pick of visible){
   if(day!==pick.date){day=pick.date;section=element('section',undefined,'day');section.append(element('h3',dateLabel(day)));container.append(section);}
   const article=element('article',undefined,'pick listing-row');article.id='show-'+pick.id;
-  const landscape=pick.poster&&Number(pick.poster.width)>Number(pick.poster.height);const art=landscape?null:poster(pick,false);if(art){art.classList.add('listing-thumb');article.append(art);}
+  const landscape=pick.poster&&Number(pick.poster.width)>Number(pick.poster.height);const art=poster(pick,false);if(art){art.classList.add('listing-thumb');if(landscape)art.classList.add('landscape');article.append(art);}
   const body=element('div',undefined,'listing-body');body.append(element('p',pick.time_label,'pick-time'),element('h4',pick.title,'pick-title'),element('p',pick.description,'pick-description'));
   const details=element('p',undefined,'pick-detail');details.append(document.createTextNode(pick.venue+' · '+pick.neighborhood+' · '),element('span',pick.price_label,'price-tag'));body.append(details);
   const actions=element('div',undefined,'pick-actions'),ticket=ticketLink(pick);if(ticket)actions.append(ticket);

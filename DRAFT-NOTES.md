@@ -72,3 +72,6 @@ Nick: every venue carries a neighborhood as a layer of site logic. Added web/dat
 
 ## Living flyer shelf — September 14, 2026
 Nick wanted the animated-poster feel of the 2017 Comedy Cellar site. The pinned shelf now holds three slots and cycles through every upcoming pick with artwork (featured first), crossfading one slot every 6 seconds; each flyer drifts slowly (Ken Burns) with staggered timing. Cycling pauses on hover, focus and hidden tabs; prefers-reduced-motion disables drift and transitions but keeps the swap. Image files are untouched; this is presentation only. Verified headless at 1280 and 390 against a five-poster copy: slot swap observed, no overflow, no console errors.
+
+## Landscape thumbnails — September 14, 2026
+Every poster currently on the board is a wide crop (Eventbrite and Union Hall serve 2:1), and the listing rows had skipped landscape art since the Sep 11 spacing pass. Rows now show landscape art as a 150px-wide thumbnail (110px under 700px, 96px under 400px) instead of nothing. Verified headless: six thumbnails at 1280 and 390, no overflow, no errors.
