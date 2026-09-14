@@ -13,6 +13,8 @@ web/data/archive/    past picks, one file per month, written by `npm run rotate`
 scripts/rotate.js    moves expired picks (and their artwork) into the archive
 scripts/ig-card.js   renders Instagram cards (1080x1350 JPEG) into web/assets/ig/
 scripts/ig-post.js   publishes cards to Instagram; POSTED-IG.json is its log
+scripts/badslava.js  pulls Badslava's New York open-mic table into candidates/ for review
+candidates/          discovery output (crowd-sourced, unverified); never served, never copied into web/data without a venue check
 web/assets/fonts/    Oswald and Permanent Marker (OFL/Apache) for offline card rendering
 functions/api/       Cloudflare Pages Function for POST /api/subscribe (Listmonk)
 scripts/check.js     data and source checks run by `npm test` and CI
@@ -50,6 +52,7 @@ npm test          # data checks, syntax checks, then a build into dist/
 npm run rotate    # archive expired picks (--dry-run to preview, --now=ISO to test)
 npm run preview   # serve dist/ on http://127.0.0.1:8080
 npm run ig-card -- --tonight     # cover + one card per pick tonight (also --weekend, --pick <id>)
+npm run badslava                 # refresh candidates/badslava-ny.json and print what's new
 ```
 
 1. Edit the JSON under `web/data/` or the pages under `web/`. Never edit `dist/`.

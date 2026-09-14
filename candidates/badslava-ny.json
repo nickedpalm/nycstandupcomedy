@@ -1,0 +1,3921 @@
+{
+ "source": "https://www.badslava.com/new-york-open-mics.php",
+ "retrieved_at": "2026-09-14T13:15:37.058Z",
+ "note": "Crowd-sourced listing. Verify against the venue before adding to web/data/open-mics.json.",
+ "dated_rows": 301,
+ "recurring": [
+  {
+   "venue": "New York Comedy Club",
+   "address": "236 W 78th St New York NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "1:30pm",
+   "details_url": "https://badslava.com/details.php?id=34567",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Greenwich Village Comedy Club",
+   "address": "99 MacDougal St New York NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "2:00pm",
+   "details_url": "https://badslava.com/details.php?id=20270",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "The Grisly Pear",
+   "address": "107 MacDougal St New York NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "2:00pm",
+   "details_url": "https://badslava.com/details.php?id=50545",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Grisly Pear - Midtown",
+   "address": "243 W 54th St New York NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "2:00pm",
+   "details_url": "https://badslava.com/details.php?id=61395",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Bond Street Guitars",
+   "address": "297 Bond St Brooklyn NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "2:30pm",
+   "details_url": "https://badslava.com/details.php?id=57270",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Greenwich Village Comedy Club",
+   "address": "99 MacDougal St New York NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "3:00pm",
+   "details_url": "https://badslava.com/details.php?id=13887",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "Pete's Candy Store",
+   "address": "709 Lorimer St Brooklyn NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "3:00pm",
+   "details_url": "https://badslava.com/details.php?id=35892",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "New York Comedy Club",
+   "address": "236 W 78th St New York NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "3:30pm",
+   "details_url": "https://badslava.com/details.php?id=60060",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "EastVille Comedy Club",
+   "address": "487 Atlantic Ave Brooklyn NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "4:00pm",
+   "details_url": "https://badslava.com/details.php?id=30415",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "Flop House Comedy Club",
+   "address": "362 Grand St Brooklyn NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "4:00pm",
+   "details_url": "https://badslava.com/details.php?id=38706",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Phoenix Bar",
+   "address": "447 E 13th St New York NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "4:00pm",
+   "details_url": "https://badslava.com/details.php?id=47322",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Grisly Pear - Midtown",
+   "address": "243 W 54th St New York NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "4:00pm",
+   "details_url": "https://badslava.com/details.php?id=50544",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "4:30pm",
+   "details_url": "https://badslava.com/details.php?id=48478",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Producers Club Theaters",
+   "address": "358 W 44th St New York NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "5:00pm",
+   "details_url": "https://badslava.com/details.php?id=10634",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "EastVille Comedy Club",
+   "address": "487 Atlantic Ave Brooklyn NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "5:00pm",
+   "details_url": "https://badslava.com/details.php?id=30416",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "Rodney's Comedy Club",
+   "address": "1118 1st Ave New York NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "5:00pm",
+   "details_url": "https://badslava.com/details.php?id=58259",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "New York Comedy Club - East Village",
+   "address": "85 E 4th St New York NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "5:30pm",
+   "details_url": "https://badslava.com/details.php?id=10338",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Brooklyn Art Haus",
+   "address": "24 Marcy Ave Brooklyn NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "5:30pm",
+   "details_url": "https://badslava.com/details.php?id=39971",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "5:30pm",
+   "details_url": "https://badslava.com/details.php?id=48476",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Baby Grand LES",
+   "address": "187 Orchard Street New York NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "5:30pm",
+   "details_url": "https://badslava.com/details.php?id=54604",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "EastVille Comedy Club",
+   "address": "487 Atlantic Ave Brooklyn NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=10008",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "Producers Club Theaters",
+   "address": "358 W 44th St New York NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=17456",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Fear City Comedy Club",
+   "address": "17 Essex St New York NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=31844",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Bushwick Comedy Club",
+   "address": "259 Melrose St Brooklyn NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "6:30pm",
+   "details_url": "https://badslava.com/details.php?id=30411",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "6:30pm",
+   "details_url": "https://badslava.com/details.php?id=53348",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Hop Shoppe",
+   "address": "372 Van Duzer St Staten Island NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "7:30pm",
+   "details_url": "https://badslava.com/details.php?id=9359",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Producers Club Theaters",
+   "address": "358 W 44th St New York NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "7:30pm",
+   "details_url": "https://badslava.com/details.php?id=17457",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Secret Pour",
+   "address": "1114 Dekalb Ave Brooklyn NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "7:30pm",
+   "details_url": "https://badslava.com/details.php?id=37321",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "O’Keefe’s Bar And Grill",
+   "address": "62 Court St Brooklyn NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "8:00pm",
+   "details_url": "https://badslava.com/details.php?id=9257",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "8:00pm",
+   "details_url": "https://badslava.com/details.php?id=53648",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Liffy II Bar",
+   "address": "5009 Broadway New York NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "8:00pm",
+   "details_url": "https://badslava.com/details.php?id=50650",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "QED Astoria",
+   "address": "27-16 23rd Ave Queens NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "8:30pm",
+   "details_url": "https://badslava.com/details.php?id=10387",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": true,
+   "venue_registered": true
+  },
+  {
+   "venue": "The Local NY",
+   "address": "13-02 44th Ave Queens NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "8:30pm",
+   "details_url": "https://badslava.com/details.php?id=53946",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Producers Club Theaters",
+   "address": "358 W 44th St New York NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "8:30pm",
+   "details_url": "https://badslava.com/details.php?id=61299",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Fear City Comedy Club",
+   "address": "17 Essex St New York NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "9:00pm",
+   "details_url": "https://badslava.com/details.php?id=19531",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 0,
+   "weekday_name": "Sunday",
+   "time": "9:30pm",
+   "details_url": "https://badslava.com/details.php?id=48477",
+   "dates": [
+    "2026-09-20"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Young Ethel's",
+   "address": "506 5th Ave Brooklyn NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "10:00pm",
+   "details_url": "https://badslava.com/details.php?id=38251",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "West Side Comedy Club",
+   "address": "201 W 75th St New York NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "3:00pm",
+   "details_url": "https://badslava.com/details.php?id=16716",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "Greenwich Village Comedy Club",
+   "address": "99 MacDougal St New York NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "3:00pm",
+   "details_url": "https://badslava.com/details.php?id=31245",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "New York Comedy Club",
+   "address": "241 E 24th St New York NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "4:00pm",
+   "details_url": "https://badslava.com/details.php?id=61321",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The PIT",
+   "address": "154 W 29th St New York NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "4:30pm",
+   "details_url": "https://badslava.com/details.php?id=30400",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "4:30pm",
+   "details_url": "https://badslava.com/details.php?id=46897",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Grisly Pear",
+   "address": "107 MacDougal St New York NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "4:30pm",
+   "details_url": "https://badslava.com/details.php?id=50546",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Stand NYC",
+   "address": "116 E. 16th St New York NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "5:00pm",
+   "details_url": "https://badslava.com/details.php?id=10115",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Broadway Comedy Club",
+   "address": "318 W 53rd St New York NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "5:00pm",
+   "details_url": "https://badslava.com/details.php?id=8998",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "Producers Club Theaters",
+   "address": "358 W 44th St New York NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "5:00pm",
+   "details_url": "https://badslava.com/details.php?id=17448",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Sesh Comedy",
+   "address": "55 Chrystie St New York NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "5:00pm",
+   "details_url": "https://badslava.com/details.php?id=42427",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Comedy In Harlem",
+   "address": "750A St Nicholas Ave New York NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "5:30pm",
+   "details_url": "https://badslava.com/details.php?id=18168",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "5:30pm",
+   "details_url": "https://badslava.com/details.php?id=54553",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Grisly Pear - Midtown",
+   "address": "243 W 54th St New York NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "5:30pm",
+   "details_url": "https://badslava.com/details.php?id=50541",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Pine Box Rock Shop",
+   "address": "12 Grattan St Brooklyn NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=1744",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "EastVille Comedy Club",
+   "address": "487 Atlantic Ave Brooklyn NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=13768",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "Producers Club Theaters",
+   "address": "358 W 44th St New York NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=17449",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Phoenix Bar",
+   "address": "447 E 13th St New York NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=30420",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Echo Bravo",
+   "address": "445 Troutman St Brooklyn NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=31181",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "QED Astoria",
+   "address": "27-16 23rd Ave Queens NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=32173",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": true,
+   "venue_registered": true
+  },
+  {
+   "venue": "BK Made Comedy",
+   "address": "1241 Halsey St Brooklyn NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=38443",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Grisly Pear",
+   "address": "107 MacDougal St New York NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=50547",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Salvation Army",
+   "address": "175 E 125th St New York NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=50956",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Flop House Comedy Club",
+   "address": "362 Grand St Brooklyn NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "6:30pm",
+   "details_url": "https://badslava.com/details.php?id=15070",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "6:30pm",
+   "details_url": "https://badslava.com/details.php?id=41406",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Freddy’s Bar",
+   "address": "627 5th Ave Brooklyn NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "7:00pm",
+   "details_url": "https://badslava.com/details.php?id=10525",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Suite",
+   "address": "992 Amsterdam Ave New York NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "7:00pm",
+   "details_url": "https://badslava.com/details.php?id=30431",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Secret Pour",
+   "address": "1114 Dekalb Ave Brooklyn NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "7:00pm",
+   "details_url": "https://badslava.com/details.php?id=36710",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Good Judy",
+   "address": "563 5th Ave Brooklyn NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "7:00pm",
+   "details_url": "https://badslava.com/details.php?id=38265",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "SkyBox Sports Bar",
+   "address": "2241 1st Ave New York NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "7:00pm",
+   "details_url": "https://badslava.com/details.php?id=39973",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "EastVille Comedy Club",
+   "address": "487 Atlantic Ave Brooklyn NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "7:00pm",
+   "details_url": "https://badslava.com/details.php?id=46330",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "Zofia's Hideout",
+   "address": "301 E 84th St New York NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "7:00pm",
+   "details_url": "https://badslava.com/details.php?id=46895",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Rodney's Comedy Club",
+   "address": "1118 1st Ave New York NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "7:00pm",
+   "details_url": "https://badslava.com/details.php?id=50957",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Shandon Court",
+   "address": "115 E Main St East Islip NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "7:00pm",
+   "details_url": "https://badslava.com/details.php?id=53517",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Producers Club Theaters",
+   "address": "358 W 44th St New York NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "7:30pm",
+   "details_url": "https://badslava.com/details.php?id=17450",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Wild Goose",
+   "address": "5420 Roosevelt Ave Queens NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "7:30pm",
+   "details_url": "https://badslava.com/details.php?id=28127",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Bartini Bar & Lounge",
+   "address": "124 N Carll Ave Babylon NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "7:30pm",
+   "details_url": "https://badslava.com/details.php?id=53516",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Cobra Club",
+   "address": "6 Wyckoff Ave Brooklyn NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "7:45pm",
+   "details_url": "https://badslava.com/details.php?id=15184",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Freda",
+   "address": "8-01 Seneca Ave #801 Queens NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "8:00pm",
+   "details_url": "https://badslava.com/details.php?id=28124",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "BK Made Comedy",
+   "address": "1241 Halsey St Brooklyn NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "8:00pm",
+   "details_url": "https://badslava.com/details.php?id=38434",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Red Eye NY",
+   "address": "355 W. 41st Street New York NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "8:00pm",
+   "details_url": "https://badslava.com/details.php?id=38646",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Area 140 First Bar",
+   "address": "140 1st Ave New York NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "8:00pm",
+   "details_url": "https://badslava.com/details.php?id=39265",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "8:00pm",
+   "details_url": "https://badslava.com/details.php?id=41637",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "EastVille Comedy Club",
+   "address": "487 Atlantic Ave Brooklyn NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "8:00pm",
+   "details_url": "https://badslava.com/details.php?id=42840",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "Producers Club Theaters",
+   "address": "358 W 44th St New York NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "8:30pm",
+   "details_url": "https://badslava.com/details.php?id=17451",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Grove 34",
+   "address": "31-83 34th St Queens NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "9:00pm",
+   "details_url": "https://badslava.com/details.php?id=10042",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Windjammer",
+   "address": "552 Grandview Ave Queens NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "9:00pm",
+   "details_url": "https://badslava.com/details.php?id=10064",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "9:30pm",
+   "details_url": "https://badslava.com/details.php?id=52616",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Rodney's Comedy Club",
+   "address": "1118 1st Ave New York NY",
+   "weekday": 1,
+   "weekday_name": "Monday",
+   "time": "9:45pm",
+   "details_url": "https://badslava.com/details.php?id=59975",
+   "dates": [
+    "2026-09-14"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Otto’s Shrunken Head",
+   "address": "538 E 14th St New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "10:00pm",
+   "details_url": "https://badslava.com/details.php?id=33394",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Grisly Pear - Midtown",
+   "address": "243 W 54th St New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "10:30pm",
+   "details_url": "https://badslava.com/details.php?id=50294",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Broadway Comedy Club",
+   "address": "318 W 53rd St New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "4:00pm",
+   "details_url": "https://badslava.com/details.php?id=20136",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "4:30pm",
+   "details_url": "https://badslava.com/details.php?id=46346",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Grisly Pear",
+   "address": "107 MacDougal St New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "4:30pm",
+   "details_url": "https://badslava.com/details.php?id=50548",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Throwback",
+   "address": "710 Amsterdam Ave New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "4:30pm",
+   "details_url": "https://badslava.com/details.php?id=61409",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Producers Club Theaters",
+   "address": "358 W 44th St New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "5:00pm",
+   "details_url": "https://badslava.com/details.php?id=15122",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Rose",
+   "address": "160 W 25th St New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "5:00pm",
+   "details_url": "https://badslava.com/details.php?id=10894",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "New York Comedy Club - East Village",
+   "address": "85 E 4th St New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "5:00pm",
+   "details_url": "https://badslava.com/details.php?id=26981",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Sesh Comedy",
+   "address": "55 Chrystie St New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "5:00pm",
+   "details_url": "https://badslava.com/details.php?id=42428",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "5:30pm",
+   "details_url": "https://badslava.com/details.php?id=54554",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Grisly Pear - Midtown",
+   "address": "243 W 54th St New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "5:45pm",
+   "details_url": "https://badslava.com/details.php?id=49426",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Producers Club Theaters",
+   "address": "358 W 44th St New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=17452",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Comic Strip Live",
+   "address": "1568 2nd Ave New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=11008",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "The Fear City Comedy Club",
+   "address": "17 Essex St New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=30347",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Lust77 bar&grill",
+   "address": "2363 Adam Clayton Powell Jr Blvd New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=31020",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Silvana",
+   "address": "300 W 116 St New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=35958",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Room 52",
+   "address": "212 E 52nd St New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=38390",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "BK Made Comedy",
+   "address": "1241 Halsey St Brooklyn NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=38428",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "EastVille Comedy Club",
+   "address": "487 Atlantic Ave Brooklyn NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=46329",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "Pine Box Rock Shop",
+   "address": "12 Grattan St Brooklyn NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=48173",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Grisly Pear",
+   "address": "107 MacDougal St New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=50549",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "QED Astoria",
+   "address": "27-16 23rd Ave Queens NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=57353",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": true,
+   "venue_registered": true
+  },
+  {
+   "venue": "iNine Bistro",
+   "address": "53 Bruckner Blvd Bronx NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "6:30pm",
+   "details_url": "https://badslava.com/details.php?id=10393",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Tiny Cupboard Comedy Club & Game Bar",
+   "address": "10 Cooper St Brooklyn NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "6:30pm",
+   "details_url": "https://badslava.com/details.php?id=10345",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Flop House Comedy Club",
+   "address": "362 Grand St Brooklyn NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "6:30pm",
+   "details_url": "https://badslava.com/details.php?id=14844",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "6:30pm",
+   "details_url": "https://badslava.com/details.php?id=38875",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Duplex",
+   "address": "61 Christopher St New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "7:00pm",
+   "details_url": "https://badslava.com/details.php?id=10137",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Comedy In Harlem",
+   "address": "750A St Nicholas Ave New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "7:00pm",
+   "details_url": "https://badslava.com/details.php?id=34461",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "EastVille Comedy Club",
+   "address": "487 Atlantic Ave Brooklyn NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "7:00pm",
+   "details_url": "https://badslava.com/details.php?id=49193",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "The Grisly Pear - Midtown",
+   "address": "243 W 54th St New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "7:00pm",
+   "details_url": "https://badslava.com/details.php?id=49427",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Producers Club Theaters",
+   "address": "358 W 44th St New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "7:30pm",
+   "details_url": "https://badslava.com/details.php?id=10552",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Block Hill Station",
+   "address": "718 5th Ave Brooklyn NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "7:30pm",
+   "details_url": "https://badslava.com/details.php?id=31959",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Comedy Village",
+   "address": "352 W 44th St New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "7:30pm",
+   "details_url": "https://badslava.com/details.php?id=60922",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Corner Store",
+   "address": "753 Nostrand Ave Brooklyn NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "7:45pm",
+   "details_url": "https://badslava.com/details.php?id=36711",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Somebody's Darling",
+   "address": "1664 1st Ave New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "8:00pm",
+   "details_url": "https://badslava.com/details.php?id=13980",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Teddy's F&B Bar & Grill",
+   "address": "2171 2nd Ave New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "8:00pm",
+   "details_url": "https://badslava.com/details.php?id=13923",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Branded Saloon",
+   "address": "603 Vanderbilt Ave Brooklyn NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "8:00pm",
+   "details_url": "https://badslava.com/details.php?id=20433",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "BK Made Comedy",
+   "address": "1241 Halsey St Brooklyn NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "8:00pm",
+   "details_url": "https://badslava.com/details.php?id=38429",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "8:00pm",
+   "details_url": "https://badslava.com/details.php?id=48470",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Lilah’s Bar and Grill",
+   "address": "33 Main St East Rockaway NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "8:00pm",
+   "details_url": "https://badslava.com/details.php?id=49192",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "EastVille Comedy Club",
+   "address": "487 Atlantic Ave Brooklyn NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "8:00pm",
+   "details_url": "https://badslava.com/details.php?id=52919",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "Producers Club Theaters",
+   "address": "358 W 44th St New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "8:30pm",
+   "details_url": "https://badslava.com/details.php?id=17453",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Fear City Comedy Club",
+   "address": "17 Essex St New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "9:00pm",
+   "details_url": "https://badslava.com/details.php?id=20252",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "An Beal Bocht Cafe",
+   "address": "445 W 238th St Bronx NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "9:00pm",
+   "details_url": "https://badslava.com/details.php?id=36838",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Grisly Pear - Midtown",
+   "address": "243 W 54th St New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "9:00pm",
+   "details_url": "https://badslava.com/details.php?id=50293",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "9:30pm",
+   "details_url": "https://badslava.com/details.php?id=48471",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Under St Marks",
+   "address": "94 St Marks Place New York NY",
+   "weekday": 2,
+   "weekday_name": "Tuesday",
+   "time": "9:30pm",
+   "details_url": "https://badslava.com/details.php?id=48992",
+   "dates": [
+    "2026-09-15"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Greenwich Village Comedy Club",
+   "address": "99 MacDougal St New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "1:00pm",
+   "details_url": "https://badslava.com/details.php?id=18116",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "West Side Comedy Club",
+   "address": "201 W 75th St New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "1:00pm",
+   "details_url": "https://badslava.com/details.php?id=31262",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "Grove 34",
+   "address": "31-83 34th St Queens NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "10:00pm",
+   "details_url": "https://badslava.com/details.php?id=10044",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Halyards",
+   "address": "406 3rd Ave Brooklyn NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "10:30pm",
+   "details_url": "https://badslava.com/details.php?id=14454",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Greenwich Village Comedy Club",
+   "address": "99 MacDougal St New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "2:00pm",
+   "details_url": "https://badslava.com/details.php?id=42422",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "Greenwich Village Comedy Club",
+   "address": "99 MacDougal St New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "3:00pm",
+   "details_url": "https://badslava.com/details.php?id=9904",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "West Side Comedy Club",
+   "address": "201 W 75th St New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "3:00pm",
+   "details_url": "https://badslava.com/details.php?id=15509",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "Broadway Comedy Club",
+   "address": "318 W 53rd St New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "3:00pm",
+   "details_url": "https://badslava.com/details.php?id=16412",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "The PIT",
+   "address": "154 W 29th St New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "4:00pm",
+   "details_url": "https://badslava.com/details.php?id=30339",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Greenwich Village Comedy Club",
+   "address": "99 MacDougal St New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "4:00pm",
+   "details_url": "https://badslava.com/details.php?id=42423",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "4:30pm",
+   "details_url": "https://badslava.com/details.php?id=46347",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Grisly Pear",
+   "address": "107 MacDougal St New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "4:30pm",
+   "details_url": "https://badslava.com/details.php?id=50550",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "West Side Comedy Club",
+   "address": "201 W 75th St New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "4:30pm",
+   "details_url": "https://badslava.com/details.php?id=51398",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "Greenwich Village Comedy Club",
+   "address": "99 MacDougal St New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "5:00pm",
+   "details_url": "https://badslava.com/details.php?id=9119",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "Producers Club Theaters",
+   "address": "358 W 44th St New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "5:00pm",
+   "details_url": "https://badslava.com/details.php?id=13869",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "New York Comedy Club - East Village",
+   "address": "85 E 4th St New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "5:00pm",
+   "details_url": "https://badslava.com/details.php?id=30423",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Hotel Edison",
+   "address": "228 W 47th St New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "5:00pm",
+   "details_url": "https://badslava.com/details.php?id=33367",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Sesh Comedy",
+   "address": "55 Chrystie St New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "5:00pm",
+   "details_url": "https://badslava.com/details.php?id=42429",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "St. Marks Comedy Club",
+   "address": "12 St Marks Pl New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "5:30pm",
+   "details_url": "https://badslava.com/details.php?id=32067",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "5:30pm",
+   "details_url": "https://badslava.com/details.php?id=42416",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Grisly Pear - Midtown",
+   "address": "243 W 54th St New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "5:30pm",
+   "details_url": "https://badslava.com/details.php?id=50292",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "El Barrista cafe",
+   "address": "2154 Third Ave New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "5:30pm",
+   "details_url": "https://badslava.com/details.php?id=59064",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Phoenix Bar",
+   "address": "447 E 13th St New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=10416",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "QED Astoria",
+   "address": "27-16 23rd Ave Queens NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=7367",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": true,
+   "venue_registered": true
+  },
+  {
+   "venue": "Producers Club Theaters",
+   "address": "358 W 44th St New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=17454",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Mae Mae Cafe And Plant Shop",
+   "address": "2417 Third Ave Bronx NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=13882",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Judy Z’s",
+   "address": "1 7th Ave S New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=17133",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Five Flies Coffee",
+   "address": "554 W 158th St New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=19275",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Fear City Comedy Club",
+   "address": "17 Essex St New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=19527",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "BK Made Comedy",
+   "address": "1241 Halsey St Brooklyn NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=38430",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "EastVille Comedy Club",
+   "address": "487 Atlantic Ave Brooklyn NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=42842",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "Alligator Lounge",
+   "address": "600 Metropolitan Ave Brooklyn NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=48022",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Grisly Pear",
+   "address": "107 MacDougal St New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=50551",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Rodney's Comedy Club",
+   "address": "1118 1st Ave New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=59761",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "One and One",
+   "address": "76 E 1st St New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "6:15pm",
+   "details_url": "https://badslava.com/details.php?id=50569",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Flop House Comedy Club",
+   "address": "362 Grand St Brooklyn NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "6:30pm",
+   "details_url": "https://badslava.com/details.php?id=15382",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "6:30pm",
+   "details_url": "https://badslava.com/details.php?id=38985",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Po'Boy Brewery",
+   "address": "200 Wilson St Unit E3 Port Jefferson NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "6:30pm",
+   "details_url": "https://badslava.com/details.php?id=53519",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Garden Grill",
+   "address": "64 N Country Rd Smithtown NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "6:30pm",
+   "details_url": "https://badslava.com/details.php?id=53518",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Caravan Of Dreams",
+   "address": "405 East 6th St New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "7:00pm",
+   "details_url": "https://badslava.com/details.php?id=10523",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Freddy's Bar",
+   "address": "627 5th Ave Brooklyn NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "7:00pm",
+   "details_url": "https://badslava.com/details.php?id=31888",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Brooklyn Beso",
+   "address": "370 Lewis Ave Brooklyn NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "7:00pm",
+   "details_url": "https://badslava.com/details.php?id=43402",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Tommy's Figz",
+   "address": "1000 S 8th Ave New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "7:00pm",
+   "details_url": "https://badslava.com/details.php?id=45346",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Rose",
+   "address": "160 W 25 Street New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "7:00pm",
+   "details_url": "https://badslava.com/details.php?id=59181",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Windjammer",
+   "address": "552 Grandview Ave Queens NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "7:30pm",
+   "details_url": "https://badslava.com/details.php?id=14124",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Producers Club Theaters",
+   "address": "358 W 44th St New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "7:30pm",
+   "details_url": "https://badslava.com/details.php?id=10023",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Shillelagh Tavern",
+   "address": "47-22 30th Ave. Queens NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "7:30pm",
+   "details_url": "https://badslava.com/details.php?id=28125",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Postcard Brewing",
+   "address": "111-30 Beach Channel Dr Queens NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "7:30pm",
+   "details_url": "https://badslava.com/details.php?id=60570",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Starr Bar",
+   "address": "214 Starr St Brooklyn NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "8:00pm",
+   "details_url": "https://badslava.com/details.php?id=7740",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Essence Bar",
+   "address": "1662 Atlantic Ave Brooklyn NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "8:00pm",
+   "details_url": "https://badslava.com/details.php?id=16414",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "the Rock House bar and grill",
+   "address": "507 Seguine Ave Staten Island NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "8:00pm",
+   "details_url": "https://badslava.com/details.php?id=17682",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "BK Made Comedy",
+   "address": "1241 Halsey St Brooklyn NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "8:00pm",
+   "details_url": "https://badslava.com/details.php?id=38431",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Hart Bar",
+   "address": "538 Hart St #1 Brooklyn NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "8:00pm",
+   "details_url": "https://badslava.com/details.php?id=39975",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Captain Kirk’s Comedy Lounge",
+   "address": "1000 Broadway Brooklyn NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "8:00pm",
+   "details_url": "https://badslava.com/details.php?id=58971",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Producers Club Theaters",
+   "address": "358 W 44th St New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "8:30pm",
+   "details_url": "https://badslava.com/details.php?id=61298",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Fear City Comedy Club",
+   "address": "17 Essex St New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "9:00pm",
+   "details_url": "https://badslava.com/details.php?id=31840",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "QED Astoria",
+   "address": "27-16 23rd Ave Queens NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "9:30pm",
+   "details_url": "https://badslava.com/details.php?id=13726",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": true,
+   "venue_registered": true
+  },
+  {
+   "venue": "SoHo Playhouse",
+   "address": "15 Vandam St New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "9:30pm",
+   "details_url": "https://badslava.com/details.php?id=15362",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": true,
+   "venue_registered": true
+  },
+  {
+   "venue": "Rodney's Comedy Club",
+   "address": "1118 1st Ave New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "9:45pm",
+   "details_url": "https://badslava.com/details.php?id=19789",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 3,
+   "weekday_name": "Wednesday",
+   "time": "9:45pm",
+   "details_url": "https://badslava.com/details.php?id=54266",
+   "dates": [
+    "2026-09-16"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "QED Astoria",
+   "address": "27-16 23rd Ave Queens NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "10:45pm",
+   "details_url": "https://badslava.com/details.php?id=10597",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": true,
+   "venue_registered": true
+  },
+  {
+   "venue": "SoHo Playhouse",
+   "address": "15 Vandam St New York NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "11:00pm",
+   "details_url": "https://badslava.com/details.php?id=10381",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": true,
+   "venue_registered": true
+  },
+  {
+   "venue": "Broadway Comedy Club",
+   "address": "318 W 53rd St New York NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "3:00pm",
+   "details_url": "https://badslava.com/details.php?id=10845",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "West Side Comedy Club",
+   "address": "201 W 75th St New York NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "3:00pm",
+   "details_url": "https://badslava.com/details.php?id=16018",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "4:30pm",
+   "details_url": "https://badslava.com/details.php?id=49360",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Grisly Pear",
+   "address": "107 MacDougal St New York NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "4:30pm",
+   "details_url": "https://badslava.com/details.php?id=50552",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Broadway Comedy Club",
+   "address": "318 W 53rd St New York NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "5:00pm",
+   "details_url": "https://badslava.com/details.php?id=10848",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "Producers Club Theaters",
+   "address": "358 W 44th St New York NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "5:00pm",
+   "details_url": "https://badslava.com/details.php?id=17447",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Pete’s Candy Store",
+   "address": "709 Lorimer St Brooklyn NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "5:00pm",
+   "details_url": "https://badslava.com/details.php?id=18166",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Stand NYC",
+   "address": "116 E. 16th St New York NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "5:00pm",
+   "details_url": "https://badslava.com/details.php?id=37900",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Sesh Comedy: The Bigger Room",
+   "address": "55 Chrystie St New York NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "5:00pm",
+   "details_url": "https://badslava.com/details.php?id=42430",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Comic Strip Live",
+   "address": "1568 2nd Ave New York NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "5:30pm",
+   "details_url": "https://badslava.com/details.php?id=9410",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "5:30pm",
+   "details_url": "https://badslava.com/details.php?id=48472",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Grisly Pear - Midtown",
+   "address": "243 W 54th St New York NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "5:30pm",
+   "details_url": "https://badslava.com/details.php?id=49428",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Greenpoint Comedy Club",
+   "address": "66 Greenpoint Ave Brooklyn NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "5:30pm",
+   "details_url": "https://badslava.com/details.php?id=55152",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "QED Astoria",
+   "address": "27-16 23rd Ave Queens NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=8763",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": true,
+   "venue_registered": true
+  },
+  {
+   "venue": "Producers Club Theaters",
+   "address": "358 W 44th St New York NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=10024",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "New York Comedy Club",
+   "address": "241 E 24th St New York NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=16099",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Fear City Comedy Club",
+   "address": "17 Essex St New York NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=19528",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Phoenix Bar",
+   "address": "447 E 13th St New York NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=30421",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "EastVille Comedy Club",
+   "address": "487 Atlantic Ave Brooklyn NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=34818",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "BK Made Comedy",
+   "address": "1241 Halsey St Brooklyn NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=38432",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Commune Cafe + Wine Bar",
+   "address": "415 Classon Ave Brooklyn NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=38940",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Grisly Pear",
+   "address": "107 MacDougal St New York NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=50553",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Pine Box Rock Shop",
+   "address": "12 Grattan St Brooklyn NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=58337",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Rodney's Comedy Club",
+   "address": "1118 1st Ave New York NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=61296",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Flop House Comedy Club",
+   "address": "362 Grand St Brooklyn NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "6:30pm",
+   "details_url": "https://badslava.com/details.php?id=30376",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "6:30pm",
+   "details_url": "https://badslava.com/details.php?id=38835",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Alligator Lounge",
+   "address": "600 Metropolitan Ave Brooklyn NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "7:00pm",
+   "details_url": "https://badslava.com/details.php?id=16492",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Secret Pour",
+   "address": "1114 Dekalb Ave Brooklyn NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "7:00pm",
+   "details_url": "https://badslava.com/details.php?id=17320",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Terraza 7",
+   "address": "40-19 Gleane St Queens NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "7:00pm",
+   "details_url": "https://badslava.com/details.php?id=32271",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Local NY",
+   "address": "13-02 44th Ave Queens NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "7:00pm",
+   "details_url": "https://badslava.com/details.php?id=37432",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Partea Lab",
+   "address": "32 E 32nd St New York NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "7:00pm",
+   "details_url": "https://badslava.com/details.php?id=60534",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Island Rib House",
+   "address": "611 Nostrand Ave Brooklyn NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "7:30pm",
+   "details_url": "https://badslava.com/details.php?id=18293",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Producers Club Theaters",
+   "address": "358 W 44th St New York NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "7:30pm",
+   "details_url": "https://badslava.com/details.php?id=13733",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Cool Beans! Coffee House",
+   "address": "50-20 39th Ave Queens NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "8:00pm",
+   "details_url": "https://badslava.com/details.php?id=18240",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "N&M's Pizza Bar",
+   "address": "2048 Amsterdam Ave New York NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "8:00pm",
+   "details_url": "https://badslava.com/details.php?id=48674",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Mexican Mariachi Cantina",
+   "address": "10 Minthorne St Staten Island NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "8:00pm",
+   "details_url": "https://badslava.com/details.php?id=52479",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Lilahs Bar And Grill",
+   "address": "33 Main St East Rockaway NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "8:00pm",
+   "details_url": "https://badslava.com/details.php?id=52961",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "8:00pm",
+   "details_url": "https://badslava.com/details.php?id=59463",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Producers Club Theaters",
+   "address": "358 W 44th St New York NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "8:30pm",
+   "details_url": "https://badslava.com/details.php?id=10561",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Acoustik Garden Lounge",
+   "address": "1515 Atlantic Ave Brooklyn NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "9:00pm",
+   "details_url": "https://badslava.com/details.php?id=16535",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Fear City Comedy Club",
+   "address": "17 Essex St New York NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "9:00pm",
+   "details_url": "https://badslava.com/details.php?id=45343",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Blind Barber",
+   "address": "339 E 10th St New York NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "9:30pm",
+   "details_url": "https://badslava.com/details.php?id=59662",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "9:45pm",
+   "details_url": "https://badslava.com/details.php?id=41639",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Rodney's Comedy Club",
+   "address": "1118 1st Ave New York NY",
+   "weekday": 4,
+   "weekday_name": "Thursday",
+   "time": "9:45pm",
+   "details_url": "https://badslava.com/details.php?id=59976",
+   "dates": [
+    "2026-09-17"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Fear City Comedy Club",
+   "address": "17 Essex St New York NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "10:00pm",
+   "details_url": "https://badslava.com/details.php?id=31841",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Bibblebash",
+   "address": "1139 Jefferson Ave #1 Brooklyn NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "10:00pm",
+   "details_url": "https://badslava.com/details.php?id=54654",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "EastVille Comedy Club",
+   "address": "487 Atlantic Ave Brooklyn NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "11:30pm",
+   "details_url": "https://badslava.com/details.php?id=42845",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "11:30pm",
+   "details_url": "https://badslava.com/details.php?id=59567",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Tiny Cupboard Comedy Club & Game Bar",
+   "address": "10 Cooper St Brooklyn NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "11:45pm",
+   "details_url": "https://badslava.com/details.php?id=14056",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Bibblebash",
+   "address": "1139 Jefferson Ave #1 Brooklyn NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "11:59pm",
+   "details_url": "https://badslava.com/details.php?id=20063",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Greenwich Village Comedy Club",
+   "address": "99 MacDougal St New York NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "3:00pm",
+   "details_url": "https://badslava.com/details.php?id=42426",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "West Side Comedy Club",
+   "address": "201 W 75th St New York NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "3:00pm",
+   "details_url": "https://badslava.com/details.php?id=43403",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "Broadway Comedy Club",
+   "address": "318 W 53rd St New York NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "4:00pm",
+   "details_url": "https://badslava.com/details.php?id=9899",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "Greenwich Village Comedy Club",
+   "address": "99 MacDougal St New York NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "4:00pm",
+   "details_url": "https://badslava.com/details.php?id=42424",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "The Grisly Pear",
+   "address": "107 MacDougal St New York NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "4:00pm",
+   "details_url": "https://badslava.com/details.php?id=50554",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "4:30pm",
+   "details_url": "https://badslava.com/details.php?id=49066",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Rodney's Comedy Club",
+   "address": "1118 1st Ave New York NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "5:00pm",
+   "details_url": "https://badslava.com/details.php?id=17753",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Producers Club Theaters",
+   "address": "358 W 44th St New York NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "5:00pm",
+   "details_url": "https://badslava.com/details.php?id=32504",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Sesh Comedy: The Bigger Room",
+   "address": "55 Chrystie St New York NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "5:00pm",
+   "details_url": "https://badslava.com/details.php?id=42431",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Dacia Gallery",
+   "address": "621 East 11st New York NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "5:00pm",
+   "details_url": "https://badslava.com/details.php?id=47994",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "West Side Comedy Club",
+   "address": "201 W 75th St New York NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "5:00pm",
+   "details_url": "https://badslava.com/details.php?id=51399",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "5:30pm",
+   "details_url": "https://badslava.com/details.php?id=47335",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Grisly Pear - Midtown",
+   "address": "243 W 54th St New York NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "5:30pm",
+   "details_url": "https://badslava.com/details.php?id=50542",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "QED Astoria",
+   "address": "27-16 23rd Ave Queens NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=4754",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": true,
+   "venue_registered": true
+  },
+  {
+   "venue": "The Fear City Comedy Club",
+   "address": "17 Essex St New York NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=19529",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Producers Club Theaters",
+   "address": "358 W 44th St New York NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=30359",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Phoenix Bar",
+   "address": "447 E 13th St New York NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=30422",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "BK Made Comedy",
+   "address": "1241 Halsey St Brooklyn NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=39090",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Pine Box Rock Shop",
+   "address": "12 Grattan St Brooklyn NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=48175",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Halyards",
+   "address": "406 3rd Ave Brooklyn NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "6:30pm",
+   "details_url": "https://badslava.com/details.php?id=10386",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Flop House Comedy Club",
+   "address": "362 Grand St Brooklyn NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "6:30pm",
+   "details_url": "https://badslava.com/details.php?id=30377",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "6:30pm",
+   "details_url": "https://badslava.com/details.php?id=38837",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Qahwah House - Broadway",
+   "address": "2869 Broadway New York NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "6:30pm",
+   "details_url": "https://badslava.com/details.php?id=61389",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Ruhani Cafe",
+   "address": "519 Atlantic Ave Brooklyn NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "7:00pm",
+   "details_url": "https://badslava.com/details.php?id=60894",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Producers Club Theaters",
+   "address": "358 W 44th St New York NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "7:30pm",
+   "details_url": "https://badslava.com/details.php?id=30360",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Con Bud Bronx Legal Cannabis Dispensary",
+   "address": "2412 3rd Ave Bronx NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "8:00pm",
+   "details_url": "https://badslava.com/details.php?id=58506",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Producers Club Theaters",
+   "address": "358 W 44th St New York NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "8:30pm",
+   "details_url": "https://badslava.com/details.php?id=61297",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 5,
+   "weekday_name": "Friday",
+   "time": "9:45pm",
+   "details_url": "https://badslava.com/details.php?id=38989",
+   "dates": [
+    "2026-09-18"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Fear City Comedy Club",
+   "address": "17 Essex St New York NY",
+   "weekday": 6,
+   "weekday_name": "Saturday",
+   "time": "10:00pm",
+   "details_url": "https://badslava.com/details.php?id=31843",
+   "dates": [
+    "2026-09-19"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "QED Astoria",
+   "address": "27-16 23rd Ave Queens NY",
+   "weekday": 6,
+   "weekday_name": "Saturday",
+   "time": "11:00pm",
+   "details_url": "https://badslava.com/details.php?id=32174",
+   "dates": [
+    "2026-09-19"
+   ],
+   "in_open_mics": true,
+   "venue_registered": true
+  },
+  {
+   "venue": "EastVille Comedy Club",
+   "address": "487 Atlantic Ave Brooklyn NY",
+   "weekday": 6,
+   "weekday_name": "Saturday",
+   "time": "11:30pm",
+   "details_url": "https://badslava.com/details.php?id=33197",
+   "dates": [
+    "2026-09-19"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "The Tiny Cupboard Comedy Club & Game Bar",
+   "address": "10 Cooper St Brooklyn NY",
+   "weekday": 6,
+   "weekday_name": "Saturday",
+   "time": "11:45pm",
+   "details_url": "https://badslava.com/details.php?id=14055",
+   "dates": [
+    "2026-09-19"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Grisly Pear",
+   "address": "107 MacDougal St New York NY",
+   "weekday": 6,
+   "weekday_name": "Saturday",
+   "time": "2:00pm",
+   "details_url": "https://badslava.com/details.php?id=50555",
+   "dates": [
+    "2026-09-19"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Stand NYC",
+   "address": "116 E. 16th St New York NY",
+   "weekday": 6,
+   "weekday_name": "Saturday",
+   "time": "2:30pm",
+   "details_url": "https://badslava.com/details.php?id=10558",
+   "dates": [
+    "2026-09-19"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "West Side Comedy Club",
+   "address": "201 W 75th St New York NY",
+   "weekday": 6,
+   "weekday_name": "Saturday",
+   "time": "3:00pm",
+   "details_url": "https://badslava.com/details.php?id=9967",
+   "dates": [
+    "2026-09-19"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "SoHo Playhouse",
+   "address": "15 Vandam St New York NY",
+   "weekday": 6,
+   "weekday_name": "Saturday",
+   "time": "3:00pm",
+   "details_url": "https://badslava.com/details.php?id=15274",
+   "dates": [
+    "2026-09-19"
+   ],
+   "in_open_mics": true,
+   "venue_registered": true
+  },
+  {
+   "venue": "Pete's Candy Store",
+   "address": "709 Lorimer St Brooklyn NY",
+   "weekday": 6,
+   "weekday_name": "Saturday",
+   "time": "3:30pm",
+   "details_url": "https://badslava.com/details.php?id=35891",
+   "dates": [
+    "2026-09-19"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "St. Marks Comedy Club",
+   "address": "12 St Marks Pl New York NY",
+   "weekday": 6,
+   "weekday_name": "Saturday",
+   "time": "4:00pm",
+   "details_url": "https://badslava.com/details.php?id=10595",
+   "dates": [
+    "2026-09-19"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 6,
+   "weekday_name": "Saturday",
+   "time": "4:00pm",
+   "details_url": "https://badslava.com/details.php?id=48473",
+   "dates": [
+    "2026-09-19"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Grisly Pear - Midtown",
+   "address": "243 W 54th St New York NY",
+   "weekday": 6,
+   "weekday_name": "Saturday",
+   "time": "4:00pm",
+   "details_url": "https://badslava.com/details.php?id=50543",
+   "dates": [
+    "2026-09-19"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Comic Strip Live",
+   "address": "1568 2nd Ave New York NY",
+   "weekday": 6,
+   "weekday_name": "Saturday",
+   "time": "5:00pm",
+   "details_url": "https://badslava.com/details.php?id=13725",
+   "dates": [
+    "2026-09-19"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "Sesh Comedy",
+   "address": "55 Chrystie St New York NY",
+   "weekday": 6,
+   "weekday_name": "Saturday",
+   "time": "5:00pm",
+   "details_url": "https://badslava.com/details.php?id=42432",
+   "dates": [
+    "2026-09-19"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 6,
+   "weekday_name": "Saturday",
+   "time": "5:00pm",
+   "details_url": "https://badslava.com/details.php?id=53347",
+   "dates": [
+    "2026-09-19"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Producers Club Theaters",
+   "address": "358 W 44th St New York NY",
+   "weekday": 6,
+   "weekday_name": "Saturday",
+   "time": "5:00pm",
+   "details_url": "https://badslava.com/details.php?id=61300",
+   "dates": [
+    "2026-09-19"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The Fear City Comedy Club",
+   "address": "17 Essex St New York NY",
+   "weekday": 6,
+   "weekday_name": "Saturday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=31842",
+   "dates": [
+    "2026-09-19"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 6,
+   "weekday_name": "Saturday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=48474",
+   "dates": [
+    "2026-09-19"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Producers Club Theaters",
+   "address": "358 W 44th St New York NY",
+   "weekday": 6,
+   "weekday_name": "Saturday",
+   "time": "6:00pm",
+   "details_url": "https://badslava.com/details.php?id=61301",
+   "dates": [
+    "2026-09-19"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "The PIT",
+   "address": "154 W 29th St New York NY",
+   "weekday": 6,
+   "weekday_name": "Saturday",
+   "time": "6:30pm",
+   "details_url": "https://badslava.com/details.php?id=13783",
+   "dates": [
+    "2026-09-19"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Bushwick Comedy Club",
+   "address": "259 Melrose St Brooklyn NY",
+   "weekday": 6,
+   "weekday_name": "Saturday",
+   "time": "6:30pm",
+   "details_url": "https://badslava.com/details.php?id=30410",
+   "dates": [
+    "2026-09-19"
+   ],
+   "in_open_mics": false,
+   "venue_registered": true
+  },
+  {
+   "venue": "Black Cat LES",
+   "address": "172 Rivington St New York NY",
+   "weekday": 6,
+   "weekday_name": "Saturday",
+   "time": "7:00pm",
+   "details_url": "https://badslava.com/details.php?id=10052",
+   "dates": [
+    "2026-09-19"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Producers Club Theaters",
+   "address": "358 W 44th St New York NY",
+   "weekday": 6,
+   "weekday_name": "Saturday",
+   "time": "7:30pm",
+   "details_url": "https://badslava.com/details.php?id=61302",
+   "dates": [
+    "2026-09-19"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 6,
+   "weekday_name": "Saturday",
+   "time": "8:00pm",
+   "details_url": "https://badslava.com/details.php?id=57997",
+   "dates": [
+    "2026-09-19"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Balance Arts Center",
+   "address": "151 W 30th St 3rd floor New York NY",
+   "weekday": 6,
+   "weekday_name": "Saturday",
+   "time": "8:00pm",
+   "details_url": "https://badslava.com/details.php?id=58507",
+   "dates": [
+    "2026-09-19"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Producers Club Theaters",
+   "address": "358 W 44th St New York NY",
+   "weekday": 6,
+   "weekday_name": "Saturday",
+   "time": "8:30pm",
+   "details_url": "https://badslava.com/details.php?id=61303",
+   "dates": [
+    "2026-09-19"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Black Cat LES",
+   "address": "172 Rivington St New York NY",
+   "weekday": 6,
+   "weekday_name": "Saturday",
+   "time": "9:00pm",
+   "details_url": "https://badslava.com/details.php?id=10053",
+   "dates": [
+    "2026-09-19"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  },
+  {
+   "venue": "Laughing Buddha Comedy",
+   "address": "410 8th Ave 2nd floor New York NY",
+   "weekday": 6,
+   "weekday_name": "Saturday",
+   "time": "9:45pm",
+   "details_url": "https://badslava.com/details.php?id=48475",
+   "dates": [
+    "2026-09-19"
+   ],
+   "in_open_mics": false,
+   "venue_registered": false
+  }
+ ]
+}
