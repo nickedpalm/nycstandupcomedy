@@ -1145,8 +1145,12 @@
   "neighborhood": "Washington Heights",
   "borough": "Manhattan",
   "badslava_url": "https://badslava.com/details.php?id=48674",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "needs_review": false,
+  "website": "https://nmspizzabar.com/",
+  "source_label": "Badslava venue URL (Cloudflare-gated; site did not render in the managed browser)",
+  "access_note": "Washington Heights pizza bar. Badslava's 'Bent Over Laughing' Thursday 8pm weekly open mic is producer-run (John Bent, bol.johnbent.com) — not on the venue's own site. Venue's https site is behind Cloudflare bot protection so no calendar_url was reached",
+  "verified_at": "2026-09-14",
+  "note": "Address 2048 Amsterdam Ave confirmed by Badslava and the venue URL field. Washington Heights label assigned from the address."
  },
  {
   "name": "Mexican Mariachi Cantina",
@@ -1154,17 +1158,25 @@
   "neighborhood": "Tompkinsville",
   "borough": "Staten Island",
   "badslava_url": "https://badslava.com/details.php?id=52479",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "needs_review": false,
+  "source_label": "No venue-owned website (Badslava has no Venue Website field)",
+  "access_note": "Tompkinsville Mexican cantina. Badslava's 'The Shaolin Talent Show' Thursday 8pm weekly open mic is producer-run (via @theshaolinshow on Instagram, thecomedianformerlyknownassaul@gmail.com) — not on a venue-controlled page. Venue has no own website",
+  "verified_at": "2026-09-14",
+  "note": "No venue-owned site; held out of open-mics.json. Tompkinsville label kept from address."
  },
  {
   "name": "Acoustik Garden Lounge",
   "address": "1515 Atlantic Ave, Brooklyn",
-  "neighborhood": "Crown Heights",
+  "neighborhood": "Bedford-Stuyvesant",
   "borough": "Brooklyn",
   "badslava_url": "https://badslava.com/details.php?id=16535",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "needs_review": false,
+  "website": "https://acoustikgardenlounge.com/",
+  "calendar_url": "https://acoustikgardenlounge.com/events",
+  "source_label": "Acoustik Garden Lounge events page (Wix; SOFAR NYC + AFROJAM Afrohouse parties)",
+  "access_note": "Bed-Stuy lounge and events venue (venue footer reads 'Acoustik Garden Lounge, 1515 Atlantic Ave, New York, New York 11213, United States'; zip 11213 keeps the Bed-Stuyvesant label). EVENTS page lists SOFAR NYC, AFROJAM - AFROHOUSE PARTY and birthday parties — Afrobeats/Amapiano/Soca/Reggae programming, no comedy. Hours 5pm-2am; Happy Hour Wed/Thu 9pm-2am. Badslava's Thursday 9pm weekly open mic ($10 minimum purchase) is producer-run via acoustikgardenevents@gmail.com — not on the venue's calendar",
+  "verified_at": "2026-09-14",
+  "note": "Corrected neighborhood from 'Crown Heights' to 'Bedford-Stuyvesant' — venue's own footer lists the 11213 zip; Atlantic Ave between Albany and Troy is Bed-Stuy, not Crown Heights."
  },
  {
   "name": "Blind Barber",
@@ -1172,8 +1184,12 @@
   "neighborhood": "East Village",
   "borough": "Manhattan",
   "badslava_url": "https://badslava.com/details.php?id=59662",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "needs_review": false,
+  "website": "https://blindbarber.com/",
+  "source_label": "Blind Barber East Village location page (barbershop + Backroom bar; no comedy listed)",
+  "access_note": "East Village barbershop-by-day / Backroom-speakeasy-by-night at 339 E 10th St (the venue's own location page confirms '339 E 10th St, New York, NY 10009'). Barbershop 10am-7pm Sun-Sat; Backroom 7pm-3am Thu, 7pm-4am Fri/Sat. Badslava's Thursday 9:30pm weekly open mic (sign-up 9:15, set length 5-7 min, two-drink minimum) is producer-run via @iamartur.music on Instagram — not listed on the venue's own page",
+  "verified_at": "2026-09-14",
+  "note": "Neighborhood East Village confirmed by the venue's own location page heading. Backroom has no comedy calendar on the venue's site."
  },
  {
   "name": "Bibblebash",
@@ -1181,17 +1197,23 @@
   "neighborhood": "Bushwick",
   "borough": "Brooklyn",
   "badslava_url": "https://badslava.com/details.php?id=54654",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "needs_review": false,
+  "source_label": "No venue-owned website (bibblebash.com does not resolve; Badslava lists no Venue Website)",
+  "access_note": "Bushwick venue at 1139 Jefferson Ave #1. bibblebash.com does not resolve (DNS lookup fails); Badslava has no Venue Website field. Badslava's 'Bubblebath Mic' Friday 10pm weekly open mic ($3 beers, sign-up by DM to @LaramieFlick, signup via slotted.co/bubblebath-mic, producer Instagram @bibcomedy) is producer-run — held out of open-mics.json. Venue has no own website",
+  "verified_at": "2026-09-14",
+  "note": "No working venue website (the bibblebash.com domain does not resolve). Held out — venue-controlled source for the open mic does not exist."
  },
  {
   "name": "Dacia Gallery",
-  "address": "621 East 11st, Manhattan",
+  "address": "621 E 11th St, Manhattan",
   "neighborhood": "East Village",
   "borough": "Manhattan",
   "badslava_url": "https://badslava.com/details.php?id=47994",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "needs_review": false,
+  "source_label": "Dacia Gallery home + Events page (visual art gallery; no comedy calendar)",
+  "access_note": "East Village visual art gallery at 621 E 11th Street, NY 10009 (corrected from '11st' typo in Badslava; confirmed by venue footer '621 E. 11th Street, New York, NY 10009'). The home page features the 16-year anniversary exhibition, an upcoming comic books/pop art exhibition, and a 'Superheroes, Comic Books & Pop Art Exhibition' call for submissions. Events page lists only 'ComIC BOOKS & COMIC ART WANTED' — visual art, not comedy. Badslava's monthly Friday 5pm 'Ladies Who Laugh' ($5 for 5 minutes) is producer-run via @femininelifestyleco / Jaiya at 646-229-6416 — not on the venue's site. Venue URL is http (no https), so website and calendar_url were not set (the check requires https)",
+  "verified_at": "2026-09-14",
+  "note": "Corrected the Badslava address typo '621 East 11st' to '621 E 11th St'. Visual art gallery with no comedy on its own pages — held out of recurring.json and open-mics.json. No https site to link."
  },
  {
   "name": "Qahwah House - Broadway",
@@ -1199,8 +1221,11 @@
   "neighborhood": "Morningside Heights",
   "borough": "Manhattan",
   "badslava_url": "https://badslava.com/details.php?id=61389",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "needs_review": false,
+  "source_label": "No venue-owned website (Badslava has no Venue Website field)",
+  "access_note": "Morningside Heights Yemeni coffee shop at 2869 Broadway (one block from the 110th St #1 train per Badslava's notes). Badslava lists no Venue Website; the parent Qahwah House brand has a site but the Broadway location does not publish its own calendar. Badslava's monthly Friday 6:30pm 'Morningside Comedy Open Mic' (free, buy a coffee to support the venue) is producer-run via @dr.max.sheppard on Instagram — not on a venue-controlled page",
+  "verified_at": "2026-09-14",
+  "note": "No venue-owned site for the Broadway location; held out of open-mics.json until the cafe or producer puts a calendar on its own page."
  },
  {
   "name": "Ruhani Cafe",
@@ -1208,8 +1233,11 @@
   "neighborhood": "Boerum Hill",
   "borough": "Brooklyn",
   "badslava_url": "https://badslava.com/details.php?id=60894",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "needs_review": false,
+  "source_label": "No venue-owned website (Badslava has no Venue Website field)",
+  "access_note": "Boerum Hill cafe at 519 Atlantic Ave. Badslava lists no Venue Website; the venue does not publish its own calendar. Badslava's weekly Friday 7pm 'Summer Fridays' open mic (1-item minimum, weather permitting) is producer-run via @summerfridaysmic on Instagram — not on a venue-controlled page",
+  "verified_at": "2026-09-14",
+  "note": "No venue-owned site; held out of open-mics.json until the cafe puts a calendar on its own page."
  },
  {
   "name": "Black Cat LES",
@@ -1217,8 +1245,11 @@
   "neighborhood": "Lower East Side",
   "borough": "Manhattan",
   "badslava_url": "https://badslava.com/details.php?id=10052",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "needs_review": false,
+  "source_label": "No working venue website (blackcatles.com does not resolve; Badslava lists the URL as http only)",
+  "access_note": "Lower East Side bar at 172 Rivington St. Badslava lists 'Venue Website: http://blackcatles.com/' (http, not https) but the domain does not resolve today (DNS lookup fails). Badslava's weekly Saturday 7pm 'Comedians On The Loose' open mic ($6 for 5-7 min, online reservation via comediansontheloose.com/open-mics, producer @cotlcomedy / sonja@comediansontheloose.com) is producer-run — held out of open-mics.json. Venue has no working own website",
+  "verified_at": "2026-09-14",
+  "note": "No working venue website (blackcatles.com domain does not resolve). Held out — venue-controlled source for the open mic does not exist."
  },
  {
   "name": "Balance Arts Center",
@@ -1226,7 +1257,12 @@
   "neighborhood": "Chelsea",
   "borough": "Manhattan",
   "badslava_url": "https://badslava.com/details.php?id=58507",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "needs_review": false,
+  "website": "https://www.balanceartscenter.com/",
+  "calendar_url": "https://www.balanceartscenter.com/calendar",
+  "source_label": "Balance Arts Center home + Classes & Workshops Calendar (Alexander Technique training center)",
+  "access_note": "Chelsea Alexander Technique training center at 151 West 30th Street, NY 10001, 3rd floor (the venue's own calendar page confirms the address). The site's own September 2026 calendar lists only Alexander Technique classes (Principles Level I Certification Sep 19-20, Group Class Tuesdays 7-8:30pm, Creative Flow Class Series Mondays 8:30-10am). The /study-with-us page lists Space Rental — Badslava's 'Night Cap' Saturday 8pm weekly open mic ($5 + one-drink minimum) is producer-run via Laugh Pack Productions (thelaughpackproductions@gmail.com, Eventbrite tickets), not a venue-run comedy night. The 3rd-floor room is rented out for one-off productions rather than a fixed weekly showcase",
+  "verified_at": "2026-09-14",
+  "note": "Venue is an Alexander Technique school, not a comedy club — held out of recurring.json. The weekly Night Cap is a producer rental, not a venue showcase."
  }
 ]
