@@ -72,11 +72,14 @@ if (featured > 3) fail(`picks: ${featured} featured entries; the board shows at 
 
 // recurring.json: weekly and monthly bar shows.
 const recurringRows = readJson('recurring.json');
-recurringRows.forEach((r) => { if (/open mic/i.test(r.title || '')) fail(`recurring ${r.id}: open mics belong in open-mics.json, not recurring.json`); });
+recurringRows.forEach((r) => { if (/open mic/i.test((r.title || '') + ' ' + (r.format || ''))) fail(`recurring ${r.id}: open mics belong in open-mics.json, not recurring.json`); if (/^(twice|multiple|mon|tue|wed|thu|fri|sat|sun)/i.test(r.cadence || '') && !/^every\s|^(1st|2nd|3rd|4th|last)/i.test(r.cadence || '')) fail(`recurring ${r.id}: one record per night; cadence "${r.cadence}" covers several`); if (/\b(see show page|see listing|see ticket page)\b/i.test(r.description || '')) fail(`recurring ${r.id}: description reads like a listing note`); });
 checkCommon('recurring', recurringRows, ['id', 'title', 'venue', 'neighborhood', 'weekday', 'cadence', 'time_label', 'price_label', 'source_url', 'verified_at', 'tier'], ['recurring']);
 
 // open-mics.json
 checkCommon('open-mics', readJson('open-mics.json'), ['id', 'title', 'venue', 'neighborhood', 'weekday', 'cadence', 'cost_label', 'signup', 'source_url', 'verified_at', 'tier'], ['open-mic']);
+
+// Open-mic notes must be ours, not pasted listing text.
+readJson('open-mics.json').forEach((r) => { if (/venue'?s own|homepage|per the venue|event page reads|calendar shows|carousel/i.test(r.notes || '')) fail(`open-mics ${r.id}: notes read like a scraped listing; rewrite in our voice`); });
 
 // clubs.json
 checkCommon('clubs', readJson('clubs.json'), ['id', 'name', 'neighborhood', 'address', 'calendar_url', 'source_url', 'verified_at', 'tier'], ['club']);

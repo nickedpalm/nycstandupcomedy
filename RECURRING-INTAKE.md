@@ -242,3 +242,6 @@ Calendar URLs found this round: 2 (Acoustik Garden, Balance Arts Center). Venue 
 **0 rooms left with needs_review: true.** The Badslava sweep is complete. Same rule applies going forward: if Mazzie pulls a new Badslava batch and registers more venues, only add a recurring/open-mic record when the venue's own page or a ticketed partner lists the show with a fixed cadence.
 
 Recurring intake so far (Sep 14, 2026) — 15 recurring.json records and 17 open-mics.json records across all seven batches. Producer-run mics continue to dominate the Badslava table; venue-controlled comedy calendars remain the bottleneck for adding more.
+
+## Editorial pass on rooms and mics — September 14, 2026
+Every recurring record rewritten in our voice (no press quotes, no venue marketing, no "see show page" inside a description). One record per night: Bomb Shelter is now Thursday and Saturday entries; BK Made's Comedy Tonight is Monday through Thursday entries plus a Friday and Saturday weekend show. Deadass moved to open-mics.json. Faculty Lounge's note now states the show page (Sunday) is authoritative over BCC's stale overview (Thursday). Open-mic notes that quoted venue pages rewritten. check.js fails multi-night cadences, listing phrases in descriptions, and scraped-sounding mic notes.
