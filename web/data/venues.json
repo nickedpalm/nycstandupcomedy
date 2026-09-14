@@ -431,108 +431,137 @@
   "address": "372 Van Duzer St, Staten Island",
   "neighborhood": "Stapleton",
   "borough": "Staten Island",
-  "badslava_url": "https://badslava.com/details.php?id=9359",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "website": "https://www.thehopshoppe.com/",
+  "source_label": "Venue home (Staten Island Stapleton bar & grill)",
+  "access_note": "Staten Island Stapleton bar & restaurant; menus, beer list and reservations on the site. No public events calendar and no recurring stand-up showcase visible",
+  "verified_at": "2026-09-14",
+  "note": "Neighborhood confirmed Stapleton via OpenTable listing and the venue's own site. Bar/restaurant without a venue-run comedy calendar."
  },
  {
   "name": "Secret Pour",
   "address": "1114 Dekalb Ave, Brooklyn",
   "neighborhood": "Bushwick",
   "borough": "Brooklyn",
-  "badslava_url": "https://badslava.com/details.php?id=37321",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "website": "https://secretpour.com/",
+  "calendar_url": "https://secretpour.com/events",
+  "source_label": "Venue events page",
+  "access_note": "Bushwick bar and lounge (GoDaddy-built site). Events page lists no upcoming events; no recurring stand-up showcase on the venue's own site",
+  "verified_at": "2026-09-14",
+  "note": "Neighborhood confirmed Bushwick via Yelp and Zillow. Bar hosts third-party comedy nights but none with a fixed cadence on its own calendar."
  },
  {
   "name": "O'Keefe's Bar And Grill",
   "address": "62 Court St, Brooklyn",
   "neighborhood": "Downtown Brooklyn",
   "borough": "Brooklyn",
-  "badslava_url": "https://badslava.com/details.php?id=9257",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "source_label": "Facebook page (no working https site)",
+  "access_note": "Downtown Brooklyn bar & grill near Court St; the venue's own https page does not resolve cleanly (GoDaddy certificate mismatch), and there is no public events calendar on Facebook either. Punching Bag Comedy runs its weekly Wednesday showcase here (listed separately as a venue)",
+  "verified_at": "2026-09-14",
+  "note": "45-year Brooklyn Heights bar; Yelp calls the area Brooklyn Heights. Downtown Brooklyn kept in the registry for consistency. Venue has no https site of its own."
  },
  {
   "name": "Liffy II Bar",
   "address": "5009 Broadway, Manhattan",
   "neighborhood": "Inwood",
   "borough": "Manhattan",
-  "badslava_url": "https://badslava.com/details.php?id=50650",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "source_label": "No venue-owned website; programming visible only on Facebook and Instagram",
+  "access_note": "Inwood whiskey bar on Broadway. No own site (liffybar.com is a GoDaddy parked domain). Live D&D nights and irregular comedy nights (e.g. Have a Good Mic) promoted via Facebook only",
+  "verified_at": "2026-09-14",
+  "note": "Neighborhood Inwood confirmed via Instagram bio and the venue's posted signage. No fixed weekly stand-up showcase on a venue-controlled page."
  },
  {
   "name": "The Local NY",
   "address": "13-02 44th Ave, Queens",
   "neighborhood": "Long Island City",
   "borough": "Queens",
-  "badslava_url": "https://badslava.com/details.php?id=53946",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "website": "https://thelocalny.com/",
+  "source_label": "Venue home (LIC hostel/bar; no dedicated comedy calendar)",
+  "access_note": "Long Island City hostel/cafe/bar hybrid. The site covers stays and a sparse events archive from 2016-2018; comedy nights run on Instagram only with no fixed weekly schedule on the venue's own pages",
+  "verified_at": "2026-09-14",
+  "note": "Comedy nights exist (Facebook and Instagram posts about a Wednesday night mic) but with no published weekly cadence on the venue's own site."
  },
  {
   "name": "The PIT",
   "address": "154 W 29th St, Manhattan",
   "neighborhood": "Chelsea",
   "borough": "Manhattan",
-  "badslava_url": "https://badslava.com/details.php?id=30400",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "website": "https://thepit-nyc.com/",
+  "calendar_url": "https://thepit-nyc.com/calendar/",
+  "source_label": "Peoples Improv Theater home and calendar",
+  "access_note": "Peoples Improv Theater (the PIT Loft, 2nd floor at 154 W 29th St). Improv-first theater with classes, jams and a handful of stand-up events including the Saturday Ladies Stand-Up Open Mic. No fixed weekly paid stand-up showcase; held out of recurring.json for that reason",
+  "verified_at": "2026-09-14",
+  "note": "Neighborhood kept as Chelsea to match Yelp (PIT Loft straddles Chelsea and Midtown West)."
  },
  {
   "name": "Sesh Comedy",
   "address": "55 Chrystie St, Manhattan",
   "neighborhood": "Lower East Side",
   "borough": "Manhattan",
-  "badslava_url": "https://badslava.com/details.php?id=42427",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "website": "https://seshcomedy.com/",
+  "calendar_url": "https://seshcomedy.com/showcases.php",
+  "source_label": "SESH showcases page (Friday and Saturday Night SESH Showcase)",
+  "access_note": "BYOB comedy room on the LES / Chinatown border. Weekly Friday and Saturday Night SESH Showcases (70-minute showcases, $7 fee) plus occasional headline shows. Showcase page lists dates through October 2026",
+  "verified_at": "2026-09-14",
+  "note": "Address on the venue's own site is 55 Chrystie St; neighborhood LES per the location page."
  },
  {
   "name": "Comedy In Harlem",
   "address": "750A St Nicholas Ave, Manhattan",
   "neighborhood": "Harlem",
   "borough": "Manhattan",
-  "badslava_url": "https://badslava.com/details.php?id=18168",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "website": "https://www.comedyinharlem.com/",
+  "calendar_url": "https://www.comedyinharlem.com/events",
+  "source_label": "Comedy In Harlem upcoming events (SeatEngine)",
+  "access_note": "Harlem comedy club (around 147th St and St Nicholas Ave). Weekly Funny Lines Open Mic Mondays 5:30pm, Paid by the Bell Tuesdays, Ladies Night Mondays, Flash Feature Wednesdays and more, listed through December 2026",
+  "verified_at": "2026-09-14",
+  "note": "Neighborhood Harlem confirmed via the venue's own pages and Yelp."
  },
  {
   "name": "Pine Box Rock Shop",
   "address": "12 Grattan St, Brooklyn",
   "neighborhood": "Bushwick",
   "borough": "Brooklyn",
-  "badslava_url": "https://badslava.com/details.php?id=1744",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "website": "https://www.pineboxrockshop.com/",
+  "calendar_url": "https://www.pineboxrockshop.com/event-calender",
+  "source_label": "Pine Box Rock Shop event calendar",
+  "access_note": "Bushwick (the venue's own homepage says 'East Williamsburg/Bushwick, just steps from the Morgan Ave L') bar in a former casket factory. Multiple recurring stand-up mics: Deadass (every Friday 6pm, free), CHAMPS (every Wednesday), Pillow Fight, Jeans & A Nice Top, JesterMAXXING, plus Miércoles con Mateo Wednesdays and the monthly Sketch Mic NYC on the last Tuesday",
+  "verified_at": "2026-09-14",
+  "note": "Registry keeps Bushwick; the venue labels the area East Williamsburg/Bushwick on its site."
  },
  {
   "name": "Echo Bravo",
   "address": "445 Troutman St, Brooklyn",
-  "neighborhood": "Bushwick",
   "borough": "Brooklyn",
-  "badslava_url": "https://badslava.com/details.php?id=31181",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "neighborhood": "Bushwick",
+  "website": "https://www.bravobarparty.com/",
+  "source_label": "Bravo Bar Party group site (Echo Bravo is one of three bars)",
+  "access_note": "Bushwick sports bar in the Bushwick Collective; the Bravo Bar Party group site has no venue-specific comedy calendar. Site focuses on the wing menu, happy hour and reservations. No recurring stand-up showcase on the venue's own pages",
+  "verified_at": "2026-09-14",
+  "note": "Neighborhood Bushwick confirmed via NYC Tourism and Yelp."
  },
  {
   "name": "BK Made Comedy",
   "address": "1241 Halsey St, Brooklyn",
   "neighborhood": "Bushwick",
   "borough": "Brooklyn",
-  "badslava_url": "https://badslava.com/details.php?id=38443",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "website": "https://www.bkmadecomedy.com/",
+  "calendar_url": "https://www.bkmadecomedy.com/event-list",
+  "source_label": "BK Made Comedy events list (Wix)",
+  "access_note": "BYOB Bushwick comedy club (founded 2025 by George Diaz). Comedy Tonight nightly showcase Mondays-Thursdays at 8pm ($5), Sharp Tongue Comedy first Thursday ($15), Friday and Saturday 8pm shows ($15). Free pizza Fri/Sat",
+  "verified_at": "2026-09-14",
+  "note": "Neighborhood Bushwick confirmed via Zillow and Homes.com."
  },
  {
   "name": "Freddy's Bar",
   "address": "627 5th Ave, Brooklyn",
   "neighborhood": "South Slope",
   "borough": "Brooklyn",
-  "badslava_url": "https://badslava.com/details.php?id=10525",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "website": "https://www.freddysbar.com/",
+  "calendar_url": "https://www.freddysbar.com/events",
+  "source_label": "Freddy's Bar events page",
+  "access_note": "South Slope bar at 627 5th Ave (between 17th and 18th Sts). Weekly Comedy Open Mic (The Fun Mic — Alex's Comedy Open Mic) Mondays and Wednesdays at 7pm; New Material Night 1st Wednesdays at 9:30pm; Late Night Laughs after Thursday burlesque; monthly storytelling 3rd Mondays",
+  "verified_at": "2026-09-14",
+  "note": "Neighborhood South Slope confirmed via Yelp and the venue's own pages."
  },
  {
   "name": "Suite",
