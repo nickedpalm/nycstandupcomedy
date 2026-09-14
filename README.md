@@ -21,6 +21,7 @@ web/assets/fonts/    Oswald and Permanent Marker (OFL/Apache) for offline card r
 functions/api/       Cloudflare Pages Function for POST /api/subscribe (Listmonk)
 functions/_middleware.js  serves the Markdown edition when a client asks for text/markdown
 scripts/markdown.js  builds the Markdown edition and llms.txt into dist/ (run by npm run build)
+scripts/stamp.js     versions CSS and JS references in the built HTML (?v=hash) so browsers never serve a stale stylesheet
 web/404.html, web/_headers, web/.well-known/api-catalog
 scripts/check.js     data and source checks run by `npm test` and CI
 robots.txt, sitemap.xml
