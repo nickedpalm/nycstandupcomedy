@@ -33,7 +33,7 @@ Promise.all(['/data/venues.json','/data/picks.json','/data/recurring.json','/dat
   section.append(element('h4','Rooms'));const ul=element('ul',undefined,'area-list');area.venues.sort((x,y)=>x.name.localeCompare(y.name)).forEach(v=>{const url=v.calendar_url||v.website;ul.append(row(v.clubs?'':'',link(v.name,url),v.address+(v.note&&/no (usable )?(web)?site|closed/i.test(v.note)?' · no events page':'')));});section.append(ul);
   return section;
  }
- function render(){root.replaceChildren();const chosen=select?.value;
+ function render(){root.replaceChildren();const chosen=select?.value;root.classList.toggle('index',!(chosen&&areas.has(chosen)));
   if(chosen&&areas.has(chosen)){root.append(block(areas.get(chosen),true));if(count)count.textContent=chosen+' · '+areas.get(chosen).venues.length+' rooms';return;}
   let total=0;for(const b of BOROUGHS){const list=[...areas.values()].filter(a=>a.borough===b).sort((x,y)=>(y.picks.length+y.rooms.length+y.mics.length)-(x.picks.length+x.rooms.length+x.mics.length)||x.name.localeCompare(y.name));if(!list.length)continue;total+=list.length;root.append(element('h2',b,'section-heading'));list.forEach(a=>root.append(block(a,false)));}
   if(count)count.textContent=total+' neighborhoods · '+venues.length+' rooms across the five boroughs';}
