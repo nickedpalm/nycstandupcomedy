@@ -71,7 +71,9 @@ const featured = picks.filter((r) => r.tier === 'featured').length;
 if (featured > 3) fail(`picks: ${featured} featured entries; the board shows at most 3`);
 
 // recurring.json: weekly and monthly bar shows.
-checkCommon('recurring', readJson('recurring.json'), ['id', 'title', 'venue', 'neighborhood', 'weekday', 'cadence', 'time_label', 'price_label', 'source_url', 'verified_at', 'tier'], ['recurring']);
+const recurringRows = readJson('recurring.json');
+recurringRows.forEach((r) => { if (/open mic/i.test(r.title || '')) fail(`recurring ${r.id}: open mics belong in open-mics.json, not recurring.json`); });
+checkCommon('recurring', recurringRows, ['id', 'title', 'venue', 'neighborhood', 'weekday', 'cadence', 'time_label', 'price_label', 'source_url', 'verified_at', 'tier'], ['recurring']);
 
 // open-mics.json
 checkCommon('open-mics', readJson('open-mics.json'), ['id', 'title', 'venue', 'neighborhood', 'weekday', 'cadence', 'cost_label', 'signup', 'source_url', 'verified_at', 'tier'], ['open-mic']);

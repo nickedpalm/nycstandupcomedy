@@ -118,3 +118,6 @@ Reviewed (12 rooms):
 Recurring shows added this round: 7 (Friday and Saturday SESH, Funny Lines Open Mic, Deadass, The Fun Mic Mon, The Fun Mic Wed, Comedy Tonight). Each uses the venue's own page as source_url; no Badslava link.
 
 59 rooms left with needs_review: true. Same rule for the next batch — open the venue's own page before clearing needs_review.
+
+## Filing rule — September 14, 2026
+Open mics live in open-mics.json (tier open-mic); recurring.json is for weekly and monthly shows with a lineup. Four mics from the first Badslava review batch (Brooklyn Art Haus Sunday mic, Funny Lines at Comedy In Harlem, The Fun Mic at Freddy's Mon and Wed) were moved accordingly. The check now fails a recurring record whose title says "open mic".
