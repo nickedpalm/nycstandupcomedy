@@ -696,108 +696,125 @@
   "address": "710 Amsterdam Ave, Manhattan",
   "neighborhood": "Upper West Side",
   "borough": "Manhattan",
-  "badslava_url": "https://badslava.com/details.php?id=61409",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "website": "https://thethrowbacknyc.com/",
+  "source_label": "Venue home (SpotHopper; monthly 'The Throwback Mic' is on Instagram, not the venue site)",
+  "access_note": "UWS sports bar at 710 Amsterdam. Badslava lists a monthly Tuesday open mic (4:30-6:30pm, free, 6-min sets) hosted by Ross Belsky via @error404theater_boy; the mic is not on the venue's own site",
+  "verified_at": "2026-09-14"
  },
  {
   "name": "The Rose",
   "address": "160 W 25th St, Manhattan",
   "neighborhood": "Chelsea",
   "borough": "Manhattan",
-  "badslava_url": "https://badslava.com/details.php?id=10894",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "website": "https://www.therosenyc.com/",
+  "calendar_url": "https://www.therosenyc.com/calendar",
+  "source_label": "Venue home + events calendar iframe",
+  "access_note": "Chelsea neon-pink cocktail bar with an eBig Design events calendar (Supa Grind Mode 2, NYC's Most Eligible Bachelorettes on the upcoming list). Badslava's biweekly Tuesday 'Top Secret Mic' is not on the venue's own page",
+  "verified_at": "2026-09-14"
  },
  {
   "name": "Lust77 bar&grill",
   "address": "2363 Adam Clayton Powell Jr Blvd, Manhattan",
   "neighborhood": "Harlem",
   "borough": "Manhattan",
-  "badslava_url": "https://badslava.com/details.php?id=31020",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "source_label": "No own website; Badslava lists a Tuesday weekly open mic via @te_adams on Instagram",
+  "access_note": "Harlem bar & grill with a Tuesday 6pm open mic (free) run via Instagram by TE Adams; venue has no own https site or public events calendar",
+  "verified_at": "2026-09-14",
+  "note": "No venue website or public events calendar. Producer's Instagram (@te_adams) is the only listed source for the weekly Tuesday open mic."
  },
  {
   "name": "Silvana",
   "address": "300 W 116 St, Manhattan",
   "neighborhood": "Harlem",
   "borough": "Manhattan",
-  "badslava_url": "https://badslava.com/details.php?id=35958",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "website": "https://silvana-nyc.com/",
+  "source_label": "Venue home (silvana-nyc.com — site renders only the nav; subpages 404)",
+  "access_note": "Harlem cafe/music venue; the venue's own site loads but renders no content and /calendar and /about return 404. The female-performer Tuesday open mic 'Off The Clock' is a third-party Funny Hunnyz production promoted via @funnyhunnyz",
+  "verified_at": "2026-09-14"
  },
  {
   "name": "Room 52",
   "address": "212 E 52nd St, Manhattan",
   "neighborhood": "Midtown East",
   "borough": "Manhattan",
-  "badslava_url": "https://badslava.com/details.php?id=38390",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "website": "https://www.room52nyc.com/",
+  "source_label": "Venue home (private event speakeasy built 1902)",
+  "access_note": "Midtown East private event venue (formerly a neighborhood club, speakeasy, jazz club, intimate theatre). Badslava's Tuesday 6pm free open mic ('open to all creators and innovators') is not on the venue's own page",
+  "verified_at": "2026-09-14"
  },
  {
   "name": "iNine Bistro",
   "address": "53 Bruckner Blvd, Bronx",
   "neighborhood": "Mott Haven",
   "borough": "Bronx",
-  "badslava_url": "https://badslava.com/details.php?id=10393",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "website": "https://ininebistro.com/",
+  "calendar_url": "https://ininebistro.com/events",
+  "source_label": "Venue home + Events & Private Dining page",
+  "access_note": "Mott Haven Afro-fusion bistro (Caribbean and West African flavors). Events page covers private celebrations (Birthday Table, Signature Celebration $110/guest, Milestone VIP); no comedy listings on the venue's own page. Badslava's 'Taco Tuesday' weekly open mic (Tue 6:30pm signup / 7:30pm show, one-item minimum) is via tacotuesdayom@gmail.com, not the venue",
+  "verified_at": "2026-09-14"
  },
  {
   "name": "The Duplex",
   "address": "61 Christopher St, Manhattan",
   "neighborhood": "West Village",
   "borough": "Manhattan",
-  "badslava_url": "https://badslava.com/details.php?id=10137",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "website": "https://www.theduplex.com/",
+  "source_label": "Venue home (Piano Bar + Drag Room cabaret)",
+  "access_note": "West Village piano bar and cabaret (Piano Bar + Drag Room). Happy Hour Mon-Thu 4-7pm on its own site; no events calendar. Badslava's 'Suddenly Stand Up' Tuesday open mic (hosted by Danny McWilliams, 6:30-8:30pm, 2-drink minimum at happy-hour prices) is not on the venue's homepage",
+  "verified_at": "2026-09-14"
  },
  {
   "name": "Block Hill Station",
   "address": "718 5th Ave, Brooklyn",
   "neighborhood": "Greenwood Heights",
   "borough": "Brooklyn",
-  "badslava_url": "https://badslava.com/details.php?id=31959",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "website": "https://blockhillstation.com/",
+  "source_label": "Venue home (craft beer bar; no events calendar)",
+  "access_note": "718 5th Ave craft beer bar ('A classic in the making') in Greenwood Heights / South Slope. The site covers taps, signature cocktails, wine and happy hour but has no events page. Badslava's 'Peer Pressure' Tuesday weekly open mic (7:30pm, one-drink minimum) runs via @peerpressurecomedy; the venue's own site does not list it",
+  "verified_at": "2026-09-14"
  },
  {
   "name": "Comedy Village",
   "address": "352 W 44th St, Manhattan",
   "neighborhood": "Hell's Kitchen",
   "borough": "Manhattan",
-  "badslava_url": "https://badslava.com/details.php?id=60922",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "website": "https://comedyvillage.com/",
+  "calendar_url": "https://comedyvillage.com/events/",
+  "source_label": "Club home + events calendar (nightly ticketed Times Square Comedy)",
+  "access_note": "Hell's Kitchen / Times Square / Theatre District comedy club running 'Times Square Comedy' ticketed shows every night ($22-28). Each show is a dated ticketed event, not a recurring weekly showcase, so the calendar holds one-offs rather than weekly records. Badslava's Tuesday 'Girl Dinner! - Women And LGBTQ+ Mic' (7:30pm, paid) is not on the club's own events page",
+  "verified_at": "2026-09-14",
+  "note": "Neighborhood Hell's Kitchen (352 W 44th is between 8th and 9th). The club's own pages describe it as 'the heart of Times Square, Hell's Kitchen and the Theatre District'."
  },
  {
   "name": "The Corner Store",
   "address": "753 Nostrand Ave, Brooklyn",
   "neighborhood": "Crown Heights",
   "borough": "Brooklyn",
-  "badslava_url": "https://badslava.com/details.php?id=36711",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "website": "https://www.cornerstorebk.com/",
+  "source_label": "Venue home (cafe & cocktail bar; only MENUS + EVENT INQUIRY nav)",
+  "access_note": "753 Nostrand Ave cafe & cocktail bar in Crown Heights (breakfast/brunch 9am-4pm Mon-Fri / 10am-4pm Sat-Sun; cocktails, wine and vibes all night). The site's nav covers only Menus and Event Inquiry; no public events calendar. Badslava's 'Franzia' Tuesday weekly open mic (7:45pm, signup 7:30pm, one-item purchase) is via @franziaofficial, not on the venue's own page",
+  "verified_at": "2026-09-14"
  },
  {
   "name": "Somebody's Darling",
   "address": "1664 1st Ave, Manhattan",
   "neighborhood": "Upper East Side",
   "borough": "Manhattan",
-  "badslava_url": "https://badslava.com/details.php?id=13980",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "source_label": "Instagram only (@somebodys_darling_nyc); no own website",
+  "access_note": "Upper East Side bar at 1664 1st Ave. No own https website — Badslava lists only the venue Instagram. Badslava's 'Hot Mic' Tuesday weekly open mic (8pm, 1-drink minimum, email sign-up) is promoted via @somebodys_darling_nyc and Claire Grant's Instagram, not the venue's own site",
+  "verified_at": "2026-09-14",
+  "note": "No venue-controlled source beyond Instagram; open mic info via the producer's Instagram only."
  },
  {
   "name": "Teddy's F&B Bar & Grill",
   "address": "2171 2nd Ave, Manhattan",
-  "neighborhood": "East Harlem",
+  "neighborhood": "Spanish Harlem",
   "borough": "Manhattan",
-  "badslava_url": "https://badslava.com/details.php?id=13923",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "website": "https://www.teddysnyc.com/",
+  "source_label": "Venue home (Spanish Harlem bar & grill; events nav covers NFL and Live Music only)",
+  "access_note": "2171 2nd Ave bar & grill the venue labels 'BORN & BRED In Spanish Harlem' (Mon-Sun 5pm-2am, Happy Hour 5-8pm all week). Events nav covers NFL Schedule and Teddy's F&B Live Music Series (the series page itself 404s) — no comedy on the venue's own site. Badslava's 'The Bar Mic' Tuesday weekly open mic ($5 for 5 min, walk-in or email signup) is a separate Comedy on purpose listing",
+  "verified_at": "2026-09-14",
+  "note": "Corrected neighborhood from 'East Harlem' to 'Spanish Harlem' per the venue's own homepage. The two labels overlap; the venue self-identifies as Spanish Harlem."
  },
  {
   "name": "Branded Saloon",
