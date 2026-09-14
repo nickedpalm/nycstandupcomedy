@@ -91,7 +91,16 @@
   "verified_at": "2026-09-11",
   "description": "Charlie Flynn hosts an evening of comedy with Courtney O’Donnell, Liza Treyger, Kyle Gordon, and Nico Carney.",
   "featured": false,
-  "tier": "special"
+  "tier": "special",
+  "poster": {
+   "src": "/assets/posters/invisible-architecture-2026-09-16-1930.jpg",
+   "width": 940,
+   "height": 470,
+   "source_url": "https://www.eventbrite.com/e/invisible-architecture-an-evening-of-comedy-with-charlie-flynn-tickets-1998670466167",
+   "credit": "Artwork: Union Hall / show organizer",
+   "alt": "Invisible Architecture: An Evening of Comedy with Charlie Flynn promotional artwork.",
+   "kind": "dated event flyer"
+  }
  },
  {
   "id": "jamie-wolf-2026-09-16-2200",
@@ -110,7 +119,16 @@
   "verified_at": "2026-09-11",
   "description": "Jamie Wolf brings his show Psycho to Union Hall.",
   "featured": false,
-  "tier": "special"
+  "tier": "special",
+  "poster": {
+   "src": "/assets/posters/jamie-wolf-2026-09-16-2200.jpg",
+   "width": 940,
+   "height": 470,
+   "source_url": "https://www.eventbrite.com/e/jamie-wolf-psycho-tickets-1999521890801",
+   "credit": "Artwork: Union Hall / show organizer",
+   "alt": "Jamie Wolf: Psycho promotional artwork.",
+   "kind": "dated event flyer"
+  }
  },
  {
   "id": "jenny-tian-2026-09-17",
@@ -167,7 +185,16 @@
   "verified_at": "2026-09-12",
   "description": "Sophie Buddle headlines Union Hall with a late-night set.",
   "featured": false,
-  "tier": "special"
+  "tier": "special",
+  "poster": {
+   "src": "/assets/posters/sophie-buddle-2026-09-18.jpg",
+   "width": 940,
+   "height": 470,
+   "source_url": "https://www.eventbrite.com/e/sophie-buddle-tickets-2000526416364",
+   "credit": "Artwork: Union Hall / show organizer",
+   "alt": "Sophie Buddle promotional artwork.",
+   "kind": "dated event flyer"
+  }
  },
  {
   "id": "sam-taggart-2026-09-19",
@@ -433,7 +460,16 @@
   "verified_at": "2026-09-14",
   "description": "Marley Gotterer, Wils Pelton, and Vince host an early evening stand-up showcase with Grace Kuhlenschmidt, Annabel and Sabina Meschke, Kylie Vincent, and Bini Yamin.",
   "featured": false,
-  "tier": "special"
+  "tier": "special",
+  "poster": {
+   "src": "/assets/posters/laugh-union-hall-2026-09-15.jpg",
+   "width": 940,
+   "height": 470,
+   "source_url": "https://www.eventbrite.com/e/laugh-tickets-1996257168930",
+   "credit": "Artwork: Union Hall / show organizer",
+   "alt": "LAUGH at Union Hall promotional artwork.",
+   "kind": "dated event flyer"
+  }
  },
  {
   "id": "it-is-good-to-be-here-wscc-2026-09-17",

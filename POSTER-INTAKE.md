@@ -11,3 +11,6 @@ Start with BCC, Caveat, P&T Knitwear, and individual show organizers. Track subs
 For incoming venue newsletters: retain message ID and sender/source provenance; extract linked official event pages and promotional images; verify title, venue, local date/time and ticket destination; deduplicate events; record whether artwork is dated or evergreen. Do not publish tracking URLs, recipient-specific unsubscribe links, or personal message content. Store original artwork and its source separately from extracted facts. Conflicting dates or old flyers need review; never silently overwrite facts with OCR guesses.
 
 Keep newsletter intake separate from our reader audience. Discovery emails do not enroll their senders or our readers in a campaign. No newsletters were subscribed to during this poster pass: Mazzie's address is still unprovisioned.
+
+## September 14, 2026 — four Union Hall flyers
+Pulled official artwork from the Eventbrite pages for LAUGH (Sep 15), Invisible Architecture (Sep 16), Jamie Wolf: Psycho (Sep 16) and Sophie Buddle (Sep 18), 940px width as served by Eventbrite's image CDN, unaltered, credited to Union Hall / show organizer, SHA-256 recorded in POSTER-SOURCES.json. Reuse status is display-with-credit only; not marked reuse: granted, so they stay off Instagram cards. Added so the home flyer shelf has enough posters to cycle.
