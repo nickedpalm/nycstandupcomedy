@@ -251,5 +251,43 @@
   "source_url": "https://www.freddysbar.com/events/the-fun-mic-alexs-comedy-open-mic-every-monday-1-pypse-g6dfk-egep4-23r9h-sts6k-zjlzd-mypgx-7hjhd-nb74x-d6mjw-bngsj-pk9cr-5g2d3-7hebt-hht7n-eag8t-g28xl-89364-hs57y-89sy6-7w2ee-xnray-k8p5p-a63le-6p97j",
   "source_label": "Freddy's Bar events (Comedy Open Mic Every Monday & Wednesday)",
   "verified_at": "2026-09-14"
+ },
+ {
+  "id": "laugh-out-loud-mondays-skybox",
+  "tier": "open-mic",
+  "title": "Laugh Out Loud Mondays",
+  "weekday": 1,
+  "cadence": "Every Monday",
+  "time_label": "8 PM (bar 4 PM – 1 AM)",
+  "venue": "SkyBox Sports Bar",
+  "address": "2241 1st Ave, Manhattan",
+  "neighborhood": "East Harlem",
+  "cost_label": "Not stated; Kids Eat Free, Teens 50% Off at the bar",
+  "signup": "Not stated on venue site; ask the bar",
+  "set_length": "Not stated",
+  "formats": "Stand-up",
+  "notes": "Monday Comedy Night & Open Mic in East Harlem's woman-owned SkyBox Sports Bar. Laughs start at 8 PM per the venue's own homepage What's Happening carousel.",
+  "source_url": "https://www.skyboxsportsbareastharlem.com/",
+  "source_label": "SkyBox Sports Bar homepage (Laugh Out Loud Mondays carousel)",
+  "verified_at": "2026-09-14"
+ },
+ {
+  "id": "crash-landing-comedy-red-eye",
+  "tier": "open-mic",
+  "title": "Crash Landing Comedy",
+  "weekday": 1,
+  "cadence": "Every Monday (see Ashley Ryan IG for date shifts)",
+  "time_label": "8 PM (no cover)",
+  "venue": "Red Eye NY",
+  "address": "355 W 41st St, Manhattan",
+  "neighborhood": "Hell's Kitchen",
+  "cost_label": "No cover",
+  "signup": "DM @ashleyryantv or sign up in person",
+  "set_length": "Not stated",
+  "formats": "Stand-up",
+  "notes": "Open-mic stand-up hosted by Ashley Ryan (host of @thefunnypolice podcast) at Red Eye NY in Hell's Kitchen. Venue's own event page reads 'Crash Landing Comedy: Open-Mic Stand Up. Join Host Ashley Ryan for a weekly comic night with special guests, featuring material that could soar or crash and burn.' Ashley's IG has posted Monday Jul 20 8 PM as 'OPEN MIC STAND-UP'; the venue lists it under MONDAYS in its events calendar.",
+  "source_url": "https://redeyeny.com/event/crash-landing-comedy/",
+  "source_label": "Red Eye NY Crash Landing Comedy event page",
+  "verified_at": "2026-09-14"
  }
 ]

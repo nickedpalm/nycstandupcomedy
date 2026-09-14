@@ -568,108 +568,128 @@
   "address": "992 Amsterdam Ave, Manhattan",
   "neighborhood": "Upper West Side",
   "borough": "Manhattan",
-  "badslava_url": "https://badslava.com/details.php?id=30431",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "website": "https://suitenyc.com/",
+  "source_label": "Venue homepage (entertainment schedule Weds/Fri/Sun)",
+  "access_note": "Gay pub on Amsterdam Ave (Manhattan Valley side of the UWS). The site lists an entertainment schedule Weds-Fri-Sun but no dedicated events calendar; Badslava's 'Femmes And Friends' Monday open mic is not listed on the venue's own site",
+  "verified_at": "2026-09-14"
  },
  {
   "name": "Good Judy",
   "address": "563 5th Ave, Brooklyn",
-  "neighborhood": "South Slope",
+  "neighborhood": "Park Slope",
   "borough": "Brooklyn",
-  "badslava_url": "https://badslava.com/details.php?id=38265",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "website": "https://www.goodjudybk.com/",
+  "source_label": "Venue homepage",
+  "access_note": "Queer bar & venue in Park Slope (the venue's own Instagram bio says 'Park Slope, BK'; /events subpage returns 404). Blue Room hosts drag and karaoke; Badslava's Freak Latte Monday open mic is on Instagram, not the venue's own site",
+  "verified_at": "2026-09-14",
+  "note": "Corrected neighborhood from South Slope to Park Slope — Good Judy's own site and Instagram bio both call the area Park Slope."
  },
  {
   "name": "SkyBox Sports Bar",
   "address": "2241 1st Ave, Manhattan",
   "neighborhood": "East Harlem",
   "borough": "Manhattan",
-  "badslava_url": "https://badslava.com/details.php?id=39973",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "website": "https://www.skyboxsportsbareastharlem.com/",
+  "source_label": "Venue homepage (What's Happening carousel lists Laugh Out Loud Mondays)",
+  "access_note": "East Harlem's first woman-owned sports bar; wings, karaoke, DJ nights, big games. Site lists 'Laugh Out Loud Mondays — Monday Comedy Night & Open Mic' as a recurring weekly event at 8PM",
+  "verified_at": "2026-09-14",
+  "note": "Neighborhood East Harlem confirmed via the venue's own site (banner reads 'East Harlem's First Woman-Owned Sports Bar')."
  },
  {
   "name": "Zofia's Hideout",
   "address": "301 E 84th St, Manhattan",
   "neighborhood": "Upper East Side",
   "borough": "Manhattan",
-  "badslava_url": "https://badslava.com/details.php?id=46895",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "source_label": "Facebook and Instagram only (no own https site)",
+  "access_note": "UES Tiki Speakeasy at 301 E 84th (corner of 2nd Ave). Open Sunday-Wednesday 4pm-late and Friday nights; programming (80s Dance Party, Tiki nights, irregular comedy) promoted only on Facebook and Instagram",
+  "verified_at": "2026-09-14",
+  "note": "No own website; scheduling lives on Facebook and Instagram. Eastside Feed confirms the bar opened at 301 E 84th replacing 'Not a Speakeasy'."
  },
  {
   "name": "The Wild Goose",
   "address": "5420 Roosevelt Ave, Queens",
   "neighborhood": "Woodside",
   "borough": "Queens",
-  "badslava_url": "https://badslava.com/details.php?id=28127",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "website": "https://wildgoosenyc.com/",
+  "source_label": "Venue homepage (Upcoming Events widget empty as of Sep 14, 2026)",
+  "access_note": "Neighborhood pub at 54-20 Roosevelt Ave on the Sunnyside/Woodside border (the venue's own site says 'Sunnyside / Woodside'). Live music on weekends, dart boards, pool table. Upcoming Events widget shows 'No upcoming events' — no recurring stand-up showcase on the venue's own site",
+  "verified_at": "2026-09-14",
+  "note": "Neighborhood kept as Woodside — site says Sunnyside/Woodside; Woodside matches the address block."
  },
  {
   "name": "The Cobra Club",
   "address": "6 Wyckoff Ave, Brooklyn",
   "neighborhood": "Bushwick",
   "borough": "Brooklyn",
-  "badslava_url": "https://badslava.com/details.php?id=15184",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "website": "https://www.cobraclubbk.com/",
+  "source_label": "Venue homepage (SHOWS AND EVENTS nav link)",
+  "access_note": "Bushwick rock bar just off the Jefferson L stop in Brooklyn (the venue's own site confirms the address and 'Just off Jefferson L stop in Bushwick'). /events returns 404; upcoming programming lives on the venue's Instagram @cobraclubbk. Bar hosted Open Mic Mondays and Stand-Up Tuesdays in past Facebook posts, but no fixed weekly showcase currently listed on its own site",
+  "verified_at": "2026-09-14"
  },
  {
   "name": "Freda",
-  "address": "8-01 Seneca Ave #801, Queens",
+  "address": "801 Seneca Ave, Queens",
   "neighborhood": "Ridgewood",
   "borough": "Queens",
-  "badslava_url": "https://badslava.com/details.php?id=28124",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "website": "https://www.barfreda.com/",
+  "source_label": "Venue homepage",
+  "access_note": "Ridgewood dive bar (the venue's own header reads '801 SENECA AVE, RIDGEWOOD, NY 11385'). Events page uses Wix dynamic content; one-off comedy nights appear (Comic Book Cabaret, All Show No Boat, Bad Jazz) but no fixed weekly stand-up showcase on the venue's own page",
+  "verified_at": "2026-09-14",
+  "note": "Corrected address from '8-01 Seneca Ave #801' to '801 Seneca Ave' (per venue header). Neighborhood Ridgewood confirmed."
  },
  {
   "name": "Red Eye NY",
-  "address": "355 W. 41st Street, Manhattan",
+  "address": "355 W 41st St, Manhattan",
   "neighborhood": "Hell's Kitchen",
   "borough": "Manhattan",
-  "badslava_url": "https://badslava.com/details.php?id=38646",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "website": "https://redeyeny.com/",
+  "calendar_url": "https://redeyeny.com/events/",
+  "source_label": "Venue events calendar",
+  "access_note": "Hell's Kitchen queer coffee bar + nightclub (Yelp lists Midtown West / Hell's Kitchen / Theater District; registry keeps Hell's Kitchen). Full WP events calendar with weekly Monday Crash Landing Comedy (open-mic stand-up with Ashley Ryan) and weekly Saturday Vogue with Jason Rodriguez",
+  "verified_at": "2026-09-14"
  },
  {
   "name": "Area 140 First Bar",
   "address": "140 1st Ave, Manhattan",
   "neighborhood": "East Village",
   "borough": "Manhattan",
-  "badslava_url": "https://badslava.com/details.php?id=39265",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "website": "https://www.area140first.com/",
+  "source_label": "Venue homepage",
+  "access_note": "East Village classic dive bar (the venue's own homepage says 'classic dive bar in the East Village of New York City'). Bed of nails, pinball, sports. The /events subpage lists Rock and Roll Live Karaoke (12/12/24), 2024-25 Ipswich Town soccer schedule and Live Rock Band Karaoke every Thursday — no recurring stand-up showcase on its own pages",
+  "verified_at": "2026-09-14",
+  "note": "Neighborhood East Village confirmed via the venue's own homepage."
  },
  {
   "name": "Grove 34",
   "address": "31-83 34th St, Queens",
   "neighborhood": "Astoria",
   "borough": "Queens",
-  "badslava_url": "https://badslava.com/details.php?id=10042",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "website": "https://grove34.com/",
+  "calendar_url": "https://grove34.com/",
+  "source_label": "Grove 34 Comedy Club home and shows list",
+  "access_note": "Astoria dedicated comedy club (the venue's own tagline: 'Grove 34 Comedy Club | Astoria Queens'). Full upcoming shows list on the homepage with multiple weekly showcases — Grove Comedy (Fri 7:30 PM), Roast Battle League NYC, Sounds Funny Presents: Stand-Up Showcase, Improv Night, The Great Improv Experiment. Show pages: grove-comedy-sept18 / -sept25 / -live-oct16; roast-battle-league-nyc-16sept / -23sept / -30sept",
+  "verified_at": "2026-09-14"
  },
  {
   "name": "The Windjammer",
   "address": "552 Grandview Ave, Queens",
   "neighborhood": "Ridgewood",
   "borough": "Queens",
-  "badslava_url": "https://badslava.com/details.php?id=10064",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "source_label": "Footlight Underground operator site (bar itself has no own https site)",
+  "access_note": "Ridgewood corner bar at 552 Grandview Ave (Bleecker + Grandview). Programming is run by Footlight Underground (footlightunderground.com — 'Footlight Underground at The Windjammer'), which lists weekly Monday 'The Joy of Ranting' mixed-medium open mic 9 PM (sign-up 8:45) and weekly Tuesday Open Mic Comedy 8 PM on its own calendar. The Windjammer's own Instagram is @thewindjammer; no own https site",
+  "verified_at": "2026-09-14",
+  "note": "No own website; the operator (Footlight Underground) is a third-party nonprofit that runs the venue programming. Held out of recurring.json and open-mics.json until the venue has its own page that lists the showcase."
  },
  {
   "name": "Otto's Shrunken Head",
   "address": "538 E 14th St, Manhattan",
   "neighborhood": "East Village",
   "borough": "Manhattan",
-  "badslava_url": "https://badslava.com/details.php?id=33394",
-  "needs_review": true,
-  "note": "Registered from Badslava's open-mic listing on 2026-09-14. Neighborhood assigned from the address; confirm it, find the venue's website and events page (calendar_url), and note whether it runs weekly or monthly showcases."
+  "website": "https://www.ottosshrunkenhead.com/",
+  "source_label": "Venue homepage (EVENTS nav link)",
+  "access_note": "East Village Tiki bar with rockabilly, comedy, burlesque, drag per NYC Tourism. The site's /events returns 404; nightly entertainment schedule is promoted on Facebook (OttosShrunkenHead) and Instagram (@ottosnyc). No fixed weekly stand-up showcase listed on its own pages",
+  "verified_at": "2026-09-14",
+  "note": "Old static site; the EVENTS subpage 404s. Held out of recurring.json — no own calendar lists a recurring weekly showcase."
  },
  {
   "name": "The Throwback",

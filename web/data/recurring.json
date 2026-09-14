@@ -226,5 +226,24 @@
   "source_label": "BK Made Comedy Tonight event page",
   "verified_at": "2026-09-14",
   "verification_note": "Event pages list Comedy Tonight at 8pm every Monday through Thursday with $5 tickets; the Fri/Sat 8pm shows are listed as separate ticketed events ($15, free pizza from Tony's)."
+ },
+ {
+  "id": "grove-comedy-grove-34",
+  "tier": "recurring",
+  "title": "Grove Comedy",
+  "cadence": "Every Friday",
+  "weekday": 5,
+  "time_label": "7:30 PM",
+  "venue": "Grove 34",
+  "address": "31-83 34th St, Queens",
+  "neighborhood": "Astoria",
+  "price_label": "See show page",
+  "price_amount": null,
+  "format": "Stand-up",
+  "description": "Grove 34's signature Friday stand-up showcase in Astoria: a curated lineup of big names, original performances and up-and-coming all stars in the club's intimate 2-minutes-from-the-subway room.",
+  "source_url": "https://grove34.com/shows/grove-comedy-sept18",
+  "source_label": "Grove 34 show page (Sept 18 / Sept 25 listings)",
+  "verified_at": "2026-09-14",
+  "verification_note": "Grove 34's All Shows list runs Grove Comedy Sept 18 (Fri 7:30 PM) and Sept 25 (Fri 7:30 PM) with the same 'curated lineup of big names, original performances and up-and-coming all stars' description on each show page. Oct 16 lists a 'Grove Comedy Live!' special; the weekly Fri 7:30 PM Grove Comedy is the recurring slot."
  }
 ]

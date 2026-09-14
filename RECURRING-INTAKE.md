@@ -121,3 +121,30 @@ Recurring shows added this round: 7 (Friday and Saturday SESH, Funny Lines Open 
 
 ## Filing rule — September 14, 2026
 Open mics live in open-mics.json (tier open-mic); recurring.json is for weekly and monthly shows with a lineup. Four mics from the first Badslava review batch (Brooklyn Art Haus Sunday mic, Funny Lines at Comedy In Harlem, The Fun Mic at Freddy's Mon and Wed) were moved accordingly. The check now fails a recurring record whose title says "open mic".
+
+## Venue review — third batch of 12 rooms — September 14, 2026
+Next 12 rooms in file order (Suite → Otto's Shrunken Head). Same rule: open the venue's own page, set website/calendar_url, confirm neighborhood, add a recurring.json record if the room runs a fixed weekly/monthly showcase on its own page; add an open-mics.json record for open mics on the venue's own page.
+
+Reviewed (12 rooms; 0 duplicates removed):
+- **Suite** (992 Amsterdam Ave). Site: suitenyc.com. Gay pub with an entertainment schedule (Weds/Fri/Sun) but no dedicated events page; Badslava's "Femmes And Friends" Monday open mic is not on the venue's own site. Held out of recurring.json and open-mics.json.
+- **Good Judy** (563 5th Ave). Site: goodjudybk.com. **Corrected neighborhood from "South Slope" to "Park Slope"** — the venue's own Instagram bio and Yelp both call the area Park Slope. /events returns 404; the Blue Room hosts drag and karaoke; Badslava's "Freak Latte" Monday open mic is on Instagram only. Held out of recurring.json and open-mics.json.
+- **SkyBox Sports Bar** (2241 1st Ave). Site: skyboxsportsbareastharlem.com. East Harlem's first woman-owned sports bar. The site's homepage "What's Happening" carousel lists "Laugh Out Loud Mondays — Monday Comedy Night & Open Mic" every Monday at 8 PM. **open-mics.json: Laugh Out Loud Mondays** (venue's own homepage as source_url).
+- **Zofia's Hideout** (301 E 84th St). No own website (Facebook + Instagram only). Tiki speakeasy opened recently replacing "Not a Speakeasy." Programming (80s Dance Party, Tiki nights) lives on Facebook/Instagram. Held out — no venue-controlled source.
+- **The Wild Goose** (5420 Roosevelt Ave). Site: wildgoosenyc.com. The "Sunnyside / Woodside" neighborhood call is from the venue's own homepage. Upcoming Events widget shows "No upcoming events." Live music on weekends only; no stand-up on the venue's own site.
+- **The Cobra Club** (6 Wyckoff Ave). Site: cobraclubbk.com. Bushwick rock bar ("Just off Jefferson L stop in Bushwick"). /events returns 404; upcoming programming on Instagram. Past Facebook posts had Monday open mic + Tuesday stand-up but no fixed weekly showcase currently listed on its own site.
+- **Freda** (801 Seneca Ave). Site: barfreda.com. Ridgewood dive bar; **corrected address** from "8-01 Seneca Ave #801" to "801 Seneca Ave" per the venue header. Events page is Wix dynamic content (does not render as static); comedy nights appear (Comic Book Cabaret, All Show No Boat, Bad Jazz) but none with a published weekly cadence on the venue's own page.
+- **Red Eye NY** (355 W 41st St). Site: redeyeny.com; **calendar at /events/**. Hell's Kitchen queer coffee bar + nightclub (Yelp lists Midtown West / Hell's Kitchen / Theater District; kept Hell's Kitchen). Full WP events calendar with weekly Monday **Crash Landing Comedy** (open-mic stand-up hosted by Ashley Ryan, 8 PM, no cover) and weekly Saturday Vogue with Jason Rodriguez. **open-mics.json: Crash Landing Comedy** (venue's own event page as source_url). Vogue is a ballroom/vogue night, not stand-up, so held out.
+- **Area 140 First Bar** (140 1st Ave). Site: area140first.com. East Village dive ("classic dive bar in the East Village" per the venue's own homepage). /events lists Rock and Roll Live Karaoke (12/12/24), the 2024-25 Ipswich Town soccer schedule and Live Rock Band Karaoke every Thursday — all stale or non-comedy. No recurring stand-up.
+- **Grove 34** (31-83 34th St). Site: grove34.com. **Astoria dedicated comedy club** with multiple weekly shows. Show pages confirm **Grove Comedy** weekly Fridays 7:30 PM (Sep 18, Sep 25; Oct 16 is the "Grove Comedy Live!" special). Roast Battle League NYC also runs weekly (Sep 16, Sep 23, Sep 30). **recurring.json: Grove Comedy (Fri 7:30 PM)**. Roast Battle and the Sounds Funny / Improv Night / Great Improv Experiment slots are weekly too but are not the headline showcase; revisit when the venue gives them stable show-page URLs.
+- **The Windjammer** (552 Grandview Ave). **No own website**. Programming is run by Footlight Underground (footlightunderground.com — "Footlight Underground at The Windjammer"), which lists weekly Monday "The Joy of Ranting" mixed-medium open mic 9 PM (sign-up 8:45) and weekly Tuesday Open Mic Comedy 8 PM on its own calendar. Held out — operator site is not the venue's own page, same rule that held out Punching Bag at O'Keefe's.
+- **Otto's Shrunken Head** (538 E 14th St). Site: ottosshrunkenhead.com. Old static site; /events returns 404. NYC Tourism describes it as rockabilly / comedy / burlesque, but the live schedule is on Facebook and Instagram (@ottosnyc). No own calendar lists a recurring weekly showcase.
+
+Corrections this round:
+- Good Judy: South Slope → Park Slope.
+- Freda: address simplified to "801 Seneca Ave".
+- Red Eye NY: address dropped the period ("355 W 41st St").
+
+Recurring shows added this round: 1 (Grove Comedy at Grove 34).
+Open mics added this round: 2 (Laugh Out Loud Mondays at SkyBox, Crash Landing Comedy at Red Eye NY).
+
+46 rooms left with needs_review: true. Same rule for the next batch — open the venue's own page before clearing needs_review; open mics go in open-mics.json, not recurring.json.
