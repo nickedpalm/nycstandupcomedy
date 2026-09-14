@@ -3,140 +3,310 @@
   "name": "Caveat",
   "address": "21A Clinton St, Manhattan",
   "neighborhood": "Lower East Side",
-  "borough": "Manhattan"
+  "borough": "Manhattan",
+  "calendar_url": "https://www.caveat.nyc/events",
+  "source_label": "Venue events page",
+  "access_note": "Loads plainly"
  },
  {
   "name": "Littlefield",
   "address": "635 Sackett St, Brooklyn",
   "neighborhood": "Gowanus",
-  "borough": "Brooklyn"
+  "borough": "Brooklyn",
+  "calendar_url": "https://littlefieldnyc.com/all-shows/",
+  "source_label": "Venue shows page",
+  "access_note": "Loads plainly; littlefield.nyc domain is parked and not used"
  },
  {
   "name": "The Bell House",
   "address": "149 7th St, Brooklyn",
   "neighborhood": "Gowanus",
-  "borough": "Brooklyn"
+  "borough": "Brooklyn",
+  "calendar_url": "https://www.thebellhouseny.com/",
+  "source_label": "Venue home (full schedule linked)",
+  "access_note": "Loads plainly"
  },
  {
   "name": "Halyard's",
   "address": "406 3rd Ave, Brooklyn",
   "neighborhood": "Gowanus",
-  "borough": "Brooklyn"
+  "borough": "Brooklyn",
+  "calendar_url": "https://barhalyards.com/",
+  "source_label": "Venue home (no dedicated calendar)",
+  "access_note": "Bar with no public show calendar; Bitches Brew Friday show verified via Eventbrite organizer page"
  },
  {
   "name": "Union Hall",
   "address": "702 Union St, Brooklyn",
   "neighborhood": "Park Slope",
-  "borough": "Brooklyn"
+  "borough": "Brooklyn",
+  "calendar_url": "https://unionhallny.com/calendar",
+  "source_label": "Venue calendar page",
+  "access_note": "Loads plainly"
  },
  {
   "name": "Young Ethel's",
   "address": "506 5th Ave, Brooklyn",
   "neighborhood": "South Slope",
   "borough": "Brooklyn",
+  "calendar_url": "https://youngethels.com/",
+  "source_label": "Venue home (events linked from homepage)",
+  "access_note": "Loads plainly; venue confirms South Slope on its own footer",
   "note": "5th Ave between 12th and 13th St; South Slope, not central Park Slope."
  },
  {
   "name": "Eris Deep Space (Brooklyn Comedy Collective)",
   "address": "167 Graham Ave, Brooklyn",
   "neighborhood": "Williamsburg",
-  "borough": "Brooklyn"
+  "borough": "Brooklyn",
+  "calendar_url": "https://www.brooklyncc.com/",
+  "source_label": "BCC home (What's Playing)",
+  "access_note": "Loads plainly; one of two BCC venues (BCC calls the area East Williamsburg; registry keeps Williamsburg as the neighborhood label already used by existing data)"
  },
  {
   "name": "Eris Mainstage (Brooklyn Comedy Collective)",
   "address": "167 Graham Ave, Brooklyn",
   "neighborhood": "Williamsburg",
-  "borough": "Brooklyn"
+  "borough": "Brooklyn",
+  "calendar_url": "https://www.brooklyncc.com/",
+  "source_label": "BCC home (What's Playing)",
+  "access_note": "Loads plainly"
  },
  {
   "name": "Brooklyn Comedy Collective",
   "address": "167 Graham Ave, Brooklyn",
   "neighborhood": "Williamsburg",
-  "borough": "Brooklyn"
+  "borough": "Brooklyn",
+  "calendar_url": "https://www.brooklyncc.com/",
+  "source_label": "BCC home (What's Playing)",
+  "access_note": "Loads plainly"
  },
  {
   "name": "BCC Pig Pen",
   "address": "144 Boerum St, Brooklyn",
   "neighborhood": "Williamsburg",
-  "borough": "Brooklyn"
+  "borough": "Brooklyn",
+  "calendar_url": "https://www.brooklyncc.com/",
+  "source_label": "BCC home (What's Playing)",
+  "access_note": "Loads plainly; second BCC venue at 144 Boerum St"
  },
  {
   "name": "The Tiny Cupboard",
   "address": "10 Cooper St, Brooklyn",
   "neighborhood": "Bushwick",
-  "borough": "Brooklyn"
+  "borough": "Brooklyn",
+  "calendar_url": "https://tinycupboardgames.com/open-mic",
+  "source_label": "Venue open-mic page (also lists shows)",
+  "access_note": "Loads plainly"
  },
  {
   "name": "QED Astoria",
   "address": "27-16 23rd Ave, Queens",
   "neighborhood": "Astoria",
-  "borough": "Queens"
+  "borough": "Queens",
+  "calendar_url": "https://qedastoria.com/collections/open-mic-nights",
+  "source_label": "Venue open-mic collection page",
+  "access_note": "Loads plainly"
  },
  {
   "name": "SoHo Playhouse",
   "address": "15 Vandam St, Manhattan",
   "neighborhood": "SoHo",
-  "borough": "Manhattan"
+  "borough": "Manhattan",
+  "calendar_url": "https://www.sohoplayhouse.com/open-mics",
+  "source_label": "Venue open-mic page (lists shows)",
+  "access_note": "Loads plainly"
  },
  {
   "name": "The Gaf West",
   "address": "401 W 48th St, Manhattan",
   "neighborhood": "Hell's Kitchen",
-  "borough": "Manhattan"
+  "borough": "Manhattan",
+  "calendar_url": "https://www.eventbrite.com/e/bomb-shelter-comedy-no-cover-tickets-147931259379",
+  "source_label": "Eventbrite listing",
+  "access_note": "Venue has no public site; weekly shows run via Eventbrite"
  },
  {
   "name": "West Side Comedy Club",
   "address": "201 W 75th St, Manhattan",
   "neighborhood": "Upper West Side",
-  "borough": "Manhattan"
+  "borough": "Manhattan",
+  "calendar_url": "https://www.westsidecomedyclub.com/calendar",
+  "source_label": "Club calendar page",
+  "access_note": "Loads plainly"
  },
  {
   "name": "New York Comedy Club (Midtown)",
   "address": "241 E 24th St, Manhattan",
   "neighborhood": "Kips Bay",
   "borough": "Manhattan",
+  "calendar_url": "https://newyorkcomedyclub.com/",
+  "source_label": "Club home (all locations)",
+  "access_note": "Loads plainly",
   "note": "The club calls this room Midtown."
  },
  {
   "name": "New York Comedy Club (East Village)",
   "address": "85 E 4th St, Manhattan",
   "neighborhood": "East Village",
-  "borough": "Manhattan"
+  "borough": "Manhattan",
+  "calendar_url": "https://newyorkcomedyclub.com/",
+  "source_label": "Club home (all locations)",
+  "access_note": "Loads plainly"
  },
  {
   "name": "New York Comedy Club (Upper West Side)",
   "address": "236 W 78th St, Manhattan",
   "neighborhood": "Upper West Side",
-  "borough": "Manhattan"
+  "borough": "Manhattan",
+  "calendar_url": "https://newyorkcomedyclub.com/",
+  "source_label": "Club home (all locations)",
+  "access_note": "Loads plainly"
  },
  {
   "name": "Comedy Cellar",
   "address": "117 MacDougal St and 130 W 3rd St, Manhattan",
   "neighborhood": "Greenwich Village",
-  "borough": "Manhattan"
+  "borough": "Manhattan",
+  "calendar_url": "https://www.comedycellar.com/reservations-newyork/",
+  "source_label": "Reservations page",
+  "access_note": "Loads plainly"
  },
  {
   "name": "Gotham Comedy Club",
   "address": "208 W 23rd St, Manhattan",
   "neighborhood": "Chelsea",
-  "borough": "Manhattan"
+  "borough": "Manhattan",
+  "calendar_url": "https://gothamcomedyclub.com/calendar/",
+  "source_label": "Club calendar page",
+  "access_note": "Loads plainly"
  },
  {
   "name": "Broadway Comedy Club",
   "address": "318 W 53rd St, Manhattan",
   "neighborhood": "Midtown West",
-  "borough": "Manhattan"
+  "borough": "Manhattan",
+  "calendar_url": "https://www.broadwaycomedyclub.com/",
+  "source_label": "Club home",
+  "access_note": "Loads plainly; club has no policy page"
  },
  {
   "name": "Stand Up NY",
   "address": "221 W 46th St, Manhattan",
   "neighborhood": "Times Square",
-  "borough": "Manhattan"
+  "borough": "Manhattan",
+  "calendar_url": "https://standupny.com/",
+  "source_label": "Club home",
+  "access_note": "Loads plainly"
  },
  {
   "name": "The Stand",
   "address": "116 E 16th St, Manhattan",
   "neighborhood": "Union Square",
-  "borough": "Manhattan"
+  "borough": "Manhattan",
+  "calendar_url": "https://thestandnyc.com/",
+  "source_label": "Club home",
+  "access_note": "Loads plainly; plain fetcher returns 403, browser opens fine"
+ },
+ {
+  "name": "The Comedy Shop",
+  "address": "167 Bleecker St, Manhattan",
+  "neighborhood": "Greenwich Village",
+  "borough": "Manhattan",
+  "calendar_url": "https://www.comedyshopnyc.com/",
+  "source_label": "Club home",
+  "access_note": "BentoBox site; loads plainly",
+  "verified_at": "2026-09-14"
+ },
+ {
+  "name": "Comic Strip Live",
+  "address": "1568 Second Ave, Manhattan",
+  "neighborhood": "Upper East Side",
+  "borough": "Manhattan",
+  "calendar_url": "https://comicstriplive.com/schedule/",
+  "source_label": "Club schedule page",
+  "access_note": "Plain fetcher blocks comicstriplive.com; opens in the managed browser",
+  "verified_at": "2026-09-14"
+ },
+ {
+  "name": "Greenwich Village Comedy Club",
+  "address": "99 MacDougal St, Manhattan",
+  "neighborhood": "Greenwich Village",
+  "borough": "Manhattan",
+  "calendar_url": "https://www.thevillagecomedyclub.com/",
+  "source_label": "Club home",
+  "access_note": "Loads plainly",
+  "verified_at": "2026-09-14",
+  "note": "Above the Comedy Cellar on MacDougal; a second room with its own lineup."
+ },
+ {
+  "name": "Bushwick Comedy Club",
+  "address": "259 Melrose St, Brooklyn",
+  "neighborhood": "Bushwick",
+  "borough": "Brooklyn",
+  "calendar_url": "https://www.bushwickcomedy.com/",
+  "source_label": "Venue home (events listed there; /calendar is a 404)",
+  "access_note": "Wix site; loads plainly",
+  "verified_at": "2026-09-14"
+ },
+ {
+  "name": "Greenpoint Comedy Club",
+  "address": "66 Greenpoint Ave, Brooklyn",
+  "neighborhood": "Greenpoint",
+  "borough": "Brooklyn",
+  "calendar_url": "https://www.greenpointcomedyclub.com/",
+  "source_label": "Venue home (Showtimes link in nav)",
+  "access_note": "Loads plainly; internal Showtimes/Mics subpages return 404, listings live on the home grid",
+  "verified_at": "2026-09-14"
+ },
+ {
+  "name": "Flop House Comedy",
+  "address": "362 Grand St, Brooklyn",
+  "neighborhood": "Williamsburg",
+  "borough": "Brooklyn",
+  "calendar_url": "https://flophousecomedy.com/",
+  "source_label": "Venue home (events listed there)",
+  "access_note": "Squarespace; loads plainly. Formerly 'Williamsburg Comedy Club' per task brief",
+  "verified_at": "2026-09-14"
+ },
+ {
+  "name": "Eastville Comedy Club",
+  "address": "487 Atlantic Ave, Brooklyn",
+  "neighborhood": "Boerum Hill",
+  "borough": "Brooklyn",
+  "calendar_url": "https://www.eastvillecomedy.com/calendar",
+  "source_label": "Club calendar page",
+  "access_note": "Loads plainly; despite the name, the club is in Brooklyn, not the East Village",
+  "verified_at": "2026-09-14"
+ },
+ {
+  "name": "Comedians You Should Know (Brooklyn)",
+  "address": "200 N 14th St, Brooklyn",
+  "neighborhood": "Williamsburg",
+  "borough": "Brooklyn",
+  "calendar_url": "https://www.eventbrite.com/o/comedians-you-should-know-nyc-11456997821",
+  "source_label": "Eventbrite organizer page",
+  "access_note": "Run out of the Gutter Bar; no own website, listings on Eventbrite",
+  "verified_at": "2026-09-14"
+ },
+ {
+  "name": "Punching Bag Comedy",
+  "address": "62 Court St, Brooklyn",
+  "neighborhood": "Downtown Brooklyn",
+  "borough": "Brooklyn",
+  "calendar_url": "https://www.eventbrite.com/o/punching-bag-comedy-86226024073",
+  "source_label": "Eventbrite organizer page",
+  "access_note": "Run out of O'Keefe's bar in Downtown Brooklyn; weekly Wednesday show, listings on Eventbrite",
+  "verified_at": "2026-09-14"
+ },
+ {
+  "name": "Brooklyn Improv",
+  "address": "64 N 9th St, Brooklyn",
+  "neighborhood": "Williamsburg",
+  "borough": "Brooklyn",
+  "calendar_url": "https://improv.com/brooklyn/",
+  "source_label": "Club home (upcoming events)",
+  "access_note": "Improv.com template; loads plainly. Two rooms: Main Room and The Lab",
+  "verified_at": "2026-09-14"
  }
 ]
