@@ -408,5 +408,35 @@
   "bytes": 37424,
   "sha256": "ef3dd21f8aa8c64ab587c438c39057cb11e065e8fc37d0eb795b18c07e2ecaf2",
   "reuse_status": "Official promotional artwork from the show's public listing; no separate reuse license identified. Site display with credit only."
+ },
+ {
+  "event_id": "leonard-ouzts-comedy-in-harlem-2026-09-18",
+  "src": "/assets/posters/leonard-ouzts-comedy-in-harlem-2026-09-18.png",
+  "width": 600,
+  "height": 600,
+  "source_url": "https://www.comedyinharlem.com/events/140313",
+  "credit": "Photo: Comedy In Harlem / show organizer",
+  "alt": "Leonard Ouzts Headshot.",
+  "kind": "performer headshot from the event page",
+  "original_image_url": "https://files.seatengine.com/talent/headshots/photos/93438/full/data",
+  "retrieved_at": "2026-09-14",
+  "bytes": 476243,
+  "sha256": "f5b2f380e87a5a8fb2150d5d2f9dfb5f29973b75157ac0ec7919772a0fbb1c9c",
+  "reuse_status": "Performer headshot published on the club's event page; no separate reuse license identified. Site display with credit only."
+ },
+ {
+  "event_id": "jokes-and-jranks-justin-lamar-comedy-in-harlem-2026-09-19",
+  "src": "/assets/posters/jokes-and-jranks-justin-lamar-comedy-in-harlem-2026-09-19.png",
+  "width": 600,
+  "height": 600,
+  "source_url": "https://www.comedyinharlem.com/events/141257",
+  "credit": "Photo: Comedy In Harlem / show organizer",
+  "alt": "Jokes & Jranks Live at Comedy In Harlem Headshot.",
+  "kind": "performer headshot from the event page",
+  "original_image_url": "https://files.seatengine.com/talent/headshots/photos/94129/full/data",
+  "retrieved_at": "2026-09-14",
+  "bytes": 519324,
+  "sha256": "6a24fc74ab2c10f657356ecbb272edc6dc02926221c8813792af415982f3e0d5",
+  "reuse_status": "Performer headshot published on the club's event page; no separate reuse license identified. Site display with credit only."
  }
 ]

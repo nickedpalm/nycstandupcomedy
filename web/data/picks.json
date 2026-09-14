@@ -325,7 +325,16 @@
   "verified_at": "2026-09-14",
   "description": "A touring headliner in Harlem's own club, with the kitchen open and the room close enough to heckle. Ouzts is the reason to go uptown this Friday.",
   "tier": "special",
-  "featured": false
+  "featured": false,
+  "poster": {
+   "src": "/assets/posters/leonard-ouzts-comedy-in-harlem-2026-09-18.png",
+   "width": 600,
+   "height": 600,
+   "source_url": "https://www.comedyinharlem.com/events/140313",
+   "credit": "Photo: Comedy In Harlem / show organizer",
+   "alt": "Leonard Ouzts Headshot.",
+   "kind": "performer headshot from the event page"
+  }
  },
  {
   "id": "sophie-buddle-2026-09-18",
@@ -372,7 +381,16 @@
   "verified_at": "2026-09-14",
   "description": "An early Saturday show at Comedy In Harlem headlined by Justin Lamar, built around dinner and cocktails. Done by seven, so it pairs with a night out after.",
   "tier": "special",
-  "featured": false
+  "featured": false,
+  "poster": {
+   "src": "/assets/posters/jokes-and-jranks-justin-lamar-comedy-in-harlem-2026-09-19.png",
+   "width": 600,
+   "height": 600,
+   "source_url": "https://www.comedyinharlem.com/events/141257",
+   "credit": "Photo: Comedy In Harlem / show organizer",
+   "alt": "Jokes & Jranks Live at Comedy In Harlem Headshot.",
+   "kind": "performer headshot from the event page"
+  }
  },
  {
   "id": "sam-taggart-2026-09-19",
