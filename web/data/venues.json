@@ -1,0 +1,142 @@
+[
+ {
+  "name": "Caveat",
+  "address": "21A Clinton St, Manhattan",
+  "neighborhood": "Lower East Side",
+  "borough": "Manhattan"
+ },
+ {
+  "name": "Littlefield",
+  "address": "635 Sackett St, Brooklyn",
+  "neighborhood": "Gowanus",
+  "borough": "Brooklyn"
+ },
+ {
+  "name": "The Bell House",
+  "address": "149 7th St, Brooklyn",
+  "neighborhood": "Gowanus",
+  "borough": "Brooklyn"
+ },
+ {
+  "name": "Halyard's",
+  "address": "406 3rd Ave, Brooklyn",
+  "neighborhood": "Gowanus",
+  "borough": "Brooklyn"
+ },
+ {
+  "name": "Union Hall",
+  "address": "702 Union St, Brooklyn",
+  "neighborhood": "Park Slope",
+  "borough": "Brooklyn"
+ },
+ {
+  "name": "Young Ethel's",
+  "address": "506 5th Ave, Brooklyn",
+  "neighborhood": "South Slope",
+  "borough": "Brooklyn",
+  "note": "5th Ave between 12th and 13th St; South Slope, not central Park Slope."
+ },
+ {
+  "name": "Eris Deep Space (Brooklyn Comedy Collective)",
+  "address": "167 Graham Ave, Brooklyn",
+  "neighborhood": "Williamsburg",
+  "borough": "Brooklyn"
+ },
+ {
+  "name": "Eris Mainstage (Brooklyn Comedy Collective)",
+  "address": "167 Graham Ave, Brooklyn",
+  "neighborhood": "Williamsburg",
+  "borough": "Brooklyn"
+ },
+ {
+  "name": "Brooklyn Comedy Collective",
+  "address": "167 Graham Ave, Brooklyn",
+  "neighborhood": "Williamsburg",
+  "borough": "Brooklyn"
+ },
+ {
+  "name": "BCC Pig Pen",
+  "address": "144 Boerum St, Brooklyn",
+  "neighborhood": "Williamsburg",
+  "borough": "Brooklyn"
+ },
+ {
+  "name": "The Tiny Cupboard",
+  "address": "10 Cooper St, Brooklyn",
+  "neighborhood": "Bushwick",
+  "borough": "Brooklyn"
+ },
+ {
+  "name": "QED Astoria",
+  "address": "27-16 23rd Ave, Queens",
+  "neighborhood": "Astoria",
+  "borough": "Queens"
+ },
+ {
+  "name": "SoHo Playhouse",
+  "address": "15 Vandam St, Manhattan",
+  "neighborhood": "SoHo",
+  "borough": "Manhattan"
+ },
+ {
+  "name": "The Gaf West",
+  "address": "401 W 48th St, Manhattan",
+  "neighborhood": "Hell's Kitchen",
+  "borough": "Manhattan"
+ },
+ {
+  "name": "West Side Comedy Club",
+  "address": "201 W 75th St, Manhattan",
+  "neighborhood": "Upper West Side",
+  "borough": "Manhattan"
+ },
+ {
+  "name": "New York Comedy Club (Midtown)",
+  "address": "241 E 24th St, Manhattan",
+  "neighborhood": "Kips Bay",
+  "borough": "Manhattan",
+  "note": "The club calls this room Midtown."
+ },
+ {
+  "name": "New York Comedy Club (East Village)",
+  "address": "85 E 4th St, Manhattan",
+  "neighborhood": "East Village",
+  "borough": "Manhattan"
+ },
+ {
+  "name": "New York Comedy Club (Upper West Side)",
+  "address": "236 W 78th St, Manhattan",
+  "neighborhood": "Upper West Side",
+  "borough": "Manhattan"
+ },
+ {
+  "name": "Comedy Cellar",
+  "address": "117 MacDougal St and 130 W 3rd St, Manhattan",
+  "neighborhood": "Greenwich Village",
+  "borough": "Manhattan"
+ },
+ {
+  "name": "Gotham Comedy Club",
+  "address": "208 W 23rd St, Manhattan",
+  "neighborhood": "Chelsea",
+  "borough": "Manhattan"
+ },
+ {
+  "name": "Broadway Comedy Club",
+  "address": "318 W 53rd St, Manhattan",
+  "neighborhood": "Midtown West",
+  "borough": "Manhattan"
+ },
+ {
+  "name": "Stand Up NY",
+  "address": "221 W 46th St, Manhattan",
+  "neighborhood": "Times Square",
+  "borough": "Manhattan"
+ },
+ {
+  "name": "The Stand",
+  "address": "116 E 16th St, Manhattan",
+  "neighborhood": "Union Square",
+  "borough": "Manhattan"
+ }
+]

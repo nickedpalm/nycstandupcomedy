@@ -66,3 +66,6 @@ Publisher added the same day: scripts/ig-post.js (`npm run ig-post`) posts a Ton
 
 ## Home page reverted — September 14, 2026
 Nick preferred the previous board, so the Tonight-first layout (Tonight block, This weekend, Coming up, paid-first shelf) is reverted. The home page is back to the pinned flyer shelf plus the dated board with Tonight / This weekend as filters. Rotation, checks, Instagram cards and publisher are unchanged. The `sponsored` pick field is no longer rendered; re-add a paid slot to this layout if wanted.
+
+## Venue registry — September 14, 2026
+Nick: every venue carries a neighborhood as a layer of site logic. Added web/data/venues.json (23 rooms with address, neighborhood, borough). picks.js and board.js now take the neighborhood from the registry by venue name; the record's own field is only a fallback. check.js fails on unregistered venues or neighborhood/address disagreements. Corrected Young Ethel's (506 5th Ave, 12th–13th St) from Park Slope to South Slope; Halyard's was already Gowanus. Open-mic records for New York Comedy Club now name the room (Midtown / East Village) to match the registry.

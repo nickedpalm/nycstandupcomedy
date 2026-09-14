@@ -3,7 +3,8 @@ const element=(tag,text,className)=>{const node=document.createElement(tag);if(t
 function safeURL(value){try{const u=new URL(value);return ['https:','http:'].includes(u.protocol)?u.href:null;}catch{return null;}}
 function sourceLink(item,label){const url=safeURL(item.source_url);if(!url)return null;const a=element('a',label||item.source_label||'Source ↗');a.href=url;a.target='_blank';a.rel='noopener noreferrer';a.setAttribute('aria-label',(item.source_label||'Source')+' for '+item.title);return a;}
 const WEEKDAYS=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
-const load=path=>fetch(path).then(r=>{if(!r.ok)throw Error('Could not load '+path);return r.json();}).then(d=>Array.isArray(d)?d:[]);
+const venues=fetch('/data/venues.json').then(r=>r.ok?r.json():[]).catch(()=>[]).then(v=>new Map((Array.isArray(v)?v:[]).map(x=>[x.name,x.neighborhood])));
+const load=path=>Promise.all([fetch(path).then(r=>{if(!r.ok)throw Error('Could not load '+path);return r.json();}),venues]).then(([d,area])=>(Array.isArray(d)?d:[]).map(r=>({...r,neighborhood:area.get(r.venue)||r.neighborhood})));
 
 const rail=document.querySelector('#recurring-list');
 if(rail){load('/data/recurring.json').then(rows=>{rail.replaceChildren();

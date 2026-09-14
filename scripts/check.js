@@ -79,6 +79,19 @@ checkCommon('open-mics', readJson('open-mics.json'), ['id', 'title', 'venue', 'n
 // clubs.json
 checkCommon('clubs', readJson('clubs.json'), ['id', 'name', 'neighborhood', 'address', 'calendar_url', 'source_url', 'verified_at', 'tier'], ['club']);
 
+// Venue registry: every venue named in the data must match its registered neighborhood.
+const venues = readJson('venues.json');
+const byVenue = new Map(venues.map((v) => [v.name, v]));
+venues.forEach((v, i) => { for (const k of ['name', 'address', 'neighborhood', 'borough']) if (!v[k]) fail(`venues[${i}]: missing ${k}`); });
+const venueCheck = (file, rows) => rows.forEach((r) => {
+  const name = r.venue || r.name; if (!name) return;
+  const v = byVenue.get(name);
+  if (!v) { fail(`${file} ${r.id}: venue "${name}" is not in venues.json; every venue must be registered with its neighborhood`); return; }
+  if (r.neighborhood && r.neighborhood !== v.neighborhood && !String(r.neighborhood).includes(' · ')) fail(`${file} ${r.id}: "${name}" is in ${v.neighborhood} per venues.json, not ${r.neighborhood}`);
+  if (r.address && r.address !== v.address && !String(r.address).includes(' · ')) fail(`${file} ${r.id}: address for "${name}" differs from venues.json`);
+});
+venueCheck('picks', picks); venueCheck('recurring', readJson('recurring.json')); venueCheck('open-mics', readJson('open-mics.json'));
+
 // Poster sources must resolve to files.
 try {
   const posters = JSON.parse(fs.readFileSync(path.join(root, 'POSTER-SOURCES.json'), 'utf8'));
