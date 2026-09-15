@@ -1,0 +1,1255 @@
+{
+ "retrieved_at": "2026-09-15T03:17:41.676Z",
+ "note": "Promoter posts from NYC neighborhood subreddits, last 14 days. Leads only: open the linked page or the venue site before anything enters the data; register the venue first.",
+ "subreddits": [
+  "nycevents",
+  "NYCComedy",
+  "williamsburg",
+  "lowereastside",
+  "Bushwick",
+  "astoria",
+  "Brooklyn",
+  "nyc",
+  "AskNYC",
+  "parkslope",
+  "greenpoint",
+  "Harlem",
+  "crownheights",
+  "bedstuy",
+  "ridgewood",
+  "LongIslandCity",
+  "eastvillage",
+  "Queens",
+  "bronx",
+  "StatenIsland",
+  "FortGreene",
+  "Gowanus"
+ ],
+ "leads": [
+  {
+   "id": "1wgd84z",
+   "date": "2026-09-14",
+   "subreddit": "nycevents",
+   "title": "comedy show this wednesday featuring james austin johnson (snl), kyle gordon (planet of the bass), sabrina wu, nico carney, and jonathan van halem. $12, no drink minimum",
+   "score": 1,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/nycevents/comments/1wgd84z/comedy_show_this_wednesday_featuring_james_austin/",
+   "venues_mentioned": [],
+   "when_mentioned": "wednesday featuring james austin johnson (snl), k",
+   "time_mentioned": null,
+   "links": [],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": ""
+  },
+  {
+   "id": "1wg9j5r",
+   "date": "2026-09-14",
+   "subreddit": "nycevents",
+   "title": "THURS, SEPT 17, 8:30 • Great comics (comedian bios at ticket link) + a one in 35 chance your bar tab gets paid for. No drink min. Fun vibe. Check it out at The Whiskey Cellar-77 East 7th St in NYC's East Village-$12. Last show sold out (15 seats left for this one so far) Grab one at onein35.com : )",
+   "score": 2,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/nycevents/comments/1wg9j5r/thurs_sept_17_830_great_comics_comedian_bios_at/",
+   "venues_mentioned": [],
+   "when_mentioned": null,
+   "time_mentioned": null,
+   "links": [],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": ""
+  },
+  {
+   "id": "1wg8qwe",
+   "date": "2026-09-14",
+   "subreddit": "nycevents",
+   "title": "Mom and I Go to the Temple — one-man true-story horror play at The Tank, Sep 16–19 (9:30 PM nightly)",
+   "score": 1,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/nycevents/comments/1wg8qwe/mom_and_i_go_to_the_temple_oneman_truestory/",
+   "venues_mentioned": [],
+   "when_mentioned": null,
+   "time_mentioned": "9:30 PM",
+   "links": [
+    "https://tickets.thetanknyc.org/EventAvailability?EventId=155801"
+   ],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "Full disclosure: I'm the producer. A one-man play by Michael Tay — his NYC stage debut. \"Mom said we were just taking a simple trip to a temple hidden in the mountains of Malaysia.\" \"What she failed to mention was that this 'temple' wasn't quite what it seemed. As the journey gre"
+  },
+  {
+   "id": "1wgav5x",
+   "date": "2026-09-14",
+   "subreddit": "astoria",
+   "title": "Comedy Show: Sep 17 Grove 34",
+   "score": 7,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/astoria/comments/1wgav5x/comedy_show_sep_17_grove_34/",
+   "venues_mentioned": [
+    "Grove 34"
+   ],
+   "when_mentioned": null,
+   "time_mentioned": "7:30PM",
+   "links": [],
+   "free": true,
+   "new_since_last_run": true,
+   "excerpt": "OMG HI!!!! My name is CeeKay. I’m a standup comedian, visiting in NYC from way out of town. 7:30PM at the wonderful Grove 34 in Astoria, I’m doing my headline show. Opener: Sarah Barnitt. Feature: Alex La. Host: Sally Ann Hall. Come through! “\\[CeeKay has\\] great energy and charm"
+  },
+  {
+   "id": "1wg35iv",
+   "date": "2026-09-14",
+   "subreddit": "parkslope",
+   "title": "Come to a local horror comedy movie screening this weekend",
+   "score": 3,
+   "comments": 1,
+   "url": "https://www.reddit.com/r/parkslope/comments/1wg35iv/come_to_a_local_horror_comedy_movie_screening/",
+   "venues_mentioned": [],
+   "when_mentioned": "Sunday for a wild afternoon exploring this tra",
+   "time_mentioned": "6 PM",
+   "links": [
+    "https://www.eventbrite.com/e/the-martin-monster-show-class-of-nuke-em-high-with-troma-tickets-1998776418072"
+   ],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "This weekend, Scream Scene and the Martin Monster Show are bringing you a 40th anniversary celebration of *Class of Nuke ‘Em High*, sponsored by Troma Now! Join us on Sunday for a wild afternoon exploring this trashy horror comedy about nuclear teenage mutants. Sunday, September "
+  },
+  {
+   "id": "1wg9hqa",
+   "date": "2026-09-14",
+   "subreddit": "Harlem",
+   "title": "Stand up comedy",
+   "score": 2,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/Harlem/comments/1wg9hqa/stand_up_comedy/",
+   "venues_mentioned": [],
+   "when_mentioned": "Tuesday at the Corner Lounge Bistro",
+   "time_mentioned": null,
+   "links": [],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "Tomorrow &amp; every Tuesday at the Corner Lounge Bistro! Support your local Harlem business ❤️ We have a lot of great events weekly be sure to follow us on IG @thecornerloungebistrony"
+  },
+  {
+   "id": "1wf722j",
+   "date": "2026-09-13",
+   "subreddit": "parkslope",
+   "title": "Tonight! Free Comedy at Bar Bayeux!",
+   "score": 0,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/parkslope/comments/1wf722j/tonight_free_comedy_at_bar_bayeux/",
+   "venues_mentioned": [],
+   "when_mentioned": "Sunday, 8:30PM at Bar Bayeux, we feature club ",
+   "time_mentioned": "8:30PM",
+   "links": [
+    "https://www.eventbrite.com/e/free-brooklyn-nyc-standup-comedy-show-post-moves-comedy-every-sunday-tickets-66265932086"
+   ],
+   "free": true,
+   "new_since_last_run": true,
+   "excerpt": "Hey! I run a stand-up comedy show called Post Moves Comedy. Every Sunday, 8:30PM at Bar Bayeux, we feature club comics and folks who’ve been on TV, Don’t Tell, Netflix, and more. This next show will feature some HITTERS! RSVP now for a chance at a free drink and pull up for some "
+  },
+  {
+   "id": "1wf7375",
+   "date": "2026-09-13",
+   "subreddit": "crownheights",
+   "title": "Tonight! FREE Comedy at Bar Bayeux!!",
+   "score": 1,
+   "comments": 1,
+   "url": "https://www.reddit.com/r/crownheights/comments/1wf7375/tonight_free_comedy_at_bar_bayeux/",
+   "venues_mentioned": [],
+   "when_mentioned": "Sunday, 8:30PM at Bar Bayeux, we feature club ",
+   "time_mentioned": "8:30PM",
+   "links": [
+    "https://www.eventbrite.com/e/free-brooklyn-nyc-standup-comedy-show-post-moves-comedy-every-sunday-tickets-66265932086"
+   ],
+   "free": true,
+   "new_since_last_run": true,
+   "excerpt": "Hey! I run a stand-up comedy show called Post Moves Comedy. Every Sunday, 8:30PM at Bar Bayeux, we feature club comics and folks who’ve been on TV, Don’t Tell, Netflix, and more. This next show will feature some HITTERS! RSVP now for a chance at a free drink and pull up for some "
+  },
+  {
+   "id": "1wehhcp",
+   "date": "2026-09-12",
+   "subreddit": "nycevents",
+   "title": "Live Sketch Comedy NEXT SATURDAY! Last chance for $15 tickets",
+   "score": 1,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/nycevents/comments/1wehhcp/live_sketch_comedy_next_saturday_last_chance_for/",
+   "venues_mentioned": [],
+   "when_mentioned": "SATURDAY",
+   "time_mentioned": null,
+   "links": [
+    "https://www.eventbrite.com/e/fun-in-moderation-sketch-comedy-tickets-1995573422827?\\_gl=1\\*8fd8hw\\*\\_gcl\\_au\\*NDE4NTcwNjM2LjE3ODczNTk4MTc.\\*\\_ga\\*MTkxNzE1MjkzNS4xNzg0MTUzNzk5\\*\\_ga\\_LN3PNYXF7B\\*czE3ODkwNzg4MjIkbzM3JGcxJHQxNzg5MDc4ODMzJGo0OSRsMCRoMA.."
+   ],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "https://www.eventbrite.com/e/fun-in-moderation-sketch-comedy-tickets-1995573422827?\\_gl=1\\*8fd8hw\\*\\_gcl\\_au\\*NDE4NTcwNjM2LjE3ODczNTk4MTc.\\*\\_ga\\*MTkxNzE1MjkzNS4xNzg0MTUzNzk5\\*\\_ga\\_LN3PNYXF7B\\*czE3ODkwNzg4MjIkbzM3JGcxJHQxNzg5MDc4ODMzJGo0OSRsMCRoMA.."
+  },
+  {
+   "id": "1wecxac",
+   "date": "2026-09-12",
+   "subreddit": "nycevents",
+   "title": "Hey Brooklyn🗽I’ll be headlining Eastville comedy club this Sunday 9/13!",
+   "score": 1,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/nycevents/comments/1wecxac/hey_brooklynill_be_headlining_eastville_comedy/",
+   "venues_mentioned": [
+    "Eastville Comedy Club"
+   ],
+   "when_mentioned": "Sunday 9/13",
+   "time_mentioned": null,
+   "links": [],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": ""
+  },
+  {
+   "id": "1wehfxz",
+   "date": "2026-09-12",
+   "subreddit": "nycComedy",
+   "title": "Live sketch comedy NEXT SATURDAY! last chance for $15 tickets",
+   "score": 1,
+   "comments": 1,
+   "url": "https://www.reddit.com/r/nycComedy/comments/1wehfxz/live_sketch_comedy_next_saturday_last_chance_for/",
+   "venues_mentioned": [],
+   "when_mentioned": "SATURDAY",
+   "time_mentioned": null,
+   "links": [],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": ""
+  },
+  {
+   "id": "1wecx01",
+   "date": "2026-09-12",
+   "subreddit": "williamsburg",
+   "title": "Hey Brooklyn🗽I’ll be headlining Eastville comedy club this Sunday 9/13!",
+   "score": 0,
+   "comments": 1,
+   "url": "https://www.reddit.com/r/williamsburg/comments/1wecx01/hey_brooklynill_be_headlining_eastville_comedy/",
+   "venues_mentioned": [
+    "Eastville Comedy Club"
+   ],
+   "when_mentioned": "Sunday 9/13",
+   "time_mentioned": null,
+   "links": [],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": ""
+  },
+  {
+   "id": "1wehjg9",
+   "date": "2026-09-12",
+   "subreddit": "lowereastside",
+   "title": "Live Sketch Comedy @ Caveat next Saturday! Last chance for $15 tickets",
+   "score": 1,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/lowereastside/comments/1wehjg9/live_sketch_comedy_caveat_next_saturday_last/",
+   "venues_mentioned": [
+    "Caveat"
+   ],
+   "when_mentioned": "Saturday",
+   "time_mentioned": null,
+   "links": [
+    "https://www.eventbrite.com/e/fun-in-moderation-sketch-comedy-tickets-1995573422827?\\_gl=1\\*8fd8hw\\*\\_gcl\\_au\\*NDE4NTcwNjM2LjE3ODczNTk4MTc.\\*\\_ga\\*MTkxNzE1MjkzNS4xNzg0MTUzNzk5\\*\\_ga\\_LN3PNYXF7B\\*czE3ODkwNzg4MjIkbzM3JGcxJHQxNzg5MDc4ODMzJGo0OSRsMCRoMA.."
+   ],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "https://www.eventbrite.com/e/fun-in-moderation-sketch-comedy-tickets-1995573422827?\\_gl=1\\*8fd8hw\\*\\_gcl\\_au\\*NDE4NTcwNjM2LjE3ODczNTk4MTc.\\*\\_ga\\*MTkxNzE1MjkzNS4xNzg0MTUzNzk5\\*\\_ga\\_LN3PNYXF7B\\*czE3ODkwNzg4MjIkbzM3JGcxJHQxNzg5MDc4ODMzJGo0OSRsMCRoMA.."
+  },
+  {
+   "id": "1weh3vw",
+   "date": "2026-09-12",
+   "subreddit": "astoria",
+   "title": "Comedy Show Tonight at QED! (DM me for free tickets, we have a few left)",
+   "score": 5,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/astoria/comments/1weh3vw/comedy_show_tonight_at_qed_dm_me_for_free_tickets/",
+   "venues_mentioned": [],
+   "when_mentioned": null,
+   "time_mentioned": null,
+   "links": [],
+   "free": true,
+   "new_since_last_run": true,
+   "excerpt": ""
+  },
+  {
+   "id": "1wecxps",
+   "date": "2026-09-12",
+   "subreddit": "parkslope",
+   "title": "Hey Brooklyn🗽I’ll be headlining Eastville comedy club this Sunday 9/13!",
+   "score": 0,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/parkslope/comments/1wecxps/hey_brooklynill_be_headlining_eastville_comedy/",
+   "venues_mentioned": [
+    "Eastville Comedy Club"
+   ],
+   "when_mentioned": "Sunday 9/13",
+   "time_mentioned": null,
+   "links": [],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": ""
+  },
+  {
+   "id": "1wekzoo",
+   "date": "2026-09-12",
+   "subreddit": "Greenpoint",
+   "title": "Stand up show at Greenpoint Comedy Club 09/13-6pm",
+   "score": 1,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/Greenpoint/comments/1wekzoo/stand_up_show_at_greenpoint_comedy_club_09136pm/",
+   "venues_mentioned": [
+    "Greenpoint Comedy Club"
+   ],
+   "when_mentioned": "Sunday at 6pm and have got some excellent come",
+   "time_mentioned": "6pm",
+   "links": [
+    "https://tickets.greenpointcomedyclub.com/e/stuart-laws-his-funnier-friends"
+   ],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "Hello! I'm a British comedian who has moved to New York and I'm running a show at the brilliant new comedy club in Greenpoint (they've called it Greenpoint Comedy Club which I think is an ideal name) on Sunday at 6pm and have got some excellent comedians doing sets - Chloe Radcli"
+  },
+  {
+   "id": "1we2npj",
+   "date": "2026-09-12",
+   "subreddit": "ridgewood",
+   "title": "Comedy show at Bar Freda 9.17!",
+   "score": 1,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/ridgewood/comments/1we2npj/comedy_show_at_bar_freda_917/",
+   "venues_mentioned": [
+    "Freda"
+   ],
+   "when_mentioned": null,
+   "time_mentioned": "9pm",
+   "links": [
+    "https://tickets.venuepilot.com/e/all-show-no-boat-comedy-at-bar-freda-2026-09-17-freda-bar-upstairs-ridgewood-df05eb"
+   ],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "Hey! Bringing a stacked lineup to Bar Freda, your favorite artist positive venue on 9/17! Doors at 9pm, show at 9:30pm. Suggested donation of $10-- https://tickets.venuepilot.com/e/all-show-no-boat-comedy-at-bar-freda-2026-09-17-freda-bar-upstairs-ridgewood-df05eb "
+  },
+  {
+   "id": "1wdsvob",
+   "date": "2026-09-11",
+   "subreddit": "nycevents",
+   "title": "The Power Joker Sex Worker Rights Show With Discount Code",
+   "score": 6,
+   "comments": 1,
+   "url": "https://www.reddit.com/r/nycevents/comments/1wdsvob/the_power_joker_sex_worker_rights_show_with/",
+   "venues_mentioned": [
+    "Caveat"
+   ],
+   "when_mentioned": "Saturday Sept 26th at 7pm at Caveat in the lower",
+   "time_mentioned": "7pm",
+   "links": [
+    "https://caveat.nyc/events/the-power-joker-a-robert-moses-comedy-show"
+   ],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "My name is Sam Rogal and I host a show called The Power Joker. Our next show is themed around sex worker rights. Its Saturday Sept 26th at 7pm at Caveat in the lower east side featuring guests Kaytlin Baily of Old Pros a pro sex work rights activist. You can purchase tickets here"
+  },
+  {
+   "id": "1wdn0bt",
+   "date": "2026-09-11",
+   "subreddit": "nycevents",
+   "title": "ShakesBEER in Park Slope!",
+   "score": 1,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/nycevents/comments/1wdn0bt/shakesbeer_in_park_slope/",
+   "venues_mentioned": [],
+   "when_mentioned": "Saturday 9/19 and 9/26 in Park Slope",
+   "time_mentioned": "2:30pm",
+   "links": [
+    "https://secure.qgiv.com/for/nysedonate/event/shakesbeer2026brooklyn/"
+   ],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "Hi friends! I'm helping to produce a Shakespeare pub crawl happening Saturday 9/19 and 9/26 in Park Slope. ShakesBEER is a pub crawl in which an ensemble of actors brings a different comedic scene to life at each bar, creating an immersive, joyful, and improv-rich experience for "
+  },
+  {
+   "id": "1wd3fmb",
+   "date": "2026-09-11",
+   "subreddit": "nycevents",
+   "title": "Topical News Sketch Comedy Show this Sunday! Everybody's invited except ICE.",
+   "score": 2,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/nycevents/comments/1wd3fmb/topical_news_sketch_comedy_show_this_sunday/",
+   "venues_mentioned": [],
+   "when_mentioned": "Sunday",
+   "time_mentioned": null,
+   "links": [],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": ""
+  },
+  {
+   "id": "1wd29dh",
+   "date": "2026-09-11",
+   "subreddit": "nycevents",
+   "title": "Saturday 4 PM Stand-Up Comedy Club Show – Upper West Side – Ry Daddy",
+   "score": 1,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/nycevents/comments/1wd29dh/saturday_4_pm_standup_comedy_club_show_upper_west/",
+   "venues_mentioned": [],
+   "when_mentioned": "Saturday 4 PM Stand-Up Comedy Club Show – Upper ",
+   "time_mentioned": "4 PM",
+   "links": [],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": ""
+  },
+  {
+   "id": "1wdmve2",
+   "date": "2026-09-11",
+   "subreddit": "nycComedy",
+   "title": "Ivy Wolk Comedy Show NEXT Wednesday at Brooklyn Improv",
+   "score": 1,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/nycComedy/comments/1wdmve2/ivy_wolk_comedy_show_next_wednesday_at_brooklyn/",
+   "venues_mentioned": [
+    "Brooklyn Improv"
+   ],
+   "when_mentioned": "Wednesday at Brooklyn Improv 🗣️ Ask Comedians An",
+   "time_mentioned": "7:30pm",
+   "links": [
+    "https://improv.com/brooklyn/event/ask+comedians+anything+ft.+ivy+wolk%2C+saidah+belo-osagie%2C+marley+gotterer%2C+andrei+buna%2C+bridget+foley%2C+sureni+weerasekera%2C+and+more%21/15012883/"
+   ],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "🗣️ Ask Comedians Anything Show 8 is LIVE at Brooklyn Improv with IVY Wolk, SAIDAH Belo-Osagie, SURENI Weerasekera &amp; more on Wednesday Sept 16th, 7:30pm‼️ 🎟️ Tickets here: [https://improv.com/brooklyn/event/ask+comedians+anything+ft.+ivy+wolk%2C+saidah+belo-osagie%2C+marley+"
+  },
+  {
+   "id": "1wdmv3c",
+   "date": "2026-09-11",
+   "subreddit": "williamsburg",
+   "title": "Ivy Wolk Comedy Show NEXT Wednesday at Brooklyn Improv!",
+   "score": 0,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/williamsburg/comments/1wdmv3c/ivy_wolk_comedy_show_next_wednesday_at_brooklyn/",
+   "venues_mentioned": [
+    "Brooklyn Improv"
+   ],
+   "when_mentioned": "Wednesday at Brooklyn Improv",
+   "time_mentioned": "7:30pm",
+   "links": [
+    "https://improv.com/brooklyn/event/ask+comedians+anything+ft.+ivy+wolk%2C+saidah+belo-osagie%2C+marley+gotterer%2C+andrei+buna%2C+bridget+foley%2C+sureni+weerasekera%2C+and+more%21/15012883/"
+   ],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "🗣️ Ask Comedians Anything Show 8 is LIVE at Brooklyn Improv with IVY Wolk, SAIDAH Belo-Osagie, SURENI Weerasekera &amp; more on Wednesday Sept 16th, 7:30pm‼️ 🎟️ Tickets here: [https://improv.com/brooklyn/event/ask+comedians+anything+ft.+ivy+wolk%2C+saidah+belo-osagie%2C+marley+"
+  },
+  {
+   "id": "1wdj5op",
+   "date": "2026-09-11",
+   "subreddit": "astoria",
+   "title": "Go to QED",
+   "score": 232,
+   "comments": 39,
+   "url": "https://www.reddit.com/r/astoria/comments/1wdj5op/go_to_qed/",
+   "venues_mentioned": [],
+   "when_mentioned": "Thursday night in September",
+   "time_mentioned": null,
+   "links": [],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "Hey Astoria just wanted to shout-out QED for being such a gem. Went to a magic show last night and it was phenomenal. They do it once a month now (different each time!) The place almost closed a year or two ago and many were upset. The new owner swooped in and saved the place and"
+  },
+  {
+   "id": "1wdn4g1",
+   "date": "2026-09-11",
+   "subreddit": "Brooklyn",
+   "title": "ShakesBEER pub crawl in Park Slope!",
+   "score": 0,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/Brooklyn/comments/1wdn4g1/shakesbeer_pub_crawl_in_park_slope/",
+   "venues_mentioned": [],
+   "when_mentioned": "Saturday 9/19 and 9/26 in Park Slope",
+   "time_mentioned": "2:30pm",
+   "links": [
+    "https://secure.qgiv.com/for/nysedonate/event/shakesbeer2026brooklyn/"
+   ],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "Hi friends! I'm helping to produce a Shakespeare pub crawl happening Saturday 9/19 and 9/26 in Park Slope. ShakesBEER is a pub crawl in which an ensemble of actors brings a different comedic scene to life at each bar, creating an immersive, joyful, and improv-rich experience for "
+  },
+  {
+   "id": "1wdmuji",
+   "date": "2026-09-11",
+   "subreddit": "Brooklyn",
+   "title": "Ivy Wolk Comedy Show NEXT Wednesday at Brooklyn Improv!",
+   "score": 1,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/Brooklyn/comments/1wdmuji/ivy_wolk_comedy_show_next_wednesday_at_brooklyn/",
+   "venues_mentioned": [
+    "Brooklyn Improv"
+   ],
+   "when_mentioned": "Wednesday at Brooklyn Improv",
+   "time_mentioned": "7:30pm",
+   "links": [
+    "https://improv.com/brooklyn/event/ask+comedians+anything+ft.+ivy+wolk%2C+saidah+belo-osagie%2C+marley+gotterer%2C+andrei+buna%2C+bridget+foley%2C+sureni+weerasekera%2C+and+more%21/15012883/"
+   ],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "🗣️ Ask Comedians Anything Show 8 is LIVE at Brooklyn Improv with IVY Wolk, SAIDAH Belo-Osagie, SURENI Weerasekera &amp; more on Wednesday Sept 16th, 7:30pm‼️ 🎟️ Tickets here: [https://improv.com/brooklyn/event/ask+comedians+anything+ft.+ivy+wolk%2C+saidah+belo-osagie%2C+marley+"
+  },
+  {
+   "id": "1wdr707",
+   "date": "2026-09-11",
+   "subreddit": "AskNYC",
+   "title": "Need help planning date weekend",
+   "score": 4,
+   "comments": 13,
+   "url": "https://www.reddit.com/r/AskNYC/comments/1wdr707/need_help_planning_date_weekend/",
+   "venues_mentioned": [],
+   "when_mentioned": "Friday afternoon and taking her to get a massa",
+   "time_mentioned": null,
+   "links": [],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "I’m new to nyc and my girlfriend is coming to visit for the weekend on the 26th and I want to plan some amazing stuff for us to do. Money isn’t an obstacle I just need help finding really cool unique stuff for us to do. I saw some stuff like a beekeeping class in Brooklyn or a cl"
+  },
+  {
+   "id": "1wdmuvq",
+   "date": "2026-09-11",
+   "subreddit": "parkslope",
+   "title": "ShakesBEER pub crawl!",
+   "score": 4,
+   "comments": 1,
+   "url": "https://www.reddit.com/r/parkslope/comments/1wdmuvq/shakesbeer_pub_crawl/",
+   "venues_mentioned": [],
+   "when_mentioned": "Saturday 9/19 and 9/26 in Park Slope",
+   "time_mentioned": "2:30pm",
+   "links": [
+    "https://secure.qgiv.com/for/nysedonate/event/shakesbeer2026brooklyn/"
+   ],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "Hi friends! I'm helping to produce a Shakespeare pub crawl happening Saturday 9/19 and 9/26 in Park Slope. ShakesBEER is a pub crawl in which an ensemble of actors brings a different comedic scene to life at each bar, creating an immersive, joyful, and improv-rich experience for "
+  },
+  {
+   "id": "1wdhh3y",
+   "date": "2026-09-11",
+   "subreddit": "crownheights",
+   "title": "Crown Heights Weekly Events Thread 9/9/26-9/15/26",
+   "score": 18,
+   "comments": 3,
+   "url": "https://www.reddit.com/r/crownheights/comments/1wdhh3y/crown_heights_weekly_events_thread_992691526/",
+   "venues_mentioned": [],
+   "when_mentioned": "sunday-tickets-662659320867)@ [Bar Bayeux](htt",
+   "time_mentioned": "9pm",
+   "links": [
+    "https://www.instagram.com/p/DdFPfsHCvOt/",
+    "https://www.rodeobrooklyn.com/",
+    "https://www.eventbrite.com/e/virgo-vibes-disco-soul-funk-more-tickets-1999576725814"
+   ],
+   "free": true,
+   "new_since_last_run": true,
+   "excerpt": "Hey all, hope you all had a good week. Here's some stuff coming up in the neighborhood and nearby. As always, feel free to post more events in the comments below and they'll be added here! *Fri 9/11* \\- 25th Anniversary of 9/11 * 9pm - [JAJAJA Comedy](https://www.instagram.com/p/"
+  },
+  {
+   "id": "1wcpscu",
+   "date": "2026-09-10",
+   "subreddit": "nycevents",
+   "title": "BYOB COMEDY TONIGHT",
+   "score": 1,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/nycevents/comments/1wcpscu/byob_comedy_tonight/",
+   "venues_mentioned": [
+    "The Fear City Comedy Club"
+   ],
+   "when_mentioned": "thursday-09/10/26](https://www",
+   "time_mentioned": "8pm",
+   "links": [
+    "https://www.thefearcitycomedyclub.com/shows/bostons-funniest-thursday-09/10/26"
+   ],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "Come join us TONIGHT (September 10th 8pm $20) for a night of stand-up comedy featuring Boston’s best comedians at The Fear City Comedy Club! Tickets available now! [https://www.thefearcitycomedyclub.com/shows/bostons-funniest-thursday-09/10/26](https://www.thefearcitycomedyclub.c"
+  },
+  {
+   "id": "1wcpu70",
+   "date": "2026-09-10",
+   "subreddit": "lowereastside",
+   "title": "BYOB COMEDY TONIGHT!",
+   "score": 1,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/lowereastside/comments/1wcpu70/byob_comedy_tonight/",
+   "venues_mentioned": [
+    "The Fear City Comedy Club"
+   ],
+   "when_mentioned": "thursday-09/10/26",
+   "time_mentioned": "8pm",
+   "links": [
+    "https://www.thefearcitycomedyclub.com/shows/bostons-funniest-thursday-09/10/26"
+   ],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "Come join us TONIGHT (September 10th 8pm $20) for a night of stand-up comedy featuring Boston’s best comedians at The Fear City Comedy Club! Tickets available now! https://www.thefearcitycomedyclub.com/shows/bostons-funniest-thursday-09/10/26"
+  },
+  {
+   "id": "1wcr2xa",
+   "date": "2026-09-10",
+   "subreddit": "astoria",
+   "title": "Free comedy every Friday in Astoria — Bomb Shelter Comedy 🎤",
+   "score": 6,
+   "comments": 1,
+   "url": "https://www.reddit.com/r/astoria/comments/1wcr2xa/free_comedy_every_friday_in_astoria_bomb_shelter/",
+   "venues_mentioned": [],
+   "when_mentioned": "Friday in Astoria — Bomb Shelter Comedy 🎤 Loo",
+   "time_mentioned": "7pm",
+   "links": [
+    "https://www.eventbrite.com/e/bomb-shelter-comedy-astoria-every-friday-no-cover-or-drink-minimum-tickets-1981375743185"
+   ],
+   "free": true,
+   "new_since_last_run": true,
+   "excerpt": "Looking for something fun to do in Astoria on a Friday night? Bomb Shelter Comedy is bringing a free stand-up comedy show to Astoria every Friday at 7pm. 🎤 It’s a NYC comedy show featuring comedians who have appeared on Comedy Central, The Late Show, Conan, Netflix, NBC’s Last C"
+  },
+  {
+   "id": "1wby8uu",
+   "date": "2026-09-09",
+   "subreddit": "nycevents",
+   "title": "9/10 6:30pm Stand up comedy show the rat",
+   "score": 1,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/nycevents/comments/1wby8uu/910_630pm_stand_up_comedy_show_the_rat/",
+   "venues_mentioned": [],
+   "when_mentioned": null,
+   "time_mentioned": "6:30pm",
+   "links": [],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": ""
+  },
+  {
+   "id": "1wbka4d",
+   "date": "2026-09-09",
+   "subreddit": "nycevents",
+   "title": "Friday 9/18/26 7:30PM Standup Comedy at Fort Hamilton Distillery (Industry City, Brooklyn)",
+   "score": 0,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/nycevents/comments/1wbka4d/friday_91826_730pm_standup_comedy_at_fort/",
+   "venues_mentioned": [],
+   "when_mentioned": "Friday 9/18/26 7:30PM Standup Comedy at Fort H",
+   "time_mentioned": "7:30PM",
+   "links": [],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": ""
+  },
+  {
+   "id": "1wbxs0b",
+   "date": "2026-09-09",
+   "subreddit": "nycComedy",
+   "title": "Anyone want 2 tickets to see bill burr at Gotham comedy club tonight?",
+   "score": 2,
+   "comments": 1,
+   "url": "https://www.reddit.com/r/nycComedy/comments/1wbxs0b/anyone_want_2_tickets_to_see_bill_burr_at_gotham/",
+   "venues_mentioned": [
+    "Gotham Comedy Club"
+   ],
+   "when_mentioned": null,
+   "time_mentioned": null,
+   "links": [],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "Was really looking forward to the show and got great seats but my girl ain’t feeling the best and I don’t think we can make it. Really want someone to enjoy the show so lmk "
+  },
+  {
+   "id": "1wbkccb",
+   "date": "2026-09-09",
+   "subreddit": "lowereastside",
+   "title": "Friday 9/18/26 7:30PM Standup Comedy at Fort Hamilton Distillery (Industry City, Brooklyn)",
+   "score": 0,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/lowereastside/comments/1wbkccb/friday_91826_730pm_standup_comedy_at_fort/",
+   "venues_mentioned": [],
+   "when_mentioned": "Friday 9/18/26 7:30PM Standup Comedy at Fort H",
+   "time_mentioned": "7:30PM",
+   "links": [],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": ""
+  },
+  {
+   "id": "1wbkaiv",
+   "date": "2026-09-09",
+   "subreddit": "parkslope",
+   "title": "Friday 9/18/26 7:30PM Standup Comedy at Fort Hamilton Distillery (Industry City, Brooklyn)",
+   "score": 0,
+   "comments": 3,
+   "url": "https://www.reddit.com/r/parkslope/comments/1wbkaiv/friday_91826_730pm_standup_comedy_at_fort/",
+   "venues_mentioned": [],
+   "when_mentioned": "Friday 9/18/26 7:30PM Standup Comedy at Fort H",
+   "time_mentioned": "7:30PM",
+   "links": [],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": ""
+  },
+  {
+   "id": "1wbkcyr",
+   "date": "2026-09-09",
+   "subreddit": "Greenpoint",
+   "title": "Friday 9/18/26 7:30PM Standup Comedy at Fort Hamilton Distillery (Industry City, Brooklyn)",
+   "score": 0,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/Greenpoint/comments/1wbkcyr/friday_91826_730pm_standup_comedy_at_fort/",
+   "venues_mentioned": [],
+   "when_mentioned": "Friday 9/18/26 7:30PM Standup Comedy at Fort H",
+   "time_mentioned": "7:30PM",
+   "links": [],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": ""
+  },
+  {
+   "id": "1wadmtw",
+   "date": "2026-09-08",
+   "subreddit": "nycevents",
+   "title": "Southern Queer Comedy In Brooklyn",
+   "score": 0,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/nycevents/comments/1wadmtw/southern_queer_comedy_in_brooklyn/",
+   "venues_mentioned": [
+    "Greenpoint Comedy Club"
+   ],
+   "when_mentioned": null,
+   "time_mentioned": "6pm",
+   "links": [],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "HI! You don't have to be southern to love our show, but if you **are** from the south - you're gonna **love** this show. **Southern Queers** **Sept. 19th** **6pm** **Greenpoint Comedy Club - Brooklyn** "
+  },
+  {
+   "id": "1wabzp6",
+   "date": "2026-09-08",
+   "subreddit": "nycevents",
+   "title": "Stand up Comedy This Thursday! Lower East Side!",
+   "score": 6,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/nycevents/comments/1wabzp6/stand_up_comedy_this_thursday_lower_east_side/",
+   "venues_mentioned": [
+    "The Fear City Comedy Club"
+   ],
+   "when_mentioned": "Thursday",
+   "time_mentioned": null,
+   "links": [
+    "https://www.thefearcitycomedyclub.com/shows/bostons-funniest-thursday-09/10/26"
+   ],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "Thursday, September 10th The Fear City Comedy Club Lower East Side, NYC $20 Tickets available now! [https://www.thefearcitycomedyclub.com/shows/bostons-funniest-thursday-09/10/26](https://www.thefearcitycomedyclub.com/shows/bostons-funniest-thursday-09/10/26)"
+  },
+  {
+   "id": "1waw1c9",
+   "date": "2026-09-08",
+   "subreddit": "nycComedy",
+   "title": "Power Joker at Caveat, September 8th - Special Guest Kaytlin Bailey",
+   "score": 3,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/nycComedy/comments/1waw1c9/power_joker_at_caveat_september_8th_special_guest/",
+   "venues_mentioned": [
+    "Caveat"
+   ],
+   "when_mentioned": null,
+   "time_mentioned": null,
+   "links": [
+    "https://www.caveat.nyc/events/the-power-joker-a-robert-moses-comedy-show-2026-09-26"
+   ],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "**THEME: SEX WORKER RIGHTS** What happens when the master builder of New York, Robert Moses, loses his power and attempts to host a late night talk show? The Power Joker is one hour of driving comedy inspired by that horrible \"genius\" Robert Moses and his 1974 biography, The Powe"
+  },
+  {
+   "id": "1waw4ir",
+   "date": "2026-09-08",
+   "subreddit": "williamsburg",
+   "title": "Free Comedy Show 9/9 @ Rose's R&amp;R Bar!",
+   "score": 3,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/williamsburg/comments/1waw4ir/free_comedy_show_99_roses_rr_bar/",
+   "venues_mentioned": [],
+   "when_mentioned": "Wednesday September 9th",
+   "time_mentioned": null,
+   "links": [
+    "https://partiful.com/e/t5JvJ21KeErsvyedPmf9"
+   ],
+   "free": true,
+   "new_since_last_run": true,
+   "excerpt": "Hey everyone!! My workplace is producing/sponsoring a new free bi-weekly comedy show at Rose's R&amp;R Bar (457 Graham Ave.) in Williamsburg, BK right next door to our storefront. Each show will feature some of the city's best stand-up, sketch, character work, and more mixed with"
+  },
+  {
+   "id": "1wabadh",
+   "date": "2026-09-08",
+   "subreddit": "lowereastside",
+   "title": "Stand up Comedy This Thursday! Lower East Side",
+   "score": 6,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/lowereastside/comments/1wabadh/stand_up_comedy_this_thursday_lower_east_side/",
+   "venues_mentioned": [],
+   "when_mentioned": "Thursday",
+   "time_mentioned": null,
+   "links": [
+    "https://www.thefearcitycomedyclub.com/shows/bostons-funniest-thursday-09/10/26"
+   ],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "Boston’s best comedians are coming to NYC! Get tickets here: https://www.thefearcitycomedyclub.com/shows/bostons-funniest-thursday-09/10/26"
+  },
+  {
+   "id": "1w9tbkg",
+   "date": "2026-09-07",
+   "subreddit": "nycComedy",
+   "title": "Stand Up for Animals Comedy Night, Sept 18th!",
+   "score": 1,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/nycComedy/comments/1w9tbkg/stand_up_for_animals_comedy_night_sept_18th/",
+   "venues_mentioned": [],
+   "when_mentioned": null,
+   "time_mentioned": null,
+   "links": [],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": ""
+  },
+  {
+   "id": "1wa2jmk",
+   "date": "2026-09-07",
+   "subreddit": "williamsburg",
+   "title": "Come to a local horror comedy show &amp; get those spooky season vibes started",
+   "score": 0,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/williamsburg/comments/1wa2jmk/come_to_a_local_horror_comedy_show_get_those/",
+   "venues_mentioned": [
+    "Flop House Comedy"
+   ],
+   "when_mentioned": "Tuesday night plans? Watch the so-bad-it's-good",
+   "time_mentioned": "8 PM",
+   "links": [
+    "https://flophousecomedy.com/show/70d6faa6-2628-48c8-80d5-567b136f7180"
+   ],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "Looking for Tuesday night plans? Watch the so-bad-it's-good 80s horror movie *Basket Case* with stand-up comedians Santiago Angel, Demetrius Fields, and Olivia Stadler as they riff on and roast this demented film. It's a great way to get spooky season started! 📅 Tuesday, Septemb"
+  },
+  {
+   "id": "1w92wtc",
+   "date": "2026-09-06",
+   "subreddit": "parkslope",
+   "title": "TONIGHT! Free Comedy @ Bar Bayeux!",
+   "score": 1,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/parkslope/comments/1w92wtc/tonight_free_comedy_bar_bayeux/",
+   "venues_mentioned": [],
+   "when_mentioned": "Sunday, 8:30PM at Bar Bayeux, we feature club ",
+   "time_mentioned": "8:30PM",
+   "links": [
+    "https://www.eventbrite.com/e/free-brooklyn-nyc-standup-comedy-show-post-moves-comedy-every-sunday-tickets-662659320867"
+   ],
+   "free": true,
+   "new_since_last_run": true,
+   "excerpt": "Hey! I run a stand-up comedy show called Post Moves Comedy. Every Sunday, 8:30PM at Bar Bayeux, we feature club comics and folks who’ve been on TV, Don’t Tell, Netflix, and more. This next show will feature some HITTERS! RSVP now for a chance at a free drink and pull up for some "
+  },
+  {
+   "id": "1w92tjd",
+   "date": "2026-09-06",
+   "subreddit": "crownheights",
+   "title": "TONIGHT! Free Comedy @ Bar Bayeux!",
+   "score": 3,
+   "comments": 1,
+   "url": "https://www.reddit.com/r/crownheights/comments/1w92tjd/tonight_free_comedy_bar_bayeux/",
+   "venues_mentioned": [],
+   "when_mentioned": "Sunday, 8:30PM at Bar Bayeux, we feature club ",
+   "time_mentioned": "8:30PM",
+   "links": [
+    "https://www.eventbrite.com/e/free-brooklyn-nyc-standup-comedy-show-post-moves-comedy-every-sunday-tickets-662659320867"
+   ],
+   "free": true,
+   "new_since_last_run": true,
+   "excerpt": "Hey! I run a stand-up comedy show called Post Moves Comedy. Every Sunday, 8:30PM at Bar Bayeux, we feature club comics and folks who’ve been on TV, Don’t Tell, Netflix, and more. This next show will feature some HITTERS! RSVP now for a chance at a free drink and pull up for some "
+  },
+  {
+   "id": "1w87hkb",
+   "date": "2026-09-05",
+   "subreddit": "nycevents",
+   "title": "Magic Show for All Ages - 2pm Sunday Sept 13, 2026 at the Broadway Comedy Club in Manhattan!",
+   "score": 1,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/nycevents/comments/1w87hkb/magic_show_for_all_ages_2pm_sunday_sept_13_2026/",
+   "venues_mentioned": [
+    "Broadway Comedy Club"
+   ],
+   "when_mentioned": "Sunday Sept 13, 2026 at the Broadway Comedy Cl",
+   "time_mentioned": "2pm",
+   "links": [
+    "https://broadwaymagichour.com"
+   ],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "Award-winning magicians Jim Vines and Carl Mercurio present The Broadway Magic Hour - NYC's family magic show - on weekend afternoons at 2pm at the Broadway Comedy Club. Bring your kids to the magic show! They've never seen anything like this... and it's a family experience you'l"
+  },
+  {
+   "id": "1w89xbu",
+   "date": "2026-09-05",
+   "subreddit": "astoria",
+   "title": "Last Minute Labor Day Weekend Plans: Comedy AND Charity",
+   "score": 4,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/astoria/comments/1w89xbu/last_minute_labor_day_weekend_plans_comedy_and/",
+   "venues_mentioned": [],
+   "when_mentioned": null,
+   "time_mentioned": "5:30pm",
+   "links": [],
+   "free": true,
+   "new_since_last_run": true,
+   "excerpt": "September is Suicide Prevention Awareness Month! Come to QED today 9/5/26 at 5:30pm for a comedy show benefitting Solace House: a nonprofit that provides people with free mental health services. Additionally, there's a raffle with wellness themed prizes from some really great Ast"
+  },
+  {
+   "id": "1w7lo42",
+   "date": "2026-09-05",
+   "subreddit": "Greenpoint",
+   "title": "Brittany Carney (Adult Swim, Stavvy's World) headlines Greenpoint Comedy Club early evening Saturday.",
+   "score": 1,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/Greenpoint/comments/1w7lo42/brittany_carney_adult_swim_stavvys_world/",
+   "venues_mentioned": [
+    "The Stand",
+    "Greenpoint Comedy Club"
+   ],
+   "when_mentioned": "Saturday",
+   "time_mentioned": "6pm",
+   "links": [],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "Brittany Carney (HBO, Adult Swim) is headlining at the lovely new lovely, Greenpoint Comedy Club. The show is **Saturday, September 5th, at 6pm**. Brittany is listed as one of Vulture's \"Comedians You Should and Will Know.\" She regularly opens for Gary Gulman, Moshe Kasher, and T"
+  },
+  {
+   "id": "1w6vtoe",
+   "date": "2026-09-04",
+   "subreddit": "nycevents",
+   "title": "NYC 🗽Come see me headline Eastville comedy club in Brooklyn Sunday 9/13! 7pm",
+   "score": 0,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/nycevents/comments/1w6vtoe/nyc_come_see_me_headline_eastville_comedy_club_in/",
+   "venues_mentioned": [
+    "Eastville Comedy Club"
+   ],
+   "when_mentioned": "Sunday 9/13",
+   "time_mentioned": "7pm",
+   "links": [],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "I’ll be running my new hour it’s gonna be a lot fun hope to see you there! "
+  },
+  {
+   "id": "1w6pl7v",
+   "date": "2026-09-04",
+   "subreddit": "nycevents",
+   "title": "THURS, SEPT 17, 8:30 • Great comics (comedian bios at ticket link), plus a one in 35 chance your bar tab gets paid for. No drink min. Fun vibe. Come check it out at The Whiskey Cellar - 77 East 7th Street in the East Village - $12. Last show sold out, so grab seats at onein35.com and come say hi",
+   "score": 2,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/nycevents/comments/1w6pl7v/thurs_sept_17_830_great_comics_comedian_bios_at/",
+   "venues_mentioned": [],
+   "when_mentioned": null,
+   "time_mentioned": null,
+   "links": [],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": ""
+  },
+  {
+   "id": "1w6pnl6",
+   "date": "2026-09-04",
+   "subreddit": "lowereastside",
+   "title": "THURS, SEPT 17, 8:30 • Great comics (comedian bios at ticket link), plus a one in 35 chance your bar tab gets paid for. No drink min. Fun vibe. Come check it out at The Whiskey Cellar - 77 East 7th Street - $12. Last show sold out, so grab seats at onein35.com and come say hi",
+   "score": 1,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/lowereastside/comments/1w6pnl6/thurs_sept_17_830_great_comics_comedian_bios_at/",
+   "venues_mentioned": [],
+   "when_mentioned": null,
+   "time_mentioned": null,
+   "links": [],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": ""
+  },
+  {
+   "id": "1w76bhi",
+   "date": "2026-09-04",
+   "subreddit": "parkslope",
+   "title": "Brooklyn🗽I’ll be headlining Eastville comedy club next Sunday 9/13!",
+   "score": 0,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/parkslope/comments/1w76bhi/brooklynill_be_headlining_eastville_comedy_club/",
+   "venues_mentioned": [
+    "Eastville Comedy Club"
+   ],
+   "when_mentioned": "Sunday 9/13",
+   "time_mentioned": null,
+   "links": [],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "I’ll be doing a full hour of comedy it’s gonna be a lot fun hope to see you there! "
+  },
+  {
+   "id": "1w6i5ud",
+   "date": "2026-09-03",
+   "subreddit": "nycevents",
+   "title": "Black Comedy Show with Comics from SNL &amp; more this Saturday!",
+   "score": 1,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/nycevents/comments/1w6i5ud/black_comedy_show_with_comics_from_snl_more_this/",
+   "venues_mentioned": [],
+   "when_mentioned": "Saturday",
+   "time_mentioned": "7pm",
+   "links": [
+    "https://ucbcomedy.com/show/ucblk-09-05-26/"
+   ],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "Hosting my monthly Black variety show this Saturday at the Upright Citizens Brigade Theater (near Union Square) and we have a banger line-up. **Date**: Saturday, September 5th **Time**: 7pm **Tickets and more info** at [https://ucbcomedy.com/show/ucblk-09-05-26/](https://ucbcomed"
+  },
+  {
+   "id": "1w5nqg1",
+   "date": "2026-09-02",
+   "subreddit": "nycevents",
+   "title": "Free comedy show Friday night",
+   "score": 3,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/nycevents/comments/1w5nqg1/free_comedy_show_friday_night/",
+   "venues_mentioned": [],
+   "when_mentioned": "Friday night Hey everyone, I’m hosting a free ",
+   "time_mentioned": "7pm",
+   "links": [
+    "https://www.eventbrite.com/e/bomb-shelter-comedy-astoria-every-friday-no-cover-or-drink-minimum-tickets-1981375743185?aff=erelpanelorg"
+   ],
+   "free": true,
+   "new_since_last_run": true,
+   "excerpt": "Hey everyone, I’m hosting a free comedy show called Bomb Shelter this (and every) Friday at 7pm at Shillelagh Tavern. Bomb Shelter has been running in Manhattan for over ten years and is now adding a show in Astoria! We’ve got a bunch of great comics from all over the city and ar"
+  },
+  {
+   "id": "1w4ucee",
+   "date": "2026-09-02",
+   "subreddit": "nycevents",
+   "title": "Live cat-themed variety show and podcast taping in NYC 9/28 - thought cat lovers and podast listeners on this sub might be into it!",
+   "score": 1,
+   "comments": 1,
+   "url": "https://www.reddit.com/r/nycevents/comments/1w4ucee/live_catthemed_variety_show_and_podcast_taping_in/",
+   "venues_mentioned": [
+    "Caveat"
+   ],
+   "when_mentioned": "Monday Sept 28th, 9:30-10:30pm",
+   "time_mentioned": "10:30pm",
+   "links": [],
+   "free": true,
+   "new_since_last_run": true,
+   "excerpt": "There's a quirky indie podcast called 6 Degrees of Cats that's doing a live show at Caveat (21A Clinton St) on Monday Sept 28th, 9:30-10:30pm. It's part of the Cheerful Earful Podcast Festival happening in NYC, the UK and Australia. Basically it's an hour of cat trivia, games, an"
+  },
+  {
+   "id": "1w5apq7",
+   "date": "2026-09-02",
+   "subreddit": "lowereastside",
+   "title": "Lower East Side Weekly Roundup Sept 2–6 | Comedy, Live Music, Reggaetón, Bowery Shows &amp; More",
+   "score": 11,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/lowereastside/comments/1w5apq7/lower_east_side_weekly_roundup_sept_26_comedy/",
+   "venues_mentioned": [
+    "Caveat"
+   ],
+   "when_mentioned": "Wednesday** instead of making everyone scroll thr",
+   "time_mentioned": "7 PM",
+   "links": [
+    "https://caveat.nyc/?utm_source=chatgpt.com",
+    "https://caveat.nyc/events?utm_source=chatgpt.com",
+    "https://www.lesecologycenter.org/calendar/street-tree-care-for-community-gardeners/?utm_source=chatgpt.com"
+   ],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "🚨 **LOWER EAST SIDE WEEKLY ROUNDUP** 🚨 **SEPTEMBER 2–6, 2026** Hey LES, A little late getting this one up this week, so I’m starting with **Wednesday** instead of making everyone scroll through Monday and Tuesday stuff that already happened. There’s a pretty good mix over the n"
+  },
+  {
+   "id": "1w56p07",
+   "date": "2026-09-02",
+   "subreddit": "Bushwick",
+   "title": "Back to school, but make it fun",
+   "score": 6,
+   "comments": 1,
+   "url": "https://www.reddit.com/r/Bushwick/comments/1w56p07/back_to_school_but_make_it_fun/",
+   "venues_mentioned": [],
+   "when_mentioned": null,
+   "time_mentioned": null,
+   "links": [
+    "https://ooonyc.substack.com/p/fall-2026-hobby-guide"
+   ],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "On behalf of dozens of local organizations, I wanted to share this [**Fall Hobby Guide**](https://ooonyc.substack.com/p/fall-2026-hobby-guide). It's a comprehensive listing of courses covering everything from jewelry making to reiki to sewing. I'm still updating it as orgs add to"
+  },
+  {
+   "id": "1w5fz0l",
+   "date": "2026-09-02",
+   "subreddit": "Greenpoint",
+   "title": "https://www.eventbrite.com/e/ambush-comedy-at-dead-letter-no-9-tickets-1992396270880?utm_experiment=test_share_listing&amp;aff=ebdsshios&amp;sg=1bd6c5106176841c953b7410215e6fe538bdac514a3adcd42fba31fd97a1dc4fb1487be8216feca58c7f20634bde135afb7b835e76d46245bba796e02a830f8ddfe8a6086e2b2336eba2ee6f3a",
+   "score": 0,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/Greenpoint/comments/1w5fz0l/httpswwweventbritecomeambushcomedyatdeadletterno9t/",
+   "venues_mentioned": [],
+   "when_mentioned": null,
+   "time_mentioned": null,
+   "links": [],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": ""
+  },
+  {
+   "id": "1w5lmln",
+   "date": "2026-09-02",
+   "subreddit": "crownheights",
+   "title": "Ch Weekly Events Thread",
+   "score": 12,
+   "comments": 4,
+   "url": "https://www.reddit.com/r/crownheights/comments/1w5lmln/ch_weekly_events_thread/",
+   "venues_mentioned": [],
+   "when_mentioned": "sunday-tickets-662659320867) \\- Bar Bayeux, 10",
+   "time_mentioned": "7pm",
+   "links": [
+    "https://www.eventbrite.com/e/blocko-mania-tickets-1994748192541",
+    "https://www.bklynlibrary.org/calendar/journey-soca-king-ah-boss-central-library-plaza-20260903-0700pm",
+    "https://www.eventbrite.com/e/socafest-2026-tickets-1976048781098"
+   ],
+   "free": true,
+   "new_since_last_run": true,
+   "excerpt": "It's Carnival week! Here are some local events for the week around carnival, J'Ouvert, and the West Indian Day Parade. Feel free to post events in the comments and we'll add them to the list: *Thurs, Sept 3* * 7pm: [Blocko Mania Caribbean Block Party](https://www.eventbrite.com/e"
+  },
+  {
+   "id": "1w56ntt",
+   "date": "2026-09-02",
+   "subreddit": "crownheights",
+   "title": "Feel like going back to school too?",
+   "score": 50,
+   "comments": 4,
+   "url": "https://www.reddit.com/r/crownheights/comments/1w56ntt/feel_like_going_back_to_school_too/",
+   "venues_mentioned": [],
+   "when_mentioned": null,
+   "time_mentioned": null,
+   "links": [
+    "https://ooonyc.substack.com/p/fall-2026-hobby-guide"
+   ],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "On behalf of dozens of local organizations, I wanted to share this [**Fall Hobby Guide**](https://ooonyc.substack.com/p/fall-2026-hobby-guide). It's a comprehensive listing of courses covering everything from jewelry making to reiki to sewing. I'm still updating it as orgs add to"
+  },
+  {
+   "id": "1w4vlm1",
+   "date": "2026-09-02",
+   "subreddit": "statenisland",
+   "title": "Pete Davidson and Colin Jost’s $280,100 Ferry Is Finally Becoming a Comedy Club for One Night",
+   "score": 68,
+   "comments": 2,
+   "url": "https://www.reddit.com/r/statenisland/comments/1w4vlm1/pete_davidson_and_colin_josts_280100_ferry_is/",
+   "venues_mentioned": [],
+   "when_mentioned": null,
+   "time_mentioned": null,
+   "links": [],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "Glad to see that an entertainment event is finally going to happen on this boat"
+  },
+  {
+   "id": "1w4ofes",
+   "date": "2026-09-01",
+   "subreddit": "nycevents",
+   "title": "Comedy for a cause! 🍉 From the River to the Stage",
+   "score": 1,
+   "comments": 1,
+   "url": "https://www.reddit.com/r/nycevents/comments/1w4ofes/comedy_for_a_cause_from_the_river_to_the_stage/",
+   "venues_mentioned": [
+    "Caveat"
+   ],
+   "when_mentioned": "Sunday, 5pm at Caveat Comedy Club",
+   "time_mentioned": "5pm",
+   "links": [],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "Come see some of the funniest comedians this side of the Jordan River for an evening of laughter and comradery. Ticket proceeds will benefit the Palestinian Social Fund, a nonprofit which raises unconditional funding for cooperative farms in Palestine through grassroots efforts. "
+  },
+  {
+   "id": "1w4bvrm",
+   "date": "2026-09-01",
+   "subreddit": "williamsburg",
+   "title": "Horror fan? There's a new horror comedy show coming to Williamsburg next week!",
+   "score": 1,
+   "comments": 0,
+   "url": "https://www.reddit.com/r/williamsburg/comments/1w4bvrm/horror_fan_theres_a_new_horror_comedy_show_coming/",
+   "venues_mentioned": [
+    "Flop House Comedy"
+   ],
+   "when_mentioned": "Tuesday, we'll be watching exploitation filmmak",
+   "time_mentioned": "8 PM",
+   "links": [
+    "https://flophousecomedy.com/show/70d6faa6-2628-48c8-80d5-567b136f7180"
+   ],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "There's a new horror comedy show coming up next week called Die Laughing where we watch a so-bad-it's-funny horror movie with comedians seated next to the screen, watching along with the audience and reacting to, riffing on, and roasting the film live as it plays. If you’ve ever "
+  },
+  {
+   "id": "1w45hsx",
+   "date": "2026-09-01",
+   "subreddit": "williamsburg",
+   "title": "Hobby courses kicking off this month",
+   "score": 72,
+   "comments": 16,
+   "url": "https://www.reddit.com/r/williamsburg/comments/1w45hsx/hobby_courses_kicking_off_this_month/",
+   "venues_mentioned": [],
+   "when_mentioned": null,
+   "time_mentioned": null,
+   "links": [
+    "https://ooonyc.substack.com/p/fall-2026-hobby-guide",
+    "https://www.bbg.org/classes/botanical_illustration_1",
+    "https://www.bbg.org/"
+   ],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "On behalf of dozens of local organizations, I wanted to share this [**Fall Hobby Guide**](https://ooonyc.substack.com/p/fall-2026-hobby-guide). It's a comprehensive listing of courses covering everything from jewelry making to reiki to sewing. I'm still updating it as orgs add to"
+  },
+  {
+   "id": "1w48f3p",
+   "date": "2026-09-01",
+   "subreddit": "AskNYC",
+   "title": "Kevin Hart comedy cellar recent placeholder",
+   "score": 0,
+   "comments": 11,
+   "url": "https://www.reddit.com/r/AskNYC/comments/1w48f3p/kevin_hart_comedy_cellar_recent_placeholder/",
+   "venues_mentioned": [
+    "Comedy Cellar"
+   ],
+   "when_mentioned": null,
+   "time_mentioned": null,
+   "links": [],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "If anyone has caught Kevin Hart at the cellar recently in the past two weeks, do you know what pseudonym he goes by? Thank you"
+  },
+  {
+   "id": "1w45l3l",
+   "date": "2026-09-01",
+   "subreddit": "parkslope",
+   "title": "Local courses kicking off this month..",
+   "score": 61,
+   "comments": 4,
+   "url": "https://www.reddit.com/r/parkslope/comments/1w45l3l/local_courses_kicking_off_this_month/",
+   "venues_mentioned": [],
+   "when_mentioned": null,
+   "time_mentioned": null,
+   "links": [
+    "https://ooonyc.substack.com/p/fall-2026-hobby-guide",
+    "https://www.bbg.org/classes/botanical_illustration_1",
+    "https://www.bbg.org/"
+   ],
+   "free": false,
+   "new_since_last_run": true,
+   "excerpt": "On behalf of dozens of local organizations, I wanted to share this [**Fall Hobby Guide**](https://ooonyc.substack.com/p/fall-2026-hobby-guide). It's an independently curated, comprehensive listing of courses covering everything from jewelry making to reiki to sewing. I'm still up"
+  }
+ ]
+}

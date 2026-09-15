@@ -16,6 +16,7 @@ scripts/ig-post.js   publishes cards to Instagram; POSTED-IG.json is its log
 scripts/badslava.js  pulls Badslava's New York open-mic table into candidates/ for review
 scripts/heat.js      demand signals per pick (ticket availability, second shows, Wikipedia pageviews, Reddit buzz); sets the Sold out / Going fast tags
 scripts/reddit.js    read-only Reddit search via a script app (REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET in the environment); feeds heat.js
+scripts/reddit-leads.js  promoter posts from NYC neighborhood subreddits (last 14 days) into candidates/reddit-leads.json, matched to the venue registry
 scripts/eventbrite.js pulls upcoming events from the Eventbrite organizer pages of registered rooms into candidates/
 web/areas.js         the Neighborhoods directory: every room by borough and neighborhood
 candidates/          discovery output (crowd-sourced, unverified); never served, never copied into web/data without a venue check
@@ -58,7 +59,7 @@ Mazzie has the last30days skill installed in her profile (skills/research/last30
 
 ## Leads
 
-Two candidate feeds live in candidates/ and never reach the site directly: Badslava's open-mic table and the Eventbrite organizer pages of registered rooms (matched to the venue by the organizer link on venues.json). The editor opens the page, registers the venue if needed, and only then adds a pick, room or mic.
+Three candidate feeds live in candidates/ and never reach the site directly: Badslava's open-mic table, the Eventbrite organizer pages of registered rooms (matched to the venue by the organizer link on venues.json), and promoter posts from NYC neighborhood subreddits (bar shows that never reach Eventbrite). The editor opens the page, registers the venue if needed, and only then adds a pick, room or mic.
 
 ## Revolving board
 

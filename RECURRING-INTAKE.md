@@ -248,3 +248,6 @@ Every recurring record rewritten in our voice (no press quotes, no venue marketi
 
 ## Comedy In Harlem — September 14, 2026
 Nick flagged the room. Read the club's own event pages: 750A St Nicholas Ave at 147th St, 21+, $18 food and drink minimum at ticketed shows, non-refundable tickets, walk-up cover above presale. Added to clubs.json; recurring: Paid by the Bell (Tue 6pm, $5), R&B Karaoke and Comedy (Mon 8pm), Third Thursdays with Smokey Suarez (monthly, $20); picks: Leonard Ouzts (Fri Sep 18, $25) and Jokes & Jranks with Justin Lamar (Sat Sep 19, 5pm, $25). Held out: Funny Thursdays and Sugar Shack Sundays (cadence not stated on their pages), Flash Feature (only one date listed). Neighborhood directory rows now carry the address.
+
+## Reddit neighborhood leads — September 15, 2026
+`npm run reddit-leads` sweeps 22 NYC and neighborhood subreddits for comedy-show posts from the last 14 days and writes candidates/reddit-leads.json with any registered venue mentioned, the weekday and time in the post, outbound links and a free flag. First run: 68 posts, 27 naming registered rooms; new rooms surfaced include Bar Bayeux (Crown Heights, free comedy) and a QED Astoria show. Rule unchanged: a Reddit post is a lead; open the venue or ticket page before anything enters the data, and register the room first.
