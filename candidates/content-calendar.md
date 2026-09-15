@@ -67,8 +67,17 @@ Ranked 12; run 6, reuse 2, skip 4; ~54,000 tokens saved. No recent data: Jenny T
   - Fri Sep 25 7:30pm — LPR Presents: Sean Hayes at Littlefield · from $0 · has artwork
   - Fri Sep 25 8pm — Tobin Miller, Caroline Hanes, Don Jamieson, Nick Griffin, & JJ Ramirez! at Comic Strip Live · from $25.71 · has artwork
 
-## Week 3: Sep 29 to Oct 5 — 0 picks — only 0 picks; target 8
+## Week 3: Sep 29 to Oct 5 — 9 picks — 1 without artwork · nothing in Manhattan
 
+- Tue Sep 29 7:30pm — **Michelle Buteau** at The Bell House
+- Wed Sep 30 8pm — **The Moth StorySLAM** at The Bell House
+- Wed Sep 30 8pm — **Laughs In The East** at Eastville Comedy Club · NO ARTWORK
+- Thu Oct 1 7:30pm — **Brendan Scannell: The Abyss** at The Bell House
+- Thu Oct 1 10pm — **Nate Varrone** at The Bell House
+- Fri Oct 2 7:30pm — **Phoebe Robinson: Feral & Fired Up!** at The Bell House
+- Sat Oct 3 7pm — **Two Dykes and a Mic: Soaking Wet Tour** at The Bell House
+- Sun Oct 4 6pm — **Comedy Girl Autumn: A Live Comedy Show Hosted by Larry Owens** at The Bell House
+- Mon Oct 5 7:30pm — **Hot Butter Train** at The Bell House
 
 ## Week 4: Oct 6 to Oct 12 — 0 picks — only 0 picks; target 8
 
