@@ -33,7 +33,9 @@ const nyDate = (d = new Date()) => new Intl.DateTimeFormat('en-CA', { timeZone: 
 const longDate = (day) => new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', weekday: 'long', month: 'long', day: 'numeric' }).format(new Date(day + 'T12:00:00-04:00'));
 const picks = JSON.parse(fs.readFileSync(path.join(root, 'web', 'data', 'picks.json'), 'utf8'));
 const log = fs.existsSync(logFile) ? JSON.parse(fs.readFileSync(logFile, 'utf8')) : [];
-const cardUrl = (id) => `${SITE}/assets/ig/${id}.jpg`;
+// The URL carries a content hash so Instagram and the CDN never reuse a cached copy of an older render.
+const crypto = require('crypto');
+const cardUrl = (id) => { const f = path.join(root, 'web', 'assets', 'ig', id + '.jpg'); const v = fs.existsSync(f) ? crypto.createHash('md5').update(fs.readFileSync(f)).digest('hex').slice(0, 10) : Date.now(); return `${SITE}/assets/ig/${id}.jpg?v=${v}`; };
 const cardExists = (id) => fs.existsSync(path.join(root, 'web', 'assets', 'ig', id + '.jpg'));
 
 async function api(pathname, params, method = 'POST') {

@@ -5,7 +5,7 @@
 //   node scripts/ig-card.js --pick <id> [--pick <id> ...]  cards for specific picks
 //   --out=DIR (default web/assets/ig)  --json (print a manifest instead of prose)
 //   node scripts/ig-card.js --story [--date=YYYY-MM-DD]     one 1080x1920 story frame with tonight's itinerary
-//   --photo  photo-first template: official artwork full-bleed with a highlighted headline (credit in the caption)
+//   --paper  force the text-only paper template (default is photo-first; paper is only the no-artwork fallback)
 // Cards are text-only by default. Artwork is included only when the pick's poster
 // record has reuse: "granted" in POSTER-SOURCES.json.
 // Needs a Chromium headless shell: set IG_BROWSER to the binary, or it is found under
@@ -30,6 +30,8 @@ for (const a of process.argv.slice(2)) {
   args[m[1]] = m[2] ?? true; args._last = m[1];
 }
 const outDir = path.resolve(root, args.out || 'web/assets/ig');
+// Photo-first is the only design (Nick, September 15, 2026). The paper card exists solely as the fallback for picks without artwork; --paper forces it for a test.
+if (!args.paper) args.photo = true;
 
 function findBrowser() {
   if (process.env.IG_BROWSER && fs.existsSync(process.env.IG_BROWSER)) return process.env.IG_BROWSER;
