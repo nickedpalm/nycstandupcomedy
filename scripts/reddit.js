@@ -3,6 +3,7 @@
 // Env: REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET (a "script" app; no username or password needed for public reads).
 // Used by scripts/heat.js when the keys exist; can also run alone:  node scripts/reddit.js "Beth Stelling"
 'use strict';
+require('./env.js')(['REDDIT_CLIENT_ID', 'REDDIT_CLIENT_SECRET']);
 const UA = 'standupcomedynyc-heat/1.0 (read-only editorial demand check; info@standupcomedynyc.com)';
 const SUBS = ['NYCComedy', 'StandUpComedy', 'Standup', 'AskNYC', 'nyc', 'Brooklyn', 'comedy'];
 let tokenCache = null;

@@ -9,6 +9,7 @@
 // Env: IG_ACCESS_TOKEN, IG_USER_ID. Optional IG_TOKEN_FILE (path to write a refreshed token).
 // Every publish is appended to POSTED-IG.json; a pick already posted the same day is refused.
 'use strict';
+require('./env.js')(['IG_ACCESS_TOKEN', 'IG_USER_ID']);
 const fs = require('fs');
 const path = require('path');
 

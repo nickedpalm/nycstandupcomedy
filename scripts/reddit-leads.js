@@ -4,6 +4,7 @@
 // scripts/reddit.js, keeps posts that look like a comedy show announcement, matches the text against
 // the venue registry, and writes candidates/reddit-leads.json. Leads, never sources. `npm run reddit-leads`.
 'use strict';
+require('./env.js')(['REDDIT_CLIENT_ID', 'REDDIT_CLIENT_SECRET']);
 const fs = require('fs');
 const path = require('path');
 const root = path.join(__dirname, '..');

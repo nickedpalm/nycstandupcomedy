@@ -8,6 +8,7 @@
 // Writes candidates/heat.json (for the editor) and sets `demand` on picks.json: "sold_out", "going_fast" or null,
 // with demand_checked. Only availability and a second show drive the reader-facing tag. Run with `npm run heat`.
 'use strict';
+require('./env.js')(['REDDIT_CLIENT_ID', 'REDDIT_CLIENT_SECRET']);
 const fs = require('fs');
 const path = require('path');
 const root = path.join(__dirname, '..');
