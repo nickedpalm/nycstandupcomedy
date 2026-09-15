@@ -435,5 +435,24 @@
   "source_label": "Comedy In Harlem event page",
   "verified_at": "2026-09-14",
   "verification_note": "Event page states every 3rd Thursday, showtime 8pm, tickets $20, $18 food/drink minimum; next date Sep 17."
+ },
+ {
+  "id": "standup-comedy-after-dark-kelloggs-diner-wednesday",
+  "tier": "recurring",
+  "title": "Standup Comedy After Dark at Kellogg's Diner",
+  "cadence": "Every Wednesday",
+  "weekday": 3,
+  "time_label": "11pm · doors 10:30pm",
+  "venue": "Kellogg's Diner",
+  "address": "518 Metropolitan Ave, Brooklyn",
+  "neighborhood": "Williamsburg",
+  "price_label": "$10 · no item minimum",
+  "price_amount": 10,
+  "format": "Stand-up",
+  "description": "Late-night Wednesday showcase in the back room of a Williamsburg diner — Danny Metz and Jackson Colvin book, ten dollars at the door, no minimum, kitchen and bar open until the show starts.",
+  "source_url": "https://www.eventbrite.com/e/standup-comedy-after-dark-at-kelloggs-diner-tickets-1999800514171",
+  "source_label": "Eventbrite listing (Danny Metz & Jackson Colvin organizer page)",
+  "verified_at": "2026-09-15",
+  "verification_note": "Eventbrite FAQ confirms every Wednesday at 11pm, doors 10:30pm, no item minimum, $10 tickets, 1-hour show, 'all ages' (it's a diner). The .com domain is currently a parked squatter page; the show is ticketed and promoted via the producer's Eventbrite organizer page."
  }
 ]

@@ -232,7 +232,9 @@
   "calendar_url": "https://comicstriplive.com/schedule/",
   "source_label": "Club schedule page",
   "access_note": "Plain fetcher blocks comicstriplive.com; opens in the managed browser",
-  "verified_at": "2026-09-14"
+  "eventbrite_organizer": "https://www.eventbrite.com/o/comic-strip-live-comedy-club-8100188167",
+  "verified_at": "2026-09-15",
+  "note": "Added Eventbrite organizer page so npm run eventbrite covers this room's ticketed shows."
  },
  {
   "name": "Greenwich Village Comedy Club",
@@ -1256,6 +1258,17 @@
   "access_note": "Lower East Side bar at 172 Rivington St. Badslava lists 'Venue Website: http://blackcatles.com/' (http, not https) but the domain does not resolve today (DNS lookup fails). Badslava's weekly Saturday 7pm 'Comedians On The Loose' open mic ($6 for 5-7 min, online reservation via comediansontheloose.com/open-mics, producer @cotlcomedy / sonja@comediansontheloose.com) is producer-run — held out of open-mics.json. Venue has no working own website",
   "verified_at": "2026-09-14",
   "note": "No working venue website (blackcatles.com domain does not resolve). Held out — venue-controlled source for the open mic does not exist."
+ },
+ {
+  "name": "Kellogg's Diner",
+  "address": "518 Metropolitan Ave, Brooklyn",
+  "neighborhood": "Williamsburg",
+  "borough": "Brooklyn",
+  "source_label": "Eventbrite listing (address from venue-supplied event data)",
+  "access_note": "Williamsburg diner at 518 Metropolitan Ave, Brooklyn NY 11211 (zip 11211, Williamsburg per Yelp and Google Maps). The .com domain is currently a parked/squatter site; the show is run by outside producers Danny Metz & Jackson Colvin and ticketed via Eventbrite (organizer page: danny-metz-jackson-colvin-108104564651). Show: 'Standup Comedy (After Dark) at Kellogg's Diner' every Wednesday at 11pm, doors 10:30pm, $10, no item minimum, late-night back-room showcase",
+  "eventbrite_organizer": "https://www.eventbrite.com/o/danny-metz-jackson-colvin-108104564651",
+  "verified_at": "2026-09-15",
+  "note": "Venue added from Reddit leads (r/nycevents + r/williamsburg 2026-09-15) and the Eventbrite listing's venue-supplied address. No working own website — the .com is parked."
  },
  {
   "name": "Balance Arts Center",

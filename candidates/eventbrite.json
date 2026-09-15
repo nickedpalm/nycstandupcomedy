@@ -1,5 +1,5 @@
 {
- "retrieved_at": "2026-09-14T20:52:26.015Z",
+ "retrieved_at": "2026-09-15T11:01:31.766Z",
  "note": "Leads from Eventbrite organizer pages of registered rooms. Open the event page before adding a pick; artwork needs a POSTER-SOURCES record.",
  "organizers": [
   {
@@ -32,82 +32,6 @@
    "venue": "Caveat",
    "neighborhood": "Lower East Side",
    "organizer": "https://www.eventbrite.com/o/caveat-13580085802",
-   "title": "Emmys Watch Party!",
-   "date": "2026-09-14",
-   "time": "7pm",
-   "starts_at": "2026-09-14T19:00:00-04:00",
-   "ends_at": "2026-09-14T22:30:00-04:00",
-   "location_name": "Caveat",
-   "location_address": "21 A Clinton Street, New York, NY 10002, New York",
-   "price_from": 18.76,
-   "url": "https://www.eventbrite.com/e/emmys-watch-party-tickets-1997497174821",
-   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190736021%2F207096185123%2F1%2Foriginal.20260810-192458?w=940&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C4000%2C2000&s=781475ac823d9157f93247ca77eaf357",
-   "description": "Celebrate the biggest night in television at Caveat!",
-   "venue_name_matches": true,
-   "already_a_pick": false,
-   "seen_before": false
-  },
-  {
-   "venue": "Littlefield",
-   "neighborhood": "Gowanus",
-   "organizer": "https://www.eventbrite.com/o/littlefield-18046024060",
-   "title": "We Belong Variety Show Hosted by Shonali Bhowmik",
-   "date": "2026-09-14",
-   "time": "7:30pm",
-   "starts_at": "2026-09-14T19:30:00-04:00",
-   "ends_at": "2026-09-14",
-   "location_name": "littlefield",
-   "location_address": "635 Sackett Street, Brooklyn, NY 11217, Brooklyn",
-   "price_from": 24.36,
-   "url": "https://www.eventbrite.com/e/we-belong-variety-show-hosted-by-shonali-bhowmik-tickets-1999301702211",
-   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193001789%2F404652903161%2F1%2Foriginal.20260908-193928?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=578be5efc5aad9c87844c4dde699ca65",
-   "description": "A benefit for South Brooklyn Sanctuary - a non profit providing aid to New Yorkers representing themselves in Immigration Court. 16+.",
-   "venue_name_matches": true,
-   "already_a_pick": false,
-   "seen_before": false
-  },
-  {
-   "venue": "Union Hall",
-   "neighborhood": "Park Slope",
-   "organizer": "https://www.eventbrite.com/o/union-hall-17899496497",
-   "title": "Alex Moffat: Moffat’s Mouth-Watering Must-Stops",
-   "date": "2026-09-14",
-   "time": "7:30pm",
-   "starts_at": "2026-09-14T19:30:00-04:00",
-   "ends_at": "2026-09-14T21:00:00-04:00",
-   "location_name": "Union Hall",
-   "location_address": "702 Union St., Brooklyn, NY 11215, Brooklyn",
-   "price_from": 15.92,
-   "url": "https://www.eventbrite.com/e/alex-moffat-moffats-mouth-watering-must-stops-tickets-1994478171902",
-   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189139076%2F282041210522%2F1%2Foriginal.20260718-204948?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c0f7b0e271b34d86ac6b2c636108e35a",
-   "description": "Alex Moffat: Moffat’s Mouth-Watering Must-Stops - Monday, September 14 - 7:00pm Doors / 7:30pm Show",
-   "venue_name_matches": true,
-   "already_a_pick": false,
-   "seen_before": false
-  },
-  {
-   "venue": "Union Hall",
-   "neighborhood": "Park Slope",
-   "organizer": "https://www.eventbrite.com/o/union-hall-17899496497",
-   "title": "Rachel Kaly: Between Us (A Crowd Work Show)",
-   "date": "2026-09-14",
-   "time": "10pm",
-   "starts_at": "2026-09-14T22:00:00-04:00",
-   "ends_at": "2026-09-14T23:30:00-04:00",
-   "location_name": "Union Hall",
-   "location_address": "702 Union St., Brooklyn, NY 11215, Brooklyn",
-   "price_from": 15.92,
-   "url": "https://www.eventbrite.com/e/rachel-kaly-between-us-a-crowd-work-show-tickets-2000521226842",
-   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189985530%2F282041210522%2F1%2Foriginal.20260730-193933?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1389d6aa2578f224aa89bd5033cc4b5a",
-   "description": "Rachel Kaly: Between Us (A Crowd Work Show) - Monday, September 14 - 9:30pm Doors / 10:00pm Show.",
-   "venue_name_matches": true,
-   "already_a_pick": true,
-   "seen_before": false
-  },
-  {
-   "venue": "Caveat",
-   "neighborhood": "Lower East Side",
-   "organizer": "https://www.eventbrite.com/o/caveat-13580085802",
    "title": "The Jewish Dating Game!",
    "date": "2026-09-15",
    "time": "7pm",
@@ -121,7 +45,7 @@
    "description": "Got Chutzpah? Blind date live for the chance to win dinner dates all over the city, or just come watch people fall in love!",
    "venue_name_matches": true,
    "already_a_pick": false,
-   "seen_before": false
+   "seen_before": true
   },
   {
    "venue": "Union Hall",
@@ -140,7 +64,7 @@
    "description": "LAUGH - Tuesday, September 15 - 7:00pm Doors / 7:30pm Show",
    "venue_name_matches": true,
    "already_a_pick": true,
-   "seen_before": false
+   "seen_before": true
   },
   {
    "venue": "Caveat",
@@ -159,7 +83,7 @@
    "description": "Part karaoke, part confessional. Share a story about a song… then sing the hell out of it.",
    "venue_name_matches": true,
    "already_a_pick": false,
-   "seen_before": false
+   "seen_before": true
   },
   {
    "venue": "Union Hall",
@@ -178,7 +102,7 @@
    "description": "Richard Perez: For One Night Okay - Tuesday, September 15 - 9:30pm Doors / 10:00pm Show",
    "venue_name_matches": true,
    "already_a_pick": true,
-   "seen_before": false
+   "seen_before": true
   },
   {
    "venue": "Union Hall",
@@ -197,7 +121,7 @@
    "description": "Invisible Architecture: An Evening of Comedy with Charlie Flynn - Wednesday, September 16 - 7:00pm Doors / 7:30pm Show",
    "venue_name_matches": true,
    "already_a_pick": true,
-   "seen_before": false
+   "seen_before": true
   },
   {
    "venue": "Caveat",
@@ -216,7 +140,7 @@
    "description": "Sorry We're Here presents an original sketch comedy show",
    "venue_name_matches": true,
    "already_a_pick": false,
-   "seen_before": false
+   "seen_before": true
   },
   {
    "venue": "Union Hall",
@@ -235,7 +159,7 @@
    "description": "Jamie Wolf: Psycho - Wednesday, September 16 - 9:30pm Doors / 10:00pm Show",
    "venue_name_matches": true,
    "already_a_pick": true,
-   "seen_before": false
+   "seen_before": true
   },
   {
    "venue": "Caveat",
@@ -254,7 +178,7 @@
    "description": "A science comedy show + trivia showdown by and for people who are curious about everything – but especially the things that make them laugh!",
    "venue_name_matches": true,
    "already_a_pick": false,
-   "seen_before": false
+   "seen_before": true
   },
   {
    "venue": "Union Hall",
@@ -273,7 +197,7 @@
    "description": "RUPI KAUR: UNCUT – A RESIDENCY - Thursday, September 17 - 7:00pm Doors / 7:30pm Show",
    "venue_name_matches": true,
    "already_a_pick": false,
-   "seen_before": false
+   "seen_before": true
   },
   {
    "venue": "Littlefield",
@@ -292,7 +216,7 @@
    "description": "Performers will attempt (and most likely fail) to recreate \"Catching Fire\", without the aid of scripts, rehearsals, or sobriety.",
    "venue_name_matches": true,
    "already_a_pick": false,
-   "seen_before": false
+   "seen_before": true
   },
   {
    "venue": "Caveat",
@@ -311,7 +235,7 @@
    "description": "A PowerPoint lecture series where NYC’s brightest creative minds share a presentation on a personal obsession, followed by an audience Q&A.",
    "venue_name_matches": true,
    "already_a_pick": false,
-   "seen_before": false
+   "seen_before": true
   },
   {
    "venue": "Union Hall",
@@ -330,7 +254,7 @@
    "description": "Sophie Buddle - Thursday, September 17 - 9:30pm Doors / 10:00pm Show",
    "venue_name_matches": true,
    "already_a_pick": true,
-   "seen_before": false
+   "seen_before": true
   },
   {
    "venue": "Caveat",
@@ -349,7 +273,7 @@
    "description": "A Real Onstage Blind Date plus Live Comedy!",
    "venue_name_matches": true,
    "already_a_pick": true,
-   "seen_before": false
+   "seen_before": true
   },
   {
    "venue": "Union Hall",
@@ -368,7 +292,7 @@
    "description": "Taylor Tomlinson: Tries Out New Ideas - Friday, September 18 - 7:00pm Doors / 7:30pm Show",
    "venue_name_matches": true,
    "already_a_pick": false,
-   "seen_before": false
+   "seen_before": true
   },
   {
    "venue": "Littlefield",
@@ -386,8 +310,8 @@
    "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1153081743%2F149919291057%2F1%2Foriginal.20251014-172610?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.485&fp-y=0.224&s=a79cf24e968beb7fc2e56c4fc39893eb",
    "description": "Come laugh with 14 year teaching veteran Gaspare Randazzo as he talks about life inside and outside of the classroom.",
    "venue_name_matches": true,
-   "already_a_pick": false,
-   "seen_before": false
+   "already_a_pick": true,
+   "seen_before": true
   },
   {
    "venue": "Caveat",
@@ -406,7 +330,7 @@
    "description": "Come join us for an ASL Improv night of pure LAFF LAFF and fun!",
    "venue_name_matches": true,
    "already_a_pick": false,
-   "seen_before": false
+   "seen_before": true
   },
   {
    "venue": "Union Hall",
@@ -425,7 +349,7 @@
    "description": "Taylor Tomlinson: Tries Out New Ideas - Friday, September 18 - 9:30pm Doors / 10:00pm Show",
    "venue_name_matches": true,
    "already_a_pick": false,
-   "seen_before": false
+   "seen_before": true
   },
   {
    "venue": "Caveat",
@@ -442,6 +366,25 @@
    "url": "https://www.eventbrite.com/e/trans-voices-cabaret-tickets-1997500392445",
    "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190741173%2F207096185123%2F1%2Foriginal.20260810-201203?w=940&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C1080%2C540&s=6377d2f3a688e2494571283cb4bd8979",
    "description": "Trans Voices Cabaret is the premiere cabaret starring transgender and nonbinary theater professionals and rising stars in New York City!",
+   "venue_name_matches": true,
+   "already_a_pick": false,
+   "seen_before": true
+  },
+  {
+   "venue": "Union Hall",
+   "neighborhood": "Park Slope",
+   "organizer": "https://www.eventbrite.com/o/union-hall-17899496497",
+   "title": "Taylor Tomlinson: Tries Out New Ideas",
+   "date": "2026-09-19",
+   "time": "5pm",
+   "starts_at": "2026-09-19T17:00:00-04:00",
+   "ends_at": "2026-09-19T18:30:00-04:00",
+   "location_name": "Union Hall",
+   "location_address": "702 Union St., Brooklyn, NY 11215, Brooklyn",
+   "price_from": 46.29,
+   "url": "https://www.eventbrite.com/e/taylor-tomlinson-tries-out-new-ideas-tickets-1990646087033",
+   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191296072%2F282041210522%2F1%2Foriginal.20260818-003920?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=162f9a9d4fd6f49150c9e21caeb700ec",
+   "description": "Taylor Tomlinson: Tries Out New Ideas - Saturday, September 19 - 4:30pm Doors / 5:00pm Show",
    "venue_name_matches": true,
    "already_a_pick": false,
    "seen_before": false
@@ -463,6 +406,25 @@
    "description": "Gangstagrass is the America where bluegrass fans, hip-hop heads, city & country folk, grandparents and grandkids are all inspired to dance!",
    "venue_name_matches": true,
    "already_a_pick": false,
+   "seen_before": true
+  },
+  {
+   "venue": "Union Hall",
+   "neighborhood": "Park Slope",
+   "organizer": "https://www.eventbrite.com/o/union-hall-17899496497",
+   "title": "Taylor Tomlinson: Tries Out New Ideas",
+   "date": "2026-09-19",
+   "time": "7:30pm",
+   "starts_at": "2026-09-19T19:30:00-04:00",
+   "ends_at": "2026-09-19T21:00:00-04:00",
+   "location_name": "Union Hall",
+   "location_address": "702 Union St., Brooklyn, NY 11215, Brooklyn",
+   "price_from": 46.29,
+   "url": "https://www.eventbrite.com/e/taylor-tomlinson-tries-out-new-ideas-tickets-1990645913514",
+   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191296217%2F282041210522%2F1%2Foriginal.20260818-004126?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=33273f9fd4996098d42815fd17491234",
+   "description": "Taylor Tomlinson: Tries Out New Ideas - Saturday, September 19 - 7:00pm Doors / 7:30pm Show",
+   "venue_name_matches": true,
+   "already_a_pick": false,
    "seen_before": false
   },
   {
@@ -482,7 +444,7 @@
    "description": "Fun in Moderation is back with a night of all new original sketches",
    "venue_name_matches": true,
    "already_a_pick": true,
-   "seen_before": false
+   "seen_before": true
   },
   {
    "venue": "Caveat",
@@ -501,7 +463,7 @@
    "description": "Come celebrate the launch of Ginny and Carlos’s new political satire book Obey In Advance with comedy from some of NYC’s sharpest satirists",
    "venue_name_matches": true,
    "already_a_pick": true,
-   "seen_before": false
+   "seen_before": true
   },
   {
    "venue": "Caveat",
@@ -520,7 +482,7 @@
    "description": "Don't miss your favorite comedians interviewing experts on topics they've always wanted to ask someone about.",
    "venue_name_matches": true,
    "already_a_pick": false,
-   "seen_before": false
+   "seen_before": true
   },
   {
    "venue": "Littlefield",
@@ -537,6 +499,25 @@
    "url": "https://www.eventbrite.com/e/spell-checc-a-spelling-bee-gameshow-tickets-1995605389440",
    "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187282620%2F400863417153%2F1%2Foriginal.20260619-172856?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.359&fp-y=0.452&s=8d26f4f3779a99ae4a6139257355909b",
    "description": "Watch New York’s funniest comedians compete in a spelling bee meets try-not-to-laugh showdown!",
+   "venue_name_matches": true,
+   "already_a_pick": false,
+   "seen_before": true
+  },
+  {
+   "venue": "Caveat",
+   "neighborhood": "Lower East Side",
+   "organizer": "https://www.eventbrite.com/o/caveat-13580085802",
+   "title": "And Scene",
+   "date": "2026-09-21",
+   "time": "7pm",
+   "starts_at": "2026-09-21T19:00:00-04:00",
+   "ends_at": "2026-09-21T20:05:00-04:00",
+   "location_name": "Caveat",
+   "location_address": "21 A Clinton Street, New York, NY 10002, New York",
+   "price_from": 18.76,
+   "url": "https://www.eventbrite.com/e/and-scene-tickets-1994373532924",
+   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189092009%2F207096185123%2F1%2Foriginal.20260717-191724?w=940&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=4bf26b475ce61c92c80513164aa5d986",
+   "description": "Actors are given a scene & learn their lines, improvisers are given nothing & must make it work.",
    "venue_name_matches": true,
    "already_a_pick": false,
    "seen_before": false
@@ -558,7 +539,7 @@
    "description": "An award-winning absurdist workplace comedy web series!",
    "venue_name_matches": true,
    "already_a_pick": false,
-   "seen_before": false
+   "seen_before": true
   },
   {
    "venue": "Littlefield",
@@ -577,7 +558,7 @@
    "description": "Come celebrate climate week with us!",
    "venue_name_matches": true,
    "already_a_pick": false,
-   "seen_before": false
+   "seen_before": true
   },
   {
    "venue": "Littlefield",
@@ -595,8 +576,8 @@
    "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191822079%2F404652903161%2F1%2Foriginal.20260825-034034?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c0eacb2fff0ced382342129463c182a8",
    "description": "Comedians Jay Jurden & Chloe Radcliffe face off in NYC’s funniest anarchic live comedy trivia game show at Littlefield. Doors 7p | Show 8p",
    "venue_name_matches": true,
-   "already_a_pick": false,
-   "seen_before": false
+   "already_a_pick": true,
+   "seen_before": true
   },
   {
    "venue": "Littlefield",
@@ -613,6 +594,25 @@
    "url": "https://www.eventbrite.com/e/lpr-presents-sean-hayes-tickets-1990065362069",
    "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185105180%2F24269976876%2F1%2Foriginal.20260521-045940?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=80a9e13bc134522d3250ce58b022d0d1",
    "description": "LPR presents prolific folk songwriter Sean Hayes at Littlefield on September 25.",
+   "venue_name_matches": true,
+   "already_a_pick": false,
+   "seen_before": true
+  },
+  {
+   "venue": "Littlefield",
+   "neighborhood": "Gowanus",
+   "organizer": "https://www.eventbrite.com/o/littlefield-18046024060",
+   "title": "We Just Find It Funny Presents: Good Grief!",
+   "date": "2026-09-26",
+   "time": "7pm",
+   "starts_at": "2026-09-26T19:00:00-04:00",
+   "ends_at": "2026-09-26",
+   "location_name": "littlefield",
+   "location_address": "635 Sackett Street, Brooklyn, NY 11217, Brooklyn",
+   "price_from": 10,
+   "url": "https://www.eventbrite.com/e/we-just-find-it-funny-presents-good-grief-tickets-1998458577402",
+   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191476776%2F400863417153%2F1%2Foriginal.20260820-004849?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.031&fp-y=0.218&s=a87305338497eda21c40354231edbbe8",
+   "description": "The most lore filled late-night comedy show in NYC, with your host with the most Kat Smith!",
    "venue_name_matches": true,
    "already_a_pick": false,
    "seen_before": false

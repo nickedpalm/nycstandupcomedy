@@ -1,0 +1,192 @@
+{
+ "generated_at": "2026-09-15T13:02:23.765Z",
+ "performers_considered": 12,
+ "shortlist": [
+  {
+   "name": "Richard Perez",
+   "priority": 135
+  },
+  {
+   "name": "Taylor Tomlinson",
+   "priority": 120
+  },
+  {
+   "name": "Jamie Wolf",
+   "priority": 55
+  },
+  {
+   "name": "Jenny Tian",
+   "priority": 35
+  },
+  {
+   "name": "Leonard Ouzts",
+   "priority": 35
+  },
+  {
+   "name": "Sophie Buddle",
+   "priority": 35
+  },
+  {
+   "name": "Beth Stelling",
+   "priority": 30
+  },
+  {
+   "name": "Sam Taggart",
+   "priority": 20
+  },
+  {
+   "name": "Josh Sharp",
+   "priority": 20
+  },
+  {
+   "name": "David Nihill",
+   "priority": 20
+  }
+ ],
+ "run": [
+  {
+   "name": "Jenny Tian",
+   "priority": 35,
+   "next": {
+    "id": "jenny-tian-2026-09-17",
+    "date": "2026-09-17",
+    "venue": "The Bell House",
+    "days": 2,
+    "featured": false,
+    "poster": true,
+    "demand": null
+   },
+   "cheap_signals": [],
+   "reason": "show within 3 days and not yet decided"
+  },
+  {
+   "name": "Leonard Ouzts",
+   "priority": 35,
+   "next": {
+    "id": "leonard-ouzts-comedy-in-harlem-2026-09-18",
+    "date": "2026-09-18",
+    "venue": "Comedy In Harlem",
+    "days": 3,
+    "featured": false,
+    "poster": true,
+    "demand": null
+   },
+   "cheap_signals": [],
+   "reason": "show within 3 days and not yet decided"
+  },
+  {
+   "name": "Sophie Buddle",
+   "priority": 35,
+   "next": {
+    "id": "sophie-buddle-2026-09-18",
+    "date": "2026-09-18",
+    "venue": "Union Hall",
+    "days": 3,
+    "featured": false,
+    "poster": true,
+    "demand": null
+   },
+   "cheap_signals": [],
+   "reason": "show within 3 days and not yet decided"
+  },
+  {
+   "name": "Sam Taggart",
+   "priority": 20,
+   "next": {
+    "id": "sam-taggart-2026-09-19",
+    "date": "2026-09-19",
+    "venue": "The Bell House",
+    "days": 4,
+    "featured": false,
+    "poster": true,
+    "demand": null
+   },
+   "cheap_signals": [],
+   "reason": "in the decision window and not yet decided"
+  },
+  {
+   "name": "Josh Sharp",
+   "priority": 20,
+   "next": {
+    "id": "josh-sharp-2026-09-20",
+    "date": "2026-09-20",
+    "venue": "The Bell House",
+    "days": 5,
+    "featured": false,
+    "poster": true,
+    "demand": null
+   },
+   "cheap_signals": [],
+   "reason": "in the decision window and not yet decided"
+  },
+  {
+   "name": "David Nihill",
+   "priority": 20,
+   "next": {
+    "id": "david-nihill-2026-09-23",
+    "date": "2026-09-23",
+    "venue": "The Bell House",
+    "days": 8,
+    "featured": false,
+    "poster": true,
+    "demand": null
+   },
+   "cheap_signals": [],
+   "reason": "in the decision window and not yet decided"
+  }
+ ],
+ "reuse": [
+  {
+   "name": "Jamie Wolf",
+   "priority": 55,
+   "cached": {
+    "at": "2026-09-15T13:02:23.737Z",
+    "age_days": 0,
+    "fresh": true,
+    "note": "First Dates clip topped r/StandUpComedy on Sep 6 with 757 upvotes; Union Hall Sep 16 at 10pm."
+   }
+  },
+  {
+   "name": "Beth Stelling",
+   "priority": 30,
+   "cached": {
+    "at": "2026-09-15T13:02:23.710Z",
+    "age_days": 0,
+    "fresh": true,
+    "note": "Seven r/StandUpComedy threads in 30 days (1,782 upvotes); the Boyfriends Kids clip is still climbing. Bell House Sep 26."
+   }
+  }
+ ],
+ "skip": [
+  {
+   "name": "Richard Perez",
+   "priority": 135,
+   "reason": "already sold out; research cannot change the call"
+  },
+  {
+   "name": "Taylor Tomlinson",
+   "priority": 120,
+   "reason": "already sold out; research cannot change the call"
+  },
+  {
+   "name": "Vidura Bandara Rajapaksa",
+   "priority": 20,
+   "reason": "outside the top 10 by cheap ranking"
+  },
+  {
+   "name": "Kevin Sullivan",
+   "priority": 5,
+   "reason": "outside the top 10 by cheap ranking"
+  }
+ ],
+ "estimated_tokens_saved": 54000,
+ "estimate_basis": "9000 tokens per last30days run, 6 runs avoided out of 12",
+ "no_recent_data": [
+  "Jenny Tian",
+  "Leonard Ouzts",
+  "Sophie Buddle",
+  "Sam Taggart",
+  "Josh Sharp",
+  "David Nihill"
+ ]
+}

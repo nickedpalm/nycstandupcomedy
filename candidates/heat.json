@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T09:31:29.167Z",
+ "generated_at": "2026-09-15T11:11:56.423Z",
  "note": "Demand signals for the editor. Only availability and second shows set the public demand tag.",
  "picks": [
   {
@@ -13,9 +13,168 @@
    "second_show": false,
    "performer": "Richard Perez",
    "wikipedia": null,
-   "reddit": null,
+   "reddit": {
+    "phrase": "Richard Perez",
+    "posts_30d": 0,
+    "upvotes": 0,
+    "comments": 0,
+    "subreddits": [],
+    "top": null
+   },
    "reasons": [
     "sold out on the ticket page"
+   ]
+  },
+  {
+   "id": "taylor-tomlinson-tries-out-new-ideas-2026-09-19-1700",
+   "title": "Taylor Tomlinson: Tries Out New Ideas",
+   "venue": "Union Hall",
+   "date": "2026-09-19",
+   "heat": 100,
+   "demand": "sold_out",
+   "availability": "SoldOut",
+   "second_show": true,
+   "performer": "Taylor Tomlinson",
+   "wikipedia": {
+    "title": "Taylor Tomlinson",
+    "views_30d": 36594,
+    "views_prior_30d": 31575,
+    "change": 16
+   },
+   "reddit": {
+    "phrase": "Taylor Tomlinson",
+    "posts_30d": 5,
+    "upvotes": 1948,
+    "comments": 55,
+    "subreddits": [
+     "dropout",
+     "ladyladyboners",
+     "leatherwearingCelebs",
+     "Downside",
+     "nycComedy"
+    ],
+    "top": {
+     "title": "Great to see Taylor Tomlinson live the same day as her Crowd Control episode. What a gifted comedian!",
+     "subreddit": "dropout",
+     "score": 1507,
+     "url": "https://www.reddit.com/r/dropout/comments/1vrpfx0/great_to_see_taylor_tomlinson_live_the_same_day/"
+    }
+   },
+   "reasons": [
+    "sold out on the ticket page",
+    "a second show the same night at the same room",
+    "6 listings this month",
+    "Wikipedia: 1220 views a day",
+    "Reddit: 5 posts in 30 days, 1948 upvotes (top: r/dropout)"
+   ]
+  },
+  {
+   "id": "taylor-tomlinson-tries-out-new-ideas-2026-09-19-1930",
+   "title": "Taylor Tomlinson: Tries Out New Ideas",
+   "venue": "Union Hall",
+   "date": "2026-09-19",
+   "heat": 100,
+   "demand": "sold_out",
+   "availability": "SoldOut",
+   "second_show": true,
+   "performer": "Taylor Tomlinson",
+   "wikipedia": {
+    "title": "Taylor Tomlinson",
+    "views_30d": 36594,
+    "views_prior_30d": 31575,
+    "change": 16
+   },
+   "reddit": {
+    "phrase": "Taylor Tomlinson",
+    "posts_30d": 5,
+    "upvotes": 1952,
+    "comments": 55,
+    "subreddits": [
+     "dropout",
+     "ladyladyboners",
+     "leatherwearingCelebs",
+     "Downside",
+     "nycComedy"
+    ],
+    "top": {
+     "title": "Great to see Taylor Tomlinson live the same day as her Crowd Control episode. What a gifted comedian!",
+     "subreddit": "dropout",
+     "score": 1506,
+     "url": "https://www.reddit.com/r/dropout/comments/1vrpfx0/great_to_see_taylor_tomlinson_live_the_same_day/"
+    }
+   },
+   "reasons": [
+    "sold out on the ticket page",
+    "a second show the same night at the same room",
+    "6 listings this month",
+    "Wikipedia: 1220 views a day",
+    "Reddit: 5 posts in 30 days, 1952 upvotes (top: r/dropout)"
+   ]
+  },
+  {
+   "id": "beth-stelling-let-me-get-loose-2026-09-26",
+   "title": "Beth Stelling: Let Me Get Loose",
+   "venue": "The Bell House",
+   "date": "2026-09-26",
+   "heat": 25,
+   "demand": null,
+   "availability": null,
+   "second_show": false,
+   "performer": "Beth Stelling",
+   "wikipedia": {
+    "title": "Beth Stelling",
+    "views_30d": 2995,
+    "views_prior_30d": 3394,
+    "change": -12
+   },
+   "reddit": {
+    "phrase": "Beth Stelling",
+    "posts_30d": 5,
+    "upvotes": 678,
+    "comments": 12,
+    "subreddits": [
+     "StandUpComedy"
+    ],
+    "top": {
+     "title": "“It’s what’s up here that they hate” - Beth Stelling",
+     "subreddit": "StandUpComedy",
+     "score": 506,
+     "url": "https://www.reddit.com/r/StandUpComedy/comments/1vykuln/its_whats_up_here_that_they_hate_beth_stelling/"
+    }
+   },
+   "reasons": [
+    "Reddit: 5 posts in 30 days, 678 upvotes (top: r/StandUpComedy)"
+   ]
+  },
+  {
+   "id": "jamie-wolf-2026-09-16-2200",
+   "title": "Jamie Wolf: Psycho",
+   "venue": "Union Hall",
+   "date": "2026-09-16",
+   "heat": 20,
+   "demand": null,
+   "availability": "InStock",
+   "second_show": false,
+   "performer": "Jamie Wolf",
+   "wikipedia": null,
+   "reddit": {
+    "phrase": "Jamie Wolf",
+    "posts_30d": 1,
+    "upvotes": 758,
+    "comments": 4,
+    "subreddits": [
+     "StandUpComedy"
+    ],
+    "top": {
+     "title": "First Dates | Jamie Wolf",
+     "subreddit": "StandUpComedy",
+     "score": 758,
+     "url": "https://www.reddit.com/r/StandUpComedy/comments/1w9b00h/first_dates_jamie_wolf/"
+    }
+   },
+   "reasons": [
+    "tickets available",
+    "Reddit: 1 post in 30 days, 758 upvotes (top: r/StandUpComedy)"
    ]
   },
   {
@@ -65,22 +224,6 @@
    ]
   },
   {
-   "id": "jamie-wolf-2026-09-16-2200",
-   "title": "Jamie Wolf: Psycho",
-   "venue": "Union Hall",
-   "date": "2026-09-16",
-   "heat": 0,
-   "demand": null,
-   "availability": "InStock",
-   "second_show": false,
-   "performer": "Jamie Wolf",
-   "wikipedia": null,
-   "reddit": null,
-   "reasons": [
-    "tickets available"
-   ]
-  },
-  {
    "id": "it-is-good-to-be-here-wscc-2026-09-17",
    "title": "It Is Good To Be Here: Alyssa Wolff and Noah Savage",
    "venue": "West Side Comedy Club",
@@ -110,7 +253,14 @@
     "views_prior_30d": 4447,
     "change": -24
    },
-   "reddit": null,
+   "reddit": {
+    "phrase": "Jenny Tian",
+    "posts_30d": 0,
+    "upvotes": 0,
+    "comments": 0,
+    "subreddits": [],
+    "top": null
+   },
    "reasons": []
   },
   {
@@ -168,7 +318,14 @@
    "second_show": false,
    "performer": "Leonard Ouzts",
    "wikipedia": null,
-   "reddit": null,
+   "reddit": {
+    "phrase": "Leonard Ouzts",
+    "posts_30d": 0,
+    "upvotes": 0,
+    "comments": 0,
+    "subreddits": [],
+    "top": null
+   },
    "reasons": []
   },
   {
@@ -187,7 +344,14 @@
     "views_prior_30d": 1269,
     "change": -40
    },
-   "reddit": null,
+   "reddit": {
+    "phrase": "Sophie Buddle",
+    "posts_30d": 0,
+    "upvotes": 0,
+    "comments": 0,
+    "subreddits": [],
+    "top": null
+   },
    "reasons": [
     "tickets available"
    ]
@@ -217,7 +381,14 @@
    "second_show": false,
    "performer": "Sam Taggart",
    "wikipedia": null,
-   "reddit": null,
+   "reddit": {
+    "phrase": "Sam Taggart",
+    "posts_30d": 0,
+    "upvotes": 0,
+    "comments": 0,
+    "subreddits": [],
+    "top": null
+   },
    "reasons": []
   },
   {
@@ -268,7 +439,14 @@
     "views_prior_30d": 1090,
     "change": 3
    },
-   "reddit": null,
+   "reddit": {
+    "phrase": "Josh Sharp",
+    "posts_30d": 0,
+    "upvotes": 0,
+    "comments": 0,
+    "subreddits": [],
+    "top": null
+   },
    "reasons": []
   },
   {
@@ -328,7 +506,14 @@
    "second_show": false,
    "performer": "David Nihill",
    "wikipedia": null,
-   "reddit": null,
+   "reddit": {
+    "phrase": "David Nihill",
+    "posts_30d": 0,
+    "upvotes": 0,
+    "comments": 0,
+    "subreddits": [],
+    "top": null
+   },
    "reasons": []
   },
   {
@@ -356,7 +541,14 @@
    "second_show": false,
    "performer": "Vidura Bandara Rajapaksa",
    "wikipedia": null,
-   "reddit": null,
+   "reddit": {
+    "phrase": "Vidura Bandara Rajapaksa",
+    "posts_30d": 0,
+    "upvotes": 0,
+    "comments": 0,
+    "subreddits": [],
+    "top": null
+   },
    "reasons": []
   },
   {
@@ -374,25 +566,6 @@
    "reasons": []
   },
   {
-   "id": "beth-stelling-let-me-get-loose-2026-09-26",
-   "title": "Beth Stelling: Let Me Get Loose",
-   "venue": "The Bell House",
-   "date": "2026-09-26",
-   "heat": 0,
-   "demand": null,
-   "availability": null,
-   "second_show": false,
-   "performer": "Beth Stelling",
-   "wikipedia": {
-    "title": "Beth Stelling",
-    "views_30d": 2995,
-    "views_prior_30d": 3394,
-    "change": -12
-   },
-   "reddit": null,
-   "reasons": []
-  },
-  {
    "id": "kevin-sullivan-2026-09-27",
    "title": "Kevin Sullivan",
    "venue": "The Bell House",
@@ -403,8 +576,47 @@
    "second_show": false,
    "performer": "Kevin Sullivan",
    "wikipedia": null,
-   "reddit": null,
+   "reddit": {
+    "phrase": "Kevin Sullivan",
+    "posts_30d": 0,
+    "upvotes": 0,
+    "comments": 0,
+    "subreddits": [],
+    "top": null
+   },
    "reasons": []
+  },
+  {
+   "id": "and-scene-caveat-2026-09-21",
+   "title": "And Scene",
+   "venue": "Caveat",
+   "date": "2026-09-21",
+   "heat": 0,
+   "demand": null,
+   "availability": "InStock",
+   "second_show": false,
+   "performer": null,
+   "wikipedia": null,
+   "reddit": null,
+   "reasons": [
+    "tickets available"
+   ]
+  },
+  {
+   "id": "good-grief-littlefield-2026-09-26",
+   "title": "We Just Find It Funny Presents: Good Grief!",
+   "venue": "Littlefield",
+   "date": "2026-09-26",
+   "heat": 0,
+   "demand": null,
+   "availability": "InStock",
+   "second_show": false,
+   "performer": null,
+   "wikipedia": null,
+   "reddit": null,
+   "reasons": [
+    "tickets available"
+   ]
   }
  ]
 }

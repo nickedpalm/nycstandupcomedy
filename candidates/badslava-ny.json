@@ -1,6 +1,6 @@
 {
  "source": "https://www.badslava.com/new-york-open-mics.php",
- "retrieved_at": "2026-09-14T13:15:37.058Z",
+ "retrieved_at": "2026-09-15T11:01:35.748Z",
  "note": "Crowd-sourced listing. Verify against the venue before adding to web/data/open-mics.json.",
  "dated_rows": 301,
  "recurring": [
@@ -41,7 +41,7 @@
     "2026-09-20"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Grisly Pear - Midtown",
@@ -54,7 +54,7 @@
     "2026-09-20"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Bond Street Guitars",
@@ -67,7 +67,7 @@
     "2026-09-20"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Greenwich Village Comedy Club",
@@ -93,7 +93,7 @@
     "2026-09-20"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "New York Comedy Club",
@@ -145,7 +145,7 @@
     "2026-09-20"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Grisly Pear - Midtown",
@@ -158,7 +158,7 @@
     "2026-09-20"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Laughing Buddha Comedy",
@@ -171,7 +171,7 @@
     "2026-09-20"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Producers Club Theaters",
@@ -184,7 +184,7 @@
     "2026-09-20"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "EastVille Comedy Club",
@@ -210,7 +210,7 @@
     "2026-09-20"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "New York Comedy Club - East Village",
@@ -235,8 +235,8 @@
    "dates": [
     "2026-09-20"
    ],
-   "in_open_mics": false,
-   "venue_registered": false
+   "in_open_mics": true,
+   "venue_registered": true
   },
   {
    "venue": "Laughing Buddha Comedy",
@@ -249,7 +249,7 @@
     "2026-09-20"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Baby Grand LES",
@@ -262,7 +262,7 @@
     "2026-09-20"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "EastVille Comedy Club",
@@ -288,7 +288,7 @@
     "2026-09-20"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Fear City Comedy Club",
@@ -301,7 +301,7 @@
     "2026-09-20"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Bushwick Comedy Club",
@@ -327,7 +327,7 @@
     "2026-09-20"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Hop Shoppe",
@@ -340,7 +340,7 @@
     "2026-09-20"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Producers Club Theaters",
@@ -353,7 +353,7 @@
     "2026-09-20"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Secret Pour",
@@ -366,7 +366,7 @@
     "2026-09-20"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "O’Keefe’s Bar And Grill",
@@ -392,7 +392,7 @@
     "2026-09-20"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Liffy II Bar",
@@ -405,7 +405,7 @@
     "2026-09-20"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "QED Astoria",
@@ -431,7 +431,7 @@
     "2026-09-20"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Producers Club Theaters",
@@ -444,7 +444,7 @@
     "2026-09-20"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Fear City Comedy Club",
@@ -457,7 +457,7 @@
     "2026-09-20"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Laughing Buddha Comedy",
@@ -470,7 +470,7 @@
     "2026-09-20"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Young Ethel's",
@@ -480,7 +480,7 @@
    "time": "10:00pm",
    "details_url": "https://badslava.com/details.php?id=38251",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
    "venue_registered": true
@@ -493,7 +493,7 @@
    "time": "3:00pm",
    "details_url": "https://badslava.com/details.php?id=16716",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
    "venue_registered": true
@@ -506,7 +506,7 @@
    "time": "3:00pm",
    "details_url": "https://badslava.com/details.php?id=31245",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
    "venue_registered": true
@@ -519,7 +519,7 @@
    "time": "4:00pm",
    "details_url": "https://badslava.com/details.php?id=61321",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
    "venue_registered": false
@@ -532,10 +532,10 @@
    "time": "4:30pm",
    "details_url": "https://badslava.com/details.php?id=30400",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Laughing Buddha Comedy",
@@ -545,10 +545,10 @@
    "time": "4:30pm",
    "details_url": "https://badslava.com/details.php?id=46897",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Grisly Pear",
@@ -558,10 +558,10 @@
    "time": "4:30pm",
    "details_url": "https://badslava.com/details.php?id=50546",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Stand NYC",
@@ -571,7 +571,7 @@
    "time": "5:00pm",
    "details_url": "https://badslava.com/details.php?id=10115",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
    "venue_registered": false
@@ -584,7 +584,7 @@
    "time": "5:00pm",
    "details_url": "https://badslava.com/details.php?id=8998",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
    "venue_registered": true
@@ -597,10 +597,10 @@
    "time": "5:00pm",
    "details_url": "https://badslava.com/details.php?id=17448",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Sesh Comedy",
@@ -610,10 +610,10 @@
    "time": "5:00pm",
    "details_url": "https://badslava.com/details.php?id=42427",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Comedy In Harlem",
@@ -623,10 +623,10 @@
    "time": "5:30pm",
    "details_url": "https://badslava.com/details.php?id=18168",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
-   "in_open_mics": false,
-   "venue_registered": false
+   "in_open_mics": true,
+   "venue_registered": true
   },
   {
    "venue": "Laughing Buddha Comedy",
@@ -636,10 +636,10 @@
    "time": "5:30pm",
    "details_url": "https://badslava.com/details.php?id=54553",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Grisly Pear - Midtown",
@@ -649,10 +649,10 @@
    "time": "5:30pm",
    "details_url": "https://badslava.com/details.php?id=50541",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Pine Box Rock Shop",
@@ -662,10 +662,10 @@
    "time": "6:00pm",
    "details_url": "https://badslava.com/details.php?id=1744",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
-   "in_open_mics": false,
-   "venue_registered": false
+   "in_open_mics": true,
+   "venue_registered": true
   },
   {
    "venue": "EastVille Comedy Club",
@@ -675,7 +675,7 @@
    "time": "6:00pm",
    "details_url": "https://badslava.com/details.php?id=13768",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
    "venue_registered": true
@@ -688,10 +688,10 @@
    "time": "6:00pm",
    "details_url": "https://badslava.com/details.php?id=17449",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Phoenix Bar",
@@ -701,10 +701,10 @@
    "time": "6:00pm",
    "details_url": "https://badslava.com/details.php?id=30420",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Echo Bravo",
@@ -714,10 +714,10 @@
    "time": "6:00pm",
    "details_url": "https://badslava.com/details.php?id=31181",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "QED Astoria",
@@ -727,7 +727,7 @@
    "time": "6:00pm",
    "details_url": "https://badslava.com/details.php?id=32173",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": true,
    "venue_registered": true
@@ -740,10 +740,10 @@
    "time": "6:00pm",
    "details_url": "https://badslava.com/details.php?id=38443",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Grisly Pear",
@@ -753,10 +753,10 @@
    "time": "6:00pm",
    "details_url": "https://badslava.com/details.php?id=50547",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Salvation Army",
@@ -766,7 +766,7 @@
    "time": "6:00pm",
    "details_url": "https://badslava.com/details.php?id=50956",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
    "venue_registered": false
@@ -779,7 +779,7 @@
    "time": "6:30pm",
    "details_url": "https://badslava.com/details.php?id=15070",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
    "venue_registered": false
@@ -792,10 +792,10 @@
    "time": "6:30pm",
    "details_url": "https://badslava.com/details.php?id=41406",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Freddy’s Bar",
@@ -805,7 +805,7 @@
    "time": "7:00pm",
    "details_url": "https://badslava.com/details.php?id=10525",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
    "venue_registered": false
@@ -818,10 +818,10 @@
    "time": "7:00pm",
    "details_url": "https://badslava.com/details.php?id=30431",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Secret Pour",
@@ -831,10 +831,10 @@
    "time": "7:00pm",
    "details_url": "https://badslava.com/details.php?id=36710",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Good Judy",
@@ -844,10 +844,10 @@
    "time": "7:00pm",
    "details_url": "https://badslava.com/details.php?id=38265",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "SkyBox Sports Bar",
@@ -857,10 +857,10 @@
    "time": "7:00pm",
    "details_url": "https://badslava.com/details.php?id=39973",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
-   "in_open_mics": false,
-   "venue_registered": false
+   "in_open_mics": true,
+   "venue_registered": true
   },
   {
    "venue": "EastVille Comedy Club",
@@ -870,7 +870,7 @@
    "time": "7:00pm",
    "details_url": "https://badslava.com/details.php?id=46330",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
    "venue_registered": true
@@ -883,10 +883,10 @@
    "time": "7:00pm",
    "details_url": "https://badslava.com/details.php?id=46895",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Rodney's Comedy Club",
@@ -896,10 +896,10 @@
    "time": "7:00pm",
    "details_url": "https://badslava.com/details.php?id=50957",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Shandon Court",
@@ -909,7 +909,7 @@
    "time": "7:00pm",
    "details_url": "https://badslava.com/details.php?id=53517",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
    "venue_registered": false
@@ -922,10 +922,10 @@
    "time": "7:30pm",
    "details_url": "https://badslava.com/details.php?id=17450",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Wild Goose",
@@ -935,10 +935,10 @@
    "time": "7:30pm",
    "details_url": "https://badslava.com/details.php?id=28127",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Bartini Bar & Lounge",
@@ -948,7 +948,7 @@
    "time": "7:30pm",
    "details_url": "https://badslava.com/details.php?id=53516",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
    "venue_registered": false
@@ -961,10 +961,10 @@
    "time": "7:45pm",
    "details_url": "https://badslava.com/details.php?id=15184",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Freda",
@@ -974,10 +974,10 @@
    "time": "8:00pm",
    "details_url": "https://badslava.com/details.php?id=28124",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "BK Made Comedy",
@@ -987,10 +987,10 @@
    "time": "8:00pm",
    "details_url": "https://badslava.com/details.php?id=38434",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Red Eye NY",
@@ -1000,10 +1000,10 @@
    "time": "8:00pm",
    "details_url": "https://badslava.com/details.php?id=38646",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
-   "in_open_mics": false,
-   "venue_registered": false
+   "in_open_mics": true,
+   "venue_registered": true
   },
   {
    "venue": "Area 140 First Bar",
@@ -1013,10 +1013,10 @@
    "time": "8:00pm",
    "details_url": "https://badslava.com/details.php?id=39265",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Laughing Buddha Comedy",
@@ -1026,10 +1026,10 @@
    "time": "8:00pm",
    "details_url": "https://badslava.com/details.php?id=41637",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "EastVille Comedy Club",
@@ -1039,7 +1039,7 @@
    "time": "8:00pm",
    "details_url": "https://badslava.com/details.php?id=42840",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
    "venue_registered": true
@@ -1052,10 +1052,10 @@
    "time": "8:30pm",
    "details_url": "https://badslava.com/details.php?id=17451",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Grove 34",
@@ -1065,10 +1065,10 @@
    "time": "9:00pm",
    "details_url": "https://badslava.com/details.php?id=10042",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Windjammer",
@@ -1078,10 +1078,10 @@
    "time": "9:00pm",
    "details_url": "https://badslava.com/details.php?id=10064",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Laughing Buddha Comedy",
@@ -1091,10 +1091,10 @@
    "time": "9:30pm",
    "details_url": "https://badslava.com/details.php?id=52616",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Rodney's Comedy Club",
@@ -1104,10 +1104,10 @@
    "time": "9:45pm",
    "details_url": "https://badslava.com/details.php?id=59975",
    "dates": [
-    "2026-09-14"
+    "2026-09-21"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Otto’s Shrunken Head",
@@ -1133,7 +1133,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Broadway Comedy Club",
@@ -1159,7 +1159,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Grisly Pear",
@@ -1172,7 +1172,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Throwback",
@@ -1185,7 +1185,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Producers Club Theaters",
@@ -1198,7 +1198,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Rose",
@@ -1211,7 +1211,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "New York Comedy Club - East Village",
@@ -1237,7 +1237,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Laughing Buddha Comedy",
@@ -1250,7 +1250,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Grisly Pear - Midtown",
@@ -1263,7 +1263,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Producers Club Theaters",
@@ -1276,7 +1276,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Comic Strip Live",
@@ -1302,7 +1302,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Lust77 bar&grill",
@@ -1315,7 +1315,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Silvana",
@@ -1328,7 +1328,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Room 52",
@@ -1341,7 +1341,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "BK Made Comedy",
@@ -1354,7 +1354,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "EastVille Comedy Club",
@@ -1379,8 +1379,8 @@
    "dates": [
     "2026-09-15"
    ],
-   "in_open_mics": false,
-   "venue_registered": false
+   "in_open_mics": true,
+   "venue_registered": true
   },
   {
    "venue": "The Grisly Pear",
@@ -1393,7 +1393,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "QED Astoria",
@@ -1419,7 +1419,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Tiny Cupboard Comedy Club & Game Bar",
@@ -1458,7 +1458,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Duplex",
@@ -1471,7 +1471,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Comedy In Harlem",
@@ -1483,8 +1483,8 @@
    "dates": [
     "2026-09-15"
    ],
-   "in_open_mics": false,
-   "venue_registered": false
+   "in_open_mics": true,
+   "venue_registered": true
   },
   {
    "venue": "EastVille Comedy Club",
@@ -1510,7 +1510,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Producers Club Theaters",
@@ -1523,7 +1523,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Block Hill Station",
@@ -1536,7 +1536,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Comedy Village",
@@ -1549,7 +1549,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Corner Store",
@@ -1562,7 +1562,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Somebody's Darling",
@@ -1575,7 +1575,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Teddy's F&B Bar & Grill",
@@ -1588,7 +1588,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Branded Saloon",
@@ -1601,7 +1601,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "BK Made Comedy",
@@ -1614,7 +1614,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Laughing Buddha Comedy",
@@ -1627,7 +1627,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Lilah’s Bar and Grill",
@@ -1666,7 +1666,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Fear City Comedy Club",
@@ -1679,7 +1679,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "An Beal Bocht Cafe",
@@ -1691,8 +1691,8 @@
    "dates": [
     "2026-09-15"
    ],
-   "in_open_mics": false,
-   "venue_registered": false
+   "in_open_mics": true,
+   "venue_registered": true
   },
   {
    "venue": "The Grisly Pear - Midtown",
@@ -1705,7 +1705,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Laughing Buddha Comedy",
@@ -1718,7 +1718,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Under St Marks",
@@ -1731,7 +1731,7 @@
     "2026-09-15"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Greenwich Village Comedy Club",
@@ -1770,7 +1770,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Halyards",
@@ -1848,7 +1848,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Greenwich Village Comedy Club",
@@ -1874,7 +1874,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Grisly Pear",
@@ -1887,7 +1887,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "West Side Comedy Club",
@@ -1926,7 +1926,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "New York Comedy Club - East Village",
@@ -1952,7 +1952,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Sesh Comedy",
@@ -1965,7 +1965,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "St. Marks Comedy Club",
@@ -1978,7 +1978,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Laughing Buddha Comedy",
@@ -1991,7 +1991,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Grisly Pear - Midtown",
@@ -2004,7 +2004,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "El Barrista cafe",
@@ -2017,7 +2017,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Phoenix Bar",
@@ -2030,7 +2030,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "QED Astoria",
@@ -2056,7 +2056,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Mae Mae Cafe And Plant Shop",
@@ -2069,7 +2069,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Judy Z’s",
@@ -2095,7 +2095,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Fear City Comedy Club",
@@ -2108,7 +2108,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "BK Made Comedy",
@@ -2121,7 +2121,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "EastVille Comedy Club",
@@ -2147,7 +2147,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Grisly Pear",
@@ -2160,7 +2160,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Rodney's Comedy Club",
@@ -2173,7 +2173,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "One and One",
@@ -2186,7 +2186,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Flop House Comedy Club",
@@ -2212,7 +2212,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Po'Boy Brewery",
@@ -2251,7 +2251,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Freddy's Bar",
@@ -2263,8 +2263,8 @@
    "dates": [
     "2026-09-16"
    ],
-   "in_open_mics": false,
-   "venue_registered": false
+   "in_open_mics": true,
+   "venue_registered": true
   },
   {
    "venue": "Brooklyn Beso",
@@ -2277,7 +2277,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Tommy's Figz",
@@ -2316,7 +2316,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Producers Club Theaters",
@@ -2329,7 +2329,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Shillelagh Tavern",
@@ -2342,7 +2342,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Postcard Brewing",
@@ -2355,7 +2355,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Starr Bar",
@@ -2368,7 +2368,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Essence Bar",
@@ -2381,7 +2381,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "the Rock House bar and grill",
@@ -2393,8 +2393,8 @@
    "dates": [
     "2026-09-16"
    ],
-   "in_open_mics": false,
-   "venue_registered": false
+   "in_open_mics": true,
+   "venue_registered": true
   },
   {
    "venue": "BK Made Comedy",
@@ -2407,7 +2407,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Hart Bar",
@@ -2420,7 +2420,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Captain Kirk’s Comedy Lounge",
@@ -2446,7 +2446,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Fear City Comedy Club",
@@ -2459,7 +2459,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "QED Astoria",
@@ -2498,7 +2498,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Laughing Buddha Comedy",
@@ -2511,7 +2511,7 @@
     "2026-09-16"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "QED Astoria",
@@ -2576,7 +2576,7 @@
     "2026-09-17"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Grisly Pear",
@@ -2589,7 +2589,7 @@
     "2026-09-17"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Broadway Comedy Club",
@@ -2615,7 +2615,7 @@
     "2026-09-17"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Pete’s Candy Store",
@@ -2680,7 +2680,7 @@
     "2026-09-17"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Grisly Pear - Midtown",
@@ -2693,7 +2693,7 @@
     "2026-09-17"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Greenpoint Comedy Club",
@@ -2732,7 +2732,7 @@
     "2026-09-17"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "New York Comedy Club",
@@ -2758,7 +2758,7 @@
     "2026-09-17"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Phoenix Bar",
@@ -2771,7 +2771,7 @@
     "2026-09-17"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "EastVille Comedy Club",
@@ -2797,7 +2797,7 @@
     "2026-09-17"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Commune Cafe + Wine Bar",
@@ -2810,7 +2810,7 @@
     "2026-09-17"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Grisly Pear",
@@ -2823,7 +2823,7 @@
     "2026-09-17"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Pine Box Rock Shop",
@@ -2835,8 +2835,8 @@
    "dates": [
     "2026-09-17"
    ],
-   "in_open_mics": false,
-   "venue_registered": false
+   "in_open_mics": true,
+   "venue_registered": true
   },
   {
    "venue": "Rodney's Comedy Club",
@@ -2849,7 +2849,7 @@
     "2026-09-17"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Flop House Comedy Club",
@@ -2875,7 +2875,7 @@
     "2026-09-17"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Alligator Lounge",
@@ -2888,7 +2888,7 @@
     "2026-09-17"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Secret Pour",
@@ -2901,7 +2901,7 @@
     "2026-09-17"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Terraza 7",
@@ -2914,7 +2914,7 @@
     "2026-09-17"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Local NY",
@@ -2927,7 +2927,7 @@
     "2026-09-17"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Partea Lab",
@@ -2940,7 +2940,7 @@
     "2026-09-17"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Island Rib House",
@@ -2953,7 +2953,7 @@
     "2026-09-17"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Producers Club Theaters",
@@ -2966,7 +2966,7 @@
     "2026-09-17"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Cool Beans! Coffee House",
@@ -2979,7 +2979,7 @@
     "2026-09-17"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "N&M's Pizza Bar",
@@ -2992,7 +2992,7 @@
     "2026-09-17"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Mexican Mariachi Cantina",
@@ -3005,7 +3005,7 @@
     "2026-09-17"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Lilahs Bar And Grill",
@@ -3031,7 +3031,7 @@
     "2026-09-17"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Producers Club Theaters",
@@ -3044,7 +3044,7 @@
     "2026-09-17"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Acoustik Garden Lounge",
@@ -3057,7 +3057,7 @@
     "2026-09-17"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Fear City Comedy Club",
@@ -3070,7 +3070,7 @@
     "2026-09-17"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Blind Barber",
@@ -3083,7 +3083,7 @@
     "2026-09-17"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Laughing Buddha Comedy",
@@ -3096,7 +3096,7 @@
     "2026-09-17"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Rodney's Comedy Club",
@@ -3109,7 +3109,7 @@
     "2026-09-17"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Fear City Comedy Club",
@@ -3122,7 +3122,7 @@
     "2026-09-18"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Bibblebash",
@@ -3135,7 +3135,7 @@
     "2026-09-18"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "EastVille Comedy Club",
@@ -3161,7 +3161,7 @@
     "2026-09-18"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Tiny Cupboard Comedy Club & Game Bar",
@@ -3187,7 +3187,7 @@
     "2026-09-18"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Greenwich Village Comedy Club",
@@ -3252,7 +3252,7 @@
     "2026-09-18"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Laughing Buddha Comedy",
@@ -3265,7 +3265,7 @@
     "2026-09-18"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Rodney's Comedy Club",
@@ -3278,7 +3278,7 @@
     "2026-09-18"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Producers Club Theaters",
@@ -3291,7 +3291,7 @@
     "2026-09-18"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Sesh Comedy: The Bigger Room",
@@ -3317,7 +3317,7 @@
     "2026-09-18"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "West Side Comedy Club",
@@ -3343,7 +3343,7 @@
     "2026-09-18"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Grisly Pear - Midtown",
@@ -3356,7 +3356,7 @@
     "2026-09-18"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "QED Astoria",
@@ -3382,7 +3382,7 @@
     "2026-09-18"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Producers Club Theaters",
@@ -3395,7 +3395,7 @@
     "2026-09-18"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Phoenix Bar",
@@ -3408,7 +3408,7 @@
     "2026-09-18"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "BK Made Comedy",
@@ -3421,7 +3421,7 @@
     "2026-09-18"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Pine Box Rock Shop",
@@ -3433,8 +3433,8 @@
    "dates": [
     "2026-09-18"
    ],
-   "in_open_mics": false,
-   "venue_registered": false
+   "in_open_mics": true,
+   "venue_registered": true
   },
   {
    "venue": "Halyards",
@@ -3473,7 +3473,7 @@
     "2026-09-18"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Qahwah House - Broadway",
@@ -3486,7 +3486,7 @@
     "2026-09-18"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Ruhani Cafe",
@@ -3499,7 +3499,7 @@
     "2026-09-18"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Producers Club Theaters",
@@ -3512,7 +3512,7 @@
     "2026-09-18"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Con Bud Bronx Legal Cannabis Dispensary",
@@ -3538,7 +3538,7 @@
     "2026-09-18"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Laughing Buddha Comedy",
@@ -3551,7 +3551,7 @@
     "2026-09-18"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Fear City Comedy Club",
@@ -3564,7 +3564,7 @@
     "2026-09-19"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "QED Astoria",
@@ -3616,7 +3616,7 @@
     "2026-09-19"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Stand NYC",
@@ -3668,7 +3668,7 @@
     "2026-09-19"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "St. Marks Comedy Club",
@@ -3681,7 +3681,7 @@
     "2026-09-19"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Laughing Buddha Comedy",
@@ -3694,7 +3694,7 @@
     "2026-09-19"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Grisly Pear - Midtown",
@@ -3707,7 +3707,7 @@
     "2026-09-19"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Comic Strip Live",
@@ -3733,7 +3733,7 @@
     "2026-09-19"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Laughing Buddha Comedy",
@@ -3746,7 +3746,7 @@
     "2026-09-19"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Producers Club Theaters",
@@ -3759,7 +3759,7 @@
     "2026-09-19"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The Fear City Comedy Club",
@@ -3772,7 +3772,7 @@
     "2026-09-19"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Laughing Buddha Comedy",
@@ -3785,7 +3785,7 @@
     "2026-09-19"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Producers Club Theaters",
@@ -3798,7 +3798,7 @@
     "2026-09-19"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "The PIT",
@@ -3811,7 +3811,7 @@
     "2026-09-19"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Bushwick Comedy Club",
@@ -3837,7 +3837,7 @@
     "2026-09-19"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Producers Club Theaters",
@@ -3850,7 +3850,7 @@
     "2026-09-19"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Laughing Buddha Comedy",
@@ -3863,7 +3863,7 @@
     "2026-09-19"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Balance Arts Center",
@@ -3876,7 +3876,7 @@
     "2026-09-19"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Producers Club Theaters",
@@ -3889,7 +3889,7 @@
     "2026-09-19"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Black Cat LES",
@@ -3902,7 +3902,7 @@
     "2026-09-19"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   },
   {
    "venue": "Laughing Buddha Comedy",
@@ -3915,7 +3915,7 @@
     "2026-09-19"
    ],
    "in_open_mics": false,
-   "venue_registered": false
+   "venue_registered": true
   }
  ]
 }

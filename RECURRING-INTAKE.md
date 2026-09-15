@@ -251,3 +251,21 @@ Nick flagged the room. Read the club's own event pages: 750A St Nicholas Ave at 
 
 ## Reddit neighborhood leads — September 15, 2026
 `npm run reddit-leads` sweeps 22 NYC and neighborhood subreddits for comedy-show posts from the last 14 days and writes candidates/reddit-leads.json with any registered venue mentioned, the weekday and time in the post, outbound links and a free flag. First run: 68 posts, 27 naming registered rooms; new rooms surfaced include Bar Bayeux (Crown Heights, free comedy) and a QED Astoria show. Rule unchanged: a Reddit post is a lead; open the venue or ticket page before anything enters the data, and register the room first.
+
+## Daily edition — 2026-09-15
+- **Reddit leads**: r/nycevents + r/williamsburg both surfaced a new-to-us room — **Kellogg's Diner**, 518 Metropolitan Ave, Williamsburg. The .com domain is parked; the show itself is ticketed on Eventbrite by outside producers Danny Metz & Jackson Colvin. Verified the address from the Eventbrite listing's venue-supplied data (zip 11211 → Williamsburg). Registered the venue in venues.json with `eventbrite_organizer` set so the feed covers it going forward. Added the show to recurring.json as "Standup Comedy After Dark at Kellogg's Diner" — every Wednesday, 11pm, doors 10:30pm, $10, no item minimum (confirmed from the Eventbrite FAQ).
+- **Eventbrite leads**: 4 new picks added, all with official artwork saved to `web/assets/posters/` and recorded in POSTER-SOURCES.json:
+  - `taylor-tomlinson-tries-out-new-ideas-2026-09-19-1700` and `…-1930` — two same-night workshops at Union Hall, $46.29 each.
+  - `and-scene-caveat-2026-09-21` — Caveat's acting-vs-improv experiment, $18.76.
+  - `good-grief-littlefield-2026-09-26` — Kat Smith's lore-heavy variety, from $10.
+- **Clubs tier**: Two missing clubs registered with policies read from the rooms' own pages:
+  - **St. Marks Comedy Club** (12 St Marks Pl) — added from the contact page + the club's Tally FAQ ("2-drink minimum per person"). Tixr is CAPTCHA-gated so per-show ticket prices were not read; left as "see the show page" per the clubs.json rule. Worth a recheck once Tixr can be opened in the browser.
+  - **Comic Strip Live** (1568 Second Ave, UES) — policy came straight from the club's Eventbrite listing ("must be 17 or older", "two item minimum inside the show room", $25.71). Added `eventbrite_organizer` to venues.json so it shows up in `npm run eventbrite` from now on.
+- **Heat**: 3 sold-out picks after running `npm run heat` — the 9/15 Richard Perez late show and both Taylor Tomlinson 9/19 workshops. Buzz notes for Tomlinson, Beth Stelling, and Jamie Wolf written to `candidates/heat-notes.md` from the last30days skill.
+
+### Improvement today
+Tightened the editorial voice in the new entries: the Kellogg's Diner recurring description leads with the room and time, not the producer name; the two Tomlinson pick descriptions are split ("Early Saturday headlining set..." vs "Second Tomlinson set of the night...") so the board doesn't read as a duplicate; the St. Marks clubs.json `verification_note` names the exact page the 2-drink minimum came from, instead of repeating the club's marketing tagline.
+
+
+## Research budget rule — September 15, 2026
+Nick: never run last30days across the whole roster. `npm run research-plan` ranks every performer on the board from static data and cheap signals (heat.json availability, second shows, Wikipedia, Reddit-lite, show timing), shortlists up to 10, and schedules a last30days run only when it could change a decision: show within 10 days, not already sold out, no cached result under 7 days old. Finished runs are cached with `--record "<name>" --note "<sentence>"` in candidates/research-cache.json and reused. The plan reports estimated tokens saved and the candidates ranked on schedule alone because no recent data exists.
