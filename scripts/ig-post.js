@@ -85,7 +85,7 @@ async function publish(kind, items, caption, meta) {
 }
 const alreadyToday = (pickIds, kind) => log.find((e) => e.kind === kind && e.posted_at.slice(0, 10) === new Date().toISOString().slice(0, 10) && (e.picks || []).some((p) => pickIds.includes(p)));
 const hashtags = '#nyccomedy #nycstandup #brooklyncomedy #standupnyc';
-const blurb = (p) => { const d = String(p.description || '').trim(); const m = d.match(/^[^.!?]{12,110}[.!?]/); if (m) return m[0]; if (d.length <= 12) return ''; const first = (d.match(/^[^.!?]+/) || [d])[0]; const head = first.slice(0, 112); let cut = -1; for (const sep of [' with ', ' featuring ', ' plus ', ', ', ' and ']) { const i = head.lastIndexOf(sep); if (i > 40 && i > cut) cut = i; } return (cut > 0 ? head.slice(0, cut) : head.slice(0, head.lastIndexOf(' '))).replace(/[,;:\s]+$/, '') + '.'; };
+const blurb = (p) => { const d = String(p.description || '').trim(); const m = d.match(/^[^.!?]{12,240}[.!?]/); if (m) return m[0]; if (d.length <= 12) return ''; const first = (d.match(/^[^.!?]+/) || [d])[0]; const head = first.slice(0, 240); let cut = -1; for (const sep of [' with ', ' featuring ', ' plus ', ', ', ' and ']) { const i = head.lastIndexOf(sep); if (i > 40 && i > cut) cut = i; } return (cut > 0 ? head.slice(0, cut) : head.slice(0, head.lastIndexOf(' '))).replace(/[,;:\s]+$/, '') + '.'; };
 const clock = (p) => { const t = p.time_label.split(' · ')[0]; return t.includes(':') ? t.replace(/\s*(am|pm)$/i, '') : t; };
 const weekdayOf = (day) => new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', weekday: 'long' }).format(new Date(day + 'T12:00:00-04:00'));
 const p0 = (list) => [...new Set(list.map((p) => p.neighborhood))].slice(0, 3).join(' and ');
