@@ -52,6 +52,10 @@ Neighborhoods are a layer, not a label. Every room in venues.json carries one, t
 
 `npm run heat` scores every upcoming pick from signals we can actually read: ticket availability in the Eventbrite page's structured data, a second show of the same title at the same room the same night, Wikipedia pageviews for touring names, and how many rooms list a performer this month. The score and its reasons go to candidates/heat.json for the editor. Only two signals reach readers: `demand: "sold_out"` when the ticket page says so and `demand: "going_fast"` for limited availability or a second show, shown as a tag on the listing and in the Markdown edition. The nightly workflow refreshes it; Mazzie's edition runs it too.
 
+## Research skill
+
+Mazzie has the last30days skill installed in her profile (skills/research/last30days, from mvanhorn/last30days-skill, installed by clone since Hermes's scanner flags its environment reads). It reads Reddit, Hacker News, Polymarket and GitHub for the last 30 days with no keys; reports save to her workspace/research. Her edition runs it for the three highest-heat performers each morning and writes a sentence each to candidates/heat-notes.md. The same skill is installed for Claude Code on the host.
+
 ## Leads
 
 Two candidate feeds live in candidates/ and never reach the site directly: Badslava's open-mic table and the Eventbrite organizer pages of registered rooms (matched to the venue by the organizer link on venues.json). The editor opens the page, registers the venue if needed, and only then adds a pick, room or mic.
