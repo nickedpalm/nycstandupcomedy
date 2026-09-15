@@ -266,3 +266,8 @@ body{background-color:#5b2a17;background-image:linear-gradient(90deg,#1a0c07d9,t
 .demand-tag{display:inline-block;margin-left:10px;padding:2px 8px;vertical-align:middle;background:#c9731a;color:#2a1408;font:700 11px/1.4 'Courier New',monospace;letter-spacing:.08em;text-transform:uppercase;transform:rotate(-2deg)}
 .demand-tag.sold-out{background:#3a1d0e;color:#f6e4c3}
 .pin-date .demand-tag{margin-left:8px}
+/* Save the date section under the board (September 15, 2026) */
+.board-section-heading{background:linear-gradient(#d3352a,#a51d15);color:#fff3dc;font:500 21px/1.2 Oswald,Impact,'Arial Narrow',sans-serif;text-transform:uppercase;letter-spacing:.09em;text-align:center;padding:9px 16px;margin:34px 0 4px;text-shadow:1px 1px 0 #5a0d08;clip-path:polygon(0 8%,2% 0,30% 5%,55% 0,80% 6%,98% 0,100% 10%,100% 92%,97% 100%,70% 95%,45% 100%,20% 94%,3% 100%,0 90%)}
+#save-the-date .smallprint{color:#f5e5c5;margin:6px 0 10px;text-align:center}
+#later{background-color:var(--cc-paper);background-image:var(--paper-grain),linear-gradient(170deg,#f8edd3,#e7d4aa 60%,#e0cc9f);border:1px solid #c6b088;box-shadow:5px 8px 16px #0d0402;padding:12px 16px 16px}
+#later .day{margin-top:16px}#later .pick.listing-row{padding:12px 14px}#later .listing-row .pick-title{font-size:19px;margin:3px 0 4px}#later .listing-row .pick-detail{margin-top:2px!important}

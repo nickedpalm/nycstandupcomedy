@@ -121,6 +121,11 @@ if (upcoming.length < 8) warn(`freshness: only ${upcoming.length} upcoming picks
 if (!upcoming.some((r) => r.date >= horizon)) warn(`freshness: nothing listed on or after ${horizon}; add next week's picks`);
 const stale = upcoming.filter((r) => r.verified_at < new Date(Date.now() - 14 * 86400000).toISOString().slice(0, 10));
 if (stale.length) warn(`freshness: ${stale.length} upcoming pick(s) last verified over 14 days ago: ${stale.map((r) => r.id).join(', ')}`);
+for (let w = 0; w < 6; w++) {
+  const start = new Date(Date.now() + w * 7 * 86400000).toISOString().slice(0, 10), end = new Date(Date.now() + (w * 7 + 6) * 86400000).toISOString().slice(0, 10);
+  const n = upcoming.filter((r) => r.date >= start && r.date <= end).length;
+  if (n < 8) warn(`horizon: week ${w + 1} (${start} to ${end}) has ${n} pick${n === 1 ? '' : 's'}; the target is 8 in each of the next six weeks`);
+}
 const expired = picks.length - upcoming.length;
 if (expired) warn(`freshness: ${expired} expired pick(s) still in picks.json; run npm run rotate`);
 if (picks.some((r) => r.verified_at > today)) fail('picks: verified_at is in the future');
@@ -158,6 +163,7 @@ const jsFiles = [
   path.join(root, 'scripts', 'reddit.js'),
   path.join(root, 'scripts', 'reddit-leads.js'),
   path.join(root, 'scripts', 'research-plan.js'),
+  path.join(root, 'scripts', 'calendar.js'),
 ];
 jsFiles.forEach((file) => {
   try { execFileSync(process.execPath, ['--check', file], { stdio: 'pipe' }); }
