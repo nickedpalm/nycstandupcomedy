@@ -1,0 +1,51 @@
+{
+ "updated": "2026-09-15",
+ "handle": "@standupcomedynyc",
+ "tagline": "The neighborhood bulletin for NYC stand-up. Tonight's picks first, then the rest of the board.",
+ "links": [
+  {
+   "id": "board",
+   "label": "Tonight's board",
+   "note": "Every pick, by night, with tickets",
+   "url": "/",
+   "kind": "site",
+   "pinned": true
+  },
+  {
+   "id": "mailing-list",
+   "label": "The mailing list",
+   "note": "One short email a week. No spam, ever.",
+   "url": "/subscribe.html",
+   "kind": "site",
+   "pinned": true
+  },
+  {
+   "id": "this-week",
+   "label": "This week's picks",
+   "note": "Plan the weekend",
+   "url": "/best.html",
+   "kind": "site"
+  },
+  {
+   "id": "neighborhoods",
+   "label": "Rooms by neighborhood",
+   "note": "Every venue, weekly show and mic near you",
+   "url": "/neighborhoods.html",
+   "kind": "site"
+  },
+  {
+   "id": "open-mics",
+   "label": "Open mics by night",
+   "note": "For the comics: sign-up, cost, set length",
+   "url": "/open-mics.html",
+   "kind": "site"
+  },
+  {
+   "id": "clubs",
+   "label": "The Manhattan clubs",
+   "note": "House rules, minimums, what to expect",
+   "url": "/clubs.html",
+   "kind": "site"
+  }
+ ]
+}

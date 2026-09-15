@@ -111,6 +111,10 @@ curl -s https://standupcomedynyc.com/editorial.css | md5sum; md5sum web/editoria
 
 Posting: `npm run ig-post -- --tonight` publishes the cover plus tonight's cards as one carousel (`--story` for a story, `--pick <id>` for a single show, `--dry-run` to preview). It needs `IG_ACCESS_TOKEN` and `IG_USER_ID` in the environment, from a Meta app using the Instagram API with Instagram Login, and the cards must already be pushed so their URLs are public. Every post is appended to POSTED-IG.json and the same pick is refused twice in a day. `--refresh-token` extends the 60-day token; set `IG_TOKEN_FILE` to save it.
 
+## Link in bio
+
+`/links` (web/links.html) is the self-hosted link-in-bio page for Instagram; the bio URL is standupcomedynyc.com/links. Tonight's picks (or tomorrow's when tonight is empty) load from picks.json automatically, so the top of the page is always current without editing. Everything under that comes from `web/data/links.json`: ordered entries with `id`, `label`, `note`, `url`, `kind` (`site` for a page in web/, `external` for https links), optional `pinned` (gold, sorted first) and optional `starts`/`ends` dates for temporary links (a festival, a feature, a special). Outbound links get UTM tags (source instagram, medium bio) so ticket partners and analytics can see the page working. `npm run rotate` drops entries whose `ends` date has passed; `npm test` validates the file, requires the mailing-list link, and warns when `updated` is more than 14 days old. Whoever changes the file sets `updated` to that day. Keep it short: six to eight links, no listing copy.
+
 ## Agents and crawlers
 
 The build writes a Markdown edition of every section (index.md, this-week.md, rooms.md, open-mics.md, clubs.md, neighborhoods.md) plus llms.txt into dist/ from the same JSON. A Pages middleware returns the Markdown version of a page when the request prefers `text/markdown`, with a Link header pointing at it either way. `/.well-known/api-catalog` (RFC 9727 linkset) lists the JSON data files, and `web/_headers` sets their content types and open CORS on /data/. A real 404 page means unknown paths no longer return the home page with a 200.

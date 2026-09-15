@@ -151,6 +151,26 @@ if (fs.existsSync(archiveDir)) {
   });
 }
 
+// links.json: the link-in-bio page. Every entry needs id, label, url and kind; dated entries expire.
+{
+  let linksData;
+  try { linksData = JSON.parse(fs.readFileSync(path.join(web, 'data', 'links.json'), 'utf8')); } catch (err) { fail(`links.json: ${err.message}`); linksData = { links: [] }; }
+  const ids = new Set();
+  const todayNY = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York' }).format(new Date());
+  (linksData.links || []).forEach((l) => {
+    ['id', 'label', 'url', 'kind'].forEach((k) => { if (!l[k]) fail(`links.json ${l.id || '?'}: missing ${k}`); });
+    if (ids.has(l.id)) fail(`links.json: duplicate id ${l.id}`); ids.add(l.id);
+    if (!['site', 'external'].includes(l.kind)) fail(`links.json ${l.id}: kind must be site or external`);
+    if (l.kind === 'site') { const file = (l.url || '').replace(/[#?].*$/, '').replace(/^\/$/, '/index.html'); if (!file.startsWith('/') || !fs.existsSync(path.join(web, file))) fail(`links.json ${l.id}: site url ${l.url} is not a page in web/`); }
+    if (l.kind === 'external' && !/^https:\/\//.test(l.url || '')) fail(`links.json ${l.id}: external url must be https`);
+    ['starts', 'ends'].forEach((k) => { if (l[k] && !/^\d{4}-\d{2}-\d{2}$/.test(l[k])) fail(`links.json ${l.id}: ${k} must be YYYY-MM-DD`); });
+    if (l.ends && l.ends < todayNY) warn(`links.json ${l.id}: ended ${l.ends}; run npm run rotate`);
+    if (/\b(see show page|see listing|click here)\b/i.test((l.note || '') + ' ' + (l.label || ''))) fail(`links.json ${l.id}: reads like a listing note`);
+  });
+  if (!(linksData.links || []).some((l) => l.url === '/subscribe.html')) fail('links.json: the mailing list link is required');
+  if (!linksData.updated || linksData.updated < new Date(Date.now() - 14 * 864e5).toISOString().slice(0, 10)) warn(`links.json: updated ${linksData.updated || 'never'}; review the link-in-bio page and bump "updated"`);
+}
+
 // Every page in the sitemap must exist in web/, and every HTML page must be in the sitemap.
 const sitemap = fs.readFileSync(path.join(root, 'sitemap.xml'), 'utf8');
 const locs = [...sitemap.matchAll(/<loc>https:\/\/standupcomedynyc\.com\/([^<]*)<\/loc>/g)].map((m) => m[1] || 'index.html');

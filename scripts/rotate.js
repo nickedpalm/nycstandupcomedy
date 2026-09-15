@@ -24,6 +24,19 @@ if (Number.isNaN(now)) { console.error('rotate: --now must be an ISO datetime');
 
 const write = (file, data) => { if (!dryRun) fs.writeFileSync(file, JSON.stringify(data, null, 1) + '\n'); };
 
+// Link-in-bio entries with an end date drop off once it passes.
+{
+  const linksFile = path.join(web, 'data', 'links.json');
+  const linksData = JSON.parse(fs.readFileSync(linksFile, 'utf8'));
+  const todayNY = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York' }).format(new Date(now));
+  const gone = (linksData.links || []).filter((l) => l.ends && l.ends < todayNY);
+  if (gone.length) {
+    linksData.links = linksData.links.filter((l) => !gone.includes(l));
+    write(linksFile, linksData);
+    console.log(`rotate: dropped ${gone.length} ended link(s) from links.json: ${gone.map((l) => l.id).join(', ')}`);
+  }
+}
+
 const picks = JSON.parse(fs.readFileSync(picksFile, 'utf8'));
 const expired = picks.filter((p) => Date.parse(p.ends_at) <= now);
 const kept = picks.filter((p) => Date.parse(p.ends_at) > now);
