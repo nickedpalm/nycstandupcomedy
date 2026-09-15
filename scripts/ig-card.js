@@ -4,6 +4,7 @@
 //   node scripts/ig-card.js --weekend [--date=YYYY-MM-DD]   cover card + one card per pick Fri-Sun
 //   node scripts/ig-card.js --pick <id> [--pick <id> ...]  cards for specific picks
 //   --out=DIR (default web/assets/ig)  --json (print a manifest instead of prose)
+//   node scripts/ig-card.js --story [--date=YYYY-MM-DD]     one 1080x1920 story frame with tonight's itinerary
 //   --photo  photo-first template: official artwork full-bleed with a highlighted headline (credit in the caption)
 // Cards are text-only by default. Artwork is included only when the pick's poster
 // record has reuse: "granted" in POSTER-SOURCES.json.
@@ -153,6 +154,24 @@ function photoCover(label, day, list) {
 <div class="hl" style="--hs:${hlSize(head)}px"><i class="gold">${esc(shortDate(day))}</i><br><i>${esc(head)}</i></div>
 <div class="stack">${stack}</div><div class="pill">Swipe for the picks</div><div class="credit2">${esc(hero.poster.credit || '')}</div></div>`;
 }
+function storyCard(day, list) {
+  const area = (p) => Number(p.poster.width) * Number(p.poster.height);
+  const rank = (p) => (p.cover_art ? 16 : 0) + (p.sponsored ? 8 : 0) + (p.featured ? 4 : 0) + (p.demand === 'going_fast' ? 3 : 0) + (p.big_stage ? 1 : 0);
+  const hero = [...list].filter((p) => p.poster).sort((a, b) => rank(b) - rank(a) || area(b) - area(a))[0];
+  const bg = hero ? dataUrl(path.join(web, hero.poster.src.replace(/^\//, '')), 'image/' + hero.poster.src.split('.').pop().replace('jpg', 'jpeg')) : '';
+  const weekday = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', weekday: 'long' }).format(new Date(day + 'T12:00:00-04:00'));
+  const rows = list.slice(0, 5).map((p) => `<div class="srow"><b>${esc(clock(p))}</b><div><strong>${esc(p.title)}</strong><span>${esc(p.venue)} · ${esc(hoodOf(p))}${p.demand === 'going_fast' ? ' · going fast' : ''}${p.sponsored ? ' · paid listing' : ''}</span></div></div>`).join('');
+  return `${base}<style>html,body{height:1920px}.photo{background-position:center 25%}.photo:after{background:linear-gradient(180deg,#000000a6 0%,#00000040 12%,#0000 24%,#0000 40%,#000000d0 55%,#000000f4 68%,#000000fa 100%)}
+.sw{position:relative;height:100%;display:flex;flex-direction:column;padding:170px 64px 210px;color:#fff}
+.sw .lock{align-self:center}
+.shead{margin-top:auto;font:700 108px/1 Oswald;text-transform:uppercase;letter-spacing:.01em}.shead i{font-style:normal;display:inline-block;background:#f6c343;color:#2a1408;padding:10px 26px 14px}.shead small{display:block;font:500 40px/1.2 Oswald;letter-spacing:.2em;color:#f6c343;margin:14px 0 26px;text-transform:uppercase}
+.srow{display:flex;gap:26px;align-items:flex-start;padding:20px 0;border-top:2px solid #ffffff33}.srow b{font:700 54px/1 Oswald;color:#f6c343;min-width:150px}.srow strong{display:block;font:700 54px/1 Oswald;text-transform:uppercase;letter-spacing:.01em}.srow span{display:block;font:30px/1.3 Arial,sans-serif;color:#e6d8b8;margin-top:8px}
+.spill{margin-top:34px;align-self:flex-start;border:3px solid #fff;font:700 30px/1 Oswald;letter-spacing:.12em;text-transform:uppercase;padding:18px 28px;border-radius:50px}
+.credit2{bottom:60px;left:64px}</style>
+${hero ? `<div class="photo" style="background-image:url(${bg})"></div>` : ''}<div class="sw"><div class="lock">Stand Up <span>Comedy NYC</span></div>
+<div class="shead"><i>Tonight</i><small>${esc(new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', weekday: 'long', month: 'long', day: 'numeric' }).format(new Date(day + 'T12:00:00-04:00')))}</small></div>${rows}
+<div class="spill">Full board + tickets · standupcomedynyc.com/links</div>${hero ? `<div class="credit2">${esc(hero.poster.credit || '')}</div>` : ''}</div>`;
+}
 function coverCard(label, day, list) {
   const n = Math.min(list.length, 5); const maxLen = Math.max(...list.slice(0, n).map((p) => p.title.length));
   const rows = list.slice(0, n).map((p) => `<div class="row"><div class="n" style="--rs:${rowSize(n, maxLen)}px">${esc(p.title)}</div><div class="v">${esc(p.time_label.split(' · ')[0])} · ${esc(p.venue)}${p.demand === 'sold_out' ? ' · sold out' : ''}${p.sponsored ? ' · paid' : ''}</div></div>`).join('');
@@ -170,6 +189,11 @@ function coverCard(label, day, list) {
     if (!list.length) { console.error(`ig-card: no picks with tickets left on ${day}`); process.exit(1); }
     jobs.push({ kind: 'cover', id: 'tonight-' + day, html: (args.photo ? photoCover : coverCard)('Tonight', day, list), picks: list.map((p) => p.id) });
     list.forEach((p) => jobs.push({ kind: 'pick', id: p.id, html: (args.photo && p.poster) ? photoCard(p) : pickCard(p), picks: [p.id] }));
+  }
+  if (args.story) {
+    const list = picks.filter((p) => p.date === day && !soldOut(p)).sort((a, b) => a.starts_at.localeCompare(b.starts_at));
+    if (!list.length) { console.error(`ig-card: no picks with tickets left on ${day}`); process.exit(1); }
+    jobs.push({ kind: 'story', id: 'story-' + day, html: storyCard(day, list), picks: list.map((p) => p.id), size: { width: 1080, height: 1920 } });
   }
   if (args.weekend) {
     const days = weekendDays(day);
@@ -190,6 +214,7 @@ function coverCard(label, day, list) {
   const page = await browser.newPage({ viewport: { width: W, height: H }, deviceScaleFactor: 1 });
   const manifest = [];
   for (const job of jobs) {
+    await page.setViewportSize(job.size || { width: W, height: H });
     await page.setContent(job.html, { waitUntil: 'load' });
     await page.evaluate(() => document.fonts.ready);
     const file = path.join(outDir, job.id + '.jpg');

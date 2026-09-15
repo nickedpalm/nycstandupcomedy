@@ -80,7 +80,7 @@ if (fs.existsSync(igDir)) {
   const gone = new Set(expired.map((p) => p.id + '.jpg'));
   const todayStr = new Date(now).toISOString().slice(0, 10);
   for (const f of fs.readdirSync(igDir)) {
-    const cover = f.match(/^(tonight|weekend)-(\d{4}-\d{2}-\d{2})\.jpg$/);
+    const cover = f.match(/^(tonight|weekend|story)-(\d{4}-\d{2}-\d{2})\.jpg$/);
     if (gone.has(f) || (cover && cover[2] < todayStr)) { if (!dryRun) fs.unlinkSync(path.join(igDir, f)); console.log(`${dryRun ? '[dry-run] ' : ''}removed card ${f}`); }
   }
 }

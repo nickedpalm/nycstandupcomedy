@@ -104,7 +104,8 @@ const credits = (list) => { const c = [...new Set(list.filter((p) => p.poster &&
   if (args.tonight) {
     const list = picks.filter((p) => p.date === day && !(p.demand === 'sold_out' && !p.walkup_note)).sort((a, b) => a.starts_at.localeCompare(b.starts_at));
     if (!list.length) { console.error(`ig-post: no picks with tickets left on ${day}`); process.exit(1); }
-    const ids = ['tonight-' + day, ...list.slice(0, 9).map((p) => p.id)];
+    const storyId = 'story-' + day;
+    const ids = args.story && cardExists(storyId) ? [storyId] : ['tonight-' + day, ...list.slice(0, 9).map((p) => p.id)];
     const missing = ids.filter((id) => !cardExists(id));
     if (missing.length) { console.error(`ig-post: cards not rendered yet: ${missing.join(', ')} (run npm run ig-card -- --tonight, commit and push first)`); process.exit(1); }
     const kind = args.story ? 'story' : 'carousel';
