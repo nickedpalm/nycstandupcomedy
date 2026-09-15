@@ -57,7 +57,8 @@
       "kind": "dated event flyer"
     },
     "demand": null,
-    "demand_checked": "2026-09-15"
+    "demand_checked": "2026-09-15",
+    "cover_art": true
   },
   {
     "id": "richard-perez-2026-09-15-2200",

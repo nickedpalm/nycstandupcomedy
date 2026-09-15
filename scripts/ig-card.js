@@ -141,7 +141,7 @@ function photoCard(p) {
 }
 function photoCover(label, day, list) {
   const area = (p) => Number(p.poster.width) * Number(p.poster.height);
-  const rank = (p) => (p.sponsored ? 8 : 0) + (p.featured ? 4 : 0) + (p.demand === 'sold_out' ? 2 : p.demand === 'going_fast' ? 3 : 0) + (p.big_stage ? 1 : 0);
+  const rank = (p) => (p.cover_art ? 16 : 0) + (p.sponsored ? 8 : 0) + (p.featured ? 4 : 0) + (p.demand === 'sold_out' ? 2 : p.demand === 'going_fast' ? 3 : 0) + (p.big_stage ? 1 : 0);
   const hero = [...list].filter((p) => p.poster).sort((a, b) => rank(b) - rank(a) || area(b) - area(a))[0];
   if (!hero) return coverCard(label, day, list);
   const bg = dataUrl(path.join(web, hero.poster.src.replace(/^\//, '')), 'image/' + hero.poster.src.split('.').pop().replace('jpg', 'jpeg'));
