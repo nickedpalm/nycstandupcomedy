@@ -16,6 +16,7 @@ scripts/ig-post.js   publishes cards to Instagram; POSTED-IG.json is its log
 scripts/badslava.js  pulls Badslava's New York open-mic table into candidates/ for review
 scripts/heat.js      demand signals per pick (ticket availability, second shows, Wikipedia pageviews, Reddit buzz); sets the Sold out / Going fast tags
 scripts/reddit.js    read-only Reddit search via a script app (REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET in the environment); feeds heat.js
+scripts/research-plan.js  ranks performers cheaply and schedules last30days runs only where they can change a decision; caches results 7 days; reports token savings
 scripts/reddit-leads.js  promoter posts from NYC neighborhood subreddits (last 14 days) into candidates/reddit-leads.json, matched to the venue registry
 scripts/eventbrite.js pulls upcoming events from the Eventbrite organizer pages of registered rooms into candidates/
 web/areas.js         the Neighborhoods directory: every room by borough and neighborhood
@@ -55,7 +56,7 @@ Neighborhoods are a layer, not a label. Every room in venues.json carries one, t
 
 ## Research skill
 
-Mazzie has the last30days skill installed in her profile (skills/research/last30days, from mvanhorn/last30days-skill, installed by clone since Hermes's scanner flags its environment reads). It reads Reddit, Hacker News, Polymarket and GitHub for the last 30 days with no keys; reports save to her workspace/research. Her edition runs it for the three highest-heat performers each morning and writes a sentence each to candidates/heat-notes.md. The same skill is installed for Claude Code on the host.
+Mazzie has the last30days skill installed in her profile (skills/research/last30days, from mvanhorn/last30days-skill, installed by clone since Hermes's scanner flags its environment reads). It reads Reddit, Hacker News, Polymarket and GitHub for the last 30 days with no keys; reports save to her workspace/research. Her edition never runs it across the roster: `npm run research-plan` ranks every performer from static data and cheap signals, shortlists up to ten, and schedules runs only for shows within ten days that are not already decided and have no cached result under seven days old. Each run is recorded with `--record` and reused; her summary reports runs made, reused and skipped, estimated tokens saved, and candidates ranked on schedule alone for lack of recent data. The same skill is installed for Claude Code on the host.
 
 ## Leads
 
