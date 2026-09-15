@@ -74,7 +74,7 @@ body:before{content:'';position:absolute;inset:0;background:radial-gradient(elli
 .brand{font:700 30px/1 Oswald;letter-spacing:.14em;text-transform:uppercase;color:#b3261e}
 .brand span{color:#3a1d0e}
 .kicker{display:inline-block;margin:26px 0 0;background:linear-gradient(#f0a12d,#c9731a);color:#2a1408;font:500 44px/1 Oswald;text-transform:uppercase;letter-spacing:.12em;padding:16px 26px 14px;transform:rotate(-1.5deg);box-shadow:4px 5px 0 #5a2a0a}
-.title{margin-top:34px;font:700 var(--ts,150px)/.92 Oswald;text-transform:uppercase;letter-spacing:-.01em;color:#2a1408;word-wrap:break-word}
+.title{margin-top:34px;font:700 var(--ts,150px)/.92 Oswald;text-transform:uppercase;letter-spacing:-.01em;color:#2a1408;overflow-wrap:normal}
 .where{margin-top:40px;font:500 64px/1.05 Oswald;text-transform:uppercase;letter-spacing:.02em;color:#b3261e}
 .big-time{margin-top:auto;padding-top:20px;font:700 210px/.9 Oswald;color:#e3d2ac;letter-spacing:-.02em;text-transform:uppercase}
 .where small{display:block;margin-top:14px;font:400 34px/1.3 Arial,sans-serif;text-transform:none;letter-spacing:0;color:#4a382b}
@@ -106,7 +106,7 @@ body:before{content:'';position:absolute;inset:0;background:radial-gradient(elli
 .credit2{position:absolute;left:56px;bottom:22px;font:20px/1 Arial,sans-serif;color:#d9c9a5;text-shadow:0 1px 4px #000}
 </style>`;
 
-const titleSize = (t) => t.length > 60 ? 88 : t.length > 40 ? 104 : t.length > 24 ? 128 : t.length > 14 ? 150 : 176;
+const titleSize = (t) => { const byLen = t.length > 60 ? 88 : t.length > 40 ? 104 : t.length > 24 ? 128 : t.length > 14 ? 150 : 176; const longest = Math.max(...t.split(/\s+/).map((w) => w.length)); const byWord = Math.floor(800 / (0.56 * longest)); return Math.min(byLen, byWord); };
 const rowSize = (n, maxLen) => n <= 2 ? (maxLen > 30 ? 84 : 110) : n <= 3 ? (maxLen > 30 ? 72 : 96) : n <= 4 ? (maxLen > 30 ? 58 : 76) : (maxLen > 30 ? 48 : 60);
 const sub = (p) => { const d = String(p.description || '').trim(); const m = d.match(/^[^.!?]{12,90}[.!?]/); if (m) return m[0]; if (d.length <= 12) return ''; const first = (d.match(/^[^.!?]+/) || [d])[0]; const head = first.slice(0, 92); let cut = -1; for (const sep of [' with ', ' featuring ', ' plus ', ', ', ' and ']) { const i = head.lastIndexOf(sep); if (i > 40 && i > cut) cut = i; } return (cut > 0 ? head.slice(0, cut) : head.slice(0, head.lastIndexOf(' '))).replace(/[,;:\s]+$/, '') + '.'; };
 const dek = (p) => { const b = sub(p) || p.price_label; const v = String(p.venue).replace(/^the\s+/i, ''); return new RegExp(v.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i').test(b) ? `${hoodOf(p)}. ${b}` : `${p.venue}, ${hoodOf(p)}. ${b}`; };
