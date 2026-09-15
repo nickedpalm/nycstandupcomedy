@@ -49,6 +49,8 @@ const dataUrl = (p, type) => `data:${type};base64,` + fs.readFileSync(p).toStrin
 const picks = JSON.parse(fs.readFileSync(path.join(web, 'data', 'picks.json'), 'utf8'));
 const posters = JSON.parse(fs.readFileSync(path.join(root, 'POSTER-SOURCES.json'), 'utf8'));
 const reusable = new Set(posters.filter((p) => p.reuse === 'granted').map((p) => p.src));
+const venuesByName = new Map(JSON.parse(fs.readFileSync(path.join(web, 'data', 'venues.json'), 'utf8')).map((v) => [v.name, v]));
+const hoodOf = (p) => venuesByName.get(p.venue)?.neighborhood || p.neighborhood || '';
 
 function weekendDays(day) {
   const d = new Date(day + 'T12:00:00Z'); const wd = d.getUTCDay();
@@ -62,54 +64,54 @@ const base = `
 @font-face{font-family:Marker;src:url(${dataUrl(path.join(web, 'assets/fonts/PermanentMarker.ttf'), 'font/ttf')})}
 *{box-sizing:border-box;margin:0}
 html,body{width:${W}px;height:${H}px;overflow:hidden}
-body{background:#2a1208 url(${dataUrl(path.join(web, 'assets/club-brick.png'), 'image/png')}) center/540px repeat;position:relative;font-family:Georgia,serif;color:#2a1b13}
-body:before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 30%,#00000000 30%,#0000008c 100%)}
-.wrap{position:relative;padding:64px 64px 56px;height:100%;display:flex;flex-direction:column}
-.wordmark{font:700 44px/1 Oswald;letter-spacing:.02em;text-transform:uppercase;color:#f6c343;text-shadow:3px 3px 0 #b3261e,5px 5px 0 #2a1208}
-.wordmark span{color:#fff3dc}
-.bar{margin:34px -12px 0;background:linear-gradient(#d3352a,#a51d15);color:#fff3dc;font:500 46px/1.15 Oswald;text-transform:uppercase;letter-spacing:.09em;text-align:center;padding:16px 24px;text-shadow:2px 2px 0 #5a0d08;clip-path:polygon(0 8%,2% 0,30% 5%,55% 0,80% 6%,98% 0,100% 10%,100% 92%,97% 100%,70% 95%,45% 100%,20% 94%,3% 100%,0 90%)}
-.bar.gold{background:linear-gradient(#f0a12d,#c9731a);color:#2a1408;text-shadow:1px 1px 0 #fbe0a6}
-.paper{margin-top:36px;flex:1;background:#f3e6c8 linear-gradient(170deg,#f8edd3,#e7d4aa 60%,#e0cc9f);border:2px solid #c6b088;box-shadow:10px 14px 30px #0d0402c0;padding:52px 56px;transform:rotate(-.6deg);display:flex;flex-direction:column;gap:22px;position:relative}
-.paper:before{content:'';position:absolute;top:-22px;left:50%;width:150px;height:44px;margin-left:-75px;background:#e9dcb590;transform:rotate(-2deg)}
-.time{font:700 34px/1.2 'Courier New',monospace;color:#b3261e;letter-spacing:.02em}
-.title{font:500 var(--ts,92px)/1 Oswald;text-transform:uppercase;letter-spacing:.005em;color:#3a1d0e}
-.desc{font:44px/1.35 Georgia,serif;color:#2a1b13;max-width:24ch;margin-top:10px}
-.meta{margin-top:auto;font:30px/1.5 Arial,sans-serif;color:#4a382b}
-.meta b{color:#b3261e;font-weight:700}
-.tag{display:inline-block;background:#3a1d0e;color:#f6e4c3;font:700 22px/1 'Courier New',monospace;letter-spacing:.1em;text-transform:uppercase;padding:10px 14px}
-.tag.paid{background:#c9731a;color:#2a1408}
-.foot{margin-top:34px;display:flex;justify-content:space-between;align-items:baseline;color:#f6e4c3}
-.foot .url{font:38px/1 Marker;color:#f6c343}
-.foot .note{font:24px/1.3 Arial,sans-serif;color:#e0cfae}
-.list{display:flex;flex-direction:column;gap:0}
-.row{display:grid;grid-template-columns:170px 1fr;gap:20px;padding:22px 0;border-bottom:2px dashed #b9a882;align-items:baseline}
+body{background:#2a1208 url(${dataUrl(path.join(web, 'assets/club-brick.png'), 'image/png')}) center/640px repeat;position:relative;font-family:Oswald,Impact,sans-serif;color:#2a1b13}
+body:before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 35%,#0000 25%,#000000b0 100%)}
+.wrap{position:relative;height:100%;display:flex;flex-direction:column;padding:54px 54px 44px}
+.paper{flex:1;background:#f3e6c8 linear-gradient(168deg,#f9eed6,#e8d5ab 62%,#dfc99a);border:3px solid #c6b088;box-shadow:14px 18px 36px #0d0402d0;transform:rotate(-1.2deg);padding:56px 58px 48px;display:flex;flex-direction:column;position:relative;overflow:hidden}
+.paper:before{content:'';position:absolute;top:-22px;left:50%;width:190px;height:52px;margin-left:-95px;background:#e9dcb5a8;transform:rotate(-3deg)}
+.brand{font:700 30px/1 Oswald;letter-spacing:.14em;text-transform:uppercase;color:#b3261e}
+.brand span{color:#3a1d0e}
+.kicker{display:inline-block;margin:26px 0 0;background:linear-gradient(#f0a12d,#c9731a);color:#2a1408;font:500 44px/1 Oswald;text-transform:uppercase;letter-spacing:.12em;padding:16px 26px 14px;transform:rotate(-1.5deg);box-shadow:4px 5px 0 #5a2a0a}
+.title{margin-top:34px;font:700 var(--ts,150px)/.92 Oswald;text-transform:uppercase;letter-spacing:-.01em;color:#2a1408;word-wrap:break-word}
+.where{margin-top:40px;font:500 64px/1.05 Oswald;text-transform:uppercase;letter-spacing:.02em;color:#b3261e}
+.big-time{margin-top:auto;padding-top:20px;font:700 210px/.9 Oswald;color:#e3d2ac;letter-spacing:-.02em;text-transform:uppercase}
+.where small{display:block;margin-top:14px;font:400 34px/1.3 Arial,sans-serif;text-transform:none;letter-spacing:0;color:#4a382b}
+.stamp{position:absolute;right:52px;bottom:190px;transform:rotate(-8deg);border:6px solid #b3261e;color:#b3261e;font:700 54px/1 Oswald;text-transform:uppercase;letter-spacing:.08em;padding:12px 18px;opacity:.9}
+.stamp.paid{border-color:#3a1d0e;color:#3a1d0e}
+.foot{margin-top:26px;display:flex;justify-content:space-between;align-items:baseline}
+.foot .url{font:44px/1 Marker;color:#f6c343;text-shadow:2px 3px 0 #2a1208}
+.foot .note{font:26px/1.2 Oswald;text-transform:uppercase;letter-spacing:.1em;color:#e0cfae}
+.list{margin-top:26px;display:flex;flex-direction:column;justify-content:space-evenly;flex:1}
+.row{padding:14px 0;border-bottom:4px dotted #b9a882}
 .row:last-child{border-bottom:0}
-.row .t{font:700 30px/1.2 'Courier New',monospace;color:#b3261e}
-.row .n{font:500 44px/1.05 Oswald;text-transform:uppercase;color:#3a1d0e}
-.row .v{font:26px/1.4 Arial,sans-serif;color:#4a382b;margin-top:6px}
-.art{margin:-10px 0 4px;height:520px;display:flex;align-items:center;justify-content:center;background:#efe5cd;border:1px solid #c6b088}
+.row .n{font:700 var(--rs,72px)/.95 Oswald;text-transform:uppercase;color:#2a1408}
+.row .v{margin-top:10px;font:500 40px/1.2 Oswald;text-transform:uppercase;letter-spacing:.06em;color:#b3261e}
+.art{margin:24px 0 0;height:440px;background:#efe5cd;border:2px solid #c6b088;display:flex;align-items:center;justify-content:center}
 .art img{max-height:100%;max-width:100%;object-fit:contain}
-.credit{font:20px/1.3 Arial,sans-serif;color:#6b5a48}
 </style>`;
 
-const titleSize = (t) => t.length > 64 ? 64 : t.length > 44 ? 78 : t.length > 28 ? 96 : t.length > 16 ? 116 : 136;
+const titleSize = (t) => t.length > 60 ? 88 : t.length > 40 ? 104 : t.length > 24 ? 128 : t.length > 14 ? 150 : 176;
+const rowSize = (n, maxLen) => n <= 2 ? (maxLen > 30 ? 84 : 110) : n <= 3 ? (maxLen > 30 ? 72 : 96) : n <= 4 ? (maxLen > 30 ? 58 : 76) : (maxLen > 30 ? 48 : 60);
+const sub = (p) => { const m = String(p.description || '').match(/^[^.!?]{12,90}[.!?]/); return m ? m[0] : ''; };
 
 function pickCard(p) {
-  const art = p.poster && reusable.has(p.poster.src) ? `<div class="art"><img src="${dataUrl(path.join(web, p.poster.src.replace(/^\//, '')), 'image/' + p.poster.src.split('.').pop().replace('jpg', 'jpeg'))}"></div><p class="credit">${esc(p.poster.credit)}</p>` : '';
-  const tag = p.sponsored ? '<span class="tag paid">Paid listing</span>' : p.featured ? '<span class="tag">Editor’s pick</span>' : '';
-  return `${base}<div class="wrap"><div class="wordmark">Stand Up <span>Comedy NYC</span></div>
-<div class="bar ${p.date === nyDate() ? 'gold' : ''}">${p.date === nyDate() ? 'Tonight · ' : ''}${esc(shortDate(p.date))}</div>
-<div class="paper" style="--ts:${titleSize(p.title)}px">${art}<div class="time">${esc(p.time_label)} ${tag}</div><h1 class="title">${esc(p.title)}</h1>
-<p class="desc">${esc(p.description)}</p><p class="meta">${esc(p.venue)} · ${esc(p.neighborhood)}<br><b>${esc(p.price_label)}</b></p></div>
-<div class="foot"><span class="url">standupcomedynyc.com</span><span class="note">Tickets and the full board on the site</span></div></div>`;
+  const art = p.poster && reusable.has(p.poster.src) ? `<div class="art"><img src="${dataUrl(path.join(web, p.poster.src.replace(/^\//, '')), 'image/' + p.poster.src.split('.').pop().replace('jpg', 'jpeg'))}"></div>` : '';
+  const stamp = p.demand === 'sold_out' ? '<div class="stamp">Sold out</div>' : p.demand === 'going_fast' ? '<div class="stamp">Going fast</div>' : p.sponsored ? '<div class="stamp paid">Paid listing</div>' : '';
+  const tonight = p.date === nyDate();
+  return `${base}<div class="wrap"><div class="paper" style="--ts:${titleSize(p.title)}px">${stamp}<div class="brand">Stand Up <span>Comedy NYC</span></div>
+<div class="kicker">${tonight ? 'Tonight' : esc(shortDate(p.date))} · ${esc(p.time_label.split(' · ')[0])}</div>
+<h1 class="title">${esc(p.title)}</h1>${art}
+<p class="where">${esc(p.venue)}<br>${esc(hoodOf(p))}<small>${/see (the )?(ticket|listing|show) page|see listing/i.test(p.price_label || '') ? esc(sub(p) || '') : esc(p.price_label) + (sub(p) ? ' — ' + esc(sub(p)) : '')}</small></p><div class="big-time">${esc(p.time_label.split(' · ')[0])}</div></div>
+<div class="foot"><span class="url">standupcomedynyc.com</span><span class="note">Link in bio</span></div></div>`;
 }
 
 function coverCard(label, day, list) {
-  const rows = list.slice(0, 6).map((p) => `<div class="row"><div class="t">${esc(p.time_label.split(' · ')[0])}</div><div><div class="n" style="font-size:${p.title.length > 40 ? 34 : 44}px">${esc(p.title)}</div><div class="v">${esc(p.venue)} · ${esc(p.neighborhood)}${p.sponsored ? ' · Paid listing' : ''}</div></div></div>`).join('');
-  const more = list.length > 6 ? `<p class="meta">+ ${list.length - 6} more on the site</p>` : '';
-  return `${base}<div class="wrap"><div class="wordmark">Stand Up <span>Comedy NYC</span></div>
-<div class="bar gold">${esc(label)}</div><div class="paper"><div class="time">${esc(longDate(day))}</div><div class="list">${rows}</div>${more}</div>
-<div class="foot"><span class="url">standupcomedynyc.com</span><span class="note">Link in bio for tickets</span></div></div>`;
+  const n = Math.min(list.length, 5); const maxLen = Math.max(...list.slice(0, n).map((p) => p.title.length));
+  const rows = list.slice(0, n).map((p) => `<div class="row"><div class="n" style="--rs:${rowSize(n, maxLen)}px">${esc(p.title)}</div><div class="v">${esc(p.time_label.split(' · ')[0])} · ${esc(p.venue)}${p.demand === 'sold_out' ? ' · sold out' : ''}${p.sponsored ? ' · paid' : ''}</div></div>`).join('');
+  const more = list.length > n ? `<div class="row"><div class="v">+ ${list.length - n} more on the site</div></div>` : '';
+  return `${base}<div class="wrap"><div class="paper"><div class="brand">Stand Up <span>Comedy NYC</span></div>
+<div class="kicker">${esc(label)} · ${esc(shortDate(day))}</div><div class="list">${rows}${more}</div></div>
+<div class="foot"><span class="url">standupcomedynyc.com</span><span class="note">Link in bio</span></div></div>`;
 }
 
 (async () => {
