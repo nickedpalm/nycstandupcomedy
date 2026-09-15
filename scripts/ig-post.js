@@ -85,6 +85,7 @@ async function publish(kind, items, caption, meta) {
 }
 const alreadyToday = (pickIds, kind) => log.find((e) => e.kind === kind && e.posted_at.slice(0, 10) === new Date().toISOString().slice(0, 10) && (e.picks || []).some((p) => pickIds.includes(p)));
 const hashtags = '#nyccomedy #standupnyc #comedynyc #thingstodonyc';
+const credits = (list) => { const c = [...new Set(list.filter((p) => p.poster && p.poster.credit).map((p) => p.poster.credit.replace(/^(Artwork|Photo|Poster):\s*/i, '')))]; return c.length ? `\n\nArt: ${c.join(' · ')}` : ''; };
 
 (async () => {
   if (args['refresh-token']) {
@@ -103,7 +104,7 @@ const hashtags = '#nyccomedy #standupnyc #comedynyc #thingstodonyc';
     if (missing.length) { console.error(`ig-post: cards not rendered yet: ${missing.join(', ')} (run npm run ig-card -- --tonight, commit and push first)`); process.exit(1); }
     const kind = args.story ? 'story' : 'carousel';
     if (!dryRun && alreadyToday(list.map((p) => p.id), kind)) { console.error('ig-post: tonight already posted today'); process.exit(1); }
-    const caption = args.caption || `Tonight in NYC, ${longDate(day)}:\n\n${list.map((p) => `${p.time_label.split(' · ')[0]} ${p.title} at ${p.venue}${p.sponsored ? ' (paid listing)' : ''}`).join('\n')}\n\nTickets and the full board at standupcomedynyc.com, link in bio.\n\n${hashtags}`;
+    const caption = args.caption || `Tonight in NYC, ${longDate(day)}:\n\n${list.map((p) => `${p.time_label.split(' · ')[0]} ${p.title} at ${p.venue}${p.sponsored ? ' (paid listing)' : ''}`).join('\n')}\n\nTickets and the full board at standupcomedynyc.com, link in bio.${credits(list)}\n\n${hashtags}`;
     await publish(kind, args.story ? [cardUrl(ids[0])] : ids.map(cardUrl), caption, { picks: list.map((p) => p.id), date: day });
     return;
   }
@@ -113,7 +114,7 @@ const hashtags = '#nyccomedy #standupnyc #comedynyc #thingstodonyc';
     if (!cardExists(id)) { console.error(`ig-post: card not rendered for ${id}`); process.exit(1); }
     const kind = args.story ? 'story' : 'image';
     if (!dryRun && alreadyToday([id], kind)) { console.error(`ig-post: ${id} already posted today`); process.exit(1); }
-    const caption = args.caption || `${p.title}\n${longDate(p.date)} · ${p.time_label} · ${p.venue}, ${p.neighborhood}\n${p.price_label}${p.sponsored ? '\n\nPaid listing.' : ''}\n\n${p.description}\n\nTickets at standupcomedynyc.com, link in bio.\n\n${hashtags}`;
+    const caption = args.caption || `${p.title}\n${longDate(p.date)} · ${p.time_label} · ${p.venue}, ${p.neighborhood}\n${p.price_label}${p.sponsored ? '\n\nPaid listing.' : ''}\n\n${p.description}\n\nTickets at standupcomedynyc.com, link in bio.${credits([p])}\n\n${hashtags}`;
     await publish(kind, [cardUrl(id)], caption, { picks: [id], date: p.date });
   }
   if (args.image) {
