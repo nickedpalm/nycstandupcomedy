@@ -99,7 +99,7 @@ body:before{content:'';position:absolute;inset:0;background:radial-gradient(elli
 .hl{margin-top:auto;font:700 var(--hs,84px)/1.32 Oswald;text-transform:uppercase;letter-spacing:.005em}
 .hl i{font-style:normal;background:#b3261e;color:#fff;padding:4px 20px 8px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
 .hl i.gold{background:#f6c343;color:#2a1408;font-size:.42em;letter-spacing:.12em;padding:8px 16px;position:relative;top:-.35em}
-.dek{margin-top:18px;font:400 32px/1.35 Arial,sans-serif;color:#f1e8ce;text-shadow:0 2px 6px #000c;max-width:26ch}
+.dek{margin-top:18px;font:400 30px/1.35 Arial,sans-serif;color:#f1e8ce;text-shadow:0 2px 6px #000c;max-width:34ch}
 .pill{margin-top:28px;display:inline-block;align-self:flex-start;border:3px solid #fff;color:#fff;font:700 24px/1 Oswald;letter-spacing:.14em;text-transform:uppercase;padding:14px 24px;border-radius:40px;text-shadow:none}
 .tag2{position:absolute;top:120px;right:56px;background:#b3261e;color:#fff;font:700 30px/1 Oswald;letter-spacing:.12em;text-transform:uppercase;padding:14px 20px;transform:rotate(3deg)}
 .tag2.gold{background:#f6c343;color:#2a1408}
@@ -109,7 +109,7 @@ body:before{content:'';position:absolute;inset:0;background:radial-gradient(elli
 
 const titleSize = (t) => { const byLen = t.length > 60 ? 88 : t.length > 40 ? 104 : t.length > 24 ? 128 : t.length > 14 ? 150 : 176; const longest = Math.max(...t.split(/\s+/).map((w) => w.length)); const byWord = Math.floor(800 / (0.56 * longest)); return Math.min(byLen, byWord); };
 const rowSize = (n, maxLen) => n <= 2 ? (maxLen > 30 ? 84 : 110) : n <= 3 ? (maxLen > 30 ? 72 : 96) : n <= 4 ? (maxLen > 30 ? 58 : 76) : (maxLen > 30 ? 48 : 60);
-const sub = (p) => { const d = String(p.description || '').trim(); const m = d.match(/^[^.!?]{12,130}[.!?]/); if (m) return m[0]; if (d.length <= 12) return ''; const first = (d.match(/^[^.!?]+/) || [d])[0]; const head = first.slice(0, 132); let cut = -1; for (const sep of [' with ', ' featuring ', ' plus ', ', ', ' and ']) { const i = head.lastIndexOf(sep); if (i > 40 && i > cut) cut = i; } return (cut > 0 ? head.slice(0, cut) : head.slice(0, head.lastIndexOf(' '))).replace(/[,;:\s]+$/, '') + '.'; };
+const sub = (p) => { const d = String(p.description || '').trim(); const m = d.match(/^[^.!?]{12,180}[.!?]/); if (m) return m[0]; if (d.length <= 12) return ''; const first = (d.match(/^[^.!?]+/) || [d])[0]; const head = first.slice(0, 182); let cut = -1; for (const sep of [' with ', ' featuring ', ' plus ', ', ', ' and ']) { const i = head.lastIndexOf(sep); if (i > 40 && i > cut) cut = i; } return (cut > 0 ? head.slice(0, cut) : head.slice(0, head.lastIndexOf(' '))).replace(/[,;:\s]+$/, '') + '.'; };
 const dek = (p) => { const b = sub(p) || p.price_label; const v = String(p.venue).replace(/^the\s+/i, ''); return new RegExp(v.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i').test(b) ? `${hoodOf(p)}. ${b}` : `${p.venue}, ${hoodOf(p)}. ${b}`; };
 
 function pickCard(p) {
