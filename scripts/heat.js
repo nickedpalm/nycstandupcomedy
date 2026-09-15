@@ -21,7 +21,8 @@ const leads = fs.existsSync(path.join(root, 'candidates', 'eventbrite.json')) ? 
 const today = new Date().toISOString().slice(0, 10);
 const norm = (s) => String(s || '').toLowerCase().replace(/[’']/g, "'").replace(/\s*[:–—-].*$/, '').replace(/\b(live|presents.*|headlines.*|in the round|special taping|tries out new ideas)\b.*/g, '').replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
 const ebId = (u) => ((String(u || '').match(/tickets-(\d+)|wfea_eb_id=(\d+)/) || []).slice(1).find(Boolean)) || null;
-const performer = (title) => { const t = String(title || ''); const m = t.match(/^([A-Z][a-z]+(?: [A-Z][a-zA-Z'’.-]+){1,2})(?::| Live| Presents| Headlines|$)/); return m ? m[1] : null; };
+const NOT_A_NAME = /\b(comedy|show|night|live|club|architecture|game|party|hour|tour|special|presents|festival|showcase|open|mic|the|an|a|of|and|with|in|at|for|from|to|vs|trivia|taping|drinking|fun|looking|laugh|laughs|whine|list|bisque|charity|obey|advance|fun|moderation|invisible|jokes|jranks|backroom|wits|end|stand|up)\b/i;
+const performer = (title) => { const t = String(title || ''); const m = t.match(/^([A-Z][a-z]+(?: [A-Z][a-zA-Z'’.-]+){1,2})(?::| Live| Presents| Headlines|$)/); if (!m) return null; const name = m[1]; return NOT_A_NAME.test(name) ? null : name; };
 
 async function availability(url) {
   if (!/eventbrite\.com\/e\//.test(url || '')) return null;

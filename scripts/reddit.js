@@ -26,7 +26,9 @@ async function buzz(phrase) {
   if (r.status === 429) { await new Promise((x) => setTimeout(x, 2000)); return buzz(phrase); }
   if (!r.ok) throw new Error(`reddit search: HTTP ${r.status}`);
   const posts = ((await r.json()).data?.children || []).map((c) => c.data).filter((p) => p.created_utc >= since);
-  const relevant = posts.filter((p) => SUBS.some((s) => s.toLowerCase() === String(p.subreddit).toLowerCase()) || /comed|standup|stand-up/i.test(p.title + ' ' + (p.selftext || '')));
+  // Relevant = the phrase is in the title, and either the post sits in a comedy or NYC subreddit or the title itself says comedy.
+  const inTitle = (p) => new RegExp(phrase.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i').test(p.title || '');
+  const relevant = posts.filter((p) => inTitle(p) && (SUBS.some((s) => s.toLowerCase() === String(p.subreddit).toLowerCase()) || /comed|stand-?up|special|crowd work/i.test(p.title)));
   const top = relevant.sort((a, b) => b.score - a.score)[0];
   return { phrase, posts_30d: relevant.length, upvotes: relevant.reduce((s, p) => s + Math.max(0, p.score), 0), comments: relevant.reduce((s, p) => s + (p.num_comments || 0), 0), subreddits: [...new Set(relevant.map((p) => p.subreddit))].slice(0, 5), top: top ? { title: top.title, subreddit: top.subreddit, score: top.score, url: 'https://www.reddit.com' + top.permalink } : null };
 }
