@@ -119,7 +119,7 @@ Posting: `npm run ig-post -- --tonight` publishes the cover plus tonight's cards
 
 ## Instagram comments
 
-Inbound only. `npm run ig-comments -- --list` shows unanswered comments on our posts from the last seven days; `npm run ig-comments -- --reply <comment_id> --text "..."` posts one reply under our own media and logs it to IG-REPLIES.json (never the same comment twice, at most 20 replies a day, no outside links). Mazzie's comment job runs at 14:00 and 23:00 UTC and follows the reply policy in her persona: answer real questions from the data, thank reshares, acknowledge corrections, ignore spam and arguments, send Nick anything uncertain. The account never likes, follows, DMs or comments elsewhere.
+Inbound only. `npm run ig-comments -- --list` shows unanswered comments on our posts from the last seven days; `npm run ig-comments -- --reply <comment_id> --text "..."` posts one reply under our own media and logs it to IG-REPLIES.json (never the same comment twice, at most 20 replies a day, no outside links). Mazzie's comment job runs at 14:00 and 23:00 UTC and follows the reply policy in her persona: answer real questions from the data, thank reshares, acknowledge corrections, ignore spam and arguments, send Nick anything uncertain. Direct messages: `npm run ig-messages -- --list` shows conversations waiting on us and `npm run ig-messages -- --send <user_id> --text "..."` answers one, only inside Instagram's 24-hour reply window and only to someone who wrote first (message requests from strangers may need accepting in the app before the API sees them). Same log, same daily cap. The account never likes, follows, cold-DMs or comments elsewhere.
 
 ## Agents and crawlers
 
