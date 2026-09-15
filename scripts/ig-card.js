@@ -92,7 +92,7 @@ body:before{content:'';position:absolute;inset:0;background:radial-gradient(elli
 .art img{max-height:100%;max-width:100%;object-fit:contain}
 /* photo-first template (Time Out / Don't Tell pattern) */
 .photo{position:absolute;inset:0;background-size:cover;background-position:center 30%}
-.photo:after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,#000000a6 0%,#00000040 16%,#0000 30%,#0000 42%,#000000e6 100%)}
+.photo:after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,#000000a6 0%,#00000040 16%,#0000 30%,#0000 40%,#00000099 62%,#000000f0 78%,#000000fa 100%)}
 .pw{position:relative;height:100%;display:flex;flex-direction:column;padding:48px 56px 56px;color:#fff}
 .lock{align-self:center;font:700 34px/1 Oswald;letter-spacing:.16em;text-transform:uppercase;color:#f6c343;text-shadow:0 2px 6px #000c}
 .lock span{color:#fff}
@@ -108,7 +108,8 @@ body:before{content:'';position:absolute;inset:0;background:radial-gradient(elli
 
 const titleSize = (t) => t.length > 60 ? 88 : t.length > 40 ? 104 : t.length > 24 ? 128 : t.length > 14 ? 150 : 176;
 const rowSize = (n, maxLen) => n <= 2 ? (maxLen > 30 ? 84 : 110) : n <= 3 ? (maxLen > 30 ? 72 : 96) : n <= 4 ? (maxLen > 30 ? 58 : 76) : (maxLen > 30 ? 48 : 60);
-const sub = (p) => { const m = String(p.description || '').match(/^[^.!?]{12,90}[.!?]/); return m ? m[0] : ''; };
+const sub = (p) => { const d = String(p.description || '').trim(); const m = d.match(/^[^.!?]{12,90}[.!?]/); if (m) return m[0]; if (d.length <= 12) return ''; const first = (d.match(/^[^.!?]+/) || [d])[0]; const head = first.slice(0, 92); let cut = -1; for (const sep of [' with ', ' featuring ', ' plus ', ', ', ' and ']) { const i = head.lastIndexOf(sep); if (i > 40 && i > cut) cut = i; } return (cut > 0 ? head.slice(0, cut) : head.slice(0, head.lastIndexOf(' '))).replace(/[,;:\s]+$/, '') + '.'; };
+const dek = (p) => { const b = sub(p) || p.price_label; const v = String(p.venue).replace(/^the\s+/i, ''); return new RegExp(v.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i').test(b) ? `${hoodOf(p)}. ${b}` : `${p.venue}, ${hoodOf(p)}. ${b}`; };
 
 function pickCard(p) {
   const art = p.poster && reusable.has(p.poster.src) ? `<div class="art"><img src="${dataUrl(path.join(web, p.poster.src.replace(/^\//, '')), 'image/' + p.poster.src.split('.').pop().replace('jpg', 'jpeg'))}"></div>` : '';
@@ -129,7 +130,7 @@ function photoCard(p) {
   const when = (p.date === nyDate() ? 'Tonight' : shortDate(p.date)) + ' · ' + p.time_label.split(' · ')[0];
   return `${base}<div class="photo" style="background-image:url(${bg})"></div><div class="pw"><div class="lock">Stand Up <span>Comedy NYC</span></div>${tag}
 <div class="hl" style="--hs:${hlSize(p.title)}px"><i class="gold">${esc(when)}</i><br><i>${esc(p.title)}</i></div>
-<p class="dek">${esc(p.venue)}, ${esc(hoodOf(p))}. ${esc(sub(p) || p.price_label)}</p>
+<p class="dek">${esc(dek(p))}</p>
 <div class="pill">Tickets · link in bio</div><div class="credit2">${esc(p.poster.credit || '')}</div></div>`;
 }
 function photoCover(label, day, list) {
