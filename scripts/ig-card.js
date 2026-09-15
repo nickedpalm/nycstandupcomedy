@@ -134,7 +134,7 @@ function photoCard(p) {
   const t = splitTitle(p.title);
   return `${base}<div class="photo" style="background-image:url(${bg})"></div><div class="pw"><div class="lock">Stand Up <span>Comedy NYC</span></div>${tag}
 <div class="hl" style="--hs:${hlSize(t.what)}px"><i class="gold">${esc(when)}</i><br><i>${esc(t.what)}</i></div>
-<p class="dek">${t.who ? esc(t.who) + ' · ' : ''}${esc(dek(p))}</p>
+<p class="dek">${t.who && !dek(p).includes(t.who) ? esc(t.who) + ' · ' : ''}${esc(dek(p))}</p>
 <div class="pill">Tickets · link in bio</div><div class="credit2">${esc(p.poster.credit || '')}</div></div>`;
 }
 function photoCover(label, day, list) {
