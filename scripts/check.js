@@ -151,6 +151,13 @@ if (fs.existsSync(archiveDir)) {
   });
 }
 
+// Blurbs should answer "why this one", not just describe. Soft check: warn on describe-only patterns in upcoming picks.
+{
+  const todayNY = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York' }).format(new Date());
+  const flat = picks.filter((p) => p.date >= todayNY && /^(?:[A-Z][\w.'-]+(?:,? (?:and )?[A-Z][\w.'-]+){1,6}) hosts? (?:an? |the )?[\w -]*(?:showcase|show|night|lineup)\b|^an? [\w -]*(?:showcase|variety show|stand-up show|comedy show) at (?:the )?[A-Z]|brings [\w' ]+ to the [\w ]+ room\.$/i.test(String(p.description || '').trim()) && !/\b(worth|best|weird|strange|late pick|if you|skip|rare|only|last|first|favorite|sharpest|funniest|loudest|smallest|biggest|hard to|the one|go for|because)\b/i.test(p.description || ''));
+  if (flat.length) warn(`why this one: ${flat.length} upcoming blurb(s) only describe the show; give each a reason to go: ${flat.slice(0, 8).map((p) => p.id).join(', ')}${flat.length > 8 ? '…' : ''}`);
+}
+
 // links.json: the link-in-bio page. Every entry needs id, label, url and kind; dated entries expire.
 {
   let linksData;

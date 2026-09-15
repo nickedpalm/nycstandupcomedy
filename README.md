@@ -119,6 +119,10 @@ Posting: `npm run ig-post -- --tonight` publishes the cover plus tonight's cards
 
 The build writes a Markdown edition of every section (index.md, this-week.md, rooms.md, open-mics.md, clubs.md, neighborhoods.md) plus llms.txt into dist/ from the same JSON. A Pages middleware returns the Markdown version of a page when the request prefers `text/markdown`, with a Link header pointing at it either way. `/.well-known/api-catalog` (RFC 9727 linkset) lists the JSON data files, and `web/_headers` sets their content types and open CORS on /data/. A real 404 page means unknown paths no longer return the home page with a 200.
 
+## Blurbs: why this one
+
+Every pick's `description` is one sentence that answers "why this one tonight?", the judgment a friend would make, not a restatement of the listing. `npm test` warns on describe-only patterns (host-and-lineup lists, "a ... show at the venue") so they get rewritten before they ship on the site, the Instagram cards and the caption. The judgment must come from the lineup, room, format or research, never invented.
+
 ## Editorial policy and hold-outs
 
 `editorial/EDITORIAL-POLICY.md` states what we promote and what we don't. `editorial/holdouts.json` is Nick's case-by-case list of names we do not list; `npm test` fails if a held-out name appears in any data file. Borderline cases go to Nick with a link and a sentence, unpublished. The list is never published.
