@@ -1,6 +1,6 @@
 // Cloudflare Pages Function: POST /api/subscribe
 // Forwards a signup to the Listmonk public subscription API for the
-// "Stand-Up Comedy NYC" list. No secrets: the public endpoint only adds to public lists.
+// "Stand Up Comedy NYC" list. No secrets: the public endpoint only adds to public lists.
 const LISTMONK = 'https://mail.firestick.io/api/public/subscription';
 const LIST_UUID = '0b5e335c-e436-464a-a560-3697385c462b';
 const json = (status, body) => new Response(JSON.stringify(body), {status, headers: {'content-type': 'application/json', 'cache-control': 'no-store'}});
