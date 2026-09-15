@@ -1291,8 +1291,9 @@
   "borough": "Manhattan",
   "calendar_url": "https://www.msg.com/beacon-theatre",
   "kind": "theater",
-  "needs_review": true,
-  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+  "needs_review": false,
+  "note": "MSG venue page; renders full Upcoming Events list. Comedy verified Sep 19 Ben Schwartz & Friends (early and late); Sep 25 Chelsea Handler The High and Mighty Tour; Sep 27 John Oliver & Seth Meyers. NYCF uses this room Nov 8, 12, 13, 14, 15.",
+  "verified_at": "2026-09-15"
  },
  {
   "name": "The Town Hall",
@@ -1301,8 +1302,9 @@
   "borough": "Manhattan",
   "calendar_url": "https://thetownhall.org/events",
   "kind": "theater",
-  "needs_review": true,
-  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+  "needs_review": false,
+  "note": "Full events list loads directly. Verified comedy: Brad Williams The Tall Tales Tour (Sep 19), Kanan Gill Not This Again (Oct 3, 4pm + 7pm), Kathy Griffin New Face New Tour (Oct 16), Yang Mengen youngmoon Stand Up Comedy Special Renegade (Oct 22), Difficult People: The Movie live table read with Julie Klausner and Billy Eichner (Nov 3). NYCF Nov 6-14 uses this room heavily.",
+  "verified_at": "2026-09-15"
  },
  {
   "name": "Carnegie Hall",
@@ -1311,8 +1313,9 @@
   "borough": "Manhattan",
   "calendar_url": "https://www.carnegiehall.org/Calendar",
   "kind": "theater",
-  "needs_review": true,
-  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+  "needs_review": false,
+  "note": "No stand-up comedy in the next 8 weeks; programming is classical music, jazz, recitals. Registered as a NYCF venue (the festival occasionally books the Stern Auditorium).",
+  "verified_at": "2026-09-15"
  },
  {
   "name": "Kings Theatre",
@@ -1321,18 +1324,20 @@
   "borough": "Brooklyn",
   "calendar_url": "https://www.kingstheatre.com/events",
   "kind": "theater",
-  "needs_review": true,
-  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+  "needs_review": false,
+  "note": "Redirects to ATG Tickets official box office (us.atgtickets.com). NYCF Dropout Improv at Kings Theatre Nov 13.",
+  "verified_at": "2026-09-15"
  },
  {
   "name": "Brooklyn Paramount",
   "address": "385 Flatbush Ave Ext, Brooklyn",
   "neighborhood": "Downtown Brooklyn",
   "borough": "Brooklyn",
-  "calendar_url": "https://www.brooklynparamount.com/events",
+  "calendar_url": "https://www.brooklynparamount.com/shows",
   "kind": "theater",
-  "needs_review": true,
-  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+  "needs_review": false,
+  "note": "Venue /events subpath shows a sound-check placeholder; the real show list loads at /shows. Programming in the next 8 weeks is concerts only (Mastodon, Beck, Tinashe, etc.); no stand-up scheduled.",
+  "verified_at": "2026-09-15"
  },
  {
   "name": "Brooklyn Steel",
@@ -1341,18 +1346,20 @@
   "borough": "Brooklyn",
   "calendar_url": "https://www.bowerypresents.com/venues/brooklyn-steel",
   "kind": "theater",
-  "needs_review": true,
-  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+  "needs_review": false,
+  "note": "Bowery Presents venue; full NY metro calendar is JS-driven and the initial render surfaced no Brooklyn Steel-specific comedy shows. Primary programming is indie/electronic/rock concerts.",
+  "verified_at": "2026-09-15"
  },
  {
   "name": "Webster Hall",
   "address": "125 E 11th St, Manhattan",
   "neighborhood": "East Village",
   "borough": "Manhattan",
-  "calendar_url": "https://www.websterhall.com/events",
+  "calendar_url": "https://www.websterhall.com/shows",
   "kind": "theater",
-  "needs_review": true,
-  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+  "needs_review": false,
+  "note": "/events returns 403; /shows loads the live shows list cleanly. No stand-up in the next 8 weeks; programming is indie/rock/pop and DJ nights.",
+  "verified_at": "2026-09-15"
  },
  {
   "name": "Gramercy Theatre",
@@ -1361,18 +1368,20 @@
   "borough": "Manhattan",
   "calendar_url": "https://www.thegramercytheatre.com/events",
   "kind": "theater",
-  "needs_review": true,
-  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+  "needs_review": false,
+  "note": "Venue /events subpath shows the same sound-check placeholder as Brooklyn Paramount and Irving Plaza; address (127 E 23rd St) confirmed via footer but events did not render. NYCF Adam Ray at this room Nov 6.",
+  "verified_at": "2026-09-15"
  },
  {
   "name": "Sony Hall",
   "address": "235 W 46th St, Manhattan",
   "neighborhood": "Times Square",
   "borough": "Manhattan",
-  "calendar_url": "https://www.sonyhall.com/events",
+  "calendar_url": "https://sonyhall.com/shows",
   "kind": "theater",
-  "needs_review": true,
-  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+  "needs_review": false,
+  "note": "/shows page renders the full list cleanly; /events returns 404. No stand-up in the next 8 weeks; programming is concerts, tributes, gospel, burlesque, Motown dining.",
+  "verified_at": "2026-09-15"
  },
  {
   "name": "Irving Plaza",
@@ -1381,8 +1390,9 @@
   "borough": "Manhattan",
   "calendar_url": "https://www.irvingplaza.com/events",
   "kind": "theater",
-  "needs_review": true,
-  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+  "needs_review": false,
+  "note": "Same sound-check placeholder pattern as Brooklyn Paramount and Gramercy Theatre; address (17 Irving Pl) confirmed via footer but events did not render during review. Primary programming is rock/indie/electronic.",
+  "verified_at": "2026-09-15"
  },
  {
   "name": "Warsaw",
@@ -1391,8 +1401,9 @@
   "borough": "Brooklyn",
   "calendar_url": "https://www.warsawconcerts.com/",
   "kind": "theater",
-  "needs_review": true,
-  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+  "needs_review": false,
+  "note": "Home page lists featured upcoming shows; the dedicated events subpath did not render during review. Primary programming is indie/electronic/world/post-punk concerts.",
+  "verified_at": "2026-09-15"
  },
  {
   "name": "Music Hall of Williamsburg",
@@ -1401,8 +1412,9 @@
   "borough": "Brooklyn",
   "calendar_url": "https://www.bowerypresents.com/venues/music-hall-of-williamsburg",
   "kind": "theater",
-  "needs_review": true,
-  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+  "needs_review": false,
+  "note": "Bowery Presents venue; the NY metro carousel surfaced no MHOW-specific comedy shows. Primary programming is indie/rock/electronic concerts.",
+  "verified_at": "2026-09-15"
  },
  {
   "name": "Bowery Ballroom",
@@ -1411,8 +1423,9 @@
   "borough": "Manhattan",
   "calendar_url": "https://www.bowerypresents.com/venues/bowery-ballroom",
   "kind": "theater",
-  "needs_review": true,
-  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+  "needs_review": false,
+  "note": "Bowery Presents venue; the NY metro carousel surfaced no Bowery Ballroom-specific comedy shows. Primary programming is indie/rock/electronic concerts.",
+  "verified_at": "2026-09-15"
  },
  {
   "name": "Le Poisson Rouge",
@@ -1421,18 +1434,20 @@
   "borough": "Manhattan",
   "calendar_url": "https://lpr.com/calendar/",
   "kind": "theater",
-  "needs_review": true,
-  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+  "needs_review": false,
+  "note": "Calendar tiles render cleanly. Stand-up: Mike Nasty Presents NO FILTER! Sep 26 11pm in the Main Space. Primarily a music venue; one-off comedy nights are rare.",
+  "verified_at": "2026-09-15"
  },
  {
   "name": "Apollo Theater",
   "address": "253 W 125th St, Manhattan",
   "neighborhood": "Harlem",
   "borough": "Manhattan",
-  "calendar_url": "https://www.apollotheater.org/events/",
+  "calendar_url": "https://www.apollotheater.org/",
   "kind": "theater",
-  "needs_review": true,
-  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+  "needs_review": false,
+  "note": "Home page carousel lists 10 upcoming events; the /events subpaths all return 404. No headlining stand-up scheduled in the next 8 weeks; the long-running Annual Weekend lives off this calendar.",
+  "verified_at": "2026-09-15"
  },
  {
   "name": "Symphony Space",
@@ -1441,8 +1456,9 @@
   "borough": "Manhattan",
   "calendar_url": "https://www.symphonyspace.org/events",
   "kind": "theater",
-  "needs_review": true,
-  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+  "needs_review": false,
+  "note": "Events grid page renders cleanly with dates and titles. No stand-up in the next 8 weeks; programming is Selected Shorts (literary readings with actors), the Thalia film series, and literary events like Eric Idle s Idle in Provence book event on Sep 29.",
+  "verified_at": "2026-09-15"
  },
  {
   "name": "92NY",
@@ -1451,8 +1467,9 @@
   "borough": "Manhattan",
   "calendar_url": "https://www.92ny.org/events",
   "kind": "theater",
-  "needs_review": true,
-  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+  "needs_review": false,
+  "note": "Events page renders cleanly with categories; no Comedy category exists. Programming is talks, literary readings, concerts, Jewish-interest events. United in Laughter Sep 16 is a Belfer Center wellness/social event, not stand-up.",
+  "verified_at": "2026-09-15"
  },
  {
   "name": "BAM (Brooklyn Academy of Music)",
@@ -1461,8 +1478,9 @@
   "borough": "Brooklyn",
   "calendar_url": "https://www.bam.org/whats-on",
   "kind": "theater",
-  "needs_review": true,
-  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+  "needs_review": false,
+  "note": "/whats-on returns 404; the homepage calendar grid renders the upcoming season. No stand-up in the next 8 weeks; Next Wave 2026 is theater/dance/opera/poetry. Address (30 Lafayette Ave, Fort Greene) confirmed on the homepage.",
+  "verified_at": "2026-09-15"
  },
  {
   "name": "Radio City Music Hall",
@@ -1471,17 +1489,19 @@
   "borough": "Manhattan",
   "calendar_url": "https://www.msg.com/radio-city-music-hall",
   "kind": "theater",
-  "needs_review": true,
-  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+  "needs_review": false,
+  "note": "Renders cleanly with the full Upcoming Events list; tickets via msg.com / Ticketmaster. No stand-up in the next 8 weeks; programming is concerts, Christmas Spectacular prep, family events.",
+  "verified_at": "2026-09-15"
  },
  {
   "name": "The Theater at Madison Square Garden",
   "address": "4 Pennsylvania Plaza, Manhattan",
   "neighborhood": "Midtown West",
   "borough": "Manhattan",
-  "calendar_url": "https://www.msg.com/the-theater-at-msg",
+  "calendar_url": "https://www.msg.com/infosys-theater-at-msg",
   "kind": "theater",
-  "needs_review": true,
-  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+  "needs_review": false,
+  "note": "Original /the-theater-at-msg URL redirects to /infosys-theater-at-msg; renders cleanly with the full Upcoming Events list. No stand-up in the next 8 weeks; programming is concerts (Camilo, MONSTA X, Pedro Fernandez, BOYNEXTDOOR), CHRONO TRIGGER Orchestra, and Flex Fight Series.",
+  "verified_at": "2026-09-15"
  }
 ]

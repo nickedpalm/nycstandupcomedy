@@ -272,3 +272,15 @@ Nick: never run last30days across the whole roster. `npm run research-plan` rank
 
 ## Theaters and the festival — September 15, 2026
 Registered 20 theaters and concert halls that host touring comedy and New York Comedy Festival shows (Beacon, Town Hall, Carnegie, Kings, Brooklyn Paramount, Brooklyn Steel, Webster Hall, Gramercy, Sony Hall, Irving Plaza, Warsaw, Music Hall of Williamsburg, Bowery Ballroom, LPR, Apollo, Symphony Space, 92NY, BAM, Radio City, The Theater at MSG), kind "theater", needs_review true until the calendar URL and neighborhood are confirmed. Festival shows sit under Save the date once verified. Editorial policy and hold-out list added under editorial/.
+
+## Theater sweep + NYCF — September 15, 2026 (cron run)
+First-pass review of all 20 theater/concert-hall records: every `calendar_url` and `neighborhood` confirmed from the venue's own page or ATG/Live Nation/Ticketmaster mirror; `needs_review` cleared; `verified_at: 2026-09-15` and a short `note` describing what the calendar showed. Brooklyn Paramount was moved to `/shows` (the `/events` subpath is the same sound-check stub as Gramercy Theatre and Irving Plaza). The Theater at MSG redirects from `/the-theater-at-msg` to `/infosys-theater-at-msg` — the registry points at the live URL.
+
+Picks added (11, all tier=special):
+- Beacon Theatre: Ben Schwartz & Friends early and late shows (Sat Sep 19), Chelsea Handler: The High and Mighty Tour (Fri Sep 25), John Oliver & Seth Meyers (Sun Sep 27).
+- The Town Hall: Brad Williams: The Tall Tales Tour (Sat Sep 19), Kanan Gill: Not This Again matinee + evening (Sat Oct 3), Kathy Griffin: New Face, New Tour (Fri Oct 16), Yang Mengen (youngmoon): Stand Up Comedy Special — Renegade (Thu Oct 22), Difficult People: The Movie — A Live Table Read with Julie Klausner and Billy Eichner (Tue Nov 3).
+- Le Poisson Rouge: Mike Nasty Presents: NO FILTER! (Sat Sep 26, 11pm, Main Space, ticketmaster).
+
+No picks at Carnegie Hall, Brooklyn Paramount, Brooklyn Steel, Webster Hall, Gramercy, Sony Hall, Irving Plaza, Warsaw, Music Hall of Williamsburg, Bowery Ballroom, Apollo, Symphony Space, 92NY, BAM, Radio City Music Hall, or The Theater at MSG in the next 8 weeks — each calendar is dominated by concerts, literary events, theater/dance (BAM), or the regular Weekly Amateur Night (Apollo), which we treat as a recurring showcase rather than a dated pick.
+
+NYCF headliner picks are in a follow-up commit "NYCF: first batch" (separate from this commit).
