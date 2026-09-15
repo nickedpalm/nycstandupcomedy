@@ -125,6 +125,8 @@ function pickCard(p) {
 
 const clock = (p) => { const t = p.time_label.split(' · ')[0]; return t.includes(':') ? t.replace(/\s*(am|pm)$/i, '') : t; };
 const splitTitle = (t) => { const m = t.match(/^([A-Z][\w.'\-]+(?:\s[A-Z][\w.'\-]+){0,3}):\s+(.{4,})$/); return m ? { who: m[1], what: m[2] } : { who: '', what: t }; };
+// Sold-out shows stay on the site board but are not a pick anyone can act on tonight, so they leave the Tonight set.
+const soldOut = (p) => p.demand === 'sold_out' && !p.walkup_note;
 const hlSize = (t) => t.length > 48 ? 66 : t.length > 32 ? 76 : t.length > 20 ? 92 : 108;
 function photoCard(p) {
   const src = path.join(web, p.poster.src.replace(/^\//, ''));
@@ -164,8 +166,8 @@ function coverCard(label, day, list) {
   const day = args.date || nyDate();
   const jobs = [];
   if (args.tonight) {
-    const list = picks.filter((p) => p.date === day).sort((a, b) => a.starts_at.localeCompare(b.starts_at));
-    if (!list.length) { console.error(`ig-card: no picks on ${day}`); process.exit(1); }
+    const list = picks.filter((p) => p.date === day && !soldOut(p)).sort((a, b) => a.starts_at.localeCompare(b.starts_at));
+    if (!list.length) { console.error(`ig-card: no picks with tickets left on ${day}`); process.exit(1); }
     jobs.push({ kind: 'cover', id: 'tonight-' + day, html: (args.photo ? photoCover : coverCard)('Tonight', day, list), picks: list.map((p) => p.id) });
     list.forEach((p) => jobs.push({ kind: 'pick', id: p.id, html: (args.photo && p.poster) ? photoCard(p) : pickCard(p), picks: [p.id] }));
   }
