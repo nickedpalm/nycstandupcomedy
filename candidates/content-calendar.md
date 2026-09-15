@@ -67,7 +67,7 @@ Ranked 12; run 6, reuse 2, skip 4; ~54,000 tokens saved. No recent data: Jenny T
   - Fri Sep 25 7:30pm — LPR Presents: Sean Hayes at Littlefield · from $0 · has artwork
   - Fri Sep 25 8pm — Tobin Miller, Caroline Hanes, Don Jamieson, Nick Griffin, & JJ Ramirez! at Comic Strip Live · from $25.71 · has artwork
 
-## Week 3: Sep 29 to Oct 5 — 9 picks — 1 without artwork · nothing in Manhattan
+## Week 3: Sep 29 to Oct 5 — 10 picks — 2 without artwork
 
 - Tue Sep 29 7:30pm — **Michelle Buteau** at The Bell House
 - Wed Sep 30 8pm — **The Moth StorySLAM** at The Bell House
@@ -75,6 +75,7 @@ Ranked 12; run 6, reuse 2, skip 4; ~54,000 tokens saved. No recent data: Jenny T
 - Thu Oct 1 7:30pm — **Brendan Scannell: The Abyss** at The Bell House
 - Thu Oct 1 10pm — **Nate Varrone** at The Bell House
 - Fri Oct 2 7:30pm — **Phoebe Robinson: Feral & Fired Up!** at The Bell House
+- Sat Oct 3 6pm — **Comedy Idol (WSCC)** at West Side Comedy Club · NO ARTWORK
 - Sat Oct 3 7pm — **Two Dykes and a Mic: Soaking Wet Tour** at The Bell House
 - Sun Oct 4 6pm — **Comedy Girl Autumn: A Live Comedy Show Hosted by Larry Owens** at The Bell House
 - Mon Oct 5 7:30pm — **Hot Butter Train** at The Bell House
@@ -91,8 +92,9 @@ Ranked 12; run 6, reuse 2, skip 4; ~54,000 tokens saved. No recent data: Jenny T
 - Sun Oct 11 6pm — **Wait, What's Sri Lanka? — Comedy Special Taping** at Eastville Comedy Club · NO ARTWORK
 - Mon Oct 12 7:30pm — **The Bechdel Cast 10 Year Anniversary Tour** at The Bell House
 
-## Week 5: Oct 13 to Oct 19 — 10 picks — 4 without artwork · nothing in Manhattan
+## Week 5: Oct 13 to Oct 19 — 11 picks — 5 without artwork
 
+- Wed Oct 14 7pm — **The Next Elton and Friends** at West Side Comedy Club · NO ARTWORK
 - Wed Oct 14 7:30pm — **Josh & Aaron Do Improv (Feat. Hayden Johnson)** at The Bell House
 - Wed Oct 14 8pm — **Laughs In The East** at Eastville Comedy Club · NO ARTWORK
 - Thu Oct 15 7:30pm — **Francesca Fiorentini and Matt Lieb** at The Bell House
@@ -104,14 +106,17 @@ Ranked 12; run 6, reuse 2, skip 4; ~54,000 tokens saved. No recent data: Jenny T
 - Sun Oct 18 7:30pm — **Johnny Pemberton** at The Bell House
 - Mon Oct 19 7:30pm — **Michelle Buteau** at The Bell House
 
-## Week 6: Oct 20 to Oct 26 — 8 picks — 5 without artwork · nothing in Manhattan
+## Week 6: Oct 20 to Oct 26 — 11 picks — 8 without artwork
 
 - Tue Oct 20 7:30pm — **A Benefit for Little Essentials with David Cross & Friends** at The Bell House
 - Wed Oct 21 7:30pm — **Brett Goldstein Runs His Hour Before His Tour** at The Bell House
 - Wed Oct 21 8pm — **Laughs In The East** at Eastville Comedy Club · NO ARTWORK
+- Wed Oct 21 8pm — **Jaime Ferraro en New York** at West Side Comedy Club · NO ARTWORK
+- Thu Oct 22 7pm — **Laugh! It's for Charity! — A Comedy Benefit for the National MS Society** at West Side Comedy Club · NO ARTWORK
 - Thu Oct 22 8pm — **Stand Up Shenanigans** at Eastville Comedy Club · NO ARTWORK
 - Fri Oct 23 6pm — **Brooklyn Power Hour** at Eastville Comedy Club · NO ARTWORK
 - Fri Oct 23 7:30pm — **Sydnee Washington: My Black Barbie Story** at The Bell House
 - Sat Oct 24 6pm — **Saturday Night Live Comedy** at Eastville Comedy Club · NO ARTWORK
+- Sun Oct 25 7pm — **ROBYN & "FRIENDS" Comedy Show** at West Side Comedy Club · NO ARTWORK
 - Sun Oct 25 7:30pm — **Sunday Night Comedy** at Eastville Comedy Club · NO ARTWORK
 
