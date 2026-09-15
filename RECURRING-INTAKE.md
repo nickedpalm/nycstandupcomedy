@@ -269,3 +269,6 @@ Tightened the editorial voice in the new entries: the Kellogg's Diner recurring 
 
 ## Research budget rule — September 15, 2026
 Nick: never run last30days across the whole roster. `npm run research-plan` ranks every performer on the board from static data and cheap signals (heat.json availability, second shows, Wikipedia, Reddit-lite, show timing), shortlists up to 10, and schedules a last30days run only when it could change a decision: show within 10 days, not already sold out, no cached result under 7 days old. Finished runs are cached with `--record "<name>" --note "<sentence>"` in candidates/research-cache.json and reused. The plan reports estimated tokens saved and the candidates ranked on schedule alone because no recent data exists.
+
+## Theaters and the festival — September 15, 2026
+Registered 20 theaters and concert halls that host touring comedy and New York Comedy Festival shows (Beacon, Town Hall, Carnegie, Kings, Brooklyn Paramount, Brooklyn Steel, Webster Hall, Gramercy, Sony Hall, Irving Plaza, Warsaw, Music Hall of Williamsburg, Bowery Ballroom, LPR, Apollo, Symphony Space, 92NY, BAM, Radio City, The Theater at MSG), kind "theater", needs_review true until the calendar URL and neighborhood are confirmed. Festival shows sit under Save the date once verified. Editorial policy and hold-out list added under editorial/.

@@ -13,7 +13,7 @@ Six weeks ahead from the board. Regenerated on every build; edit the data, not t
 
 Ranked 12; run 6, reuse 2, skip 4; ~54,000 tokens saved. No recent data: Jenny Tian, Leonard Ouzts, Sophie Buddle, Sam Taggart, Josh Sharp, David Nihill.
 
-## Week 1: Sep 15 to Sep 21 — 22 picks — 2 without artwork · 18 Eventbrite leads not yet reviewed
+## Week 1: Sep 15 to Sep 21 — 22 picks — 2 without artwork · 24 Eventbrite leads not yet reviewed
 
 - Tue Sep 15 7:30pm · doors 7pm — **LAUGH** at Union Hall
 - Tue Sep 15 8pm — **Stamptown** at The Bell House
@@ -40,15 +40,15 @@ Ranked 12; run 6, reuse 2, skip 4; ~54,000 tokens saved. No recent data: Jenny T
 
   Leads to review:
   - Tue Sep 15 7pm — The Jewish Dating Game! at Caveat · from $24.41 · has artwork
+  - Tue Sep 15 8pm — Jim Mendrinos, Jack Barth, Mia Jackson, Nick Tilleli, Feraz Shere! at Comic Strip Live · from $25.71 · has artwork
   - Tue Sep 15 9:30pm — Story-oke: Sing and Tell at Caveat · from $18.76 · has artwork
+  - Wed Sep 16 8pm — Sheba Mason, Caroline Hanes, Jason Salmon, Nick Griffin, Mike Yard, more! at Comic Strip Live · from $25.71 · has artwork
   - Wed Sep 16 9:30pm — Sorry We're Here at Caveat · from $12.58 · has artwork
+  - Wed Sep 16 11pm — Standup Comedy (After Dark) at Kellogg's Diner at Kellogg's Diner · from $10 · has artwork
   - Thu Sep 17 7pm — Facts Machine Science, Comedy & Trivia! at Caveat · from $18.76 · has artwork
   - Thu Sep 17 7:30pm — RUPI KAUR: UNCUT – A RESIDENCY at Union Hall · from $30.84 · has artwork
-  - Thu Sep 17 8pm — The Hunger Games: Catching Fire Entirely From Memory at Littlefield · from $14.86 · has artwork
-  - Thu Sep 17 9:30pm — Major Fix at Caveat · from $22.35 · has artwork
-  - Fri Sep 18 7:30pm — Taylor Tomlinson: Tries Out New Ideas at Union Hall · from $46.29 · has artwork
 
-## Week 2: Sep 22 to Sep 28 — 8 picks — 1 without artwork · 3 Eventbrite leads not yet reviewed
+## Week 2: Sep 22 to Sep 28 — 8 picks — 1 without artwork · 6 Eventbrite leads not yet reviewed
 
 - Tue Sep 22 7pm · doors 6:30pm — **The Bisque: Comedy for Charity** at Caveat
 - Wed Sep 23 7pm — **David Nihill: Taking Tangents Tour** at The Bell House
@@ -61,8 +61,11 @@ Ranked 12; run 6, reuse 2, skip 4; ~54,000 tokens saved. No recent data: Jenny T
 
   Leads to review:
   - Tue Sep 22 8pm — Let's Not Die at Littlefield · from $18.71 · has artwork
+  - Tue Sep 22 8pm — Mike Burton, Subhah Agarwal, Meghan Hanley, Matt Pavich, Kareem Green, more at Comic Strip Live · from $25.71 · has artwork
+  - Wed Sep 23 8pm — Mike Burton, Al Lubel, Mia Jackson, Tobin Miller, Nick Tilleli, JJ Ramirez! at Comic Strip Live · from $25.71 · has artwork
+  - Thu Sep 24 8pm — Gladys Presents! With Connor O"Brien! at Comic Strip Live · from $25.71 · has artwork
   - Fri Sep 25 7:30pm — LPR Presents: Sean Hayes at Littlefield · from $0 · has artwork
-  - Sat Sep 26 7pm — We Just Find It Funny Presents: Good Grief! at Littlefield · from $10 · has artwork
+  - Fri Sep 25 8pm — Tobin Miller, Caroline Hanes, Don Jamieson, Nick Griffin, & JJ Ramirez! at Comic Strip Live · from $25.71 · has artwork
 
 ## Week 3: Sep 29 to Oct 5 — 0 picks — only 0 picks; target 8
 

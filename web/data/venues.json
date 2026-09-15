@@ -1283,5 +1283,205 @@
   "access_note": "Chelsea Alexander Technique training center at 151 West 30th Street, NY 10001, 3rd floor (the venue's own calendar page confirms the address). The site's own September 2026 calendar lists only Alexander Technique classes (Principles Level I Certification Sep 19-20, Group Class Tuesdays 7-8:30pm, Creative Flow Class Series Mondays 8:30-10am). The /study-with-us page lists Space Rental — Badslava's 'Night Cap' Saturday 8pm weekly open mic ($5 + one-drink minimum) is producer-run via Laugh Pack Productions (thelaughpackproductions@gmail.com, Eventbrite tickets), not a venue-run comedy night. The 3rd-floor room is rented out for one-off productions rather than a fixed weekly showcase",
   "verified_at": "2026-09-14",
   "note": "Venue is an Alexander Technique school, not a comedy club — held out of recurring.json. The weekly Night Cap is a producer rental, not a venue showcase."
+ },
+ {
+  "name": "Beacon Theatre",
+  "address": "2124 Broadway, Manhattan",
+  "neighborhood": "Upper West Side",
+  "borough": "Manhattan",
+  "calendar_url": "https://www.msg.com/beacon-theatre",
+  "kind": "theater",
+  "needs_review": true,
+  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+ },
+ {
+  "name": "The Town Hall",
+  "address": "123 W 43rd St, Manhattan",
+  "neighborhood": "Times Square",
+  "borough": "Manhattan",
+  "calendar_url": "https://thetownhall.org/events",
+  "kind": "theater",
+  "needs_review": true,
+  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+ },
+ {
+  "name": "Carnegie Hall",
+  "address": "881 7th Ave, Manhattan",
+  "neighborhood": "Midtown West",
+  "borough": "Manhattan",
+  "calendar_url": "https://www.carnegiehall.org/Calendar",
+  "kind": "theater",
+  "needs_review": true,
+  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+ },
+ {
+  "name": "Kings Theatre",
+  "address": "1027 Flatbush Ave, Brooklyn",
+  "neighborhood": "Flatbush",
+  "borough": "Brooklyn",
+  "calendar_url": "https://www.kingstheatre.com/events",
+  "kind": "theater",
+  "needs_review": true,
+  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+ },
+ {
+  "name": "Brooklyn Paramount",
+  "address": "385 Flatbush Ave Ext, Brooklyn",
+  "neighborhood": "Downtown Brooklyn",
+  "borough": "Brooklyn",
+  "calendar_url": "https://www.brooklynparamount.com/events",
+  "kind": "theater",
+  "needs_review": true,
+  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+ },
+ {
+  "name": "Brooklyn Steel",
+  "address": "319 Frost St, Brooklyn",
+  "neighborhood": "Williamsburg",
+  "borough": "Brooklyn",
+  "calendar_url": "https://www.bowerypresents.com/venues/brooklyn-steel",
+  "kind": "theater",
+  "needs_review": true,
+  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+ },
+ {
+  "name": "Webster Hall",
+  "address": "125 E 11th St, Manhattan",
+  "neighborhood": "East Village",
+  "borough": "Manhattan",
+  "calendar_url": "https://www.websterhall.com/events",
+  "kind": "theater",
+  "needs_review": true,
+  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+ },
+ {
+  "name": "Gramercy Theatre",
+  "address": "127 E 23rd St, Manhattan",
+  "neighborhood": "Gramercy",
+  "borough": "Manhattan",
+  "calendar_url": "https://www.thegramercytheatre.com/events",
+  "kind": "theater",
+  "needs_review": true,
+  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+ },
+ {
+  "name": "Sony Hall",
+  "address": "235 W 46th St, Manhattan",
+  "neighborhood": "Times Square",
+  "borough": "Manhattan",
+  "calendar_url": "https://www.sonyhall.com/events",
+  "kind": "theater",
+  "needs_review": true,
+  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+ },
+ {
+  "name": "Irving Plaza",
+  "address": "17 Irving Pl, Manhattan",
+  "neighborhood": "Union Square",
+  "borough": "Manhattan",
+  "calendar_url": "https://www.irvingplaza.com/events",
+  "kind": "theater",
+  "needs_review": true,
+  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+ },
+ {
+  "name": "Warsaw",
+  "address": "261 Driggs Ave, Brooklyn",
+  "neighborhood": "Greenpoint",
+  "borough": "Brooklyn",
+  "calendar_url": "https://www.warsawconcerts.com/",
+  "kind": "theater",
+  "needs_review": true,
+  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+ },
+ {
+  "name": "Music Hall of Williamsburg",
+  "address": "66 N 6th St, Brooklyn",
+  "neighborhood": "Williamsburg",
+  "borough": "Brooklyn",
+  "calendar_url": "https://www.bowerypresents.com/venues/music-hall-of-williamsburg",
+  "kind": "theater",
+  "needs_review": true,
+  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+ },
+ {
+  "name": "Bowery Ballroom",
+  "address": "6 Delancey St, Manhattan",
+  "neighborhood": "Lower East Side",
+  "borough": "Manhattan",
+  "calendar_url": "https://www.bowerypresents.com/venues/bowery-ballroom",
+  "kind": "theater",
+  "needs_review": true,
+  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+ },
+ {
+  "name": "Le Poisson Rouge",
+  "address": "158 Bleecker St, Manhattan",
+  "neighborhood": "Greenwich Village",
+  "borough": "Manhattan",
+  "calendar_url": "https://lpr.com/calendar/",
+  "kind": "theater",
+  "needs_review": true,
+  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+ },
+ {
+  "name": "Apollo Theater",
+  "address": "253 W 125th St, Manhattan",
+  "neighborhood": "Harlem",
+  "borough": "Manhattan",
+  "calendar_url": "https://www.apollotheater.org/events/",
+  "kind": "theater",
+  "needs_review": true,
+  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+ },
+ {
+  "name": "Symphony Space",
+  "address": "2537 Broadway, Manhattan",
+  "neighborhood": "Upper West Side",
+  "borough": "Manhattan",
+  "calendar_url": "https://www.symphonyspace.org/events",
+  "kind": "theater",
+  "needs_review": true,
+  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+ },
+ {
+  "name": "92NY",
+  "address": "1395 Lexington Ave, Manhattan",
+  "neighborhood": "Upper East Side",
+  "borough": "Manhattan",
+  "calendar_url": "https://www.92ny.org/events",
+  "kind": "theater",
+  "needs_review": true,
+  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+ },
+ {
+  "name": "BAM (Brooklyn Academy of Music)",
+  "address": "30 Lafayette Ave, Brooklyn",
+  "neighborhood": "Fort Greene",
+  "borough": "Brooklyn",
+  "calendar_url": "https://www.bam.org/whats-on",
+  "kind": "theater",
+  "needs_review": true,
+  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+ },
+ {
+  "name": "Radio City Music Hall",
+  "address": "1260 6th Ave, Manhattan",
+  "neighborhood": "Midtown",
+  "borough": "Manhattan",
+  "calendar_url": "https://www.msg.com/radio-city-music-hall",
+  "kind": "theater",
+  "needs_review": true,
+  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
+ },
+ {
+  "name": "The Theater at Madison Square Garden",
+  "address": "4 Pennsylvania Plaza, Manhattan",
+  "neighborhood": "Midtown West",
+  "borough": "Manhattan",
+  "calendar_url": "https://www.msg.com/the-theater-at-msg",
+  "kind": "theater",
+  "needs_review": true,
+  "note": "Theater or concert hall that hosts touring comedy and New York Comedy Festival shows. Registered September 15, 2026 from public listings; confirm the calendar URL and neighborhood, and note the festival's use of the room."
  }
 ]

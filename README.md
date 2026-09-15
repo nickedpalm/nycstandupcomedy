@@ -28,6 +28,7 @@ functions/_middleware.js  serves the Markdown edition when a client asks for tex
 scripts/markdown.js  builds the Markdown edition and llms.txt into dist/ (run by npm run build)
 scripts/stamp.js     versions CSS and JS references in the built HTML (?v=hash) so browsers never serve a stale stylesheet
 web/404.html, web/_headers, web/.well-known/api-catalog
+editorial/            editorial policy and the hold-out list (checked by npm test, never published)
 scripts/check.js     data and source checks run by `npm test` and CI
 robots.txt, sitemap.xml
 POSTER-SOURCES.json  provenance for every piece of artwork in web/assets/posters
@@ -113,6 +114,10 @@ Posting: `npm run ig-post -- --tonight` publishes the cover plus tonight's cards
 ## Agents and crawlers
 
 The build writes a Markdown edition of every section (index.md, this-week.md, rooms.md, open-mics.md, clubs.md, neighborhoods.md) plus llms.txt into dist/ from the same JSON. A Pages middleware returns the Markdown version of a page when the request prefers `text/markdown`, with a Link header pointing at it either way. `/.well-known/api-catalog` (RFC 9727 linkset) lists the JSON data files, and `web/_headers` sets their content types and open CORS on /data/. A real 404 page means unknown paths no longer return the home page with a 200.
+
+## Editorial policy and hold-outs
+
+`editorial/EDITORIAL-POLICY.md` states what we promote and what we don't. `editorial/holdouts.json` is Nick's case-by-case list of names we do not list; `npm test` fails if a held-out name appears in any data file. Borderline cases go to Nick with a link and a sentence, unpublished. The list is never published.
 
 ## Newsletter
 

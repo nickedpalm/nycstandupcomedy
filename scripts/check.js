@@ -99,6 +99,16 @@ const venueCheck = (file, rows) => rows.forEach((r) => {
 });
 venueCheck('picks', picks); venueCheck('recurring', readJson('recurring.json')); venueCheck('open-mics', readJson('open-mics.json'));
 
+// Editorial hold-outs: a held-out name must not appear in any listing.
+try {
+  const holds = JSON.parse(fs.readFileSync(path.join(root, 'editorial', 'holdouts.json'), 'utf8')).holdouts || [];
+  const rows = [...picks.map((r) => ['picks', r]), ...readJson('recurring.json').map((r) => ['recurring', r]), ...readJson('open-mics.json').map((r) => ['open-mics', r]), ...readJson('clubs.json').map((r) => ['clubs', r])];
+  for (const h of holds) {
+    const re = new RegExp('\\b' + String(h.name).replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b', 'i');
+    rows.forEach(([file, r]) => { if (re.test([r.title, r.name, r.description, r.notes, r.character].filter(Boolean).join(' '))) fail(`${file} ${r.id}: names a held-out act (${h.name}); see editorial/EDITORIAL-POLICY.md`); });
+  }
+} catch (err) { fail(`editorial/holdouts.json: ${err.message}`); }
+
 // Poster sources must resolve to files.
 try {
   const posters = JSON.parse(fs.readFileSync(path.join(root, 'POSTER-SOURCES.json'), 'utf8'));

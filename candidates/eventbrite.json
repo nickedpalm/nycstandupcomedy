@@ -1,5 +1,5 @@
 {
- "retrieved_at": "2026-09-15T11:01:31.766Z",
+ "retrieved_at": "2026-09-15T13:25:14.000Z",
  "note": "Leads from Eventbrite organizer pages of registered rooms. Open the event page before adding a pick; artwork needs a POSTER-SOURCES record.",
  "organizers": [
   {
@@ -25,6 +25,14 @@
   {
    "venue": "The Gaf West",
    "organizer": "https://www.eventbrite.com/o/matt-a-10752062247"
+  },
+  {
+   "venue": "Comic Strip Live",
+   "organizer": "https://www.eventbrite.com/o/comic-strip-live-comedy-club-8100188167"
+  },
+  {
+   "venue": "Kellogg's Diner",
+   "organizer": "https://www.eventbrite.com/o/danny-metz-jackson-colvin-108104564651"
   }
  ],
  "events": [
@@ -65,6 +73,25 @@
    "venue_name_matches": true,
    "already_a_pick": true,
    "seen_before": true
+  },
+  {
+   "venue": "Comic Strip Live",
+   "neighborhood": "Upper East Side",
+   "organizer": "https://www.eventbrite.com/o/comic-strip-live-comedy-club-8100188167",
+   "title": "Jim Mendrinos, Jack Barth, Mia Jackson, Nick Tilleli, Feraz Shere!",
+   "date": "2026-09-15",
+   "time": "8pm",
+   "starts_at": "2026-09-15T20:00:00-04:00",
+   "ends_at": "2026-09-15",
+   "location_name": "Comic Strip Live",
+   "location_address": "1568 2nd Ave, New York, NY 10028, New York",
+   "price_from": 25.71,
+   "url": "https://www.eventbrite.com/e/jim-mendrinos-jack-barth-mia-jackson-nick-tilleli-feraz-shere-tickets-1998675505239",
+   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191706576%2F136153380524%2F1%2Foriginal.20260823-182118?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.506&fp-y=0.261&s=270389e93e6a7f8c26f5b686c7929dd5",
+   "description": "Be part of history, celebrating 50 years of Comedy at the World Comic Strip! Comedians from, HBO, The Tonight Show, SNL & More ~",
+   "venue_name_matches": true,
+   "already_a_pick": false,
+   "seen_before": false
   },
   {
    "venue": "Caveat",
@@ -124,6 +151,25 @@
    "seen_before": true
   },
   {
+   "venue": "Comic Strip Live",
+   "neighborhood": "Upper East Side",
+   "organizer": "https://www.eventbrite.com/o/comic-strip-live-comedy-club-8100188167",
+   "title": "Sheba Mason, Caroline Hanes, Jason Salmon, Nick Griffin, Mike Yard, more!",
+   "date": "2026-09-16",
+   "time": "8pm",
+   "starts_at": "2026-09-16T20:00:00-04:00",
+   "ends_at": "2026-09-16",
+   "location_name": "Comic Strip Live",
+   "location_address": "1568 2nd Ave, New York, NY 10028, New York",
+   "price_from": 25.71,
+   "url": "https://www.eventbrite.com/e/sheba-mason-caroline-hanes-jason-salmon-nick-griffin-mike-yard-more-tickets-1998675514266",
+   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191706604%2F136153380524%2F1%2Foriginal.20260823-182137?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.506&fp-y=0.247&s=dbb9bae0ccd1ea53a9bcbdeeebc6633c",
+   "description": "Be part of history, celebrating 50 years of Comedy at the World Comic Strip! Comedians from, HBO, The Tonight Show, SNL & More ~",
+   "venue_name_matches": true,
+   "already_a_pick": false,
+   "seen_before": false
+  },
+  {
    "venue": "Caveat",
    "neighborhood": "Lower East Side",
    "organizer": "https://www.eventbrite.com/o/caveat-13580085802",
@@ -160,6 +206,25 @@
    "venue_name_matches": true,
    "already_a_pick": true,
    "seen_before": true
+  },
+  {
+   "venue": "Kellogg's Diner",
+   "neighborhood": "Williamsburg",
+   "organizer": "https://www.eventbrite.com/o/danny-metz-jackson-colvin-108104564651",
+   "title": "Standup Comedy (After Dark) at Kellogg's Diner",
+   "date": "2026-09-16",
+   "time": "11pm",
+   "starts_at": "2026-09-16T23:00:00-04:00",
+   "ends_at": "2026-09-17T00:00:00-04:00",
+   "location_name": "Kellogg’s Diner",
+   "location_address": "518 Metropolitan Avenue, Brooklyn, NY 11211, Brooklyn",
+   "price_from": 10,
+   "url": "https://www.eventbrite.com/e/standup-comedy-after-dark-at-kelloggs-diner-tickets-1999800514171",
+   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192096645%2F2660386777661%2F1%2Foriginal.20260828-052349?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.477&fp-y=0.237&s=3f6b107e8ef44bbdd30d50ed05b9fe18",
+   "description": "NYC’s Best Comics Take Over Kellogg’s Diner — Every Wednesday Night at 11PM!",
+   "venue_name_matches": false,
+   "already_a_pick": false,
+   "seen_before": false
   },
   {
    "venue": "Caveat",
@@ -217,6 +282,25 @@
    "venue_name_matches": true,
    "already_a_pick": false,
    "seen_before": true
+  },
+  {
+   "venue": "Comic Strip Live",
+   "neighborhood": "Upper East Side",
+   "organizer": "https://www.eventbrite.com/o/comic-strip-live-comedy-club-8100188167",
+   "title": "The Andy Engel Show!",
+   "date": "2026-09-17",
+   "time": "8pm",
+   "starts_at": "2026-09-17T20:00:00-04:00",
+   "ends_at": "2026-09-17",
+   "location_name": "Comic Strip Live",
+   "location_address": "1568 2nd Ave, New York, NY 10028, New York",
+   "price_from": 25.71,
+   "url": "https://www.eventbrite.com/e/the-andy-engel-show-tickets-1998677825178",
+   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191707086%2F136153380524%2F1%2Foriginal.20260823-183033?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.315&fp-y=0.239&s=e862c288ba47b48edc596e794b01e691",
+   "description": "Be part of history, celebrating 50 years of Comedy at the World Comic Strip! Comedians from, HBO, The Tonight Show, SNL & More ~",
+   "venue_name_matches": true,
+   "already_a_pick": false,
+   "seen_before": false
   },
   {
    "venue": "Caveat",
@@ -314,6 +398,25 @@
    "seen_before": true
   },
   {
+   "venue": "Comic Strip Live",
+   "neighborhood": "Upper East Side",
+   "organizer": "https://www.eventbrite.com/o/comic-strip-live-comedy-club-8100188167",
+   "title": "Tom Van Horn, Elyse Delucci, Connor O'Brien, Nick Griffin, & Gregg Rogell!",
+   "date": "2026-09-18",
+   "time": "8pm",
+   "starts_at": "2026-09-18T20:00:00-04:00",
+   "ends_at": "2026-09-18",
+   "location_name": "Comic Strip Live",
+   "location_address": "1568 2nd Ave, New York, NY 10028, New York",
+   "price_from": 25.71,
+   "url": "https://www.eventbrite.com/e/tom-van-horn-elyse-delucci-connor-obrien-nick-griffin-gregg-rogell-tickets-1998677840223",
+   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191707094%2F136153380524%2F1%2Foriginal.20260823-183054?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.604&fp-y=0.235&s=9d9f1c86c9cdfa493cabae170497be1f",
+   "description": "Be part of history, celebrating 50 years of Comedy at the World Comic Strip! Comedians from, HBO, The Tonight Show, SNL & More ~",
+   "venue_name_matches": true,
+   "already_a_pick": false,
+   "seen_before": false
+  },
+  {
    "venue": "Caveat",
    "neighborhood": "Lower East Side",
    "organizer": "https://www.eventbrite.com/o/caveat-13580085802",
@@ -386,8 +489,8 @@
    "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191296072%2F282041210522%2F1%2Foriginal.20260818-003920?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=162f9a9d4fd6f49150c9e21caeb700ec",
    "description": "Taylor Tomlinson: Tries Out New Ideas - Saturday, September 19 - 4:30pm Doors / 5:00pm Show",
    "venue_name_matches": true,
-   "already_a_pick": false,
-   "seen_before": false
+   "already_a_pick": true,
+   "seen_before": true
   },
   {
    "venue": "Littlefield",
@@ -424,6 +527,25 @@
    "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191296217%2F282041210522%2F1%2Foriginal.20260818-004126?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=33273f9fd4996098d42815fd17491234",
    "description": "Taylor Tomlinson: Tries Out New Ideas - Saturday, September 19 - 7:00pm Doors / 7:30pm Show",
    "venue_name_matches": true,
+   "already_a_pick": true,
+   "seen_before": true
+  },
+  {
+   "venue": "Comic Strip Live",
+   "neighborhood": "Upper East Side",
+   "organizer": "https://www.eventbrite.com/o/comic-strip-live-comedy-club-8100188167",
+   "title": "Tom Van Horn, Elyse Delucci, Connor O'Brien, Mike Yard, & Joe Matarese!",
+   "date": "2026-09-19",
+   "time": "8pm",
+   "starts_at": "2026-09-19T20:00:00-04:00",
+   "ends_at": "2026-09-19",
+   "location_name": "Comic Strip Live",
+   "location_address": "1568 2nd Ave, New York, NY 10028, New York",
+   "price_from": 25.71,
+   "url": "https://www.eventbrite.com/e/tom-van-horn-elyse-delucci-connor-obrien-mike-yard-joe-matarese-tickets-1998677847244",
+   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191707108%2F136153380524%2F1%2Foriginal.20260823-183119?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.487&fp-y=0.188&s=7ebae8afa0a2f02dcbffedc996fa9417",
+   "description": "Be part of history, celebrating 50 years of Comedy at the World Comic Strip! Comedians from, HBO, The Tonight Show, SNL & More ~",
+   "venue_name_matches": true,
    "already_a_pick": false,
    "seen_before": false
   },
@@ -445,6 +567,25 @@
    "venue_name_matches": true,
    "already_a_pick": true,
    "seen_before": true
+  },
+  {
+   "venue": "Comic Strip Live",
+   "neighborhood": "Upper East Side",
+   "organizer": "https://www.eventbrite.com/o/comic-strip-live-comedy-club-8100188167",
+   "title": "Tom Van Horn, Elyse Delucci, Connor O'Brien, Mike Yard, & Joe Matarese!",
+   "date": "2026-09-19",
+   "time": "10:30pm",
+   "starts_at": "2026-09-19T22:30:00-04:00",
+   "ends_at": "2026-09-19",
+   "location_name": "Comic Strip Live",
+   "location_address": "1568 2nd Ave, New York, NY 10028, New York",
+   "price_from": 25.71,
+   "url": "https://www.eventbrite.com/e/tom-van-horn-elyse-delucci-connor-obrien-mike-yard-joe-matarese-tickets-1998678794076",
+   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191707731%2F136153380524%2F1%2Foriginal.20260823-184143?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=abe910920f69bb38301a99a100d740d1",
+   "description": "Be part of history, celebrating 50 years of Comedy at the World Comic Strip! Comedians from, HBO, The Tonight Show, SNL & More ~",
+   "venue_name_matches": true,
+   "already_a_pick": false,
+   "seen_before": false
   },
   {
    "venue": "Caveat",
@@ -504,6 +645,25 @@
    "seen_before": true
   },
   {
+   "venue": "Comic Strip Live",
+   "neighborhood": "Upper East Side",
+   "organizer": "https://www.eventbrite.com/o/comic-strip-live-comedy-club-8100188167",
+   "title": "DF Sweedler, Jason Choi, Caroline Hanes, Feraz Shere, & Kyle Mara!",
+   "date": "2026-09-20",
+   "time": "8pm",
+   "starts_at": "2026-09-20T20:00:00-04:00",
+   "ends_at": "2026-09-20",
+   "location_name": "Comic Strip Live",
+   "location_address": "1568 2nd Ave, New York, NY 10028, New York",
+   "price_from": 25.71,
+   "url": "https://www.eventbrite.com/e/df-sweedler-jason-choi-caroline-hanes-feraz-shere-kyle-mara-tickets-1998677856271",
+   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191707169%2F136153380524%2F1%2Foriginal.20260823-183214?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.444&fp-y=0.278&s=3754225149dd64433d839aa03fdbf34a",
+   "description": "Be part of history, celebrating 50 years of Comedy at the World Comic Strip! Comedians from, HBO, The Tonight Show, SNL & More ~",
+   "venue_name_matches": true,
+   "already_a_pick": false,
+   "seen_before": false
+  },
+  {
    "venue": "Caveat",
    "neighborhood": "Lower East Side",
    "organizer": "https://www.eventbrite.com/o/caveat-13580085802",
@@ -519,8 +679,8 @@
    "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189092009%2F207096185123%2F1%2Foriginal.20260717-191724?w=940&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=4bf26b475ce61c92c80513164aa5d986",
    "description": "Actors are given a scene & learn their lines, improvisers are given nothing & must make it work.",
    "venue_name_matches": true,
-   "already_a_pick": false,
-   "seen_before": false
+   "already_a_pick": true,
+   "seen_before": true
   },
   {
    "venue": "Littlefield",
@@ -542,6 +702,25 @@
    "seen_before": true
   },
   {
+   "venue": "Comic Strip Live",
+   "neighborhood": "Upper East Side",
+   "organizer": "https://www.eventbrite.com/o/comic-strip-live-comedy-club-8100188167",
+   "title": "Christian Finnegan!",
+   "date": "2026-09-21",
+   "time": "8pm",
+   "starts_at": "2026-09-21T20:00:00-04:00",
+   "ends_at": "2026-09-21",
+   "location_name": "Comic Strip Live",
+   "location_address": "1568 2nd Ave, New York, NY 10028, New York",
+   "price_from": 25.71,
+   "url": "https://www.eventbrite.com/e/christian-finnegan-tickets-1998677862289",
+   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191707196%2F136153380524%2F1%2Foriginal.20260823-183249?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.471&fp-y=0.343&s=89e5dc3ff30d1036cbc41bdf3492154f",
+   "description": "Be part of history, celebrating 50 years of Comedy at the World Comic Strip! Comedians from, HBO, The Tonight Show, SNL & More ~",
+   "venue_name_matches": true,
+   "already_a_pick": false,
+   "seen_before": false
+  },
+  {
    "venue": "Littlefield",
    "neighborhood": "Gowanus",
    "organizer": "https://www.eventbrite.com/o/littlefield-18046024060",
@@ -559,6 +738,25 @@
    "venue_name_matches": true,
    "already_a_pick": false,
    "seen_before": true
+  },
+  {
+   "venue": "Comic Strip Live",
+   "neighborhood": "Upper East Side",
+   "organizer": "https://www.eventbrite.com/o/comic-strip-live-comedy-club-8100188167",
+   "title": "Mike Burton, Subhah Agarwal, Meghan Hanley, Matt Pavich, Kareem Green, more",
+   "date": "2026-09-22",
+   "time": "8pm",
+   "starts_at": "2026-09-22T20:00:00-04:00",
+   "ends_at": "2026-09-22",
+   "location_name": "Comic Strip Live",
+   "location_address": "1568 2nd Ave, New York, NY 10028, New York",
+   "price_from": 25.71,
+   "url": "https://www.eventbrite.com/e/mike-burton-subhah-agarwal-meghan-hanley-matt-pavich-kareem-green-more-tickets-1998677871316",
+   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191707213%2F136153380524%2F1%2Foriginal.20260823-183308?w=940&auto=format%2Ccompress&q=75&sharp=10&s=a5e8999a9c9f1af1bb0b4053bc90d56f",
+   "description": "Be part of history, celebrating 50 years of Comedy at the World Comic Strip! Comedians from, HBO, The Tonight Show, SNL & More ~",
+   "venue_name_matches": true,
+   "already_a_pick": false,
+   "seen_before": false
   },
   {
    "venue": "Littlefield",
@@ -580,6 +778,44 @@
    "seen_before": true
   },
   {
+   "venue": "Comic Strip Live",
+   "neighborhood": "Upper East Side",
+   "organizer": "https://www.eventbrite.com/o/comic-strip-live-comedy-club-8100188167",
+   "title": "Mike Burton, Al Lubel, Mia Jackson, Tobin Miller, Nick Tilleli, JJ Ramirez!",
+   "date": "2026-09-23",
+   "time": "8pm",
+   "starts_at": "2026-09-23T20:00:00-04:00",
+   "ends_at": "2026-09-23",
+   "location_name": "Comic Strip Live",
+   "location_address": "1568 2nd Ave, New York, NY 10028, New York",
+   "price_from": 25.71,
+   "url": "https://www.eventbrite.com/e/mike-burton-al-lubel-mia-jackson-tobin-miller-nick-tilleli-jj-ramirez-tickets-1998677877334",
+   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191711303%2F136153380524%2F1%2Foriginal.20260823-194212?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.564&fp-y=0.185&s=845d0b995eab6c7af076c97d36a8fcd7",
+   "description": "Be part of history, celebrating 50 years of Comedy at the World Comic Strip! Comedians from, HBO, The Tonight Show, SNL & More ~",
+   "venue_name_matches": true,
+   "already_a_pick": false,
+   "seen_before": false
+  },
+  {
+   "venue": "Comic Strip Live",
+   "neighborhood": "Upper East Side",
+   "organizer": "https://www.eventbrite.com/o/comic-strip-live-comedy-club-8100188167",
+   "title": "Gladys Presents! With Connor O\"Brien!",
+   "date": "2026-09-24",
+   "time": "8pm",
+   "starts_at": "2026-09-24T20:00:00-04:00",
+   "ends_at": "2026-09-24",
+   "location_name": "Comic Strip Live",
+   "location_address": "1568 2nd Ave, New York, NY 10028, New York",
+   "price_from": 25.71,
+   "url": "https://www.eventbrite.com/e/gladys-presents-with-connor-obrien-tickets-1998677882349",
+   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191707334%2F136153380524%2F1%2Foriginal.20260823-183453?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a06a2609b587bac928987a2b5390ddfb",
+   "description": "Be part of history, celebrating 50 years of Comedy at the World Comic Strip! Comedians from, HBO, The Tonight Show, SNL & More ~",
+   "venue_name_matches": true,
+   "already_a_pick": false,
+   "seen_before": false
+  },
+  {
    "venue": "Littlefield",
    "neighborhood": "Gowanus",
    "organizer": "https://www.eventbrite.com/o/littlefield-18046024060",
@@ -599,6 +835,25 @@
    "seen_before": true
   },
   {
+   "venue": "Comic Strip Live",
+   "neighborhood": "Upper East Side",
+   "organizer": "https://www.eventbrite.com/o/comic-strip-live-comedy-club-8100188167",
+   "title": "Tobin Miller, Caroline Hanes, Don Jamieson, Nick Griffin, & JJ Ramirez!",
+   "date": "2026-09-25",
+   "time": "8pm",
+   "starts_at": "2026-09-25T20:00:00-04:00",
+   "ends_at": "2026-09-25",
+   "location_name": "Comic Strip Live",
+   "location_address": "1568 2nd Ave, New York, NY 10028, New York",
+   "price_from": 25.71,
+   "url": "https://www.eventbrite.com/e/tobin-miller-caroline-hanes-don-jamieson-nick-griffin-jj-ramirez-tickets-1998677887364",
+   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191707364%2F136153380524%2F1%2Foriginal.20260823-183519?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d6fc7bb28c9f0f94a06053e28481c5a1",
+   "description": "Be part of history, celebrating 50 years of Comedy at the World Comic Strip! Comedians from, HBO, The Tonight Show, SNL & More ~",
+   "venue_name_matches": true,
+   "already_a_pick": false,
+   "seen_before": false
+  },
+  {
    "venue": "Littlefield",
    "neighborhood": "Gowanus",
    "organizer": "https://www.eventbrite.com/o/littlefield-18046024060",
@@ -614,8 +869,8 @@
    "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191476776%2F400863417153%2F1%2Foriginal.20260820-004849?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.031&fp-y=0.218&s=a87305338497eda21c40354231edbbe8",
    "description": "The most lore filled late-night comedy show in NYC, with your host with the most Kat Smith!",
    "venue_name_matches": true,
-   "already_a_pick": false,
-   "seen_before": false
+   "already_a_pick": true,
+   "seen_before": true
   }
  ],
  "errors": []
