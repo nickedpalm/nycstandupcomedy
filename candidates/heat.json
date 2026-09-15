@@ -1,0 +1,417 @@
+{
+ "generated_at": "2026-09-15T00:13:35.875Z",
+ "note": "Demand signals for the editor. Only availability and second shows set the public demand tag.",
+ "picks": [
+  {
+   "id": "richard-perez-2026-09-15-2200",
+   "title": "Richard Perez: For One Night Okay",
+   "venue": "Union Hall",
+   "date": "2026-09-15",
+   "heat": 100,
+   "demand": "sold_out",
+   "availability": "SoldOut",
+   "second_show": false,
+   "performer": "Richard Perez",
+   "wikipedia": null,
+   "reasons": [
+    "sold out on the ticket page"
+   ]
+  },
+  {
+   "id": "backroom-comedy-judah-friedlander-2026-09-14",
+   "title": "Backroom Comedy ft. Judah Friedlander, Dan St. Germain, Sam Kochman, Michael Brigante, Malorie Bryant",
+   "venue": "New York Comedy Club (Midtown)",
+   "date": "2026-09-14",
+   "heat": 0,
+   "demand": null,
+   "availability": null,
+   "second_show": false,
+   "performer": null,
+   "wikipedia": null,
+   "reasons": []
+  },
+  {
+   "id": "rachel-kaly-2026-09-14-2200",
+   "title": "Rachel Kaly: Between Us (A Crowd Work Show)",
+   "venue": "Union Hall",
+   "date": "2026-09-14",
+   "heat": 0,
+   "demand": null,
+   "availability": "InStock",
+   "second_show": false,
+   "performer": "Rachel Kaly",
+   "wikipedia": {
+    "title": "Rachel Kaly",
+    "views_30d": 1755,
+    "views_prior_30d": 2283,
+    "change": -23
+   },
+   "reasons": [
+    "tickets available"
+   ]
+  },
+  {
+   "id": "laugh-union-hall-2026-09-15",
+   "title": "LAUGH",
+   "venue": "Union Hall",
+   "date": "2026-09-15",
+   "heat": 0,
+   "demand": null,
+   "availability": "InStock",
+   "second_show": false,
+   "performer": null,
+   "wikipedia": null,
+   "reasons": [
+    "tickets available"
+   ]
+  },
+  {
+   "id": "stamptown-2026-09-15",
+   "title": "Stamptown",
+   "venue": "The Bell House",
+   "date": "2026-09-15",
+   "heat": 0,
+   "demand": null,
+   "availability": null,
+   "second_show": false,
+   "performer": null,
+   "wikipedia": null,
+   "reasons": []
+  },
+  {
+   "id": "invisible-architecture-2026-09-16-1930",
+   "title": "Invisible Architecture: An Evening of Comedy with Charlie Flynn",
+   "venue": "Union Hall",
+   "date": "2026-09-16",
+   "heat": 0,
+   "demand": null,
+   "availability": "InStock",
+   "second_show": false,
+   "performer": "Invisible Architecture",
+   "wikipedia": null,
+   "reasons": [
+    "tickets available"
+   ]
+  },
+  {
+   "id": "jamie-wolf-2026-09-16-2200",
+   "title": "Jamie Wolf: Psycho",
+   "venue": "Union Hall",
+   "date": "2026-09-16",
+   "heat": 0,
+   "demand": null,
+   "availability": "InStock",
+   "second_show": false,
+   "performer": "Jamie Wolf",
+   "wikipedia": null,
+   "reasons": [
+    "tickets available"
+   ]
+  },
+  {
+   "id": "it-is-good-to-be-here-wscc-2026-09-17",
+   "title": "It Is Good To Be Here: Alyssa Wolff and Noah Savage",
+   "venue": "West Side Comedy Club",
+   "date": "2026-09-17",
+   "heat": 0,
+   "demand": null,
+   "availability": null,
+   "second_show": false,
+   "performer": null,
+   "wikipedia": null,
+   "reasons": []
+  },
+  {
+   "id": "jenny-tian-2026-09-17",
+   "title": "Jenny Tian: Ripe",
+   "venue": "The Bell House",
+   "date": "2026-09-17",
+   "heat": 0,
+   "demand": null,
+   "availability": null,
+   "second_show": false,
+   "performer": "Jenny Tian",
+   "wikipedia": {
+    "title": "Jenny Tian",
+    "views_30d": 3235,
+    "views_prior_30d": 4447,
+    "change": -27
+   },
+   "reasons": []
+  },
+  {
+   "id": "looking-for-laughs-caveat-2026-09-18",
+   "title": "Looking for Laughs",
+   "venue": "Caveat",
+   "date": "2026-09-18",
+   "heat": 0,
+   "demand": null,
+   "availability": "InStock",
+   "second_show": false,
+   "performer": null,
+   "wikipedia": null,
+   "reasons": [
+    "tickets available"
+   ]
+  },
+  {
+   "id": "a-drinking-game-nyc-2026-09-18",
+   "title": "A Drinking Game NYC: Practical Magic",
+   "venue": "The Bell House",
+   "date": "2026-09-18",
+   "heat": 0,
+   "demand": null,
+   "availability": null,
+   "second_show": false,
+   "performer": null,
+   "wikipedia": null,
+   "reasons": []
+  },
+  {
+   "id": "the-gaspare-randazzo-show-2026-09-18",
+   "title": "The Gaspare Randazzo Show w/ Opener Frank Favia",
+   "venue": "Littlefield",
+   "date": "2026-09-18",
+   "heat": 0,
+   "demand": null,
+   "availability": null,
+   "second_show": false,
+   "performer": null,
+   "wikipedia": null,
+   "reasons": []
+  },
+  {
+   "id": "leonard-ouzts-comedy-in-harlem-2026-09-18",
+   "title": "Leonard Ouzts",
+   "venue": "Comedy In Harlem",
+   "date": "2026-09-18",
+   "heat": 0,
+   "demand": null,
+   "availability": null,
+   "second_show": false,
+   "performer": "Leonard Ouzts",
+   "wikipedia": null,
+   "reasons": []
+  },
+  {
+   "id": "sophie-buddle-2026-09-18",
+   "title": "Sophie Buddle",
+   "venue": "Union Hall",
+   "date": "2026-09-18",
+   "heat": 0,
+   "demand": null,
+   "availability": "InStock",
+   "second_show": false,
+   "performer": "Sophie Buddle",
+   "wikipedia": {
+    "title": "Sophie Buddle",
+    "views_30d": 738,
+    "views_prior_30d": 1269,
+    "change": -42
+   },
+   "reasons": [
+    "tickets available"
+   ]
+  },
+  {
+   "id": "jokes-and-jranks-justin-lamar-comedy-in-harlem-2026-09-19",
+   "title": "Jokes & Jranks Live with Justin Lamar",
+   "venue": "Comedy In Harlem",
+   "date": "2026-09-19",
+   "heat": 0,
+   "demand": null,
+   "availability": null,
+   "second_show": false,
+   "performer": null,
+   "wikipedia": null,
+   "reasons": []
+  },
+  {
+   "id": "sam-taggart-2026-09-19",
+   "title": "Sam Taggart: Special Taping",
+   "venue": "The Bell House",
+   "date": "2026-09-19",
+   "heat": 0,
+   "demand": null,
+   "availability": null,
+   "second_show": false,
+   "performer": "Sam Taggart",
+   "wikipedia": null,
+   "reasons": []
+  },
+  {
+   "id": "fun-in-moderation-2026-09-19",
+   "title": "Fun in Moderation: Sketch Comedy",
+   "venue": "Caveat",
+   "date": "2026-09-19",
+   "heat": 0,
+   "demand": null,
+   "availability": "InStock",
+   "second_show": false,
+   "performer": null,
+   "wikipedia": null,
+   "reasons": [
+    "tickets available"
+   ]
+  },
+  {
+   "id": "obey-in-advance-2026-09-20",
+   "title": "Obey in Advance: Book Launch Party",
+   "venue": "Caveat",
+   "date": "2026-09-20",
+   "heat": 0,
+   "demand": null,
+   "availability": "InStock",
+   "second_show": false,
+   "performer": null,
+   "wikipedia": null,
+   "reasons": [
+    "tickets available"
+   ]
+  },
+  {
+   "id": "josh-sharp-2026-09-20",
+   "title": "Josh Sharp: An Hour of Crowd Work in the Round",
+   "venue": "The Bell House",
+   "date": "2026-09-20",
+   "heat": 0,
+   "demand": null,
+   "availability": null,
+   "second_show": false,
+   "performer": "Josh Sharp",
+   "wikipedia": {
+    "title": "Josh Sharp",
+    "views_30d": 1104,
+    "views_prior_30d": 1090,
+    "change": 1
+   },
+   "reasons": []
+  },
+  {
+   "id": "climate-town-2026-09-21",
+   "title": "Climate Town & Amy Westervelt Live",
+   "venue": "The Bell House",
+   "date": "2026-09-21",
+   "heat": 0,
+   "demand": null,
+   "availability": null,
+   "second_show": false,
+   "performer": null,
+   "wikipedia": null,
+   "reasons": []
+  },
+  {
+   "id": "marcel-lucont-whine-list-2026-09-21",
+   "title": "Marcel Lucont's Whine List",
+   "venue": "Caveat",
+   "date": "2026-09-21",
+   "heat": 0,
+   "demand": null,
+   "availability": "InStock",
+   "second_show": false,
+   "performer": null,
+   "wikipedia": null,
+   "reasons": [
+    "tickets available"
+   ]
+  },
+  {
+   "id": "the-bisque-comedy-for-charity-2026-09-22",
+   "title": "The Bisque: Comedy for Charity",
+   "venue": "Caveat",
+   "date": "2026-09-22",
+   "heat": 0,
+   "demand": null,
+   "availability": "InStock",
+   "second_show": false,
+   "performer": "The Bisque",
+   "wikipedia": null,
+   "reasons": [
+    "tickets available"
+   ]
+  },
+  {
+   "id": "david-nihill-2026-09-23",
+   "title": "David Nihill: Taking Tangents Tour",
+   "venue": "The Bell House",
+   "date": "2026-09-23",
+   "heat": 0,
+   "demand": null,
+   "availability": null,
+   "second_show": false,
+   "performer": "David Nihill",
+   "wikipedia": null,
+   "reasons": []
+  },
+  {
+   "id": "wits-end-jay-jurden-vs-chloe-radcliffe-2026-09-23",
+   "title": "WITS END: Jay Jurden vs. Chloe Radcliffe | Comedy Trivia Gameshow",
+   "venue": "Littlefield",
+   "date": "2026-09-23",
+   "heat": 0,
+   "demand": null,
+   "availability": null,
+   "second_show": false,
+   "performer": null,
+   "wikipedia": null,
+   "reasons": []
+  },
+  {
+   "id": "vidura-rajapaksa-2026-09-24",
+   "title": "Vidura Bandara Rajapaksa: The Paradise Gothic Tour",
+   "venue": "The Bell House",
+   "date": "2026-09-24",
+   "heat": 0,
+   "demand": null,
+   "availability": null,
+   "second_show": false,
+   "performer": "Vidura Bandara Rajapaksa",
+   "wikipedia": null,
+   "reasons": []
+  },
+  {
+   "id": "bell-house-stand-up-showcase-2026-09-25",
+   "title": "The Bell House Stand Up Showcase",
+   "venue": "The Bell House",
+   "date": "2026-09-25",
+   "heat": 0,
+   "demand": null,
+   "availability": null,
+   "second_show": false,
+   "performer": null,
+   "wikipedia": null,
+   "reasons": []
+  },
+  {
+   "id": "beth-stelling-let-me-get-loose-2026-09-26",
+   "title": "Beth Stelling: Let Me Get Loose",
+   "venue": "The Bell House",
+   "date": "2026-09-26",
+   "heat": 0,
+   "demand": null,
+   "availability": null,
+   "second_show": false,
+   "performer": "Beth Stelling",
+   "wikipedia": {
+    "title": "Beth Stelling",
+    "views_30d": 2892,
+    "views_prior_30d": 3394,
+    "change": -15
+   },
+   "reasons": []
+  },
+  {
+   "id": "kevin-sullivan-2026-09-27",
+   "title": "Kevin Sullivan",
+   "venue": "The Bell House",
+   "date": "2026-09-27",
+   "heat": 0,
+   "demand": null,
+   "availability": null,
+   "second_show": false,
+   "performer": "Kevin Sullivan",
+   "wikipedia": null,
+   "reasons": []
+  }
+ ]
+}

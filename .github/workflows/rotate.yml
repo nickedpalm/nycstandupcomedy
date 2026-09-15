@@ -14,6 +14,7 @@ jobs:
         with:
           node-version: 22
       - run: npm run rotate
+      - run: npm run heat || echo "heat check skipped"
       - run: npm test
       - name: Commit and push if anything moved
         run: |
@@ -21,5 +22,5 @@ jobs:
           git config user.name "standupcomedynyc rotate"
           git config user.email "rotate@standupcomedynyc.com"
           git add -A
-          git commit -m "Rotate expired picks into the archive ($(date -u +%F))"
+          git commit -m "Nightly: rotate expired picks, refresh demand tags ($(date -u +%F))"
           git push

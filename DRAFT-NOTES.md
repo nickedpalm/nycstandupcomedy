@@ -87,3 +87,6 @@ Nick: only four neighborhoods showed. Cause: the filter and the Neighborhoods pa
 
 ## Cache-busting — September 14, 2026
 Nick saw the new Neighborhoods page painted with the old stylesheet: Cloudflare serves CSS and JS with a four-hour cache, HTML with none, so a redesign could load against stale styles. scripts/stamp.js now rewrites every stylesheet and script reference in the built HTML with a content hash (?v=…) during npm run build, so changed assets get a new URL on the next page load.
+
+## Heat score and demand tags — September 14, 2026
+scripts/heat.js scores each upcoming pick from readable signals: Eventbrite availability (structured data), a second show the same night at the same room (picks plus Eventbrite leads, matched by Eventbrite id so the same event under two URLs does not count twice), Wikipedia pageviews for touring names, and bookings this month. Reasons are written to candidates/heat.json for Mazzie. Readers only see two outcomes: a "Sold out" or "Going fast" tag on the listing row and the pinned card, and the same words in the Markdown edition. First run: Richard Perez at Union Hall (Sep 15) sold out. The nightly GitHub Actions job refreshes the tags after rotation; Mazzie's edition runs it and reports hot picks. Reddit, Instagram and Ticketmaster are closed to unauthenticated reads, so no sentiment is inferred from social posts.

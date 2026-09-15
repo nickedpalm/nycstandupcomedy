@@ -16,7 +16,9 @@
   "verified_at": "2026-09-14",
   "description": "NYCC's Monday night showcase with Judah Friedlander, Dan St. Germain, Sam Kochman, Michael Brigante, and Malorie Bryant.",
   "featured": false,
-  "tier": "special"
+  "tier": "special",
+  "demand": null,
+  "demand_checked": "2026-09-15"
  },
  {
   "id": "rachel-kaly-2026-09-14-2200",
@@ -44,7 +46,9 @@
    "kind": "undated official promotional artwork"
   },
   "featured": false,
-  "tier": "special"
+  "tier": "special",
+  "demand": null,
+  "demand_checked": "2026-09-15"
  },
  {
   "id": "laugh-union-hall-2026-09-15",
@@ -72,7 +76,9 @@
    "credit": "Artwork: Union Hall / show organizer",
    "alt": "LAUGH at Union Hall promotional artwork.",
    "kind": "dated event flyer"
-  }
+  },
+  "demand": null,
+  "demand_checked": "2026-09-15"
  },
  {
   "id": "stamptown-2026-09-15",
@@ -100,7 +106,9 @@
    "credit": "Artwork: The Bell House / show organizer",
    "alt": "Stamptown promotional artwork.",
    "kind": "dated event flyer"
-  }
+  },
+  "demand": null,
+  "demand_checked": "2026-09-15"
  },
  {
   "id": "richard-perez-2026-09-15-2200",
@@ -128,7 +136,9 @@
    "kind": "undated official promotional artwork"
   },
   "featured": false,
-  "tier": "special"
+  "tier": "special",
+  "demand": "sold_out",
+  "demand_checked": "2026-09-15"
  },
  {
   "id": "invisible-architecture-2026-09-16-1930",
@@ -156,7 +166,9 @@
    "credit": "Artwork: Union Hall / show organizer",
    "alt": "Invisible Architecture: An Evening of Comedy with Charlie Flynn promotional artwork.",
    "kind": "dated event flyer"
-  }
+  },
+  "demand": null,
+  "demand_checked": "2026-09-15"
  },
  {
   "id": "jamie-wolf-2026-09-16-2200",
@@ -184,7 +196,9 @@
    "credit": "Artwork: Union Hall / show organizer",
    "alt": "Jamie Wolf: Psycho promotional artwork.",
    "kind": "dated event flyer"
-  }
+  },
+  "demand": null,
+  "demand_checked": "2026-09-15"
  },
  {
   "id": "it-is-good-to-be-here-wscc-2026-09-17",
@@ -203,7 +217,9 @@
   "verified_at": "2026-09-14",
   "description": "Married stand-ups Noah Savage (ESPN) and Alyssa Wolff host a monthly showcase at West Side Comedy Club with their favorite working comics.",
   "featured": false,
-  "tier": "special"
+  "tier": "special",
+  "demand": null,
+  "demand_checked": "2026-09-15"
  },
  {
   "id": "jenny-tian-2026-09-17",
@@ -231,7 +247,9 @@
    "credit": "Artwork: The Bell House / show organizer",
    "alt": "Jenny Tian: Ripe promotional artwork.",
    "kind": "dated event flyer"
-  }
+  },
+  "demand": null,
+  "demand_checked": "2026-09-15"
  },
  {
   "id": "looking-for-laughs-caveat-2026-09-18",
@@ -259,7 +277,9 @@
    "credit": "Artwork: Caveat / show organizer",
    "alt": "Looking for Laughs promotional artwork.",
    "kind": "dated event flyer"
-  }
+  },
+  "demand": null,
+  "demand_checked": "2026-09-15"
  },
  {
   "id": "a-drinking-game-nyc-2026-09-18",
@@ -287,7 +307,9 @@
    "credit": "Artwork: The Bell House / show organizer",
    "alt": "A Drinking Game NYC: Practical Magic promotional artwork.",
    "kind": "dated event flyer"
-  }
+  },
+  "demand": null,
+  "demand_checked": "2026-09-15"
  },
  {
   "id": "the-gaspare-randazzo-show-2026-09-18",
@@ -306,7 +328,9 @@
   "verified_at": "2026-09-14",
   "description": "14-year teaching veteran Gaspare Randazzo headlines Littlefield with his classroom comedy and stories, opened by Frank Favia.",
   "featured": false,
-  "tier": "special"
+  "tier": "special",
+  "demand": null,
+  "demand_checked": "2026-09-15"
  },
  {
   "id": "leonard-ouzts-comedy-in-harlem-2026-09-18",
@@ -334,7 +358,9 @@
    "credit": "Photo: Comedy In Harlem / show organizer",
    "alt": "Leonard Ouzts Headshot.",
    "kind": "performer headshot from the event page"
-  }
+  },
+  "demand": null,
+  "demand_checked": "2026-09-15"
  },
  {
   "id": "sophie-buddle-2026-09-18",
@@ -362,7 +388,9 @@
    "credit": "Artwork: Union Hall / show organizer",
    "alt": "Sophie Buddle promotional artwork.",
    "kind": "dated event flyer"
-  }
+  },
+  "demand": null,
+  "demand_checked": "2026-09-15"
  },
  {
   "id": "jokes-and-jranks-justin-lamar-comedy-in-harlem-2026-09-19",
@@ -390,7 +418,9 @@
    "credit": "Photo: Comedy In Harlem / show organizer",
    "alt": "Jokes & Jranks Live at Comedy In Harlem Headshot.",
    "kind": "performer headshot from the event page"
-  }
+  },
+  "demand": null,
+  "demand_checked": "2026-09-15"
  },
  {
   "id": "sam-taggart-2026-09-19",
@@ -418,7 +448,9 @@
    "credit": "Artwork: The Bell House / show organizer",
    "alt": "Sam Taggart: Special Taping promotional artwork.",
    "kind": "dated event flyer"
-  }
+  },
+  "demand": null,
+  "demand_checked": "2026-09-15"
  },
  {
   "id": "fun-in-moderation-2026-09-19",
@@ -446,7 +478,9 @@
    "credit": "Artwork: Caveat / show organizer",
    "alt": "Fun in Moderation: Sketch Comedy promotional artwork.",
    "kind": "dated event flyer"
-  }
+  },
+  "demand": null,
+  "demand_checked": "2026-09-15"
  },
  {
   "id": "obey-in-advance-2026-09-20",
@@ -474,7 +508,9 @@
    "credit": "Artwork: Caveat / show organizer",
    "alt": "Obey in Advance: Book Launch Party promotional artwork.",
    "kind": "dated event flyer"
-  }
+  },
+  "demand": null,
+  "demand_checked": "2026-09-15"
  },
  {
   "id": "josh-sharp-2026-09-20",
@@ -502,7 +538,9 @@
    "credit": "Artwork: The Bell House / show organizer",
    "alt": "Josh Sharp: An Hour of Crowd Work in the Round promotional artwork.",
    "kind": "dated event flyer"
-  }
+  },
+  "demand": null,
+  "demand_checked": "2026-09-15"
  },
  {
   "id": "climate-town-2026-09-21",
@@ -530,7 +568,9 @@
    "credit": "Artwork: The Bell House / show organizer",
    "alt": "Climate Town & Amy Westervelt Live promotional artwork.",
    "kind": "dated event flyer"
-  }
+  },
+  "demand": null,
+  "demand_checked": "2026-09-15"
  },
  {
   "id": "marcel-lucont-whine-list-2026-09-21",
@@ -558,7 +598,9 @@
    "credit": "Artwork: Caveat / show organizer",
    "alt": "Marcel Lucont's Whine List promotional artwork.",
    "kind": "dated event flyer"
-  }
+  },
+  "demand": null,
+  "demand_checked": "2026-09-15"
  },
  {
   "id": "the-bisque-comedy-for-charity-2026-09-22",
@@ -586,7 +628,9 @@
    "credit": "Artwork: Caveat / show organizer",
    "alt": "The Bisque: Comedy for Charity promotional artwork.",
    "kind": "dated event flyer"
-  }
+  },
+  "demand": null,
+  "demand_checked": "2026-09-15"
  },
  {
   "id": "david-nihill-2026-09-23",
@@ -614,7 +658,9 @@
    "credit": "Artwork: The Bell House / show organizer",
    "alt": "David Nihill: Taking Tangents Tour promotional artwork.",
    "kind": "dated event flyer"
-  }
+  },
+  "demand": null,
+  "demand_checked": "2026-09-15"
  },
  {
   "id": "wits-end-jay-jurden-vs-chloe-radcliffe-2026-09-23",
@@ -633,7 +679,9 @@
   "verified_at": "2026-09-14",
   "description": "Adam Kesner hosts a live comedy trivia game show at Littlefield with Jay Jurden and Chloe Radcliffe squaring off, audience in on the questions.",
   "featured": false,
-  "tier": "special"
+  "tier": "special",
+  "demand": null,
+  "demand_checked": "2026-09-15"
  },
  {
   "id": "vidura-rajapaksa-2026-09-24",
@@ -661,7 +709,9 @@
    "credit": "Artwork: The Bell House / show organizer",
    "alt": "Vidura Bandara Rajapaksa: The Paradise Gothic Tour promotional artwork.",
    "kind": "dated event flyer"
-  }
+  },
+  "demand": null,
+  "demand_checked": "2026-09-15"
  },
  {
   "id": "bell-house-stand-up-showcase-2026-09-25",
@@ -689,7 +739,9 @@
    "credit": "Artwork: The Bell House / show organizer",
    "alt": "The Bell House Stand Up Showcase promotional artwork.",
    "kind": "dated event flyer"
-  }
+  },
+  "demand": null,
+  "demand_checked": "2026-09-15"
  },
  {
   "id": "beth-stelling-let-me-get-loose-2026-09-26",
@@ -717,7 +769,9 @@
    "credit": "Artwork: The Bell House / show organizer",
    "alt": "Beth Stelling: Let Me Get Loose promotional artwork.",
    "kind": "dated event flyer"
-  }
+  },
+  "demand": null,
+  "demand_checked": "2026-09-15"
  },
  {
   "id": "kevin-sullivan-2026-09-27",
@@ -745,6 +799,8 @@
    "credit": "Artwork: The Bell House / show organizer",
    "alt": "Kevin Sullivan promotional artwork.",
    "kind": "dated event flyer"
-  }
+  },
+  "demand": null,
+  "demand_checked": "2026-09-15"
  }
 ]

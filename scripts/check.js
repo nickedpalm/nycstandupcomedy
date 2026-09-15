@@ -154,6 +154,7 @@ const jsFiles = [
   path.join(root, 'functions', '_middleware.js'),
   path.join(root, 'scripts', 'markdown.js'),
   path.join(root, 'scripts', 'stamp.js'),
+  path.join(root, 'scripts', 'heat.js'),
 ];
 jsFiles.forEach((file) => {
   try { execFileSync(process.execPath, ['--check', file], { stdio: 'pipe' }); }

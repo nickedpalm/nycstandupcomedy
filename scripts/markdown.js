@@ -17,7 +17,7 @@ const hood = (r) => venues.get(r.venue)?.neighborhood || r.neighborhood || '';
 const picks = data('picks.json').filter((p) => Date.parse(p.ends_at) > Date.now()).sort((a, b) => a.starts_at.localeCompare(b.starts_at));
 const rooms = data('recurring.json'), mics = data('open-mics.json'), clubs = data('clubs.json');
 const head = (title, blurb) => `# ${title}\n\n${blurb}\n\nGenerated ${nyToday} from the same data as the website. Times are New York local. Every listing links to the page we verified it against.\n\n`;
-const pickLine = (p) => `- **${p.time_label}** — [${p.title}](${p.ticket_url || p.source_url}) at ${p.venue}, ${hood(p)}. ${p.price_label}.${p.sponsored ? ' Paid listing.' : ''} ${p.description}`;
+const pickLine = (p) => `- **${p.time_label}** — [${p.title}](${p.ticket_url || p.source_url}) at ${p.venue}, ${hood(p)}. ${p.price_label}.${p.demand === 'sold_out' ? ' Sold out.' : p.demand === 'going_fast' ? ' Going fast.' : ''}${p.sponsored ? ' Paid listing.' : ''} ${p.description}`;
 const byDay = (list) => { let s = '', day = ''; for (const p of list) { if (p.date !== day) { day = p.date; s += `\n## ${longDate(day)}\n\n`; } s += pickLine(p) + '\n'; } return s; };
 const byNight = (list, line) => { let s = ''; for (let d = 0; d < 7; d++) { const rows = list.filter((r) => Number(r.weekday) === d); if (!rows.length) continue; s += `\n## ${WEEKDAYS[d]}\n\n` + rows.map(line).join('\n') + '\n'; } return s; };
 const files = {
