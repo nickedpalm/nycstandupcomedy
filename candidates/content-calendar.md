@@ -79,8 +79,17 @@ Ranked 12; run 6, reuse 2, skip 4; ~54,000 tokens saved. No recent data: Jenny T
 - Sun Oct 4 6pm — **Comedy Girl Autumn: A Live Comedy Show Hosted by Larry Owens** at The Bell House
 - Mon Oct 5 7:30pm — **Hot Butter Train** at The Bell House
 
-## Week 4: Oct 6 to Oct 12 — 0 picks — only 0 picks; target 8
+## Week 4: Oct 6 to Oct 12 — 9 picks — 4 without artwork · nothing in Manhattan
 
+- Wed Oct 7 7:30pm — **Joe Mande Con Amici** at The Bell House
+- Wed Oct 7 8pm — **Laughs In The East** at Eastville Comedy Club · NO ARTWORK
+- Thu Oct 8 7:30pm — **Molly Kearney** at The Bell House
+- Thu Oct 8 8pm — **Lisa Wallen Headlines** at Eastville Comedy Club · NO ARTWORK
+- Fri Oct 9 6pm — **Brooklyn Power Hour** at Eastville Comedy Club · NO ARTWORK
+- Fri Oct 9 7:30pm — **Poly Díaz (En Español)** at The Bell House
+- Sat Oct 10 6pm — **Maria Bamford: Live** at The Bell House · SOLD OUT
+- Sun Oct 11 6pm — **Wait, What's Sri Lanka? — Comedy Special Taping** at Eastville Comedy Club · NO ARTWORK
+- Mon Oct 12 7:30pm — **The Bechdel Cast 10 Year Anniversary Tour** at The Bell House
 
 ## Week 5: Oct 13 to Oct 19 — 0 picks — only 0 picks; target 8
 
