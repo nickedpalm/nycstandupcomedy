@@ -4,12 +4,14 @@
 //   - a second show of the same title at the same room on the same day (our picks + candidates/eventbrite.json)
 //   - Wikipedia pageviews for the performer, last 30 days vs the 30 before (touring names only)
 //   - how many rooms list the performer this month (picks + Eventbrite leads)
+//   - Reddit mentions in the last 30 days when REDDIT_CLIENT_ID / REDDIT_CLIENT_SECRET are set (scripts/reddit.js)
 // Writes candidates/heat.json (for the editor) and sets `demand` on picks.json: "sold_out", "going_fast" or null,
 // with demand_checked. Only availability and a second show drive the reader-facing tag. Run with `npm run heat`.
 'use strict';
 const fs = require('fs');
 const path = require('path');
 const root = path.join(__dirname, '..');
+const { buzz } = require('./reddit.js');
 const UA = 'standupcomedynyc.com heat check (info@standupcomedynyc.com) Mozilla/5.0';
 const headers = { 'User-Agent': UA, 'Accept': 'text/html,application/json' };
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -75,9 +77,12 @@ async function wikipedia(name) {
     let wiki = null;
     if (name) { if (!wikiCache.has(name)) { wikiCache.set(name, await wikipedia(name)); await sleep(300); } wiki = wikiCache.get(name); }
     if (wiki) { const perDay = wiki.views_30d / 30; if (perDay >= 1000) { score += 20; reasons.push(`Wikipedia: ${Math.round(perDay)} views a day`); } else if (perDay >= 200) { score += 10; reasons.push(`Wikipedia: ${Math.round(perDay)} views a day`); } if (wiki.change !== null && wiki.change >= 50) { score += 15; reasons.push(`Wikipedia views up ${wiki.change}% over the prior month`); } }
+    let reddit = null;
+    if (name && process.env.REDDIT_CLIENT_ID) { try { reddit = await buzz(name); await sleep(1100); } catch (e) { reddit = { error: e.message }; } }
+    if (reddit && reddit.posts_30d) { const pts = Math.min(25, reddit.posts_30d * 5 + Math.floor(reddit.upvotes / 50)); score += pts; reasons.push(`Reddit: ${reddit.posts_30d} post${reddit.posts_30d === 1 ? '' : 's'} in 30 days, ${reddit.upvotes} upvotes${reddit.top ? ` (top: r/${reddit.top.subreddit})` : ''}`); }
     const demand = avail === 'SoldOut' ? 'sold_out' : (avail === 'LimitedAvailability' || sameDay.length) ? 'going_fast' : null;
     p.demand = demand; p.demand_checked = today;
-    out.push({ id: p.id, title: p.title, venue: p.venue, date: p.date, heat: Math.min(100, score), demand, availability: avail, second_show: sameDay.length > 0, performer: name, wikipedia: wiki, reasons });
+    out.push({ id: p.id, title: p.title, venue: p.venue, date: p.date, heat: Math.min(100, score), demand, availability: avail, second_show: sameDay.length > 0, performer: name, wikipedia: wiki, reddit, reasons });
   }
   for (const p of picks) if (!upcoming.includes(p)) { delete p.demand; delete p.demand_checked; }
   out.sort((a, b) => b.heat - a.heat);

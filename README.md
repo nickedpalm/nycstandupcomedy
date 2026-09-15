@@ -14,7 +14,8 @@ scripts/rotate.js    moves expired picks (and their artwork) into the archive
 scripts/ig-card.js   renders Instagram cards (1080x1350 JPEG) into web/assets/ig/
 scripts/ig-post.js   publishes cards to Instagram; POSTED-IG.json is its log
 scripts/badslava.js  pulls Badslava's New York open-mic table into candidates/ for review
-scripts/heat.js      demand signals per pick (ticket availability, second shows, Wikipedia pageviews); sets the Sold out / Going fast tags
+scripts/heat.js      demand signals per pick (ticket availability, second shows, Wikipedia pageviews, Reddit buzz); sets the Sold out / Going fast tags
+scripts/reddit.js    read-only Reddit search via a script app (REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET in the environment); feeds heat.js
 scripts/eventbrite.js pulls upcoming events from the Eventbrite organizer pages of registered rooms into candidates/
 web/areas.js         the Neighborhoods directory: every room by borough and neighborhood
 candidates/          discovery output (crowd-sourced, unverified); never served, never copied into web/data without a venue check
