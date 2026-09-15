@@ -66,7 +66,7 @@ Three candidate feeds live in candidates/ and never reach the site directly: Bad
 
 ## Horizon and content calendar
 
-The board looks six weeks ahead. The check warns for any of the next six weeks with fewer than eight picks. `npm run calendar` (also run by the build) writes candidates/content-calendar.md, a week-by-week plan from the data: picks, artwork gaps, demand tags, heat, unreviewed Eventbrite leads, the standing Instagram and Heard around town slots, and the day's research plan. The build also writes dist/calendar.html, an unlinked, noindex page in the site's style for the same view. On the site, picks more than two weeks out sit under **Save the date** below the board, with their own Markdown edition (save-the-date.md).
+The board looks six weeks ahead. The check warns for any of the next six weeks with fewer than eight picks. `npm run calendar` (also run by the build) writes candidates/content-calendar.md, a week-by-week plan from the data: picks, artwork gaps, demand tags, heat, unreviewed Eventbrite leads, the standing Instagram and Heard around town slots, and the day's research plan. The build also writes dist/calendar.html, an unlinked, noindex page in the site's style for the same view. On the site, picks more than two weeks out sit under **Save the date** below the board, with their own Markdown edition (save-the-date.md). Venues with `kind: "theater"` make a pick a **Big stage**: tagged on the board and the shelf, grouped first under Save the date, and capped to one of the shelf's three slots so touring artwork never crowds out the rooms.
 
 ## Revolving board
 
