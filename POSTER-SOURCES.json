@@ -81,7 +81,7 @@
  },
  {
   "event_id": "rachel-kaly-2026-09-14-2200",
-  "src": "/assets/posters/rachel-kaly-2026-09-14-2200.jpg",
+  "src": "/assets/posters/archive/rachel-kaly-2026-09-14-2200.jpg",
   "width": 2160,
   "height": 1080,
   "source_url": "https://www.eventbrite.com/e/rachel-kaly-between-us-a-crowd-work-show-tickets-2000521226842",
@@ -92,7 +92,8 @@
   "retrieved_at": "2026-09-11",
   "bytes": 159799,
   "sha256": "6b9ebc9f28d41149d2d5781365c2bc704e6465a611c7679d8d0e1eacc7e77166",
-  "reuse_status": "Official promotional artwork; no separate reuse license identified. Local review draft only."
+  "reuse_status": "Official promotional artwork; no separate reuse license identified. Local review draft only.",
+  "archived": true
  },
  {
   "event_id": "richard-perez-2026-09-15-2200",

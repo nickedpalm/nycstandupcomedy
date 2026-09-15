@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T00:44:16.197Z",
+ "generated_at": "2026-09-15T09:31:29.167Z",
  "note": "Demand signals for the editor. Only availability and second shows set the public demand tag.",
  "picks": [
   {
@@ -13,124 +13,9 @@
    "second_show": false,
    "performer": "Richard Perez",
    "wikipedia": null,
-   "reddit": {
-    "phrase": "Richard Perez",
-    "posts_30d": 0,
-    "upvotes": 0,
-    "comments": 0,
-    "subreddits": [],
-    "top": null
-   },
+   "reddit": null,
    "reasons": [
     "sold out on the ticket page"
-   ]
-  },
-  {
-   "id": "beth-stelling-let-me-get-loose-2026-09-26",
-   "title": "Beth Stelling: Let Me Get Loose",
-   "venue": "The Bell House",
-   "date": "2026-09-26",
-   "heat": 25,
-   "demand": null,
-   "availability": null,
-   "second_show": false,
-   "performer": "Beth Stelling",
-   "wikipedia": {
-    "title": "Beth Stelling",
-    "views_30d": 2892,
-    "views_prior_30d": 3394,
-    "change": -15
-   },
-   "reddit": {
-    "phrase": "Beth Stelling",
-    "posts_30d": 7,
-    "upvotes": 1782,
-    "comments": 41,
-    "subreddits": [
-     "StandUpComedy"
-    ],
-    "top": {
-     "title": "“Boyfriends Kids” - Beth Stelling",
-     "subreddit": "StandUpComedy",
-     "score": 777,
-     "url": "https://www.reddit.com/r/StandUpComedy/comments/1vple4j/boyfriends_kids_beth_stelling/"
-    }
-   },
-   "reasons": [
-    "Reddit: 7 posts in 30 days, 1782 upvotes (top: r/StandUpComedy)"
-   ]
-  },
-  {
-   "id": "jamie-wolf-2026-09-16-2200",
-   "title": "Jamie Wolf: Psycho",
-   "venue": "Union Hall",
-   "date": "2026-09-16",
-   "heat": 20,
-   "demand": null,
-   "availability": "InStock",
-   "second_show": false,
-   "performer": "Jamie Wolf",
-   "wikipedia": null,
-   "reddit": {
-    "phrase": "Jamie Wolf",
-    "posts_30d": 1,
-    "upvotes": 757,
-    "comments": 4,
-    "subreddits": [
-     "StandUpComedy"
-    ],
-    "top": {
-     "title": "First Dates | Jamie Wolf",
-     "subreddit": "StandUpComedy",
-     "score": 757,
-     "url": "https://www.reddit.com/r/StandUpComedy/comments/1w9b00h/first_dates_jamie_wolf/"
-    }
-   },
-   "reasons": [
-    "tickets available",
-    "Reddit: 1 post in 30 days, 757 upvotes (top: r/StandUpComedy)"
-   ]
-  },
-  {
-   "id": "backroom-comedy-judah-friedlander-2026-09-14",
-   "title": "Backroom Comedy ft. Judah Friedlander, Dan St. Germain, Sam Kochman, Michael Brigante, Malorie Bryant",
-   "venue": "New York Comedy Club (Midtown)",
-   "date": "2026-09-14",
-   "heat": 0,
-   "demand": null,
-   "availability": null,
-   "second_show": false,
-   "performer": null,
-   "wikipedia": null,
-   "reddit": null,
-   "reasons": []
-  },
-  {
-   "id": "rachel-kaly-2026-09-14-2200",
-   "title": "Rachel Kaly: Between Us (A Crowd Work Show)",
-   "venue": "Union Hall",
-   "date": "2026-09-14",
-   "heat": 0,
-   "demand": null,
-   "availability": "InStock",
-   "second_show": false,
-   "performer": "Rachel Kaly",
-   "wikipedia": {
-    "title": "Rachel Kaly",
-    "views_30d": 1755,
-    "views_prior_30d": 2283,
-    "change": -23
-   },
-   "reddit": {
-    "phrase": "Rachel Kaly",
-    "posts_30d": 0,
-    "upvotes": 0,
-    "comments": 0,
-    "subreddits": [],
-    "top": null
-   },
-   "reasons": [
-    "tickets available"
    ]
   },
   {
@@ -180,6 +65,22 @@
    ]
   },
   {
+   "id": "jamie-wolf-2026-09-16-2200",
+   "title": "Jamie Wolf: Psycho",
+   "venue": "Union Hall",
+   "date": "2026-09-16",
+   "heat": 0,
+   "demand": null,
+   "availability": "InStock",
+   "second_show": false,
+   "performer": "Jamie Wolf",
+   "wikipedia": null,
+   "reddit": null,
+   "reasons": [
+    "tickets available"
+   ]
+  },
+  {
    "id": "it-is-good-to-be-here-wscc-2026-09-17",
    "title": "It Is Good To Be Here: Alyssa Wolff and Noah Savage",
    "venue": "West Side Comedy Club",
@@ -205,18 +106,11 @@
    "performer": "Jenny Tian",
    "wikipedia": {
     "title": "Jenny Tian",
-    "views_30d": 3235,
+    "views_30d": 3381,
     "views_prior_30d": 4447,
-    "change": -27
+    "change": -24
    },
-   "reddit": {
-    "phrase": "Jenny Tian",
-    "posts_30d": 0,
-    "upvotes": 0,
-    "comments": 0,
-    "subreddits": [],
-    "top": null
-   },
+   "reddit": null,
    "reasons": []
   },
   {
@@ -274,14 +168,7 @@
    "second_show": false,
    "performer": "Leonard Ouzts",
    "wikipedia": null,
-   "reddit": {
-    "phrase": "Leonard Ouzts",
-    "posts_30d": 0,
-    "upvotes": 0,
-    "comments": 0,
-    "subreddits": [],
-    "top": null
-   },
+   "reddit": null,
    "reasons": []
   },
   {
@@ -296,18 +183,11 @@
    "performer": "Sophie Buddle",
    "wikipedia": {
     "title": "Sophie Buddle",
-    "views_30d": 738,
+    "views_30d": 757,
     "views_prior_30d": 1269,
-    "change": -42
+    "change": -40
    },
-   "reddit": {
-    "phrase": "Sophie Buddle",
-    "posts_30d": 0,
-    "upvotes": 0,
-    "comments": 0,
-    "subreddits": [],
-    "top": null
-   },
+   "reddit": null,
    "reasons": [
     "tickets available"
    ]
@@ -337,14 +217,7 @@
    "second_show": false,
    "performer": "Sam Taggart",
    "wikipedia": null,
-   "reddit": {
-    "phrase": "Sam Taggart",
-    "posts_30d": 0,
-    "upvotes": 0,
-    "comments": 0,
-    "subreddits": [],
-    "top": null
-   },
+   "reddit": null,
    "reasons": []
   },
   {
@@ -391,18 +264,11 @@
    "performer": "Josh Sharp",
    "wikipedia": {
     "title": "Josh Sharp",
-    "views_30d": 1104,
+    "views_30d": 1128,
     "views_prior_30d": 1090,
-    "change": 1
+    "change": 3
    },
-   "reddit": {
-    "phrase": "Josh Sharp",
-    "posts_30d": 0,
-    "upvotes": 0,
-    "comments": 0,
-    "subreddits": [],
-    "top": null
-   },
+   "reddit": null,
    "reasons": []
   },
   {
@@ -462,14 +328,7 @@
    "second_show": false,
    "performer": "David Nihill",
    "wikipedia": null,
-   "reddit": {
-    "phrase": "David Nihill",
-    "posts_30d": 0,
-    "upvotes": 0,
-    "comments": 0,
-    "subreddits": [],
-    "top": null
-   },
+   "reddit": null,
    "reasons": []
   },
   {
@@ -497,14 +356,7 @@
    "second_show": false,
    "performer": "Vidura Bandara Rajapaksa",
    "wikipedia": null,
-   "reddit": {
-    "phrase": "Vidura Bandara Rajapaksa",
-    "posts_30d": 0,
-    "upvotes": 0,
-    "comments": 0,
-    "subreddits": [],
-    "top": null
-   },
+   "reddit": null,
    "reasons": []
   },
   {
@@ -522,6 +374,25 @@
    "reasons": []
   },
   {
+   "id": "beth-stelling-let-me-get-loose-2026-09-26",
+   "title": "Beth Stelling: Let Me Get Loose",
+   "venue": "The Bell House",
+   "date": "2026-09-26",
+   "heat": 0,
+   "demand": null,
+   "availability": null,
+   "second_show": false,
+   "performer": "Beth Stelling",
+   "wikipedia": {
+    "title": "Beth Stelling",
+    "views_30d": 2995,
+    "views_prior_30d": 3394,
+    "change": -12
+   },
+   "reddit": null,
+   "reasons": []
+  },
+  {
    "id": "kevin-sullivan-2026-09-27",
    "title": "Kevin Sullivan",
    "venue": "The Bell House",
@@ -532,14 +403,7 @@
    "second_show": false,
    "performer": "Kevin Sullivan",
    "wikipedia": null,
-   "reddit": {
-    "phrase": "Kevin Sullivan",
-    "posts_30d": 0,
-    "upvotes": 0,
-    "comments": 0,
-    "subreddits": [],
-    "top": null
-   },
+   "reddit": null,
    "reasons": []
   }
  ]
