@@ -1,4 +1,4 @@
-# Stand Up Comedy NYC
+# Stand-Up Comedy NYC
 
 A curated, dated shortlist of NYC stand-up shows worth going out for, plus recurring bar rooms, open mics and the Manhattan clubs. Published at [standupcomedynyc.com](https://standupcomedynyc.com).
 
@@ -125,4 +125,4 @@ The build writes a Markdown edition of every section (index.md, this-week.md, ro
 
 ## Newsletter
 
-`web/subscribe.html` and `web/signup.js` post to `/api/subscribe`, which forwards to the public Listmonk subscription endpoint for the Stand Up Comedy NYC list. No secrets are involved; keep it that way.
+`web/subscribe.html` and `web/signup.js` post to `/api/subscribe`, which forwards to the public Listmonk subscription endpoint for the Stand-Up Comedy NYC list. No secrets are involved; keep it that way.
