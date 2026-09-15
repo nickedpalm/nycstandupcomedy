@@ -18,7 +18,7 @@ const { chromium } = require('playwright-core');
 const root = path.join(__dirname, '..');
 const web = path.join(root, 'web');
 const SITE = 'https://standupcomedynyc.com';
-const STUB = '<div class="stub"><b>Stand-Up</b><span>Comedy NYC</span></div>';
+
 const W = 1080, H = 1350;
 
 const args = { pick: [] };
@@ -71,10 +71,8 @@ body:before{content:'';position:absolute;inset:0;background:radial-gradient(elli
 .wrap{position:relative;height:100%;display:flex;flex-direction:column;padding:54px 54px 44px}
 .paper{flex:1;background:#f3e6c8 linear-gradient(168deg,#f9eed6,#e8d5ab 62%,#dfc99a);border:3px solid #c6b088;box-shadow:14px 18px 36px #0d0402d0;transform:rotate(-1.2deg);padding:56px 58px 48px;display:flex;flex-direction:column;position:relative;overflow:hidden}
 .paper:before{content:'';position:absolute;top:-22px;left:50%;width:190px;height:52px;margin-left:-95px;background:#e9dcb5a8;transform:rotate(-3deg)}
-.stub{display:inline-flex;flex-direction:column;align-items:center;align-self:flex-start;background:#f3e6c8;color:#2a1408;padding:12px 26px 12px 46px;position:relative;transform:rotate(-2deg);text-transform:uppercase;line-height:1;-webkit-mask:radial-gradient(circle at 0 50%,#0000 11px,#000 12px);mask:radial-gradient(circle at 0 50%,#0000 11px,#000 12px);filter:drop-shadow(4px 5px 0 #1b0a05)}
-.stub:before{content:'';position:absolute;left:26px;top:8px;bottom:8px;border-left:3px dashed #b3261e}
-.stub b{font:700 42px/1 Oswald;color:#b3261e}
-.stub span{font:700 17px/1 Oswald;letter-spacing:.3em;padding-left:.3em;margin-top:5px;color:#2a1408}
+.brand{font:700 30px/1 Oswald;letter-spacing:.14em;text-transform:uppercase;color:#b3261e}
+.brand span{color:#3a1d0e}
 .kicker{display:inline-block;margin:26px 0 0;background:linear-gradient(#f0a12d,#c9731a);color:#2a1408;font:500 44px/1 Oswald;text-transform:uppercase;letter-spacing:.12em;padding:16px 26px 14px;transform:rotate(-1.5deg);box-shadow:4px 5px 0 #5a2a0a}
 .title{margin-top:34px;font:700 var(--ts,150px)/.92 Oswald;text-transform:uppercase;letter-spacing:-.01em;color:#2a1408;word-wrap:break-word}
 .where{margin-top:40px;font:500 64px/1.05 Oswald;text-transform:uppercase;letter-spacing:.02em;color:#b3261e}
@@ -96,7 +94,8 @@ body:before{content:'';position:absolute;inset:0;background:radial-gradient(elli
 .photo{position:absolute;inset:0;background-size:cover;background-position:center 30%}
 .photo:after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,#000000a6 0%,#00000040 16%,#0000 30%,#0000 42%,#000000e6 100%)}
 .pw{position:relative;height:100%;display:flex;flex-direction:column;padding:48px 56px 56px;color:#fff}
-.pw .stub{align-self:center}
+.lock{align-self:center;font:700 34px/1 Oswald;letter-spacing:.16em;text-transform:uppercase;color:#f6c343;text-shadow:0 2px 6px #000c}
+.lock span{color:#fff}
 .hl{margin-top:auto;font:700 var(--hs,84px)/1.32 Oswald;text-transform:uppercase;letter-spacing:.005em}
 .hl i{font-style:normal;background:#b3261e;color:#fff;padding:4px 20px 8px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
 .hl i.gold{background:#f6c343;color:#2a1408;font-size:.52em;letter-spacing:.12em;padding:10px 18px;position:relative;top:-.35em}
@@ -115,7 +114,7 @@ function pickCard(p) {
   const art = p.poster && reusable.has(p.poster.src) ? `<div class="art"><img src="${dataUrl(path.join(web, p.poster.src.replace(/^\//, '')), 'image/' + p.poster.src.split('.').pop().replace('jpg', 'jpeg'))}"></div>` : '';
   const stamp = p.demand === 'sold_out' ? '<div class="stamp">Sold out</div>' : p.demand === 'going_fast' ? '<div class="stamp">Going fast</div>' : p.sponsored ? '<div class="stamp paid">Paid listing</div>' : '';
   const tonight = p.date === nyDate();
-  return `${base}<div class="wrap"><div class="paper" style="--ts:${titleSize(p.title)}px">${stamp}${STUB}
+  return `${base}<div class="wrap"><div class="paper" style="--ts:${titleSize(p.title)}px">${stamp}<div class="brand">Stand Up <span>Comedy NYC</span></div>
 <div class="kicker">${tonight ? 'Tonight' : esc(shortDate(p.date))} · ${esc(p.time_label.split(' · ')[0])}</div>
 <h1 class="title">${esc(p.title)}</h1>${art}
 <p class="where">${esc(p.venue)}<br>${esc(hoodOf(p))}<small>${/see (the )?(ticket|listing|show) page|see listing/i.test(p.price_label || '') ? esc(sub(p) || '') : esc(p.price_label) + (sub(p) ? ' — ' + esc(sub(p)) : '')}</small></p><div class="big-time">${esc(p.time_label.split(' · ')[0])}</div></div>
@@ -128,7 +127,7 @@ function photoCard(p) {
   const bg = dataUrl(src, 'image/' + p.poster.src.split('.').pop().replace('jpg', 'jpeg'));
   const tag = p.demand === 'sold_out' ? '<div class="tag2">Sold out</div>' : p.demand === 'going_fast' ? '<div class="tag2 gold">Going fast</div>' : p.sponsored ? '<div class="tag2 gold">Paid listing</div>' : '';
   const when = (p.date === nyDate() ? 'Tonight' : shortDate(p.date)) + ' · ' + p.time_label.split(' · ')[0];
-  return `${base}<div class="photo" style="background-image:url(${bg})"></div><div class="pw">${STUB}${tag}
+  return `${base}<div class="photo" style="background-image:url(${bg})"></div><div class="pw"><div class="lock">Stand Up <span>Comedy NYC</span></div>${tag}
 <div class="hl" style="--hs:${hlSize(p.title)}px"><i class="gold">${esc(when)}</i><br><i>${esc(p.title)}</i></div>
 <p class="dek">${esc(p.venue)}, ${esc(hoodOf(p))}. ${esc(sub(p) || p.price_label)}</p>
 <div class="pill">Tickets · link in bio</div><div class="credit2">${esc(p.poster.credit || '')}</div></div>`;
@@ -139,7 +138,7 @@ function photoCover(label, day, list) {
   const bg = dataUrl(path.join(web, hero.poster.src.replace(/^\//, '')), 'image/' + hero.poster.src.split('.').pop().replace('jpg', 'jpeg'));
   const n = list.length; const names = list.slice(0, 4).map((p) => p.title.split(':')[0]).join(' · ') + (n > 4 ? ` · +${n - 4}` : '');
   const head = label === 'Tonight' ? `${n} show${n === 1 ? '' : 's'} worth leaving the house for tonight` : `${n} show${n === 1 ? '' : 's'} worth the train this weekend`;
-  return `${base}<div class="photo" style="background-image:url(${bg})"></div><div class="pw">${STUB}
+  return `${base}<div class="photo" style="background-image:url(${bg})"></div><div class="pw"><div class="lock">Stand Up <span>Comedy NYC</span></div>
 <div class="hl" style="--hs:${hlSize(head)}px"><i class="gold">${esc(shortDate(day))}</i><br><i>${esc(head)}</i></div>
 <p class="dek">${esc(names)}</p><div class="pill">Swipe for the picks</div><div class="credit2">${esc(hero.poster.credit || '')}</div></div>`;
 }
@@ -147,7 +146,7 @@ function coverCard(label, day, list) {
   const n = Math.min(list.length, 5); const maxLen = Math.max(...list.slice(0, n).map((p) => p.title.length));
   const rows = list.slice(0, n).map((p) => `<div class="row"><div class="n" style="--rs:${rowSize(n, maxLen)}px">${esc(p.title)}</div><div class="v">${esc(p.time_label.split(' · ')[0])} · ${esc(p.venue)}${p.demand === 'sold_out' ? ' · sold out' : ''}${p.sponsored ? ' · paid' : ''}</div></div>`).join('');
   const more = list.length > n ? `<div class="row"><div class="v">+ ${list.length - n} more on the site</div></div>` : '';
-  return `${base}<div class="wrap"><div class="paper">${STUB}
+  return `${base}<div class="wrap"><div class="paper"><div class="brand">Stand Up <span>Comedy NYC</span></div>
 <div class="kicker">${esc(label)} · ${esc(shortDate(day))}</div><div class="list">${rows}${more}</div></div>
 <div class="foot"><span class="url">standupcomedynyc.com</span><span class="note">Link in bio</span></div></div>`;
 }
