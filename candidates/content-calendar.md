@@ -91,7 +91,7 @@ Ranked 12; run 6, reuse 2, skip 4; ~54,000 tokens saved. No recent data: Jenny T
 - Sun Oct 11 6pm — **Wait, What's Sri Lanka? — Comedy Special Taping** at Eastville Comedy Club · NO ARTWORK
 - Mon Oct 12 7:30pm — **The Bechdel Cast 10 Year Anniversary Tour** at The Bell House
 
-## Week 5: Oct 13 to Oct 19 — 9 picks — 4 without artwork · nothing in Manhattan
+## Week 5: Oct 13 to Oct 19 — 10 picks — 4 without artwork · nothing in Manhattan
 
 - Wed Oct 14 7:30pm — **Josh & Aaron Do Improv (Feat. Hayden Johnson)** at The Bell House
 - Wed Oct 14 8pm — **Laughs In The East** at Eastville Comedy Club · NO ARTWORK
@@ -102,7 +102,16 @@ Ranked 12; run 6, reuse 2, skip 4; ~54,000 tokens saved. No recent data: Jenny T
 - Sat Oct 17 7:30pm — **Asif Ali Live!** at The Bell House
 - Sat Oct 17 10pm — **Headlining Alex Giampapa** at Eastville Comedy Club · NO ARTWORK
 - Sun Oct 18 7:30pm — **Johnny Pemberton** at The Bell House
+- Mon Oct 19 7:30pm — **Michelle Buteau** at The Bell House
 
-## Week 6: Oct 20 to Oct 26 — 0 picks — only 0 picks; target 8
+## Week 6: Oct 20 to Oct 26 — 8 picks — 5 without artwork · nothing in Manhattan
 
+- Tue Oct 20 7:30pm — **A Benefit for Little Essentials with David Cross & Friends** at The Bell House
+- Wed Oct 21 7:30pm — **Brett Goldstein Runs His Hour Before His Tour** at The Bell House
+- Wed Oct 21 8pm — **Laughs In The East** at Eastville Comedy Club · NO ARTWORK
+- Thu Oct 22 8pm — **Stand Up Shenanigans** at Eastville Comedy Club · NO ARTWORK
+- Fri Oct 23 6pm — **Brooklyn Power Hour** at Eastville Comedy Club · NO ARTWORK
+- Fri Oct 23 7:30pm — **Sydnee Washington: My Black Barbie Story** at The Bell House
+- Sat Oct 24 6pm — **Saturday Night Live Comedy** at Eastville Comedy Club · NO ARTWORK
+- Sun Oct 25 7:30pm — **Sunday Night Comedy** at Eastville Comedy Club · NO ARTWORK
 
