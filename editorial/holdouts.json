@@ -1,4 +1,20 @@
 {
  "note": "Names we do not promote. Maintained by Nick. Matched against titles, descriptions and performer names in every data file by npm test. Never published.",
- "holdouts": []
+ "holdouts": [
+  {
+   "name": "Dave Chappelle",
+   "reason": "Nick, Sep 15 2026: held under the policy for material about trans people.",
+   "added": "2026-09-15"
+  },
+  {
+   "name": "Adam Friedland",
+   "reason": "Nick, Sep 15 2026: held; disputed podcast bit and the firing that followed.",
+   "added": "2026-09-15"
+  },
+  {
+   "name": "Ben Bankas",
+   "reason": "Nick, Sep 15 2026: held; 2022 club confrontation and accusations of ethnic stereotyping.",
+   "added": "2026-09-15"
+  }
+ ]
 }
