@@ -16,7 +16,8 @@
     "calendar": "node scripts/calendar.js",
     "build": "rm -rf dist && mkdir -p dist && cp -R web/. dist/ && cp robots.txt sitemap.xml dist/ && node scripts/markdown.js --out=dist && node scripts/calendar.js --out=dist && node scripts/stamp.js --dir=dist",
     "test": "npm run check && npm run build",
-    "preview": "python3 -m http.server 8080 --bind 127.0.0.1 --directory dist"
+    "preview": "python3 -m http.server 8080 --bind 127.0.0.1 --directory dist",
+    "ig-comments": "node scripts/ig-comments.js"
   },
   "engines": {
     "node": ">=20"
