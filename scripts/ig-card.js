@@ -95,9 +95,9 @@ body:before{content:'';position:absolute;inset:0;background:radial-gradient(elli
 .pw{position:relative;height:100%;display:flex;flex-direction:column;padding:48px 56px 56px;color:#fff}
 .lock{align-self:center;font:700 34px/1 Oswald;letter-spacing:.16em;text-transform:uppercase;color:#f6c343;text-shadow:0 2px 6px #000c}
 .lock span{color:#fff}
-.hl{margin-top:auto;font:700 var(--hs,84px)/1.5 Oswald;text-transform:uppercase;letter-spacing:.005em}
-.hl i{font-style:normal;background:#b3261e;color:#fff;padding:6px 18px 8px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
-.hl i.gold{background:#f6c343;color:#2a1408}
+.hl{margin-top:auto;font:700 var(--hs,84px)/1.32 Oswald;text-transform:uppercase;letter-spacing:.005em}
+.hl i{font-style:normal;background:#b3261e;color:#fff;padding:4px 20px 8px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.hl i.gold{background:#f6c343;color:#2a1408;font-size:.52em;letter-spacing:.12em;padding:10px 18px;position:relative;top:-.35em}
 .dek{margin-top:18px;font:400 34px/1.35 Arial,sans-serif;color:#f1e8ce;text-shadow:0 2px 6px #000c;max-width:26ch}
 .pill{margin-top:28px;display:inline-block;align-self:flex-start;border:3px solid #fff;color:#fff;font:700 24px/1 Oswald;letter-spacing:.14em;text-transform:uppercase;padding:14px 24px;border-radius:40px;text-shadow:none}
 .tag2{position:absolute;top:120px;right:56px;background:#b3261e;color:#fff;font:700 30px/1 Oswald;letter-spacing:.12em;text-transform:uppercase;padding:14px 20px;transform:rotate(3deg)}
@@ -163,13 +163,13 @@ function coverCard(label, day, list) {
     const days = weekendDays(day);
     const list = picks.filter((p) => days.includes(p.date) && p.date >= day).sort((a, b) => a.starts_at.localeCompare(b.starts_at));
     if (!list.length) { console.error('ig-card: no weekend picks'); process.exit(1); }
-    jobs.push({ kind: 'cover', id: 'weekend-' + days[0], html: coverCard('This weekend', days[0], list), picks: list.map((p) => p.id) });
-    list.forEach((p) => jobs.push({ kind: 'pick', id: p.id, html: pickCard(p), picks: [p.id] }));
+    jobs.push({ kind: 'cover', id: 'weekend-' + days[0], html: (args.photo ? photoCover : coverCard)('This weekend', days[0], list), picks: list.map((p) => p.id) });
+    list.forEach((p) => jobs.push({ kind: 'pick', id: p.id, html: (args.photo && p.poster) ? photoCard(p) : pickCard(p), picks: [p.id] }));
   }
   for (const id of args.pick) {
     const p = picks.find((r) => r.id === id);
     if (!p) { console.error(`ig-card: unknown pick ${id}`); process.exit(1); }
-    jobs.push({ kind: 'pick', id: p.id, html: pickCard(p), picks: [p.id] });
+    jobs.push({ kind: 'pick', id: p.id, html: (args.photo && p.poster) ? photoCard(p) : pickCard(p), picks: [p.id] });
   }
   if (!jobs.length) { console.error('ig-card: nothing to do (use --tonight, --weekend or --pick <id>)'); process.exit(2); }
 
