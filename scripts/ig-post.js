@@ -52,7 +52,17 @@ async function waitReady(containerId) {
   }
   throw new Error(`container ${containerId} not ready after 60s`);
 }
+async function recentDuplicate(caption, kind) {
+  // API-side guard: refuse if the account already has a post of the same kind with the same first line in the last 3 hours.
+  try {
+    const r = await api(`/${userId}/media`, { fields: 'id,caption,media_type,timestamp,permalink', limit: 10 }, 'GET');
+    const firstLine = String(caption || '').split('\n')[0].trim();
+    const since = Date.now() - 3 * 3600 * 1000;
+    return (r.data || []).find((m) => Date.parse(m.timestamp) >= since && (kind === 'story' ? false : String(m.caption || '').split('\n')[0].trim() === firstLine && firstLine)) || null;
+  } catch { return null; }
+}
 async function publish(kind, items, caption, meta) {
+  if (!dryRun) { const dup = await recentDuplicate(caption, kind); if (dup) { console.error(`ig-post: refusing; the same post went up ${dup.timestamp} (${dup.permalink})`); process.exit(1); } }
   if (dryRun) { console.log(`[dry-run] ${kind}\n  ${items.join('\n  ')}\n--- caption ---\n${caption}\n--- end ---`); return null; }
   let container;
   if (kind === 'carousel') {
@@ -66,9 +76,10 @@ async function publish(kind, items, caption, meta) {
   }
   await waitReady(container.id);
   const result = await api(`/${userId}/media_publish`, { creation_id: container.id });
-  const entry = { id: result.id, kind, posted_at: new Date().toISOString(), items, ...meta };
+  let permalink = null; try { permalink = (await api(`/${result.id}`, { fields: 'permalink' }, 'GET')).permalink; } catch {}
+  const entry = { id: result.id, permalink, kind, posted_at: new Date().toISOString(), items, ...meta };
   log.push(entry); fs.writeFileSync(logFile, JSON.stringify(log, null, 1) + '\n');
-  console.log(`posted ${kind} ${result.id}`);
+  console.log(`posted ${kind} ${result.id}${permalink ? ' ' + permalink : ''}`);
   return result.id;
 }
 const alreadyToday = (pickIds, kind) => log.find((e) => e.kind === kind && e.posted_at.slice(0, 10) === new Date().toISOString().slice(0, 10) && (e.picks || []).some((p) => pickIds.includes(p)));
