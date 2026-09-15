@@ -94,16 +94,17 @@ body:before{content:'';position:absolute;inset:0;background:radial-gradient(elli
 .photo{position:absolute;inset:0;background-size:cover;background-position:center 30%}
 .photo:after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,#000000a6 0%,#00000040 16%,#0000 30%,#0000 40%,#00000099 62%,#000000f0 78%,#000000fa 100%)}
 .pw{position:relative;height:100%;display:flex;flex-direction:column;padding:48px 56px 56px;color:#fff}
-.lock{align-self:center;font:700 34px/1 Oswald;letter-spacing:.16em;text-transform:uppercase;color:#f6c343;text-shadow:0 2px 6px #000c}
+.lock{align-self:center;font:700 26px/1 Oswald;letter-spacing:.18em;text-transform:uppercase;color:#f6c343;text-shadow:0 2px 6px #000c;opacity:.9}
 .lock span{color:#fff}
 .hl{margin-top:auto;font:700 var(--hs,84px)/1.32 Oswald;text-transform:uppercase;letter-spacing:.005em}
 .hl i{font-style:normal;background:#b3261e;color:#fff;padding:4px 20px 8px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
-.hl i.gold{background:#f6c343;color:#2a1408;font-size:.52em;letter-spacing:.12em;padding:10px 18px;position:relative;top:-.35em}
+.hl i.gold{background:#f6c343;color:#2a1408;font-size:.42em;letter-spacing:.12em;padding:8px 16px;position:relative;top:-.35em}
 .dek{margin-top:18px;font:400 34px/1.35 Arial,sans-serif;color:#f1e8ce;text-shadow:0 2px 6px #000c;max-width:26ch}
 .pill{margin-top:28px;display:inline-block;align-self:flex-start;border:3px solid #fff;color:#fff;font:700 24px/1 Oswald;letter-spacing:.14em;text-transform:uppercase;padding:14px 24px;border-radius:40px;text-shadow:none}
 .tag2{position:absolute;top:120px;right:56px;background:#b3261e;color:#fff;font:700 30px/1 Oswald;letter-spacing:.12em;text-transform:uppercase;padding:14px 20px;transform:rotate(3deg)}
 .tag2.gold{background:#f6c343;color:#2a1408}
-.credit2{position:absolute;left:56px;bottom:22px;font:20px/1 Arial,sans-serif;color:#d9c9a5;text-shadow:0 1px 4px #000}
+.credit2{position:absolute;left:56px;bottom:24px;font:24px/1 Arial,sans-serif;color:#e6d8b8;text-shadow:0 1px 4px #000}
+.stack{margin-top:18px;font:700 40px/1.3 Oswald;text-transform:uppercase;letter-spacing:.02em;color:#fff;text-shadow:0 2px 6px #000c}.stack span{color:#f6c343;font-weight:500;margin-left:12px}
 </style>`;
 
 const titleSize = (t) => { const byLen = t.length > 60 ? 88 : t.length > 40 ? 104 : t.length > 24 ? 128 : t.length > 14 ? 150 : 176; const longest = Math.max(...t.split(/\s+/).map((w) => w.length)); const byWord = Math.floor(800 / (0.56 * longest)); return Math.min(byLen, byWord); };
@@ -122,26 +123,33 @@ function pickCard(p) {
 <div class="foot"><span class="url">standupcomedynyc.com</span><span class="note">Link in bio</span></div></div>`;
 }
 
+const clock = (p) => { const t = p.time_label.split(' · ')[0]; return t.includes(':') ? t.replace(/\s*(am|pm)$/i, '') : t; };
+const splitTitle = (t) => { const m = t.match(/^([A-Z][\w.'\-]+(?:\s[A-Z][\w.'\-]+){0,3}):\s+(.{4,})$/); return m ? { who: m[1], what: m[2] } : { who: '', what: t }; };
 const hlSize = (t) => t.length > 48 ? 66 : t.length > 32 ? 76 : t.length > 20 ? 92 : 108;
 function photoCard(p) {
   const src = path.join(web, p.poster.src.replace(/^\//, ''));
   const bg = dataUrl(src, 'image/' + p.poster.src.split('.').pop().replace('jpg', 'jpeg'));
   const tag = p.demand === 'sold_out' ? '<div class="tag2">Sold out</div>' : p.demand === 'going_fast' ? '<div class="tag2 gold">Going fast</div>' : p.sponsored ? '<div class="tag2 gold">Paid listing</div>' : '';
-  const when = (p.date === nyDate() ? 'Tonight' : shortDate(p.date)) + ' · ' + p.time_label.split(' · ')[0];
+  const when = (p.date === nyDate() ? 'Tonight' : shortDate(p.date)) + ' · ' + clock(p);
+  const t = splitTitle(p.title);
   return `${base}<div class="photo" style="background-image:url(${bg})"></div><div class="pw"><div class="lock">Stand Up <span>Comedy NYC</span></div>${tag}
-<div class="hl" style="--hs:${hlSize(p.title)}px"><i class="gold">${esc(when)}</i><br><i>${esc(p.title)}</i></div>
-<p class="dek">${esc(dek(p))}</p>
+<div class="hl" style="--hs:${hlSize(t.what)}px"><i class="gold">${esc(when)}</i><br><i>${esc(t.what)}</i></div>
+<p class="dek">${t.who ? esc(t.who) + ' · ' : ''}${esc(dek(p))}</p>
 <div class="pill">Tickets · link in bio</div><div class="credit2">${esc(p.poster.credit || '')}</div></div>`;
 }
 function photoCover(label, day, list) {
-  const hero = [...list].filter((p) => p.poster).sort((a, b) => (Number(b.poster.width) * Number(b.poster.height)) - (Number(a.poster.width) * Number(a.poster.height)) || (Number(b.poster.height) >= Number(b.poster.width) ? 1 : 0) - (Number(a.poster.height) >= Number(a.poster.width) ? 1 : 0))[0];
+  const area = (p) => Number(p.poster.width) * Number(p.poster.height);
+  const rank = (p) => (p.sponsored ? 8 : 0) + (p.featured ? 4 : 0) + (p.demand === 'sold_out' ? 2 : p.demand === 'going_fast' ? 3 : 0) + (p.big_stage ? 1 : 0);
+  const hero = [...list].filter((p) => p.poster).sort((a, b) => rank(b) - rank(a) || area(b) - area(a))[0];
   if (!hero) return coverCard(label, day, list);
   const bg = dataUrl(path.join(web, hero.poster.src.replace(/^\//, '')), 'image/' + hero.poster.src.split('.').pop().replace('jpg', 'jpeg'));
-  const n = list.length; const names = list.slice(0, 4).map((p) => p.title.split(':')[0]).join(' · ') + (n > 4 ? ` · +${n - 4}` : '');
-  const head = label === 'Tonight' ? `${n} show${n === 1 ? '' : 's'} worth leaving the house for tonight` : `${n} show${n === 1 ? '' : 's'} worth the train this weekend`;
+  const n = list.length;
+  const weekday = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', weekday: 'long' }).format(new Date(day + 'T12:00:00-04:00'));
+  const head = label === 'Tonight' ? `${n} show${n === 1 ? '' : 's'} worth your ${weekday}` : `${n} show${n === 1 ? '' : 's'} worth the train this weekend`;
+  const stack = list.slice(0, 5).map((p) => `<div>${esc(splitTitle(p.title).who || p.title.split(':')[0])}<span>${esc(clock(p))}${p.demand === 'sold_out' ? ' · sold out' : ''}</span></div>`).join('') + (n > 5 ? `<div>+${n - 5} more</div>` : '');
   return `${base}<div class="photo" style="background-image:url(${bg})"></div><div class="pw"><div class="lock">Stand Up <span>Comedy NYC</span></div>
 <div class="hl" style="--hs:${hlSize(head)}px"><i class="gold">${esc(shortDate(day))}</i><br><i>${esc(head)}</i></div>
-<p class="dek">${esc(names)}</p><div class="pill">Swipe for the picks</div><div class="credit2">${esc(hero.poster.credit || '')}</div></div>`;
+<div class="stack">${stack}</div><div class="pill">Swipe for the picks</div><div class="credit2">${esc(hero.poster.credit || '')}</div></div>`;
 }
 function coverCard(label, day, list) {
   const n = Math.min(list.length, 5); const maxLen = Math.max(...list.slice(0, n).map((p) => p.title.length));

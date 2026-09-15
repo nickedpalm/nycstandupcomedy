@@ -84,7 +84,12 @@ async function publish(kind, items, caption, meta) {
   return result.id;
 }
 const alreadyToday = (pickIds, kind) => log.find((e) => e.kind === kind && e.posted_at.slice(0, 10) === new Date().toISOString().slice(0, 10) && (e.picks || []).some((p) => pickIds.includes(p)));
-const hashtags = '#nyccomedy #standupnyc #comedynyc #thingstodonyc';
+const hashtags = '#nyccomedy #nycstandup #brooklyncomedy #standupnyc';
+const blurb = (p) => { const d = String(p.description || '').trim(); const m = d.match(/^[^.!?]{12,110}[.!?]/); if (m) return m[0]; if (d.length <= 12) return ''; const first = (d.match(/^[^.!?]+/) || [d])[0]; const head = first.slice(0, 112); let cut = -1; for (const sep of [' with ', ' featuring ', ' plus ', ', ', ' and ']) { const i = head.lastIndexOf(sep); if (i > 40 && i > cut) cut = i; } return (cut > 0 ? head.slice(0, cut) : head.slice(0, head.lastIndexOf(' '))).replace(/[,;:\s]+$/, '') + '.'; };
+const clock = (p) => { const t = p.time_label.split(' · ')[0]; return t.includes(':') ? t.replace(/\s*(am|pm)$/i, '') : t; };
+const weekdayOf = (day) => new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', weekday: 'long' }).format(new Date(day + 'T12:00:00-04:00'));
+const p0 = (list) => [...new Set(list.map((p) => p.neighborhood))].slice(0, 3).join(' and ');
+const bets = (n) => n === 1 ? 'One good bet.' : n === 2 ? 'Two good bets.' : n === 3 ? 'Three good bets.' : `${n} good bets.`;
 const credits = (list) => { const c = [...new Set(list.filter((p) => p.poster && p.poster.credit).map((p) => p.poster.credit.replace(/^(Artwork|Photo|Poster):\s*/i, '')))]; return c.length ? `\n\nArt: ${c.join(' · ')}` : ''; };
 
 (async () => {
@@ -104,7 +109,7 @@ const credits = (list) => { const c = [...new Set(list.filter((p) => p.poster &&
     if (missing.length) { console.error(`ig-post: cards not rendered yet: ${missing.join(', ')} (run npm run ig-card -- --tonight, commit and push first)`); process.exit(1); }
     const kind = args.story ? 'story' : 'carousel';
     if (!dryRun && alreadyToday(list.map((p) => p.id), kind)) { console.error('ig-post: tonight already posted today'); process.exit(1); }
-    const caption = args.caption || `Tonight in NYC, ${longDate(day)}:\n\n${list.map((p) => `${p.time_label.split(' · ')[0]} ${p.title} at ${p.venue}${p.sponsored ? ' (paid listing)' : ''}`).join('\n')}\n\nTickets and the full board at standupcomedynyc.com, link in bio.${credits(list)}\n\n${hashtags}`;
+    const caption = args.caption || `${weekdayOf(day)} night. ${bets(list.length)}\n\n${list.map((p) => `${clock(p)} — ${p.title.toUpperCase()}\n${p.venue}, ${p.neighborhood}${p.demand === 'sold_out' ? ' · sold out' : p.demand === 'going_fast' ? ' · going fast' : ''}${p.sponsored ? ' · paid listing' : ''}\n${blurb(p)}`).join('\n\n')}\n\nFull board + tickets → link in bio. NYC comedy tonight, ${p0(list)}.${credits(list)}\n\n${hashtags}`;
     await publish(kind, args.story ? [cardUrl(ids[0])] : ids.map(cardUrl), caption, { picks: list.map((p) => p.id), date: day });
     return;
   }
