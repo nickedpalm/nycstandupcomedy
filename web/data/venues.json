@@ -1503,5 +1503,47 @@
   "needs_review": false,
   "note": "Original /the-theater-at-msg URL redirects to /infosys-theater-at-msg; renders cleanly with the full Upcoming Events list. No stand-up in the next 8 weeks; programming is concerts (Camilo, MONSTA X, Pedro Fernandez, BOYNEXTDOOR), CHRONO TRIGGER Orchestra, and Flex Fight Series.",
   "verified_at": "2026-09-15"
+ },
+ {
+  "name": "Madison Square Garden",
+  "address": "4 Pennsylvania Plaza, Manhattan",
+  "neighborhood": "Midtown West",
+  "borough": "Manhattan",
+  "calendar_url": "https://www.msg.com/madison-square-garden",
+  "kind": "theater",
+  "source_label": "MSG venue page",
+  "access_note": "MSG arena is registered separately from the smaller Infosys Theater at MSG. NYCF uses MSG for the Dave Chappelle Karmageddon show Nov 6.",
+  "verified_at": "2026-09-15"
+ },
+ {
+  "name": "BMCC Tribeca Performing Arts Center",
+  "address": "199 Chambers Street, Manhattan",
+  "neighborhood": "Tribeca",
+  "borough": "Manhattan",
+  "calendar_url": "https://tribecapac.org/events/",
+  "source_label": "BMCC Tribeca PAC events page",
+  "access_note": "BMCC Tribeca PAC (199 Chambers St at West St). NYCF uses the room for the Gayme Show Nov 6 and other festival events.",
+  "verified_at": "2026-09-15"
+ },
+ {
+  "name": "David Geffen Hall (Lincoln Center)",
+  "address": "10 Lincoln Center Plaza, Manhattan",
+  "neighborhood": "Lincoln Square",
+  "borough": "Manhattan",
+  "calendar_url": "https://www.lincolncenter.org/venue/david-geffen-hall",
+  "kind": "theater",
+  "source_label": "Lincoln Center venue page",
+  "access_note": "NYCF Stand Up for Heroes benefit Nov 9 (the festival s marquee benefit show).",
+  "verified_at": "2026-09-15"
+ },
+ {
+  "name": "Hard Rock Hotel New York - The Venue on Music Row",
+  "address": "159 W 48th St, Manhattan",
+  "neighborhood": "Times Square",
+  "borough": "Manhattan",
+  "calendar_url": "https://www.hardrockhotelnyc.com/the-venue",
+  "source_label": "Hard Rock Hotel NYC venue page",
+  "access_note": "Hard Rock Hotel New York s The Venue on Music Row. NYCF uses it heavily: Ms. Pat (Nov 6 and 7, multiple shows), Jess Hilarious (Nov 13 and 14, multiple shows).",
+  "verified_at": "2026-09-15"
  }
 ]

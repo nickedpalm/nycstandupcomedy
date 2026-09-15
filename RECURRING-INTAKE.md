@@ -284,3 +284,30 @@ Picks added (11, all tier=special):
 No picks at Carnegie Hall, Brooklyn Paramount, Brooklyn Steel, Webster Hall, Gramercy, Sony Hall, Irving Plaza, Warsaw, Music Hall of Williamsburg, Bowery Ballroom, Apollo, Symphony Space, 92NY, BAM, Radio City Music Hall, or The Theater at MSG in the next 8 weeks — each calendar is dominated by concerts, literary events, theater/dance (BAM), or the regular Weekly Amateur Night (Apollo), which we treat as a recurring showcase rather than a dated pick.
 
 NYCF headliner picks are in a follow-up commit "NYCF: first batch" (separate from this commit).
+
+## NYCF: first batch — September 15, 2026 (cron run)
+New York Comedy Festival runs Nov 6-15, 2026. NYCF's schedule page lists ~190 shows across ~80 rooms; the site curates, not mirrors. This commit adds the headliners at the 20 registered theaters plus four NYCF rooms that needed registering.
+
+### NYCF rooms newly registered (venues.json)
+- **Madison Square Garden** (4 Pennsylvania Plaza, Midtown West). Separate from the smaller Infosys Theater at MSG. NYCF uses it for Dave Chappelle Karmageddon (Nov 6) — held for Nick per editorial policy; not added as a pick.
+- **BMCC Tribeca Performing Arts Center** (199 Chambers St, Tribeca). NYCF uses it for Gayme Show (Matt Rogers + Dave Mizzoni), among others.
+- **David Geffen Hall (Lincoln Center)** (10 Lincoln Center Plaza, Lincoln Square). NYCF uses it for Stand Up for Heroes (Nov 9).
+- **Hard Rock Hotel New York - The Venue on Music Row** (159 W 48th St, Times Square). NYCF uses it for Ms. Pat, Jess Hilarious, and other headliners.
+
+### NYCF headliner picks added (19, all tier=special)
+Beacon Theatre: Marc Maron (Nov 8), Jordan Jensen (Nov 12), Ilana Glazer (Nov 13), Daniel Sloss (Nov 14), Mojo Brookzz (Nov 15).
+The Town Hall: Ziwe (Nov 6), Joanne McNally: Pinotphile (Nov 7), Sarah Sherman & Patti Harrison (Nov 8), The Moth x Comic Relief: Funny Story (Nov 14), SH&T Show hosted by Jordan Klepper (Nov 14).
+Kings Theatre: Dropout Improv (Nov 13).
+Gramercy Theatre: Adam Ray (Nov 6).
+BMCC Tribeca PAC: Gayme Show (Nov 6).
+David Geffen Hall: Stand Up for Heroes (Nov 9).
+Hard Rock Hotel: Ms. Pat (Nov 6), Jess Hilarious (Nov 13).
+Plus marquee picks at already-recurring rooms: Rainbow Riot at Brooklyn Comedy Collective (Nov 8), Eddie Pepitone Headlining Union Hall Night One (Nov 10), Josh Sharp: An Hour of Crowd Work in the Round at The Bell House (Nov 8 matinee).
+
+### Held for Nick (not added)
+Per editorial policy ("Anything borderline is not published; it goes to Nick with a link and one sentence."):
+- **Dave Chappelle @ Madison Square Garden (Nov 6)** — sustained criticism of his trans material (The Closer et al.); editorial policy lists "transphobic" as disqualifying. Link: https://nycomedyfestival.com/schedule/.
+- **Adam Friedland @ The Town Hall (Nov 13)** — 2023 firing from * The Check In * over the resurfaced "kill whitey" podcast bit; genuine dispute over whether the joke is satirical or racist. Link: https://nycomedyfestival.com/schedule/.
+- **Ben Bankas @ The Town Hall (Nov 12)** — 2022 confrontation with Hank Azaria at a comedy club led to accusations of ethnic stereotyping; public conduct is mixed. Link: https://nycomedyfestival.com/schedule/.
+
+Each gets a Telegram sentence from the cron job with the link and a one-line reason.
